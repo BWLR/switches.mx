@@ -1,0 +1,9 @@
+title: 'Bulgarian Lev'
+symbol: BGN
+symbol_native: лв.
+decimal_digits: 2
+code: BGN
+title_plural: 'Bulgarian leva'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

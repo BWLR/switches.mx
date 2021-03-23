@@ -1,0 +1,15 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: attribution
+        field:
+          placeholder: 'eg. NovelKeys'
+          input_type: text
+          antlers: false
+          display: 'Photo Attribution'
+          type: text
+          icon: text
+          instructions: 'This text will be shown under the image with the prefix "Photo attribution:"'
+          listable: hidden

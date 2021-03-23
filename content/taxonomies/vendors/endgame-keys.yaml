@@ -1,0 +1,19 @@
+title: 'Endgame Keys'
+country: US
+currency: USD
+website: 'https://endgamekeys.com/'
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/endgamekeys/'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/endgamekeysllc/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615544326
+blueprint: vendors
+favicon: vendor-endgame.png

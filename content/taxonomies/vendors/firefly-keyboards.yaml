@@ -1,0 +1,14 @@
+title: 'Firefly Keyboards'
+country: US
+currency: USD
+website: 'https://fireflykeyboards.com/'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615544866
+blueprint: vendors
+favicon: vendor-firefly.png
+social:
+  -
+    network: discord
+    item_url: 'https://discord.gg/7v6GJsQ'
+    type: new_set
+    enabled: true

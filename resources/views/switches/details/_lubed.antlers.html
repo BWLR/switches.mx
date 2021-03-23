@@ -1,0 +1,31 @@
+---
+'no': 'No'
+slight: 'Slight factory lube'
+significant: 'Significant factory lube'
+---
+
+<div class="c-switch__lubrication">
+    <img src="/images/icons/factory-lubed.svg" class="c-switch__lubrication-icon" alt="Factory lubed icon" />
+
+    <div class="c-switch__lubrication-factory">
+        Factory lubed?
+        <strong>
+            {{ if factory_lubed == 'no' }}
+                {{ view:no }}
+            {{ elseif factory_lubed == 'slight' }}
+                {{ view:slight }}
+            {{ elseif factory_lubed == 'significant' }}
+                {{ view:significant }}
+            {{ /if }}
+        </strong>
+    </div>
+
+    {{ if lubrication_notes }}
+        <div class="c-switch__lubrication-notes c-switch__spec-notes">
+            <h5>Notes</h5>
+            {{ lubrication_notes }}
+        </div>
+    {{ /if }}
+
+    <div class="c-switch__lubrication-guide">Looking for switch lubrication advice? <a href="https://www.keebtalk.com/t/which-lube-for-switch-lube-an-updated-guide-on-the-what-how-and-where-of-switch-lubricants/5052" target="_blank" rel="noopener noreferrer">Here's a great start</a></div>
+</div>

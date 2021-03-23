@@ -1,0 +1,29 @@
+title: 'Bolsa Keyboard Supply'
+country: US
+currency: USD
+website: 'https://bolsakeyboardsupply.com/'
+social:
+  -
+    network: instagram
+    item_url: 'https://instagram.com/bolsasupply'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/Bolsa-Keyboard-Supply-104001111380118'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.com/invite/JAGuHSj'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/channel/UCL2eaDHX74ExJ9xTuDctGzw'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615543628
+blueprint: vendors
+favicon: vendor-bolsa.png

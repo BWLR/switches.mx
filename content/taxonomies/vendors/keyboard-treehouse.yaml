@@ -1,0 +1,14 @@
+title: 'Keyboard Treehouse'
+country: AU
+currency: USD
+website: 'https://keyboardtreehouse.com/'
+favicon: vendors/favicons/970-KeyboardTreehouseFavicon.png
+social:
+  -
+    network: discord
+    item_url: 'http://www.keyboardtreehouse.com/discord'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1602307083
+blueprint: vendors

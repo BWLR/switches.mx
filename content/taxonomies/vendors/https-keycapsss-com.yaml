@@ -1,0 +1,24 @@
+title: Keycapsss
+country: DE
+currency: EUR
+website: 'https://keycapsss.com/'
+favicon: vendors/favicons/313-https-keycapsss-com.png
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615547973
+blueprint: vendors
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/keycapsss_com/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/keycapsss'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/channel/UCWV1bYERG7nmReykqa47LeA'
+    type: new_set
+    enabled: true

@@ -1,0 +1,9 @@
+title: 'Estonian Kroon'
+symbol: Ekr
+symbol_native: kr
+decimal_digits: 2
+code: EEK
+title_plural: 'Estonian kroons'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

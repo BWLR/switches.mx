@@ -1,0 +1,19 @@
+title: Rebult
+country: MY
+currency: MYR
+website: 'https://www.rebultkeyboards.com/'
+favicon: vendors/favicons/988-RebultFavicon.jpg
+social:
+  -
+    network: instagram
+    item_url: 'https://instagram.com/rebultkeyboards'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/rebultkeyboards'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615545202
+blueprint: vendors

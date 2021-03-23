@@ -1,0 +1,14 @@
+title: 'Project Keyboard'
+country: US
+currency: USD
+website: 'https://store.projectkeyboard.com'
+favicon: vendors/favicons/327-project-keyboard.png
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615556921
+blueprint: vendors
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/projectkeyboard/'
+    type: new_set
+    enabled: true

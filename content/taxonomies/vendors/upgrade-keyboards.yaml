@@ -1,0 +1,29 @@
+title: 'Upgrade Keyboards'
+country: US
+currency: USD
+website: 'https://www.upgradekeyboards.com/'
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/upgradekeyboards/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/UpgradeKB'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/upgradekeyboards/'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.instagram.com/upgradekeyboards/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615557964
+blueprint: vendors
+favicon: cropped-upgradekeyboardsiconlt.png

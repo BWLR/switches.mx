@@ -1,0 +1,14 @@
+title: 'AEBoards'
+country: AU
+currency: USD
+website: 'https://keyboardtreehouse.com/collections/aeboards'
+favicon: vendors/favicons/968-AEBoardsFavico.png
+social:
+  -
+    network: discord
+    item_url: 'https://keyboardtreehouse.com/discord'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1602306868
+blueprint: vendors

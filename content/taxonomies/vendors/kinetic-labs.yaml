@@ -1,0 +1,19 @@
+title: 'kinetic labs'
+country: US
+currency: USD
+website: 'https://kineticlabs.store/'
+social:
+  -
+    network: instagram
+    item_url: 'https://instagram.com/kineticlabs.store'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.com/invite/zkanYe3e9v'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615548118
+blueprint: vendors
+favicon: vendor-kineticlabs.png

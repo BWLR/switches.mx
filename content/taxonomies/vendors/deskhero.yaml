@@ -1,0 +1,29 @@
+title: DeskHero
+country: CA
+currency: CAD
+website: 'https://www.deskhero.ca/'
+social:
+  -
+    network: instagram
+    item_url: 'https://instagram.com/deskhero.ca'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://facebook.com/deskhero.ca'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://www.twitter.com/deskhero_ca'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.com/invite/2utk39S'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615543915
+blueprint: vendors
+favicon: vendor-deskhero.png

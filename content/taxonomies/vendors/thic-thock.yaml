@@ -1,0 +1,19 @@
+title: 'Thic Thock'
+country: US
+currency: USD
+website: 'https://thicthock.com/'
+favicon: vendors/favicons/710-thic-thock.png
+social:
+  -
+    network: instagram
+    item_url: 'https://instagram.com/thicthock'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/5kCVk9q'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615557849
+blueprint: vendors

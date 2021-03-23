@@ -1,0 +1,30 @@
+---
+yes: 'Yes, this switch in particular is vastly improved when switch films are used.'
+no: 'The benefits of using switch films on these are negligible. Considered not worth using.'
+no-fit: 'Switch films do not fit these switches.'
+unknown: 'No data available. If you''ve tried these switches with films let us know on our <span class="discord-channel">#reviews</span> <a href="https://discord.gg/pZxjvza" target="_blank" rel="noopener noreferrer" class="discord">discord</a> channel.'
+---
+
+<div class="c-switch__film">
+    <img src="/images/icons/film-{{ film }}.svg" class="c-switch__film-icon" alt="Switch Film icon" />
+    <div class="c-switch__film-label">
+        {{ if film == 'yes' }}
+            {{ view:yes }}
+        {{ elseif film == 'no' }}
+            {{ view:no }}
+        {{ elseif film == 'no-fit' }}
+            {{ view:no-fit }}
+        {{ elseif film == 'unknown' }}
+            {{ view:unknown }}
+        {{ /if }}
+    </div>
+
+    {{ if film_notes }}
+        <div class="c-switch__film-notes c-switch__spec-notes">
+            <h5>Notes</h5>
+            {{ film_notes }}
+        </div>
+    {{ /if }}
+
+    <div class="c-switch__film-label-why">Why use switch film? <a href="https://youtu.be/ndT_TTQLflI" target="_blank" rel="noopener noreferrer">Here's a good explanation</a> and <a href="https://gfycat.com/unlinedsmartleafhopper" target="_blank" rel="noopener noreferrer">a great demonstration.</a><br /><br /><a href="https://paper.dropbox.com/doc/Untitled-FZEtIWwgopvJauX0jlG3N" target="_blank" rel="noopener noreferrer">More info</a> on films and <strong>Thicc</strong> films by Jinra.</div>
+</div>

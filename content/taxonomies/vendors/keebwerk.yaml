@@ -1,0 +1,14 @@
+title: 'keebwerk.'
+country: DE
+currency: EUR
+website: 'https://www.keebwerk.com/'
+favicon: vendors/favicons/339-keebwerk.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/keebwerk/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1579513655
+blueprint: vendors

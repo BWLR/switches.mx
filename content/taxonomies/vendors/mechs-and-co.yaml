@@ -1,0 +1,14 @@
+title: 'Mechs and Co'
+country: US
+currency: USD
+website: 'https://mechsandco.com/'
+favicon: vendors/favicons/984-MechsAndCoFavicon.png
+social:
+  -
+    network: instagram
+    item_url: 'http://instagram.com/mechsandco'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1602309609
+blueprint: vendors

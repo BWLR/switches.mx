@@ -1,0 +1,9 @@
+title: 'CFA Franc BCEAO'
+symbol: CFA
+symbol_native: CFA
+decimal_digits: 0
+code: XOF
+title_plural: 'CFA francs BCEAO'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

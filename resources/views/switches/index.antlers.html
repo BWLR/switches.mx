@@ -1,0 +1,60 @@
+{{ content }}
+
+{{ collection:switches limit="20" paginate="true" as="switches" sort="updated_at:desc" query_scope="switches" }}
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                {{ partial:switches/filter }}
+
+                <div class="switchesmx-list">
+                    <div class="switchesmx-list__thead">
+                        <div class="row">
+                            <div class="col">
+                                <div class="c-switch__column c-switch__column--icon">
+                                    <span class="c-switch__column-subtext c-switch__column-last-updated">Last updated</span>
+                                </div>
+                                <div class="c-switch__column c-switch__column--title">Name/Brand</div>
+                                <div class="c-switch__column c-switch__column--type">Type</div>
+                                <div class="c-switch__column c-switch__column--mount">Mount</div>
+                                <div class="c-switch__column c-switch__column--prices">Price(s)</div>
+                                <div class="c-switch__column c-switch__column--materials">Materials</div>
+                                <div class="c-switch__column c-switch__column--spring">Spring</div>
+                                <div class="c-switch__column c-switch__column--stats">
+                                    Stats
+                                    <div class="c-switch__column-subtext">
+                                        <div class="c-switch__column-subtext-stat">Actuation</div>
+                                        <div class="c-switch__column-subtext-stat">Bottom-out</div>
+                                        <div class="c-switch__column-subtext-stat">Pre-travel</div>
+                                        <div class="c-switch__column-subtext-stat">Total travel</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{ partial:switches/list :items="switches" }}
+
+                    {{ if no_results }}
+                        <div class="switchesmx-list__no-results">
+                            <h3>Soon&trade;</h3>
+                            <p>We don't have any switches that match your search. Yet.</p>
+                        </div>
+                    {{ /if }}
+                </div>
+
+                {{ if !no_results }}
+                    <div class="switchesmx-list__pagination">
+                        {{ paginate }}
+                            {{ auto_links }}
+
+                            <div class="switchesmx-list__pagination-summary">
+                                {{ current_page }} of {{ total_pages }} pages
+                                <span class="switchesmx-list__pagination-summary-total">(There are {{ total_items }} switches)</span>
+                            </div>
+                        {{ /paginate }}
+                    </div>
+                {{ /if }}
+            </div>
+        </div>
+    </div>
+{{ /collection:switches }}

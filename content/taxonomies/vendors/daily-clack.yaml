@@ -1,0 +1,19 @@
+title: 'Daily Clack'
+country: AU
+currency: AUD
+website: 'https://dailyclack.com/'
+favicon: vendors/favicons/279-daily-clack.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/dailyclack'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/dailykeyboard/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1576849732
+blueprint: vendors

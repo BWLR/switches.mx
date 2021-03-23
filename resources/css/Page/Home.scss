@@ -1,0 +1,129 @@
+.page-home__block {
+    position: relative;
+    color: #fff;
+    display: block;
+    background: #fff;
+    border-radius: 10px;
+    margin: 0 0 $grid-gutter-width;
+    padding: $grid-gutter-width;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+
+    @include media-breakpoint-up(md) {
+        min-height: 280px;
+        font-size: 19px;
+    }
+
+    &__heading {
+        &-3 {
+            font-size: 24px;
+            font-weight: 700;
+            padding: 0;
+            margin: 0 0 15px;
+
+            @include media-breakpoint-up(md) {
+                font-size: 29px;
+            }
+        }
+
+        &-4 {
+            font-size: 19px;
+            font-weight: 700;
+            padding: 0;
+            margin: 0 0 15px;
+
+            @include media-breakpoint-up(md) {
+                font-size: 22px;
+            }
+        }
+    }
+
+    &-inner {
+        position: relative;
+        z-index: 1;
+    }
+
+    &:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgb(51,51,51);
+        background: linear-gradient(180deg, rgba(0,0,0,.7) 0%, rgba(0,0,0,.4) 70%);
+        z-index: 0;
+    }
+
+    &--switches {
+        background: #fff url('/images/home/switches.png') no-repeat 0 0;
+        background-size: cover;
+        text-shadow: 0 0 8px rgba(0,0,0,.5);
+    }
+
+    &--frankenswitches {
+        background: #fff url('/images/home/frankenswitches.png') no-repeat 0 0;
+        background-size: cover;
+        text-shadow: 0 0 8px rgba(0,0,0,.5);
+    }
+
+    &--vendors {
+        background: #fff url('/images/home/vendors.png') no-repeat 0 0;
+        background-size: cover;
+        text-shadow: 0 0 8px rgba(0,0,0,.5);
+    }
+
+    &--shop {
+        background: #fff url('/images/home/shop.png') no-repeat 0 0;
+        background-size: cover;
+        text-shadow: 0 0 8px rgba(0,0,0,.5);
+    }
+
+    &--contribute {
+        min-height: auto;
+
+        small {
+            font-weight: 500;
+            font-size: 13px;
+        }
+    }
+}
+
+a.page-home__block {
+    &:hover,
+    &:active,
+    &:focus {
+        color: #fff;
+        text-decoration: none;
+        box-shadow: 0 0 20px rgba(0,0,0,.1);
+    }
+}
+
+// No background
+.page-home__block {
+    &--latest {
+        background: rgba(0,0,0,.1);
+    }
+
+    &--latest,
+    &--contribute,
+    &--instagram {
+        color: $smx-color-01;
+
+        &:before {
+            display: none;
+        }
+    }
+}
+
+.page-home__switch-count {
+    font-size: 22px;
+    background: #fff;
+    color: $smx-color-04;
+    display: inline-block;
+    padding: 0 8px;
+    box-shadow: 0 4px 0 $smx-color-04;
+    text-shadow: none;
+}

@@ -1,0 +1,37 @@
+{{ if limited_run == 'yes' }}
+    {{ if limited_run_reason == 'group_buy' }}
+        {{ if limited_run_gb_enddate }}
+            {{ if now | is_before:limited_run_gb_enddate }}
+                <div class="c-switch__column c-switch__column--limited">
+                    <div class="c-switch__limited-run-info c-switch__limited-run-info--group-buy-available">
+                        <strong>Currently in Group Buy:</strong> Available until <strong class="c-switch__limited-run-gb-date">{{ limited_run_gb_enddate format="l, F jS Y" }}</strong>
+                    </div>
+                </div>
+            {{ else }}
+                <div class="c-switch__column c-switch__column--limited">
+                    <div class="c-switch__limited-run-info c-switch__limited-run-info--group-buy-ended">
+                        <strong>Previously available via Group Buy:</strong> Ended on <strong class="c-switch__limited-run-gb-date">{{ limited_run_gb_enddate format="l, F jS Y" }}</strong>
+                    </div>
+                </div>
+            {{ /if }}
+        {{ else }}
+            <div class="c-switch__column c-switch__column--limited">
+                <div class="c-switch__limited-run-info c-switch__limited-run-info--group-buy">
+                    <strong>Limited availability:</strong> Originally available via Group Buy only.
+                </div>
+            </div>
+        {{ /if }}
+    {{ elseif limited_run_reason == 'limited_stock' }}
+        <div class="c-switch__column c-switch__column--limited">
+            <div class="c-switch__limited-run-info c-switch__limited-run-info--limited-stock">
+                <strong>Limited stock:</strong> Available until stock depleted.
+            </div>
+        </div>
+    {{ elseif limited_run_reason == 'discontinued' }}
+        <div class="c-switch__column c-switch__column--limited">
+            <div class="c-switch__limited-run-info c-switch__limited-run-info--discontinued">
+                <strong>Discontinued:</strong> These switches have been discountinued.
+            </div>
+        </div>
+    {{ /if }}
+{{ /if }}

@@ -1,0 +1,24 @@
+title: 'Flashquark'
+country: US
+currency: USD
+website: 'https://flashquark.com/'
+favicon: vendors/favicons/709-flashquark.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/flashquarkkeys/'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/flashquark/'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/channel/UCTildbOp61_6NgTfG6C3nHw'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1593168071
+blueprint: vendors

@@ -1,0 +1,9 @@
+title: 'Ghanaian Cedi'
+symbol: GH₵
+symbol_native: GH₵
+decimal_digits: 2
+code: GHS
+title_plural: 'Ghanaian cedis'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

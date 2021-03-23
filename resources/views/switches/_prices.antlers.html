@@ -1,0 +1,44 @@
+<div class="c-switch__prices">
+    <div class="c-switch__prices-list">
+        {{ prices }}
+            <div class="c-switch__price">
+                {{ if linkToPrice }}
+                    <a href="{{ source }}" target="_blank" rel="noopener noreferrer">
+                {{ /if }}
+
+                <div class="c-switch__price-inner">
+                    <div class="row g-0" title="{{ vendor }}{{ title }}{{ /vendor }} - {{ vendor }}{{ currency }}{{ symbol }}{{ /currency }}{{ /vendor }}{{ price }}">
+                        <div class="col-xl-7 col-sm-6 col-6">
+                            <div class="c-switch__price-vendor">
+                                <img class="c-switch__price-vendor-icon" width="32" height="32" src="{{ vendor }}{{ favicon }}{{ /vendor }}" alt="{{ vendor }}{{ title }}{{ /vendor }}" />
+                                <strong>{{ vendor }}{{ title }}{{ /vendor }}</strong>
+                                {{ if extra_text }}
+                                    <span class="c-switch__price-vendor-extra">{{ extra_text }} variation</span>
+                                {{ /if }}
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-sm-6 col-6">
+                            <div class="c-switch__price-value">
+                                {{ vendor }}{{ currency }}{{ symbol }}{{ /currency }}{{ /vendor }}{{ price }}
+                                <img class="c-switch__price-value-flag" width="26" height="18" src="/images/flags/{{ vendor }}{{ country | lower }}{{ /vendor }}.svg" alt="{{ vendor }}{{ country }}{{ /vendor }}" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {{ if linkToPrice }}
+                    </a>
+                {{ /if }}
+            </div>
+        {{ /prices }}
+    </div>
+
+    {{ if prices | count > 0 }}
+        <div class="c-switch__prices-list-first-price">
+            <em class="c-switch__prices-list-first-price-from">from...</em>
+            {{ prices.0.vendor.currency.symbol }}{{ prices.0.price }}
+        </div>
+    {{ else }}
+        <div class="c-switch__prices-list-na">n/a</div>
+    {{ /if }}
+</div>

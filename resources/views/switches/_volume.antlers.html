@@ -1,0 +1,27 @@
+---
+silent: 'This is a silent switch with internal rubber dampers.'
+normal: 'Standard switch with no dampers, can be further silenced with lubrication or O-rings.'
+loud: 'This is a loud switch. Not recommended for use in an office environment or others that don''t appreciated a loud keyboard ;)'
+---
+
+<div class="c-switch__volume">
+    <img src="/images/icons/volume-{{ volume }}.svg" class="c-switch__volume-icon" alt="Switch Volume icon" />
+    <div class="c-switch__volume-label-short" title="{{ if volume == 'normal' }}{{ view:normal }}{{ elseif volume == 'silent' }}{{ view:silent }}{{ elseif volume == 'loud' }}{{ view:loud }}{{ /if }}">
+        {{ volume }}
+    </div>
+    <div class="c-switch__volume-label-long">
+        {{ if volume == 'normal' }}
+            {{ view:normal }}
+        {{ elseif volume == 'silent' }}
+            {{ view:silent }}
+        {{ elseif volume == 'loud' }}
+            {{ view:loud }}
+        {{ /if }}
+    </div>
+    {{ if volume_notes }}
+        <div class="c-switch__volume-notes c-switch__spec-notes">
+            <h5>Notes</h5>
+            {{ volume_notes }}
+        </div>
+    {{ /if }}
+</div>

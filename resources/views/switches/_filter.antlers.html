@@ -1,0 +1,53 @@
+<div class="switchesmx-filter">
+    <form method="GET" action="/switches">
+        <div class="row">
+            <div class="col-6 col-lg-3">
+                <div class="switchesmx-filter__filter {{ if get:search }}switchesmx-filter__filter--selected{{ /if }}">
+                    <label for="search">Search</label>
+                    <input class="switchesmx-filter__input" type="text" id="search" name="search" placeholder="eg. Cream" {{ if get:search }}value="{{ get:search | sanitize }}"{{ /if }} />
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="switchesmx-filter__filter switchesmx-filter__filter--manufacturer {{ if get:manufacturer }}switchesmx-filter__filter--selected{{ /if }}">
+                    <label for="manufacturer">Manufacturer</label>
+                    <select class="switchesmx-filter__input" name="manufacturer" id="manufacturer">
+                        <option value="">- All -</option>
+                        {{ taxonomy:manufacturers }}
+                            <option value="{{ slug }}" {{ if get:manufacturer === slug }}selected{{ /if }}>{{ title }}</option>
+                        {{ /taxonomy:manufacturers }}
+                    </select>
+                </div>
+            </div>
+            <div class="col-6 col-lg-2">
+                <div class="switchesmx-filter__filter switchesmx-filter__filter--brand {{ if get:brand }}switchesmx-filter__filter--selected{{ /if }}">
+                    <label for="brand">Brand</label>
+                    <select class="switchesmx-filter__input" name="brand" id="brand">
+                        <option value="">- All -</option>
+                        {{ taxonomy:brands }}
+                            <option value="{{ slug }}" {{ if get:brand === slug }}selected{{ /if }}>{{ title }}</option>
+                        {{ /taxonomy:brands }}
+                    </select>
+                </div>
+            </div>
+            <div class="col-6 col-lg-2">
+                <div class="switchesmx-filter__filter switchesmx-filter__filter--type {{ if get:switch-type }}switchesmx-filter__filter--selected{{ /if }}">
+                    <label for="switch-type">Switch type</label>
+                    <select class="switchesmx-filter__input" name="switch-type" id="switch-type">
+                        <option value="">- All -</option>
+                        <option value="linear" {{ if get:switch-type === 'linear' }}selected{{ /if }}>Linear</option>
+                        <option value="tactile" {{ if get:switch-type === 'tactile' }}selected{{ /if }}>Tactile</option>
+                        <option value="clicky-jacket" {{ if get:switch-type === 'clicky-jacket' }}selected{{ /if }}>Clicky (click-jacket)</option>
+                        <option value="clicky-bar" {{ if get:switch-type === 'clicky-bar' }}selected{{ /if }}>Clicky (click-bar)</option>
+                        <option value="click-leaf" {{ if get:switch-type === 'click-leaf' }}selected{{ /if }}>Clicky (click-leaf, ALPS style)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-12 col-lg-2">
+                <div class="switchesmx-filter__filter switchesmx-filter__filter--button">
+                    <a href="/switches" class="switchesmx-filter__input switchesmx-filter__button switchesmx-filter__button--clear">Clear</a>
+                    <input class="switchesmx-filter__input switchesmx-filter__button" type="submit" value="Filter" />
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

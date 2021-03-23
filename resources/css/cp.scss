@@ -1,0 +1,23 @@
+.grid-fieldtype-container {
+    font-size: 12px;
+
+    .vs--single .vs__selected,
+    .datetime button {
+        font-size: 12px;
+    }
+
+    .toggle-fieldtype-wrapper {
+        padding-top: 20px;
+    }
+
+    .grid-table thead th:nth-child(2) {
+        // width: 70px;
+    }
+    .grid-table thead th:nth-child(5) {
+        width: 170px;
+    }
+
+    .input-group .input-text {
+        padding: 6px;
+    }
+}

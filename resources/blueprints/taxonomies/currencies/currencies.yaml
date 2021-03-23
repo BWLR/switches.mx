@@ -1,0 +1,77 @@
+title: Currencies
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          width: 50
+          validate:
+            - required
+      -
+        handle: title_plural
+        field:
+          placeholder: 'eg. US Dollars'
+          input_type: text
+          antlers: false
+          display: 'Title (plural)'
+          type: text
+          icon: text
+          listable: hidden
+          width: 50
+      -
+        handle: symbol
+        field:
+          input_type: text
+          antlers: false
+          display: Symbol
+          type: text
+          icon: text
+          width: 25
+          listable: hidden
+      -
+        handle: symbol_native
+        field:
+          placeholder: 'eg. $ for US Dollar'
+          input_type: text
+          antlers: false
+          display: 'Native Symbol'
+          type: text
+          icon: text
+          width: 25
+          listable: hidden
+      -
+        handle: code
+        field:
+          placeholder: 'eg. $'
+          input_type: text
+          antlers: false
+          display: Code
+          type: text
+          icon: text
+          width: 25
+          listable: hidden
+      -
+        handle: decimal_digits
+        field:
+          placeholder: 'eg. 2'
+          input_type: number
+          antlers: false
+          display: 'Decimal Points'
+          type: text
+          icon: text
+          width: 25
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          validate:
+            - required

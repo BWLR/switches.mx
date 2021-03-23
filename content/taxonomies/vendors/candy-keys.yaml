@@ -1,0 +1,19 @@
+title: 'Candy Keys'
+country: DE
+currency: EUR
+website: 'https://candykeys.com/'
+favicon: vendors/favicons/290-candy-keys.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/candykeysstore/'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/CandyKeysStore/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1576849900
+blueprint: vendors

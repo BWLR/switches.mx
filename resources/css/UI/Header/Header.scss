@@ -1,0 +1,128 @@
+.switchesmx__header {
+    position: relative;
+
+    &-container {
+        background: $smx-color-01 url(/images/bg-dark.png) 50% 0;
+        background-attachment: fixed;
+        border-bottom: solid 10px $smx-color-04;
+        color: #fff;
+        margin-bottom: ($grid-gutter-width);
+        padding-top: ($grid-gutter-width);
+        padding-bottom: ($grid-gutter-width / 2);
+
+        @include media-breakpoint-up(md) {
+            border-bottom-width: 16px;
+            padding-top: ($grid-gutter-width * 2);
+        }
+    }
+
+    &-logo {
+        max-width: 100%;
+    }
+
+    &-social {
+        position: absolute;
+        top: -15px;
+        margin: 0;
+        right: ($grid-gutter-width / 2);
+        text-align: right;
+        z-index: 10;
+
+        @include media-breakpoint-up(md) {
+            top: 0;
+            right: $grid-gutter-width;
+        }
+
+        &-link {
+            display: inline-block;
+            margin: 0 0 ($grid-gutter-width / 2) ($grid-gutter-width / 2);
+
+            &--trello {
+                @include media-breakpoint-up(md) {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    // Menu
+    &-menu {
+        list-style: none;
+        margin: 10px 0 0;
+        padding: 0;
+        font-size: 18px;
+
+        li {
+            display: inline-block;
+            transition: all .1s ease-in-out;
+
+            // &:nth-child(1) {
+            //     transform: rotate(2deg);
+            // }
+
+            // &:nth-child(2) {
+            //     transform: rotate(-2deg);
+            // }
+
+            // &:nth-child(3) {
+            //     transform: rotate(2deg);
+            // }
+
+            // &:hover {
+            //     transform: rotate(0);
+            // }
+        }
+
+        &-link {
+            display: block;
+            background: $smx-color-04;
+            color: $smx-color-06;
+            font-weight: bold;
+            padding: 2px 6px;
+            box-shadow: 3px 3px 0 $smx-color-01;
+            transition: all .2s ease-in-out;
+
+            &:hover,
+            &:focus,
+            &:active {
+                background: $smx-color-01;
+                color: $smx-color-06;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.switchesmx__body {
+    min-height: 100vh;
+}
+
+.switchesmx__footer {
+    position: relative;
+    font-size: 15px;
+
+    &-container {
+        background: $smx-color-01 url(/images/bg-dark.png) 50% 0;
+        background-attachment: fixed;
+        border-top: solid 10px $smx-color-04;
+        color: #fff;
+        margin-top: ($grid-gutter-width);
+        padding-top: ($grid-gutter-width * 2);
+        padding-bottom: $grid-gutter-width;
+        min-height: 100px;
+
+        @include media-breakpoint-up(md) {
+            border-top-width: 16px;
+            padding-bottom: ($grid-gutter-width * 4);
+        }
+    }
+
+    a {
+        &:hover,
+        &:active,
+        &:focus {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}

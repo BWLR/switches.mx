@@ -1,0 +1,19 @@
+title: 'Fancy Customs'
+country: MX
+currency: MXN
+website: 'https://fancycustoms.com/'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615544698
+blueprint: vendors
+favicon: vendor-fancycustoms.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/fancy.customs/'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/FancyCustomscl'
+    type: new_set
+    enabled: true

@@ -1,0 +1,24 @@
+title: Kebo
+country: US
+currency: USD
+website: 'https://kebo.store/'
+favicon: vendors/favicons/326-kebo.png
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615547610
+blueprint: vendors
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/kebo.store/'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/kebo.store'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/3c67V3F'
+    type: new_set
+    enabled: true

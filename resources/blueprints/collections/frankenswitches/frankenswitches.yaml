@@ -1,0 +1,140 @@
+title: Frankenswitches
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: description
+        field:
+          type: markdown
+          localizable: true
+          display: Description
+          listable: hidden
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: stem
+        field:
+          max_items: 1
+          mode: select
+          collections:
+            - switches
+          display: Stem
+          type: entries
+          icon: entries
+          listable: true
+      -
+        handle: housing_top
+        field:
+          max_items: 1
+          mode: select
+          collections:
+            - switches
+          display: 'Top Housing'
+          type: entries
+          icon: entries
+          listable: true
+      -
+        handle: housing_bottom
+        field:
+          max_items: 1
+          mode: select
+          collections:
+            - switches
+          display: 'Bottom Housing'
+          type: entries
+          icon: entries
+          listable: true
+      -
+        handle: spring
+        field:
+          input_type: text
+          antlers: false
+          display: 'Spring Information'
+          type: textarea
+          icon: textarea
+          instructions: 'A little description here about what spring has best results.'
+          listable: hidden
+  media:
+    display: Media
+    fields:
+      -
+        handle: photos_section
+        field:
+          display: Photos
+          type: section
+          icon: section
+          instructions: 'Be sure to add Photo attribution where applicable. Eg. "Photo attribution: NovelKeys"'
+          listable: hidden
+      -
+        handle: photos
+        field:
+          mode: grid
+          container: assets
+          folder: frankenswitches/photos
+          restrict: true
+          allow_uploads: true
+          display: Photos
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: videos_section
+        field:
+          display: 'Videos - Reviews and sound tests'
+          type: section
+          icon: section
+          instructions: 'Only YouTube videos are supported at the moment. When adding videos for the description use the video title and author.'
+          listable: hidden
+      -
+        handle: videos
+        field:
+          fields:
+            -
+              handle: item_url
+              field:
+                display: Video
+                type: video
+                icon: video
+                width: 50
+                listable: hidden
+            -
+              handle: description
+              field:
+                input_type: text
+                display: Description
+                type: text
+                icon: text
+                width: 50
+                listable: hidden
+                instructions: 'Use format "**Video title** by **Video author**"'
+                antlers: false
+          mode: stacked
+          reorderable: true
+          display: Videos
+          type: grid
+          icon: grid
+          listable: hidden
+          add_row: 'Add new video'

@@ -1,0 +1,10 @@
+<div class="c-switch__links">
+    {{ related_links }}
+        <div class="c-switch__link">
+            <a href="{{ item_url }}" target="_blank" rel="noopener noreferrer" class="c-switch__link-anchor">
+                {{ description }}
+                <span class="c-switch__link-domain">{{ item_url | GetDomain }}</span>
+            </a>
+        </div>
+    {{ /related_links }}
+</div>

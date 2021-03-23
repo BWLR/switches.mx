@@ -1,0 +1,14 @@
+title: 'Be Your Style'
+country: VN
+currency: VND
+website: 'https://shopee.vn/beyourstyle'
+social:
+  -
+    network: facebook
+    item_url: 'https://facebook.com/bys.store.mech/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615543197
+blueprint: vendors
+favicon: vendor-bys.png

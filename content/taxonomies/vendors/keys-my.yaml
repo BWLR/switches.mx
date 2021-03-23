@@ -1,0 +1,24 @@
+title: Keys.my
+country: MY
+currency: MYR
+website: 'https://keys.my/'
+favicon: vendors/favicons/829-keys.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/keysmalaysia/'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/keysmalaysia/'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/79ChTnQ'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615545034
+blueprint: vendors

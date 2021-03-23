@@ -1,0 +1,28 @@
+title: Keyboardio
+country: US
+currency: USD
+website: 'https://shop.keyboard.io/'
+social:
+  -
+    network: instagram
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/keyboardio'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://facebook.com/keyboardio'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://keyboard.io/discord-invite'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615547969
+blueprint: vendors
+favicon: 114x114_32x32.png

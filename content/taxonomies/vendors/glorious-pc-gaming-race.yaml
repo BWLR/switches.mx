@@ -1,0 +1,29 @@
+title: 'Glorious PC Gaming Race'
+country: US
+currency: USD
+website: 'https://www.pcgamingrace.com/'
+favicon: vendors/favicons/978-GloriousFavicon.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/gloriouspcgamingrace/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/GloriousPCGR'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/pcgamingrace'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.com/invite/glorious'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615544935
+blueprint: vendors

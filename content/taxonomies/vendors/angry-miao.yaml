@@ -1,0 +1,34 @@
+title: 'Angry Miao'
+country: CN
+currency: USD
+website: 'https://angrymiao.myshopify.com/'
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/angry.miao/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/Angry_Miao'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/angrymiao'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/Xre4H4c'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/channel/UC9abvpS9WYD0P_k6-s3UGXA/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615543023
+blueprint: vendors
+favicon: vendor-angry-miao.png

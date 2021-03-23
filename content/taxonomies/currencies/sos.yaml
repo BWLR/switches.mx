@@ -1,0 +1,9 @@
+title: 'Somali Shilling'
+symbol: Ssh
+symbol_native: Ssh
+decimal_digits: 0
+code: SOS
+title_plural: 'Somali shillings'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

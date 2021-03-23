@@ -1,0 +1,24 @@
+title: Keebio
+country: US
+currency: USD
+website: 'https://keeb.io/'
+social:
+  -
+    network: instagram
+    item_url: 'http://instagram.com/keebio'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/keebio'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://facebook.com/keebio'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615547836
+blueprint: vendors
+favicon: k_d8b5d17c-fe18-43fa-9ad7-3943bc52a893_32x32.png

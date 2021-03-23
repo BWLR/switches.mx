@@ -1,0 +1,15 @@
+<div class="c-switch__mount">
+    <div class="c-switch__mount-label">
+        {{ if mount == '3' }}Plate{{ elseif mount == '5' }}PCB{{ elseif mount == 'both' }}Plate & PCB{{ /if }}
+    </div>
+    <div class="c-switch__mount-label-sub">
+        {{ if mount == '3' }}3-pin{{ elseif mount == '5' }}5-pin{{ elseif mount == 'both' }}Available in both{{ /if }}
+    </div>
+    <div class="c-switch__mount-icon">
+        {{ if mount == '3' }}
+            <img src="/images/icons/switch_mount_plate.svg" alt="Switch Mount icon" />
+        {{ else }}
+            <img src="/images/icons/switch_mount_pcb.svg" alt="Switch Mount icon" />
+        {{ /if }}
+    </div>
+</div>

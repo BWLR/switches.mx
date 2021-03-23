@@ -1,0 +1,24 @@
+title: 'Desk Candy'
+country: US
+currency: USD
+website: 'https://www.deskcandy.xyz/'
+favicon: vendors/favicons/352-desk-candy.png
+social:
+  -
+    network: instagram
+    item_url: 'http://instagram.com/deskcandy.xyz'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/channel/UChtBPrZSbUE3lX5o1jZG0fg'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/deskcandy.xyz/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1580212236
+blueprint: vendors

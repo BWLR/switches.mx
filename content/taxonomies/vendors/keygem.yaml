@@ -1,0 +1,24 @@
+title: 'Keygem'
+country: DE
+currency: EUR
+website: 'https://keygem.store/'
+favicon: vendors/favicons/657-keygem.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/keygem.official/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/keygem_store'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/KEYGEM-105372804339108'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1589364291
+blueprint: vendors

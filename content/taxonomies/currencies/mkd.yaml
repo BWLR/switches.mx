@@ -1,0 +1,9 @@
+title: 'Macedonian Denar'
+symbol: MKD
+symbol_native: MKD
+decimal_digits: 2
+code: MKD
+title_plural: 'Macedonian denari'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

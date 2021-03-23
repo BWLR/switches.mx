@@ -1,0 +1,24 @@
+title: 'Mechbox'
+country: GB
+currency: GBP
+website: 'https://mechbox.co.uk'
+favicon: vendors/favicons/682-mechbox.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/mechbox'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/mechboxuk'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/Mechbox/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1590501304
+blueprint: vendors

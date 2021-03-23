@@ -1,0 +1,24 @@
+title: Mekanisk
+country: 'NO'
+currency: USD
+website: 'https://mekanisk.com/'
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/mekaniskco/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/MekaniskCo'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/channel/UCWq3V2TN-GPhyKAGTBCvSZQ'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615551153
+blueprint: vendors
+favicon: vendor-mekanisk.png

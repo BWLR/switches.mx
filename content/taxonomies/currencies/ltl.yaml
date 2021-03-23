@@ -1,0 +1,9 @@
+title: 'Lithuanian Litas'
+symbol: Lt
+symbol_native: Lt
+decimal_digits: 2
+code: LTL
+title_plural: 'Lithuanian litai'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

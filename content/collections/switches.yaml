@@ -1,0 +1,12 @@
+title: Switches
+amp: true
+template: switches/show
+layout: layout
+mount: 225d98b7-457d-426b-bdb9-a07a7e4cf955
+revisions: false
+route: '{slug}'
+sort_dir: asc
+default_status: draft
+date_behavior:
+  past: public
+  future: private

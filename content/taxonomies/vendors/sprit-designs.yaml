@@ -1,0 +1,19 @@
+title: 'SPRiT Designs'
+country: KR
+currency: USD
+website: 'https://www.spritdesigns.com/'
+social:
+  -
+    network: instagram
+    item_url: 'https://instagram.com/SPRiT_designs'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/channel/UCLG-nNBTnoggGvpK5i9XM3w'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615557335
+blueprint: vendors
+favicon: a401be_12ffe18e8ee34fd397ecb63db9cf6785_mv2_d_2620_1456_s_2.jpg

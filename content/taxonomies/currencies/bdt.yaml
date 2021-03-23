@@ -1,0 +1,9 @@
+title: 'Bangladeshi Taka'
+symbol: Tk
+symbol_native: ৳
+decimal_digits: 2
+code: BDT
+title_plural: 'Bangladeshi takas'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

@@ -1,0 +1,21 @@
+<div class="c-switch__stem">
+    <img src="/images/icons/stem-box.svg" class="c-switch__boxstem" alt="Stem icon" />
+    {{# TODO: icons #}}
+    {{ if stem_construction == 'standard' }}
+        {{# <img src="/images/icons/stem-box.svg" class="c-switch__boxstem" alt="Box stem icon" /> #}}
+        <h5>Standard</h5>
+        <div class="c-switch__boxstem-label">The stem on this switch is of the standard variety.</div>
+    {{ elseif stem_construction == 'box' }}
+        {{# <img src="/images/icons/stem-box.svg" class="c-switch__boxstem" alt="Box stem icon" /> #}}
+        <h5>Box</h5>
+        <div class="c-switch__boxstem-label">The stem on this switch is of the box variety. Popularised by Kailh. It’s known for being more resistant to dust and moisture over long-term use.</div>
+    {{ elseif stem_construction == 'top-only' }}
+        {{# <img src="/images/icons/stem-box.svg" class="c-switch__boxstem" alt="Box stem icon" /> #}}
+        <h5>Partial box</h5>
+        <div class="c-switch__boxstem-label">The stem on this switch is of the partial box variety eg. Kangaroo/TTC. Popularised by Kailh. It’s known for being more resistant to dust and moisture over long-term use.</div>
+    {{ elseif stem_construction == 'cap' }}
+        {{# <img src="/images/icons/stem-box.svg" class="c-switch__boxstem" alt="Box stem icon" /> #}}
+        <h5>Cap</h5>
+        <div class="c-switch__boxstem-label">The stem on this switch is of the cap variety eg. Gateron Cap with a long inner post. Here's a <a href="https://www.keychron.com/blogs/news/unbox-the-gateron-cap-switches-detailed-reviews-and-sound-test" target="_blank" rel="noopener noreferrer">great article on the keychron website</a> with more information.</div>
+    {{ /if }}
+</div>

@@ -1,0 +1,9 @@
+title: 'Qatari Rial'
+symbol: QR
+symbol_native: ر.ق.‏
+decimal_digits: 2
+code: QAR
+title_plural: 'Qatari rials'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

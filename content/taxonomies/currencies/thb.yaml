@@ -1,0 +1,9 @@
+title: 'Thai Baht'
+symbol: ฿
+symbol_native: ฿
+decimal_digits: 2
+code: THB
+title_plural: 'Thai baht'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

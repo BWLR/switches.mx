@@ -1,0 +1,1706 @@
+[
+    {
+        "key": "group_5df0e7aec2847",
+        "title": "Switches",
+        "fields": [
+            {
+                "key": "field_5df0eb7730358",
+                "label": "Information",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5df2236496850",
+                "label": "Info",
+                "name": "info",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_5dfcbfeaa2e5b",
+                        "label": "Manufacturer",
+                        "name": "manufacturer",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "manufacturer"
+                        ],
+                        "taxonomy": "",
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "return_format": "id",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_5dfcc446da893",
+                        "label": "Brand",
+                        "name": "brand",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "brand"
+                        ],
+                        "taxonomy": "",
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "return_format": "id",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_5df2248fd7539",
+                        "label": "Switch type",
+                        "name": "switch-type",
+                        "type": "radio",
+                        "instructions": "eg. Linear, tactile, clicky",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "linear": "Linear",
+                            "tactile": "Tactile",
+                            "clicky-jacket": "Clicky (click-jacket)",
+                            "clicky-bar": "Clicky (click-bar)",
+                            "click-leaf": "Clicky (click-leaf, ALPS style)"
+                        },
+                        "allow_null": 0,
+                        "other_choice": 0,
+                        "default_value": "",
+                        "layout": "vertical",
+                        "return_format": "value",
+                        "save_other_choice": 0
+                    },
+                    {
+                        "key": "field_5df36e2dc2ccd",
+                        "label": "Mount type",
+                        "name": "mount",
+                        "type": "radio",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "3": "3-pin (Plate mount)",
+                            "5": "5-pin (PCB mount)",
+                            "both": "Available in both versions"
+                        },
+                        "allow_null": 0,
+                        "other_choice": 0,
+                        "default_value": 5,
+                        "layout": "vertical",
+                        "return_format": "value",
+                        "save_other_choice": 0
+                    },
+                    {
+                        "key": "field_5df2b83da329b",
+                        "label": "Box stem (and construction)",
+                        "name": "box-stem",
+                        "type": "radio",
+                        "instructions": "Does the stem have a box surround",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "1": "Yes",
+                            "0": "No"
+                        },
+                        "allow_null": 0,
+                        "other_choice": 0,
+                        "default_value": 0,
+                        "layout": "horizontal",
+                        "return_format": "value",
+                        "save_other_choice": 0
+                    },
+                    {
+                        "key": "field_5df0e8539e3cd",
+                        "label": "Switch volume",
+                        "name": "volume",
+                        "type": "radio",
+                        "instructions": "Silent switch with internal dampers, or loud clicky switch?",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "silent": "This is a silent switch with internal rubber dampers",
+                            "normal": "Standard switch with no dampers, can be further silenced with lubrication or O-rings",
+                            "loud": "This is a loud switch. Not recommended for use in an office environment or others that don't appreciated a loud keyboard ;)"
+                        },
+                        "allow_null": 0,
+                        "other_choice": 0,
+                        "default_value": "normal",
+                        "layout": "vertical",
+                        "return_format": "value",
+                        "save_other_choice": 0
+                    },
+                    {
+                        "key": "field_5e677cddbf43a",
+                        "label": "Volume notes",
+                        "name": "volume_notes",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "eg. This switch is especially loud. Would avoid using in office situation (Box Navy?)",
+                        "maxlength": "",
+                        "rows": 4,
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_5e33e392e0066",
+                        "label": "Factory lubed",
+                        "name": "factory-lubed",
+                        "type": "radio",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "30",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": [
+                            "No",
+                            "Slight factory lube",
+                            "Significant factory lube"
+                        ],
+                        "allow_null": 0,
+                        "other_choice": 0,
+                        "default_value": 1,
+                        "layout": "vertical",
+                        "return_format": "value",
+                        "save_other_choice": 0
+                    },
+                    {
+                        "key": "field_5e85e6064a332",
+                        "label": "Lubrication notes",
+                        "name": "lube_notes",
+                        "type": "wysiwyg",
+                        "instructions": "Does this switch in particular benefit from being lubricated? Is it worth doing? What kind of lubrication works best?",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "70",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "basic",
+                        "media_upload": 0,
+                        "delay": 0
+                    },
+                    {
+                        "key": "field_5e660b414b9c0",
+                        "label": "Does this switch benefit from being switch filmed?",
+                        "name": "film",
+                        "type": "radio",
+                        "instructions": "Switch films help keep switches more stable, reducing movement and wobbling.\r\n<br \/><br \/>\r\nGreat explanation video here - <a href=\"https:\/\/youtu.be\/ndT_TTQLflI\">https:\/\/youtu.be\/ndT_TTQLflI<\/a>\r\n<br \/>\r\nGreat demonstration video here - <a href=\"https:\/\/gfycat.com\/unlinedsmartleafhopper\">https:\/\/gfycat.com\/unlinedsmartleafhopper<\/a>\r\n<br \/><br \/>\r\n<strong>Note: Not compatible with Kailh switches.<\/strong>",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "40",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "yes": "Yes, this switch in particular is vastly improved when switch films are used.",
+                            "no": "The benefits of using switch films on these are negligible. Considered not worth using.",
+                            "no-fit": "No, and in addition, it has been found that switch films do not fit these switches.",
+                            "unknown": "Not able to find any data. Add link on website encouraging anyone with experience to get in touch."
+                        },
+                        "allow_null": 0,
+                        "other_choice": 0,
+                        "default_value": "unknown",
+                        "layout": "vertical",
+                        "return_format": "value",
+                        "save_other_choice": 0
+                    },
+                    {
+                        "key": "field_5ec6941cb8f55",
+                        "label": "Film notes",
+                        "name": "film_notes",
+                        "type": "wysiwyg",
+                        "instructions": "Do some films work and others not?",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "60",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "basic",
+                        "media_upload": 0,
+                        "delay": 0
+                    },
+                    {
+                        "key": "field_5e623d8fc55e7",
+                        "label": "General notes",
+                        "name": "notes",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "100",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "basic",
+                        "media_upload": 0,
+                        "delay": 0
+                    }
+                ]
+            },
+            {
+                "key": "field_5df0edcad0e16",
+                "label": "Photos",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5df0f136bfa45",
+                "label": "Photos",
+                "name": "photos",
+                "type": "gallery",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "insert": "append",
+                "library": "all",
+                "min": "",
+                "max": "",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5df0ef8eb4143",
+                "label": "Colours, Materials, Specs",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5e957bbd90293",
+                "label": "Spring",
+                "name": "spring",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_5e957b709028f",
+                        "label": "Spring",
+                        "name": "spring",
+                        "type": "radio",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "standard": "Standard (stainless steel)",
+                            "gold-plated": "Gold-plated",
+                            "coated": "Color coated",
+                            "kailh": "Kailh Box spring (smaller than MX)"
+                        },
+                        "allow_null": 0,
+                        "other_choice": 0,
+                        "default_value": "standard",
+                        "layout": "vertical",
+                        "return_format": "value",
+                        "save_other_choice": 0
+                    },
+                    {
+                        "key": "field_5e957b7d90290",
+                        "label": "",
+                        "name": "",
+                        "type": "message",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_5e957b709028f",
+                                    "operator": "!=",
+                                    "value": "coated"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "20",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "new_lines": "wpautop",
+                        "esc_html": 0
+                    },
+                    {
+                        "key": "field_5e957b8690291",
+                        "label": "Spring color",
+                        "name": "spring-color",
+                        "type": "color_picker",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_5e957b709028f",
+                                    "operator": "==",
+                                    "value": "coated"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "20",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_5e957b8990292",
+                        "label": "Spring color info",
+                        "name": "spring-color-info",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "30",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "eg. The springs in these switches have a black coating to help reduce spring noise.",
+                        "maxlength": "",
+                        "rows": 4,
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_5ec544b463029",
+                        "label": "Spring swap info",
+                        "name": "spring-swap",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "30",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "eg. The factory springs are terrible. Definitely worth swapping to a SPRiT or TX spring. A good all round choice might be a 65g weight.",
+                        "maxlength": "",
+                        "rows": 4,
+                        "new_lines": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_5e392f284074d",
+                "label": "Variations",
+                "name": "specs",
+                "type": "repeater",
+                "instructions": "Some switches have multiple spring weighting options (Zealios for example) and also different stem\/housing colours with different weightings (Gateron Laser).<br \/>\r\n<strong>Most switches will only have one entry here but in cases where there is more than one, the first one will be shown on the main website listing.<\/strong><br \/><br \/>\r\n<strong>Nylon<\/strong> (Polyamide) | <strong>PC<\/strong> (Polycarbonate) | <strong>POM<\/strong> (Polyoxymethylene) | <strong>UHMWPE<\/strong> (Ultra-high-molecular-weight polyethylene).",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "block",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5ebe86ceaa2ca",
+                        "label": "Variation name",
+                        "name": "name",
+                        "type": "text",
+                        "instructions": "No always necessary because sometimes it's just a different weighting, for example in the case of Tealios, Zealios etc. that come in 63.5g, 65g, 67g etc.<br \/>\r\nBut in the case of YOK Trash\/Polar\/Red Pandas it's important to give them a name because they're all the same switch just different colours.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5ec542ce63026",
+                        "label": "Description",
+                        "name": "description",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": 3,
+                        "new_lines": "br"
+                    },
+                    {
+                        "key": "field_5dfa3a7e50b9f",
+                        "label": "Stem",
+                        "name": "stem",
+                        "type": "group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.333",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5df0ef9db4144",
+                                "label": "Colour",
+                                "name": "color",
+                                "type": "color_picker",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": [
+                                    [
+                                        {
+                                            "field": "field_5dfa3b9cd8c46",
+                                            "operator": "==",
+                                            "value": "coloured"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "field": "field_5dfa3b9cd8c46",
+                                            "operator": "==",
+                                            "value": "transparent"
+                                        }
+                                    ]
+                                ],
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": ""
+                            },
+                            {
+                                "key": "field_5dfa3b9cd8c46",
+                                "label": "Type",
+                                "name": "type",
+                                "type": "radio",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "coloured": "Coloured (opaque)",
+                                    "transparent": "Transparent (clear and coloured) - leave colour blank if completely clear",
+                                    "milky": "Milky",
+                                    "glow": "Glow in the Dark"
+                                },
+                                "allow_null": 0,
+                                "other_choice": 0,
+                                "default_value": "",
+                                "layout": "vertical",
+                                "return_format": "value",
+                                "save_other_choice": 0
+                            },
+                            {
+                                "key": "field_5df214c0ceb98",
+                                "label": "Material",
+                                "name": "material",
+                                "type": "radio",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "nylon": "Nylon",
+                                    "pc": "PC",
+                                    "pcnylon": "PC and Nylon mix",
+                                    "pom": "POM",
+                                    "uhmwpe": "UHMWPE",
+                                    "custom": "Custom"
+                                },
+                                "allow_null": 0,
+                                "other_choice": 0,
+                                "default_value": "pom",
+                                "layout": "vertical",
+                                "return_format": "value",
+                                "save_other_choice": 0
+                            },
+                            {
+                                "key": "field_5e4d005caa91e",
+                                "label": "Custom material notes",
+                                "name": "material-notes",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": [
+                                    [
+                                        {
+                                            "field": "field_5df214c0ceb98",
+                                            "operator": "==",
+                                            "value": "custom"
+                                        }
+                                    ]
+                                ],
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": 3,
+                                "new_lines": ""
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_5dfa3afd50ba0",
+                        "label": "Housing (top)",
+                        "name": "housing-top",
+                        "type": "group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.333",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5df0efc1b4145",
+                                "label": "Colour",
+                                "name": "color",
+                                "type": "color_picker",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": [
+                                    [
+                                        {
+                                            "field": "field_5dfa3c23d8c47",
+                                            "operator": "==",
+                                            "value": "coloured"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "field": "field_5dfa3c23d8c47",
+                                            "operator": "==",
+                                            "value": "transparent"
+                                        }
+                                    ]
+                                ],
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": ""
+                            },
+                            {
+                                "key": "field_5dfa3c23d8c47",
+                                "label": "Type",
+                                "name": "type",
+                                "type": "radio",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "coloured": "Coloured (opaque)",
+                                    "transparent": "Transparent (clear and coloured) - leave colour blank if completely clear",
+                                    "milky": "Milky",
+                                    "glow": "Glow in the Dark"
+                                },
+                                "allow_null": 0,
+                                "other_choice": 0,
+                                "default_value": "",
+                                "layout": "vertical",
+                                "return_format": "value",
+                                "save_other_choice": 0
+                            },
+                            {
+                                "key": "field_5df21569ceb9a",
+                                "label": "Material",
+                                "name": "material",
+                                "type": "radio",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "nylon": "Nylon",
+                                    "pc": "PC",
+                                    "pcnylon": "PC and Nylon mix",
+                                    "pom": "POM",
+                                    "uhmwpe": "UHMWPE",
+                                    "custom": "Custom"
+                                },
+                                "allow_null": 0,
+                                "other_choice": 0,
+                                "default_value": "nylon",
+                                "layout": "vertical",
+                                "return_format": "value",
+                                "save_other_choice": 0
+                            },
+                            {
+                                "key": "field_5e4cfff9aa91c",
+                                "label": "Custom material notes",
+                                "name": "material-notes",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": [
+                                    [
+                                        {
+                                            "field": "field_5df21569ceb9a",
+                                            "operator": "==",
+                                            "value": "custom"
+                                        }
+                                    ]
+                                ],
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": 3,
+                                "new_lines": "br"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_5dfa3b1c50ba1",
+                        "label": "Housing (bottom)",
+                        "name": "housing-bottom",
+                        "type": "group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33.333",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5df0efd8b4146",
+                                "label": "Colour",
+                                "name": "color",
+                                "type": "color_picker",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": [
+                                    [
+                                        {
+                                            "field": "field_5dfa3c69d8c48",
+                                            "operator": "==",
+                                            "value": "coloured"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "field": "field_5dfa3c69d8c48",
+                                            "operator": "==",
+                                            "value": "transparent"
+                                        }
+                                    ]
+                                ],
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": ""
+                            },
+                            {
+                                "key": "field_5dfa3c69d8c48",
+                                "label": "Type",
+                                "name": "type",
+                                "type": "radio",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "coloured": "Coloured (opaque)",
+                                    "transparent": "Transparent (clear and coloured) - leave colour blank if completely clear",
+                                    "milky": "Milky",
+                                    "glow": "Glow in the Dark"
+                                },
+                                "allow_null": 0,
+                                "other_choice": 0,
+                                "default_value": "",
+                                "layout": "vertical",
+                                "return_format": "value",
+                                "save_other_choice": 0
+                            },
+                            {
+                                "key": "field_5df21591ceb9b",
+                                "label": "Material",
+                                "name": "material",
+                                "type": "radio",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "nylon": "Nylon",
+                                    "pc": "PC",
+                                    "pcnylon": "PC and Nylon mix",
+                                    "pom": "POM",
+                                    "uhmwpe": "UHMWPE",
+                                    "custom": "Custom"
+                                },
+                                "allow_null": 0,
+                                "other_choice": 0,
+                                "default_value": "nylon",
+                                "layout": "vertical",
+                                "return_format": "value",
+                                "save_other_choice": 0
+                            },
+                            {
+                                "key": "field_5e4d0025aa91d",
+                                "label": "Custom material notes",
+                                "name": "material-notes",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": [
+                                    [
+                                        {
+                                            "field": "field_5df21591ceb9b",
+                                            "operator": "==",
+                                            "value": "custom"
+                                        }
+                                    ]
+                                ],
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": 3,
+                                "new_lines": "br"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_5e709306774c5",
+                        "label": "",
+                        "name": "",
+                        "type": "message",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "<strong>If using black please use #3a4045 instead of #000000 - otherwise the switch icon loses all shading and contrast.<\/strong>",
+                        "new_lines": "wpautop",
+                        "esc_html": 0
+                    },
+                    {
+                        "key": "field_5df0e8f6cce0b",
+                        "label": "Actuation",
+                        "name": "actuation",
+                        "type": "number",
+                        "instructions": "In Grammes",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "eg. 67",
+                        "prepend": "",
+                        "append": "g",
+                        "min": "",
+                        "max": "",
+                        "step": ""
+                    },
+                    {
+                        "key": "field_5df0e93bcce0c",
+                        "label": "Bottom-out",
+                        "name": "bottom-out",
+                        "type": "number",
+                        "instructions": "In Grammes",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "eg. 67",
+                        "prepend": "",
+                        "append": "g",
+                        "min": "",
+                        "max": "",
+                        "step": ""
+                    },
+                    {
+                        "key": "field_5df0e950cce0d",
+                        "label": "Pre-travel\/Actuation point",
+                        "name": "pre-travel",
+                        "type": "number",
+                        "instructions": "In Millimetres",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "eg. 1.00",
+                        "prepend": "",
+                        "append": "mm",
+                        "min": "",
+                        "max": "",
+                        "step": ""
+                    },
+                    {
+                        "key": "field_5df0e97bcce0e",
+                        "label": "Total-travel",
+                        "name": "total-travel",
+                        "type": "number",
+                        "instructions": "In Millimetres",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "eg. 4.00",
+                        "prepend": "",
+                        "append": "mm",
+                        "min": "",
+                        "max": "",
+                        "step": ""
+                    },
+                    {
+                        "key": "field_5df1098117aef",
+                        "label": "Force graph",
+                        "name": "force-graph",
+                        "type": "image",
+                        "instructions": "Force graph data might be found here <a href=\"https:\/\/plotly.com\/~haata\" target=\"_blank\">https:\/\/plotly.com\/~haata<\/a>\r\nImages for these can be extracted from each graph by browsing to a switch eg. for <a href=\"https:\/\/plotly.com\/~haata\/100\" target=\"_blank\">Gateron Brown<\/a> choose the embed icon option at the bottom. The link to the png version can be found there.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "url",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_5df0e8a3e9df6",
+                        "label": "LED Support",
+                        "name": "led-support",
+                        "type": "radio",
+                        "instructions": "Does the switch have a space to allow light to shine through from beneath or allow space for LED's?",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "non-compat": "Non-LED compatible",
+                            "smd": "SMD LED compatible",
+                            "inswitch-through": "In-switch\/through-hole LED compatible ONLY",
+                            "smd-and-inswitch": "Both SMD and in-switch\/through hole LED compatible"
+                        },
+                        "allow_null": 0,
+                        "other_choice": 0,
+                        "default_value": "smd-and-inswitch",
+                        "layout": "vertical",
+                        "return_format": "value",
+                        "save_other_choice": 0
+                    },
+                    {
+                        "key": "field_5e9dc0a8f759d",
+                        "label": "",
+                        "name": "",
+                        "type": "message",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "Here are some great links to figures and stats already out there on the web if you're struggling for numbers:\r\n<a href=\"https:\/\/thegamingsetup.com\/gaming-keyboard\/buying-guides\/keyboard-switch-chart-table\" target=\"_blank\">thegamingsetup.com<\/a>, <a href=\"https:\/\/docs.google.com\/spreadsheets\/d\/161QQynxAtsbUrHK81T7RnCztNaHFYbJXSrnz8kuApJo\/edit#gid=0\" target=\"_blank\">Google spreadsheet 1<\/a>, <a href=\"https:\/\/docs.google.com\/spreadsheets\/d\/1_h6m9-uVLrGwdeIYT7fiMwCVT5jNkijPGHPK2jfhiRI\/edit#gid=0\" target=\"_blank\">Google spreadsheet 2<\/a>, <a href=\"https:\/\/mechwiki.com\/category\/switches\/\" target=\"_blank\">Mechwiki<\/a>, <a href=\"https:\/\/docs.google.com\/spreadsheets\/d\/1TJAIiWmwYkhnI_w5xcOl_RRXZvgYcJoAfOxHFholcFE\/edit#gid=1735254964\" target=\"_blank\">Switch data<\/a>",
+                        "new_lines": "wpautop",
+                        "esc_html": 0
+                    }
+                ]
+            },
+            {
+                "key": "field_5e957de86ad7e",
+                "label": "Other info",
+                "name": "other",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_5df1094317aee",
+                        "label": "Spec sheet",
+                        "name": "spec-sheet",
+                        "type": "file",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "url",
+                        "library": "all",
+                        "min_size": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_5e8c4a40fd300",
+                        "label": "Sound clip",
+                        "name": "sound-clip",
+                        "type": "file",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "url",
+                        "library": "all",
+                        "min_size": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_5df0ee61d0e18",
+                "label": "Prices",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5e33e2353080e",
+                "label": "Limited run",
+                "name": "limited-run",
+                "type": "radio",
+                "instructions": "These switches were a limited run and are no longer being manufactured.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1": "Yes",
+                    "0": "No"
+                },
+                "allow_null": 0,
+                "other_choice": 0,
+                "default_value": 0,
+                "layout": "horizontal",
+                "return_format": "value",
+                "save_other_choice": 0
+            },
+            {
+                "key": "field_5f723573f93c4",
+                "label": "Reason for limited run",
+                "name": "limited-run-type",
+                "type": "radio",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5e33e2353080e",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "active-limited": "Active but limited",
+                    "past-limited": "Limited group buy but date has past",
+                    "discontinued": "Discontinued"
+                },
+                "allow_null": 0,
+                "other_choice": 0,
+                "default_value": 0,
+                "layout": "horizontal",
+                "return_format": "value",
+                "save_other_choice": 0
+            },
+            {
+                "key": "field_5e33e2623080f",
+                "label": "Limited run - more information",
+                "name": "limited-run-info",
+                "type": "textarea",
+                "instructions": "If this switch was only available for a limited time give some background information here.",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5e33e2353080e",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 3,
+                "new_lines": "wpautop"
+            },
+            {
+                "key": "field_5e71f5eeb1357",
+                "label": "",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "<h3>Prices below will be listed in order that they appear here - <span style=\"color:#CF3947\">The 1st item in list will appear in main list (before hover)<\/span><\/h3>",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5df0ea29cce12",
+                "label": "Price",
+                "name": "prices",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_5df0eea39febc",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5df0eea39febc",
+                        "label": "Price",
+                        "name": "price",
+                        "type": "number",
+                        "instructions": "Enter price from vendor website using local currency. Currency symbol will be added on the front-end.",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "15",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "min": "",
+                        "max": "",
+                        "step": ""
+                    },
+                    {
+                        "key": "field_5df0eeb99febd",
+                        "label": "Source url",
+                        "name": "source",
+                        "type": "url",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_5ec7d5fb7fb9c",
+                        "label": "Extra text",
+                        "name": "extra_text",
+                        "type": "text",
+                        "instructions": "Useful for switch pages with multiple variations. eg. Trash, Mint, Polar, Red Panda",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "30",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5e008546485bf",
+                        "label": "Vendor",
+                        "name": "vendor",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "30",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "vendor"
+                        ],
+                        "taxonomy": "",
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "return_format": "id",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_5df0eee99febe",
+                        "label": "When was this price checked?",
+                        "name": "date",
+                        "type": "date_picker",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "",
+                            "id": ""
+                        },
+                        "display_format": "F j, Y",
+                        "return_format": "d\/m\/Y",
+                        "first_day": 1
+                    }
+                ]
+            },
+            {
+                "key": "field_5df1099917af0",
+                "label": "Links",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5df109ab17af1",
+                "label": "Links",
+                "name": "links",
+                "type": "repeater",
+                "instructions": "It's worth checking <a href=\"https:\/\/github.com\/ThereminGoat\/switch-scores\">ThereminGoat's GitHub PDF Repository of switch score sheets<\/a> if one exists for this switch then link it here.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_5df109ab17af4",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5df109ab17af3",
+                        "label": "Url",
+                        "name": "url",
+                        "type": "url",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_5df109ab17af4",
+                        "label": "Description",
+                        "name": "description",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_5df0f055cd3b9",
+                "label": "Sound tests and review videos",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5df0ea0dcce11",
+                "label": "Videos",
+                "name": "videos",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_5df0f0abcd3bb",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5df0f074cd3ba",
+                        "label": "Video URL",
+                        "name": "url",
+                        "type": "oembed",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "width": "",
+                        "height": ""
+                    },
+                    {
+                        "key": "field_5df0f0abcd3bb",
+                        "label": "Description",
+                        "name": "description",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_5dfb50bc62ef8",
+                "label": "Quotes",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5dfb50d662ef9",
+                "label": "Quotes",
+                "name": "quotes",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_5dfb50d662efc",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5dfb50d662efc",
+                        "label": "Quote",
+                        "name": "text",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "basic",
+                        "media_upload": 0,
+                        "delay": 0
+                    },
+                    {
+                        "key": "field_5e8e0a94592d4",
+                        "label": "Attribution title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "eg. \"ThereminGoat\" or \"\/u\/MrJahoolious on Reddit\"",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "30",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5dfb50d662efb",
+                        "label": "Attribution source",
+                        "name": "source",
+                        "type": "url",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_5df0eddad0e17",
+                "label": "Similar",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5df0e8e5cce0a",
+                "label": "Similar",
+                "name": "similar",
+                "type": "relationship",
+                "instructions": "This is not in use at the moment but in the future it would be nice to be able to suggest other similar switches.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "switch"
+                ],
+                "taxonomy": "",
+                "filters": [
+                    "search"
+                ],
+                "elements": "",
+                "min": "",
+                "max": "",
+                "return_format": "id"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "switch"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "field",
+        "hide_on_screen": [
+            "the_content",
+            "excerpt",
+            "discussion",
+            "comments",
+            "revisions",
+            "slug",
+            "author",
+            "format",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": true,
+        "description": ""
+    }
+]

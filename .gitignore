@@ -1,0 +1,16 @@
+/node_modules
+/public/hot
+/public/storage
+/public/vendor/statamic
+/public/assets/switches/photos/.meta/
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+.php_cs.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.DS_Store

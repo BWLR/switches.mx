@@ -1,0 +1,29 @@
+title: 'SplitKB'
+country: NL
+currency: EUR
+website: 'https://splitkb.com/'
+favicon: vendors/favicons/316-splitkb.png
+social:
+  -
+    network: instagram
+    item_url: 'https://instagram.com/splitkb'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/splitkb'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/splitkb'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/D7D7Vpg'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1577094231
+blueprint: vendors

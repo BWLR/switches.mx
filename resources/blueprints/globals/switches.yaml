@@ -1,0 +1,42 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: volume
+        field:
+          fields:
+            -
+              handle: key
+              field:
+                input_type: text
+                antlers: false
+                display: Key
+                type: text
+                icon: text
+                width: 25
+                listable: hidden
+            -
+              handle: short
+              field:
+                input_type: text
+                antlers: false
+                display: 'Short text name'
+                type: text
+                icon: text
+                width: 75
+                listable: hidden
+            -
+              handle: long
+              field:
+                antlers: false
+                display: 'Full description'
+                type: textarea
+                icon: textarea
+                listable: hidden
+          mode: table
+          reorderable: true
+          display: Volume
+          type: grid
+          icon: grid
+          listable: hidden

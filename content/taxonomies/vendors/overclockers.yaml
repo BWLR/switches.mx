@@ -1,0 +1,29 @@
+title: 'Overclockers'
+country: GB
+currency: GBP
+website: 'https://www.overclockers.co.uk/'
+favicon: vendors/favicons/500-overclockers.png
+social:
+  -
+    network: instagram
+    item_url: 'https://instagram.com/overclockersuk/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'http://twitter.com/overclockersUK'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/OverclockersUK'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/user/overclockersuk'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1584092975
+blueprint: vendors

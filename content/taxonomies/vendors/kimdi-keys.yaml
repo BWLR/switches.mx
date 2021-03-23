@@ -1,0 +1,24 @@
+title: 'Kimdi Keys'
+country: US
+currency: usd
+website: 'https://kimdi-keys.com/'
+favicon: vendor-kimdi-keys.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/kimdi_keys/'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/KimdiKeys/'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.com/invite/N8krC3R'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615539467
+blueprint: vendors

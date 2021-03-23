@@ -1,0 +1,20 @@
+$smx-color-00: #EFEFEF;
+$smx-color-01: #282A30;
+$smx-color-02: #3D3D3D;
+$smx-color-03: #939393;
+$smx-color-05: #C4C4C4;
+$smx-color-07: #ECECEC;
+$smx-color-06: #F9F9F9;
+$smx-color-04: #CF3947;
+$smx-color-08: #3D9D24;
+
+$smx-color-10: #7289DA;
+
+$smx-font-stack: 'Quicksand', sans-serif;
+
+$grid-gutter-width: 20px;
+
+// Fix to prevent gaps between % width columns
+// https://uxengineer.com/inline-block-elements-100-percent-width/
+// - We didn't need to do this in the React version because the html was minified
+.col { font-size: 0; }

@@ -1,0 +1,29 @@
+title: 'Ringer Keys'
+country: US
+currency: USD
+website: 'https://ringerkeys.com/'
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/ringerkeys/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/RingerKeys'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://facebook.com/RingerKeys'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/channel/UC-CHz2f5VBvBrd6dyuA1_8A'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615557332
+blueprint: vendors
+favicon: g24_32x32.png

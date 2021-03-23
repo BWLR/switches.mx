@@ -1,0 +1,34 @@
+title: 'ApexKeyboards'
+country: CA
+currency: CAD
+website: 'https://www.apexkeyboards.ca/'
+favicon: vendors/favicons/680-apexkeyboards.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/apexkeyboards/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/apexkeyboards'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/apexkeyboards'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/channel/UCHM3mI7B9w2o-VKWq1NnPlw/'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.com/invite/qrjEXc?utm_source=Discord%20Widget&utm_medium=Connect'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1590441303
+blueprint: vendors

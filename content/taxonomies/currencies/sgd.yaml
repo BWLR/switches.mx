@@ -1,0 +1,9 @@
+title: 'Singapore Dollar'
+symbol: S$
+symbol_native: $
+decimal_digits: 2
+code: SGD
+title_plural: 'Singapore dollars'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

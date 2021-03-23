@@ -1,0 +1,9 @@
+title: 'Kazakhstani Tenge'
+symbol: KZT
+symbol_native: тңг.
+decimal_digits: 2
+code: KZT
+title_plural: 'Kazakhstani tenges'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

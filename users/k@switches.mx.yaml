@@ -1,0 +1,36 @@
+name: SMX
+super: true
+avatar: android-chrome-192x192.png
+id: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+password_hash: $2y$10$Z8GtFs2xhyEwuQGPKYuUNOQkDSh.gh3wN7clAsiuuryugeKkv8BgO
+preferences:
+  assets:
+    assets:
+      mode: grid
+  collections:
+    vendors:
+      columns:
+        - favicon
+        - title
+        - country
+        - currency
+        - website
+      per_page: 100
+  taxonomies:
+    switch_type:
+      after_save: create_another
+    currencies:
+      columns:
+        - slug
+        - title
+        - title_plural
+        - code
+        - symbol
+        - symbol_native
+    vendors:
+      columns:
+        - favicon
+        - title
+        - country
+        - currency
+        - website

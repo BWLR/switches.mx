@@ -1,0 +1,35 @@
+body {
+    background: $smx-color-00 url(/images/bg.png) 50% 0;
+    background-attachment: fixed;
+    font-family: $smx-font-stack;
+    color: $smx-color-02;
+    overflow-y: scroll;
+}
+
+// **************************
+// Main app
+// **************************
+// Default styling
+a {
+    text-decoration: none;
+    color: $smx-color-04;
+    transition: color .1s ease-in-out;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// Main
+.switchesmx {
+    text-align: center;
+    position: relative;
+}
+
+// https://moderncss.dev/pure-css-smooth-scroll-back-to-top/
+@media screen and (prefers-reduced-motion: no-preference) {
+    html,
+    body {
+        scroll-behavior: smooth;
+    }
+}

@@ -1,0 +1,29 @@
+title: Melgeek
+country: US
+currency: USD
+website: 'https://www.melgeek.com/'
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/melgeek001365/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/melgeek001365'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://facebook.com/Melgeek/'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/EGjbcDR'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615551279
+blueprint: vendors
+favicon: 0.01_1_f83a4fae-e1c5-4b0f-9f71-116e791ce374_180x.jpg

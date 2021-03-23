@@ -1,0 +1,19 @@
+title: 'Originative Co'
+country: US
+currency: USD
+website: 'https://www.originativeco.com/'
+favicon: vendors/favicons/333-originative-co.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/originativeco/'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/Originativeco/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1578302121
+blueprint: vendors

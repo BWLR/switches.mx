@@ -1,0 +1,29 @@
+title: 'Mehkee'
+country: US
+currency: USD
+website: 'https://mehkee.com/'
+favicon: vendors/favicons/312-mehkee.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/mehkee_co/'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/MehkeeCo/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/mehkeeco'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/channel/UCbrbHHhb5q4ohNSA6LShNSg'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1576853281
+blueprint: vendors

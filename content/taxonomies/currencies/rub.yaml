@@ -1,0 +1,9 @@
+title: 'Russian Ruble'
+symbol: RUB
+symbol_native: ₽.
+decimal_digits: 2
+code: RUB
+title_plural: 'Russian rubles'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

@@ -1,0 +1,19 @@
+title: 'The Keyboard Company'
+country: GB
+currency: GBP
+website: 'https://keyboardco.com/'
+social:
+  -
+    network: twitter
+    item_url: 'https://twitter.com/KeyboardCo'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/keyboardco'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615557819
+blueprint: vendors
+favicon: faviconkeybco.png

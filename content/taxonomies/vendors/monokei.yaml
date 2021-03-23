@@ -1,0 +1,14 @@
+title: 'monokei'
+country: SG
+currency: SGD
+website: 'https://monokei.co'
+favicon: vendors/favicons/770-monokei.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/monokei.co/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1596187595
+blueprint: vendors

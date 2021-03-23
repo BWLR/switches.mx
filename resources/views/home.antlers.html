@@ -1,0 +1,80 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-6">
+            <a href="/switches" class="page-home__block page-home__block--switches">
+                <div class="page-home__block-inner">
+                    <h3 class="page-home__block-heading-3">Switches database</h3>
+                    <p>Head over to the switches section to browse the entire database.</p>
+                    <p>There are currently <strong class="page-home__switch-count">{{ collection:count in="switches" }}</strong> switches in the database.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <div class="page-home__block page-home__block--latest">
+                <div class="page-home__block-inner">
+                    <h3 class="page-home__block-heading-3">Latest switch updated</h3>
+                    {{ collection:switches limit="1" paginate="false" as="switches" sort="updated_at:desc" }}
+                        {{ partial:switches/miniview :items="switches" }}
+                    {{ /collection:switches }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="page-home__block page-home__block--frankenswitches">
+                <div class="page-home__block-inner">
+                    <h3 class="page-home__block-heading-3">Frankenswitches</h3>
+                    <p>We're big fan of a frankenswitch here at switches.mx. We'll soon be launching a whole section of the website dedicated to them.</p>
+                    <p><strong>Stay tuned!</strong></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+            <a href="/vendors" class="page-home__block page-home__block--vendors">
+                <div class="page-home__block-inner">
+                    <h3 class="page-home__block-heading-3">Vendors</h3>
+                    <p>Browse the database of vendors currently used for pricing links on switches.mx.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+            <a href="https://shop.switches.mx" class="page-home__block page-home__block--shop">
+                <div class="page-home__block-inner">
+                    <h3 class="page-home__block-heading-3">Shop</h3>
+                    <p>Head over to the switches.mx shop. Thoughtfully designed, fun, switch and keyboard community products.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-12">
+            <div class="page-home__block page-home__block--contribute">
+                <div class="page-home__block-inner">
+                    <h3 class="page-home__block-heading-3">Contribute</h3>
+                    <h4 class="page-home__block-heading-4">Switches.mx is now open source!<sup>*</sup></h4>
+                    <p>If you'd like to contribute to the switch database, the website or help in any way feel free to get in touch on the <a href="https://discord.gg/pZxjvza" target="_blank" rel="noopener noreferrer" title="Discord">Discord server</a> or open a Pull Request on <a href="https://github.com/BWLR/switches.mx" target="_blank" rel="noopener noreferrer" title="switches.mx on GitHub">GitHub</a> directly.</p>
+                    <p><small>* Licenced under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer" title="Creative Commons licence information">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a></small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="page-home__block page-home__block--instagram">
+                <div class="page-home__block-inner">
+                    <h3 class="page-home__block-heading-3">Switches.mx on Instagram</h3>
+                    <!-- Place <div> tag where you want the feed to appear -->
+                    <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+                    <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+                    <script type="text/javascript">
+                    /* curator-feed-default-feed-layout */
+                    (function(){
+                    var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+                    i.src = "https://cdn.curator.io/published/b4a2a2a1-0505-4b09-9dcf-c0dddb87e575.js";
+                    e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+                    })();
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

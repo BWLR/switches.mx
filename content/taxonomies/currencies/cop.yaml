@@ -1,0 +1,9 @@
+title: 'Colombian Peso'
+symbol: CO$
+symbol_native: $
+decimal_digits: 0
+code: COP
+title_plural: 'Colombian pesos'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

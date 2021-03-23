@@ -1,0 +1,17 @@
+<div class="c-switch__stats">
+    {{ if name }}
+        <h5 class="c-switch__stat-variation">{{ name }}</h5>
+    {{ /if }}
+    <div class="c-switch__stat c-switch__stat--actuation" title="Actuation">
+        {{ if actuation !== '' }}{{ actuation }}{{ else }} &mdash; {{ /if }}<span class="c-switch__stat-unit">g</span>
+    </div>
+    <div class="c-switch__stat c-switch__stat--bottom-out" title="Bottom-out">
+        {{ if bottom-out !== '' }}{{ bottom-out }}{{ else }} &mdash; {{ /if }}<span class="c-switch__stat-unit">g</span>
+    </div>
+    <div class="c-switch__stat c-switch__stat--pre-travel" title="Pre-travel">
+        {{ if pre-travel !== '' }}{{ pre-travel }}{{ else }} &mdash; {{ /if }}<span class="c-switch__stat-unit">mm</span>
+    </div>
+    <div class="c-switch__stat c-switch__stat--total-travel" title="Total travel">
+        {{ if total-travel !== '' }}{{ total-travel }}{{ else }} &mdash; {{ /if }}<span class="c-switch__stat-unit">mm</span>
+    </div>
+</div>

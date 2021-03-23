@@ -1,0 +1,14 @@
+title: 'SwitchKeys'
+country: AU
+currency: AUD
+website: 'https://www.switchkeys.com.au/'
+favicon: vendors/favicons/335-switchkeys.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/switchkeys.au/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1578303478
+blueprint: vendors

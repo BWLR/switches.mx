@@ -1,0 +1,14 @@
+title: 'Cannon Keys'
+country: US
+currency: USD
+website: 'https://cannonkeys.com'
+favicon: vendors/favicons/328-cannon-keys.png
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615543690
+blueprint: vendors
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/cannon.keys/'
+    type: new_set
+    enabled: true

@@ -1,0 +1,9 @@
+title: 'Tunisian Dinar'
+symbol: DT
+symbol_native: د.ت.‏
+decimal_digits: 3
+code: TND
+title_plural: 'Tunisian dinars'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

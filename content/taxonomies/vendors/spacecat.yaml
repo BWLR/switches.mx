@@ -1,0 +1,29 @@
+title: 'Spacecat Design'
+country: US
+currency: USD
+website: 'https://spacecat.design'
+favicon: vendors/favicons/322-spacecat.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/spacecat.design'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/spacecat_design'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/eBV4X5r'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/channel/UCsjImWL5-PPpwIvdF4gryew/featured'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1577555140
+blueprint: vendors

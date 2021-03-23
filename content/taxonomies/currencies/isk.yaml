@@ -1,0 +1,9 @@
+title: 'Icelandic Króna'
+symbol: Ikr
+symbol_native: kr
+decimal_digits: 0
+code: ISK
+title_plural: 'Icelandic krónur'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

@@ -1,0 +1,24 @@
+title: '1UP Keyboards'
+country: US
+currency: USD
+website: 'https://www.1upkeyboards.com/'
+favicon: vendors/favicons/324-1up-keyboards.png
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615540730
+blueprint: vendors
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/1upkeyboards/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/1upkeyboards'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/user/skiwithpete'
+    type: new_set
+    enabled: true

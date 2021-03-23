@@ -1,0 +1,51 @@
+<div class="c-switch__theremingoat-score">
+    <div class="c-switch__theremingoat-score-table">
+        <div class="c-switch__theremingoat-score-row c-switch__theremingoat-score-row--header">
+            <div class="c-switch__theremingoat-score-switch">{{ title }}</div>
+        </div>
+        <div class="c-switch__theremingoat-score-row">
+            <div class="c-switch__theremingoat-score-score">{{ theremin_goat_scores.0.push_feel }}</div>
+            <div class="c-switch__theremingoat-score-outof">/35</div>
+            <div class="c-switch__theremingoat-score-legend">Push Feel</div>
+        </div>
+        <div class="c-switch__theremingoat-score-row">
+            <div class="c-switch__theremingoat-score-score">{{ theremin_goat_scores.0.wobble }}</div>
+            <div class="c-switch__theremingoat-score-outof">/25</div>
+            <div class="c-switch__theremingoat-score-legend">Wobble</div>
+        </div>
+        <div class="c-switch__theremingoat-score-row">
+            <div class="c-switch__theremingoat-score-score">{{ theremin_goat_scores.0.sound }}</div>
+            <div class="c-switch__theremingoat-score-outof">/10</div>
+            <div class="c-switch__theremingoat-score-legend">Sound</div>
+        </div>
+        <div class="c-switch__theremingoat-score-row">
+            <div class="c-switch__theremingoat-score-score">{{ theremin_goat_scores.0.context }}</div>
+            <div class="c-switch__theremingoat-score-outof">/20</div>
+            <div class="c-switch__theremingoat-score-legend">Context</div>
+        </div>
+        <div class="c-switch__theremingoat-score-row">
+            <div class="c-switch__theremingoat-score-score">{{ theremin_goat_scores.0.other }}</div>
+            <div class="c-switch__theremingoat-score-outof">/10</div>
+            <div class="c-switch__theremingoat-score-legend">Other</div>
+        </div>
+        <div class="c-switch__theremingoat-score-row c-switch__theremingoat-score-row--total">
+            <div class="c-switch__theremingoat-score-score">{{ theremin_goat_scores.0.total }}</div>
+            <div class="c-switch__theremingoat-score-outof">/100</div>
+            <div class="c-switch__theremingoat-score-legend">Total</div>
+        </div>
+    </div>
+
+    {{ if theremin_goat_scores.0.score_card_link }}
+        <a href="{{ theremin_goat_scores.0.score_card_link }}"
+            class="c-switch__theremingoat-score-link" title="View full score card for this switch on the official GitHub PDF (opens in new window)"
+            target="_blank"
+            rel="noopener noreferrer">View full score card on <em>GitHub</em></a>
+    {{ /if }}
+
+    {{ if theremin_goat_scores.0.link_to_review }}
+        <a href="{{ theremin_goat_scores.0.link_to_review }}"
+            class="c-switch__theremingoat-score-review-link" title="View full review for this switch on the official ThereminGoat website (opens in new window)"
+            target="_blank"
+            rel="noopener noreferrer">View full review on <strong>ThereminGoat.com</strong></a>
+    {{ /if }}
+</div>

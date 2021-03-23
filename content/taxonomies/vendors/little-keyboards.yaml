@@ -1,0 +1,14 @@
+title: 'Little Keyboards'
+country: US
+currency: USD
+website: 'https://www.littlekeyboards.com/'
+social:
+  -
+    network: instagram
+    item_url: 'http://instagram.com/littlekeyboards'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615548834
+blueprint: vendors
+favicon: vendor-little-keyboards.png

@@ -1,0 +1,29 @@
+title: MechanicalKeyboards.co.id
+country: ID
+currency: IDR
+website: 'https://www.mechanicalkeyboards.co.id/'
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/mechanicalkeyboards.co.id/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://www.twitter.com/mechkeyboardsid'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/MechanicalKeyboardsID'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/channel/UC6dB-7Pb72CAFHBUwupt-lQ'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615551393
+blueprint: vendors
+favicon: mechid-1615551383.png

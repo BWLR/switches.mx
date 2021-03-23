@@ -1,0 +1,96 @@
+---
+material_nylon: 'Nylon'
+material_pc: 'PC'
+material_pcnylon: 'PC/Nylon mix'
+material_pom: 'POM'
+material_uhmwpe: 'UHMWPE'
+material_custom: 'Custom'
+type_coloured: 'Coloured (opaque)'
+type_transparent: 'Transparent'
+type_milky: 'Milky'
+type_glow: 'Glow in the Dark'
+---
+
+<div class="c-switch__materials">
+    <div class="c-switch__materials-icon">
+        <svg width="57" height="53" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 11.9h20l-.13-.587a.4.4 0 00-.39-.313h-3.524a.3.3 0 01-.3-.3V1.757a.3.3 0 00-.02-.11l-.061-.156a.3.3 0 00-.28-.191h-3.637a.22.22 0 01-.208-.15.22.22 0 00-.208-.15h-2.484a.22.22 0 00-.208.15.22.22 0 01-.208.15h-3.676a.3.3 0 00-.254.141l-.116.186a.3.3 0 00-.046.16V10.7a.3.3 0 01-.3.3h-3.43a.4.4 0 00-.39.313l-.13.587zM8.695 12.646a1.2 1.2 0 011.11-.746h27.39a1.2 1.2 0 011.11.746l4.096 10.013c.06.146.202.241.36.241.146 0 .28.083.346.214l1.459 2.918a.6.6 0 01-.537.868H2.993a.6.6 0 01-.532-.879l1.55-2.953a.313.313 0 01.279-.168.314.314 0 00.29-.195l4.115-10.06z" fill="#fff" stroke="#939393" stroke-width="2"/><path d="M2.5 27.15a.25.25 0 01.25-.25h41.281a.25.25 0 01.25.25c0 .138.112.25.25.25h.869a.6.6 0 01.6.6v1.3a.6.6 0 01-.6.6h-.8a.6.6 0 00-.6.6v4.309a.6.6 0 01-.027.178l-2.341 7.492a.6.6 0 01-.573.421H40.1a.6.6 0 00-.6.6v3.826a.6.6 0 01-.018.146l-.868 3.474a.6.6 0 01-.582.454h-1.563a.6.6 0 01-.583-.454l-.868-3.474a.6.6 0 01-.018-.146V43.5a.6.6 0 00-.6-.6h-5.3a.6.6 0 00-.6.6v3.758a.6.6 0 01-.063.269l-1.271 2.541a.6.6 0 01-.537.332h-6.308a.6.6 0 01-.5-.267l-1.72-2.582a.6.6 0 01-.101-.333V43.5a.6.6 0 00-.6-.6h-4.8a.6.6 0 00-.6.6v3.826a.6.6 0 01-.018.146l-.868 3.474a.6.6 0 01-.583.454H8.968a.6.6 0 01-.582-.454l-.868-3.474a.6.6 0 01-.018-.146V43.5a.6.6 0 00-.6-.6h-.959a.6.6 0 01-.573-.421l-2.34-7.492A.6.6 0 013 34.81V30.5a.6.6 0 00-.6-.6h-.8a.6.6 0 01-.6-.6V28a.6.6 0 01.6-.6h.65a.25.25 0 00.25-.25z" fill="#fff" stroke="#939393" stroke-width="2"/><path d="M25 5.9h18l5 6h8.5M28 19.9h20l3 8h5.5M29 35.9h19l3.5 9h5" stroke="#DBDBDB" strokeLinejoin="round"/></svg>
+    </div>
+    <div class="c-switch__materials-icon-stem" title="{{ stem_custom_material_notes | strip_tags }}">
+        {{ if stem_material == 'nylon' }}
+            {{ view:material_nylon }}
+        {{ elseif stem_material == 'pc' }}
+            {{ view:material_pc }}
+        {{ elseif stem_material == 'pcnylon' }}
+            {{ view:material_pcnylon }}
+        {{ elseif stem_material == 'pom' }}
+            {{ view:material_pom }}
+        {{ elseif stem_material == 'uhmwpe' }}
+            {{ view:material_uhmwpe }}
+        {{ elseif stem_material == 'custom' }}
+            {{ view:material_custom }}
+        {{ /if }}
+        <div class="c-switch__materials-type">
+            {{ if stem_type == 'coloured' }}
+                {{ view:type_coloured }}
+            {{ elseif stem_type == 'transparent' }}
+                {{ view:type_transparent }}
+            {{ elseif stem_type == 'milky' }}
+                {{ view:type_milky }}
+            {{ elseif stem_type == 'glow' }}
+                {{ view:type_glow }}
+            {{ /if }}
+        </div>
+    </div>
+    <div class="c-switch__materials-icon-housing-top" title="{{ housing_top_custom_material_notes | strip_tags }}">
+        {{ if housing_top_material == 'nylon' }}
+            {{ view:material_nylon }}
+        {{ elseif housing_top_material == 'pc' }}
+            {{ view:material_pc }}
+        {{ elseif housing_top_material == 'pcnylon' }}
+            {{ view:material_pcnylon }}
+        {{ elseif housing_top_material == 'pom' }}
+            {{ view:material_pom }}
+        {{ elseif housing_top_material == 'uhmwpe' }}
+            {{ view:material_uhmwpe }}
+        {{ elseif housing_top_material == 'custom' }}
+            {{ view:material_custom }}
+        {{ /if }}
+        <div class="c-switch__materials-type">
+            {{ if housing_top_type == 'coloured' }}
+                {{ view:type_coloured }}
+            {{ elseif housing_top_type == 'transparent' }}
+                {{ view:type_transparent }}
+            {{ elseif housing_top_type == 'milky' }}
+                {{ view:type_milky }}
+            {{ elseif housing_top_type == 'glow' }}
+                {{ view:type_glow }}
+            {{ /if }}
+        </div>
+    </div>
+    <div class="c-switch__materials-icon-housing-bottom" title="{{ housing_bottom_custom_material_notes | strip_tags }}">
+        {{ if housing_bottom_material == 'nylon' }}
+            {{ view:material_nylon }}
+        {{ elseif housing_bottom_material == 'pc' }}
+            {{ view:material_pc }}
+        {{ elseif housing_bottom_material == 'pcnylon' }}
+            {{ view:material_pcnylon }}
+        {{ elseif housing_bottom_material == 'pom' }}
+            {{ view:material_pom }}
+        {{ elseif housing_bottom_material == 'uhmwpe' }}
+            {{ view:material_uhmwpe }}
+        {{ elseif housing_bottom_material == 'custom' }}
+            {{ view:material_custom }}
+        {{ /if }}
+        <div class="c-switch__materials-type">
+            {{ if housing_bottom_type == 'coloured' }}
+                {{ view:type_coloured }}
+            {{ elseif housing_bottom_type == 'transparent' }}
+                {{ view:type_transparent }}
+            {{ elseif housing_bottom_type == 'milky' }}
+                {{ view:type_milky }}
+            {{ elseif housing_bottom_type == 'glow' }}
+                {{ view:type_glow }}
+            {{ /if }}
+        </div>
+    </div>
+</div>

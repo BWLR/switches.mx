@@ -1,0 +1,24 @@
+title: 'Kwertie Keys'
+country: SG
+currency: SGD
+website: 'https://www.kwertiekeys.com'
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/kwertiekeys/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/KwertieK'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/KwertieKeys-112326990534112'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615548618
+blueprint: vendors
+favicon: vendor-kwerty.png

@@ -1,0 +1,29 @@
+title: 'The Key Dot Co'
+country: US
+currency: USD
+website: 'https://thekey.company/'
+favicon: vendors/favicons/314-the-key-dot-co.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/thekey.company/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/TheKeyCompany'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/TheKeyDOTcompany/'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/kWFEe5D'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615545259
+blueprint: vendors

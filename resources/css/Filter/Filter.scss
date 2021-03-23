@@ -1,0 +1,166 @@
+.switchesmx-filter {
+    background: #fff;
+    margin: 0 0 ($grid-gutter-width * 2);
+    padding: ($grid-gutter-width / 2);
+    padding-bottom: 0;
+    border-radius: ($grid-gutter-width / 2);
+    letter-spacing: -0.02em;
+    line-height: 1.4;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+
+    &__filter {
+        padding-bottom: ($grid-gutter-width / 2);
+        text-align: left;
+
+        @include media-breakpoint-up(lg) {
+            position: relative;
+            padding-left: 60px;
+        }
+
+        // Modifiers
+        &--manufacturer {
+            @include media-breakpoint-up(lg) {
+                padding-left: 100px;
+            }
+        }
+
+        &--brand {
+            @include media-breakpoint-up(lg) {
+                padding-left: 80px;
+            }
+        }
+
+        &--type {
+            @include media-breakpoint-up(lg) {
+                padding-left: 100px;
+            }
+        }
+
+        &--button {
+            text-align: center;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: start;
+            align-content: start;
+            padding-left: 0;
+
+            @include media-breakpoint-up(lg) {
+            }
+        }
+
+        &--selected {
+            label {
+                color: $smx-color-04;
+            }
+            .switchesmx-filter__input {
+                border-color: $smx-color-04;
+            }
+        }
+    }
+
+    label {
+        font-weight: 600;
+        font-size: 14px;
+        margin-right: ($grid-gutter-width / 2);
+        padding: 0 2px 2px 0;
+        margin: 0;
+        display: block;
+
+        @include media-breakpoint-up(lg) {
+            padding: 0 10px 2px 0;
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: 6px;
+        }
+    }
+
+    &__input {
+        font-weight: 600;
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 600;
+        border-radius: 5px;
+        padding: 5px;
+        border: solid 2px $smx-color-06;
+        overflow: hidden;
+        width: 100%;
+
+        @include media-breakpoint-up(lg) {
+            width: 100%;
+        }
+    }
+
+    &__button {
+        display: inline-block;
+        width: auto;
+        background: $smx-color-04;
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-color: $smx-color-04;
+        letter-spacing: -0.3px;
+        padding: 5px 20px;
+        height: 32px;
+        flex: 1 0 auto;
+        margin-left: 1px;
+
+        @include media-breakpoint-up(lg) {
+        }
+
+        &--clear {
+            background-color: $smx-color-03;
+            border-color: $smx-color-03;
+            color: #fff;
+            padding: 5px;
+
+            &:hover,
+            &:focus,
+            &:active {
+                text-decoration: none;
+                color: $smx-color-02;
+            }
+        }
+    }
+}
+
+// .switchesmx > .container {
+//     &:before {
+//         content: ' ';
+//         display: block;
+//         position: fixed;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         height: 120px;
+//         z-index: 3;
+//         background: rgb(0,0,0);
+//         background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(51,51,51,0) 50%);
+//         pointer-events: none;
+//         opacity: 0;
+//         transition: opacity 0.2s ease-in;
+//         animation-name: fadeInOpacity;
+//         animation-iteration-count: 1;
+//         animation-timing-function: ease-in;
+//         animation-duration: 0.2s;
+//     }
+// }
+
+// .filter--is-sticky {
+//     .switchesmx > .container {
+//         &:before {
+//             opacity: 1;
+//         }
+//     }
+// }
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

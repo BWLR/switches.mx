@@ -1,0 +1,9 @@
+title: 'Macanese Pataca'
+symbol: MOP$
+symbol_native: MOP$
+decimal_digits: 2
+code: MOP
+title_plural: 'Macanese patacas'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

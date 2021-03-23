@@ -1,0 +1,9 @@
+title: 'Malaysian Ringgit'
+symbol: RM
+symbol_native: RM
+decimal_digits: 2
+code: MYR
+title_plural: 'Malaysian ringgits'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

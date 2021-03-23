@@ -1,0 +1,19 @@
+title: 'KPrepublic'
+country: CN
+currency: USD
+website: 'https://kprepublic.com/'
+favicon: vendors/favicons/282-kprepublic.png
+social:
+  -
+    network: geekhack
+    item_url: 'https://geekhack.org/index.php?action=profile;u=68999'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discordapp.com/invite/ZSQ776'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1576849482
+blueprint: vendors

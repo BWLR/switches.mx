@@ -1,0 +1,9 @@
+title: 'Egyptian Pound'
+symbol: EGP
+symbol_native: ج.م.‏
+decimal_digits: 2
+code: EGP
+title_plural: 'Egyptian pounds'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

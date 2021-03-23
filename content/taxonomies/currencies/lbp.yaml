@@ -1,0 +1,9 @@
+title: 'Lebanese Pound'
+symbol: LB£
+symbol_native: ل.ل.‏
+decimal_digits: 0
+code: LBP
+title_plural: 'Lebanese pounds'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

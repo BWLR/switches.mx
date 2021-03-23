@@ -1,0 +1,9 @@
+title: 'Norwegian Krone'
+symbol: Nkr
+symbol_native: kr
+decimal_digits: 2
+code: NOK
+title_plural: 'Norwegian kroner'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

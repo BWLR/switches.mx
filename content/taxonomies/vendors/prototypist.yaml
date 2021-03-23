@@ -1,0 +1,29 @@
+title: protoTypist
+country: GB
+currency: GBP
+website: 'https://prototypist.net/'
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/jae_prototypist/'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/ProtoTypist-Keyboards-109934497158945/'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/channel/UCe6rkA5jIiy2sLTMQIHGn2Q'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/qm944aC'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615557575
+blueprint: vendors
+favicon: protoTypist_Logo_Package_Small_Logo-Green_32x32-1615557549.png

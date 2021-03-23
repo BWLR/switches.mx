@@ -1,0 +1,100 @@
+{{ switches }}
+	{{ cache for="24 hours" scope="page" key="switch_{ slug }" }}
+		<a href="/{{slug}}" title="{{ title }}">
+			<div class="c-switch">
+				<div class="row">
+					<div class="col">
+						<div class="c-switch__column c-switch__column--icon">
+							{{ partial:switches/icon
+								id="{{ index }}_{{ id }}"
+								stem_construction="{{ stem_construction }}"
+								mount="{{ mount }}"
+								spring="{{ specs.0.spring }}"
+								spring_color="{{ specs.0.spring_color }}"
+								spring_color_info="{{ specs.0.spring_color_info }}"
+								spring_swap="{{ specs.0.spring_swap }}"
+								stem_type="{{ specs.0.stem_type }}"
+								stem_color="{{ specs.0.stem_color }}"
+								stem_material="{{ specs.0.stem_material }}"
+								stem_custom_material_notes="{{ specs.0.stem_custom_material_notes }}"
+								housing_top_type="{{ specs.0.housing_top_type }}"
+								housing_top_color="{{ specs.0.housing_top_color }}"
+								housing_top_material="{{ specs.0.housing_top_material }}"
+								housing_top_custom_material_notes="{{ specs.0.housing_top_custom_material_notes }}"
+								housing_bottom_type="{{ specs.0.housing_bottom_type }}"
+								housing_bottom_color="{{ specs.0.housing_bottom_color }}"
+								housing_bottom_material="{{ specs.0.housing_bottom_material }}"
+								housing_bottom_custom_material_notes="{{ specs.0.housing_bottom_custom_material_notes }}"
+							}}
+
+							{{ if specs | count > 1 }}
+								<h3 class="c-switch__icon-variation-count"><strong>{{ specs | count }}</strong> variations</h3>
+							{{ /if }}
+						</div>
+						<div class="c-switch__column c-switch__column--title">
+							<h2 class="c-switch__title">{{ title }}</h2>
+							{{ if volume !== 'normal' }}
+								{{ partial:switches/volume volume="{{ volume }}" volume_notes="{{ volume_notes }}" }}
+							{{ /if }}
+						</div>
+						<div class="c-switch__column c-switch__column--type">
+							{{ partial:switches/type switch_type="{{ switch_type }}" }}
+						</div>
+						<div class="c-switch__column c-switch__column--mount">
+							{{ partial:switches/mount mount="{{ mount }}" }}
+						</div>
+						<div class="c-switch__column c-switch__column--prices">
+							{{ partial:switches/prices linkToPrice="false" prices={{ :prices }}
+						</div>
+						<div class="c-switch__column c-switch__column--materials">
+							{{ partial:switches/materials
+								stem_type="{{ specs.0.stem_type }}"
+								stem_material="{{ specs.0.stem_material }}"
+								stem_custom_material_notes="{{ specs.0.stem_custom_material_notes }}"
+								housing_top_type="{{ specs.0.housing_top_type }}"
+								housing_top_material="{{ specs.0.housing_top_material }}"
+								housing_top_custom_material_notes="{{ specs.0.housing_top_custom_material_notes }}"
+								housing_bottom_type="{{ specs.0.housing_bottom_type }}"
+								housing_bottom_material="{{ specs.0.housing_bottom_material }}"
+								housing_bottom_custom_material_notes="{{ specs.0.housing_bottom_custom_material_notes }}"
+							}}
+						</div>
+						<div class="c-switch__column c-switch__column--spring">
+							{{ partial:switches/spring id="{{ id }}" spring="{{ specs.0.spring }}" spring_color="{{ specs.0.spring_color }}" }}
+						</div>
+						<div class="c-switch__column c-switch__column--stats">
+							{{ partial:switches/stats
+								actuation="{{ specs.0.actuation }}"
+								bottom-out="{{ specs.0.bottom-out }}"
+								pre-travel="{{ specs.0.pre-travel }}"
+								total-travel="{{ specs.0.total-travel }}"
+							}}
+						</div>
+						<div class="c-switch__column c-switch__column--updated">
+							<div class="c-switch__updated">
+								Last updated {{ updated_at | ago }}
+							</div>
+						</div>
+
+						<div class="c-switch__column c-switch__column--media">
+							<div class="c-switch__media">
+								<div class="c-switch__media-count">
+									<span class="c-switch__media-count-number">{{ photos | count }}</span> photo{{ if photos | count > 1 }}s{{ /if }}
+								</div>
+								<div class="c-switch__media-count">
+									<span class="c-switch__media-count-number">{{ videos | count }}</span> video{{ if videos | count > 1 }}s{{ /if }}
+								</div>
+							</div>
+						</div>
+
+						{{ partial:switches/limited
+							limited_run="{{ limited_run }}"
+							limited_run_reason="{{ limited_run_reason }}"
+							limited_run_gb_enddate="{{ limited_run_gb_enddate }}"
+						}}
+					</div>
+				</div>
+			</div>
+		</a>
+	{{ /cache }}
+{{ /switches }}

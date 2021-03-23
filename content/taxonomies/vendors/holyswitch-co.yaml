@@ -1,0 +1,14 @@
+title: 'HolySwitch Co.'
+country: US
+currency: USD
+website: 'https://holyswitch.co/'
+favicon: vendors/favicons/976-HolyswitchFavicon.png
+social:
+  -
+    network: discord
+    item_url: 'https://discord.com/invite/rF8MQg'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1602308427
+blueprint: vendors

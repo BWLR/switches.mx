@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="{{ site:short_locale }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ title ?? site:name }}</title>
+        <link rel="stylesheet" href="{{ mix src='css/style.css' }}">
+    </head>
+    <body>
+        <div class="switchesmx">
+            <div class="switchesmx__header-container container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="switchesmx__header">
+                            <a href="/">
+                                <img src="/images/logo_medium.svg" class="switchesmx__header-logo" alt="Switches.mx logo" />
+                            </a>
+
+                            <div class="switchesmx__header-social">
+                                <a href="https://www.instagram.com/switches.mx/" target="_blank" rel="noopener noreferrer" class="switchesmx__header-social-link" title="Instagram">
+                                    <img src="/images/social/instagram.svg" class="switchesmx__header-social-img" alt="Instagram" />
+                                </a>
+                                <a href="https://discord.gg/pZxjvza" target="_blank" rel="noopener noreferrer" class="switchesmx__header-social-link" title="Discord">
+                                    <img src="/images/social/discord.svg" class="switchesmx__header-social-img" alt="Discord" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <ul class="switchesmx__header-menu">
+                            <li><a class="switchesmx__header-menu-link" href="/switches/">MX Switches</a></li>
+                            <li><a class="switchesmx__header-menu-link" href="/vendors/">Vendors</a></li>
+                            <li><a class="switchesmx__header-menu-link" href="https://shop.switches.mx/">Shop</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="switchesmx__body">
+                {{ template_content }}
+            </div>
+            <div class="switchesmx__footer-container container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="switchesmx__footer">
+                            Found a bug or issue? <a href="https://github.com/BWLR/switches.mx/issues/new" target="_blank" rel="noopener noreferrer">Raise a new issue on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="{{ mix src='/js/site.js' }}"></script>
+    </body>
+</html>

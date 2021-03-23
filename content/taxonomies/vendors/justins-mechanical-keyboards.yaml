@@ -1,0 +1,14 @@
+title: 'Justin''s Mechanical Keyboards'
+country: PH
+currency: PHP
+website: 'https://shopee.ph/jufs24/'
+social:
+  -
+    network: facebook
+    item_url: 'https://facebook.com/justkeyboards/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615547555
+blueprint: vendors
+favicon: vendor-jmk.png

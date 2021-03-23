@@ -1,0 +1,321 @@
+<div class="switchesmx-detail">
+    <div class="switchesmx-detail-inner">
+        <a href="/switches" class="switchesmx-detail__back" title="Back to list">&laquo; Back to list</a>
+        <div class="container-fluid">
+            <div class="c-switch__updated" title="{{ updated_at }}">
+                Last updated {{ updated_at | ago }}
+
+                <a class="c-switch__edit-github" href="http://github.com/BLWR/switches.mx/blob/main/content/collections/switches/{{ slug }}.md" target="_blank" rel="noopener noreferrer">Edit this switch on GitHub</a>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-8 col-lg-9 switchesmx-detail__col-main">
+                    <div class="switchesmx-detail__col-main-upper">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h1 class="c-switch__title">{{ title }}</h1>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="c-switch__manubrands">
+                                            <div class="c-switch__manubrand">
+                                                <span class="c-switch__manubrand-label">Manufacturer:</span>
+                                                <span class="c-switch__manubrand-value">{{ manufacturer }}{{ title }}{{ /manufacturer }}</span>
+                                            </div>
+                                            <div class="c-switch__manubrand">
+                                                <span class="c-switch__manubrand-label">Brand:</span>
+                                                <span class="c-switch__manubrand-value">{{ brand }}{{ title }}{{ /brand }}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {{ if notes }}
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="switchesmx-detail__notes">{{ notes }}</div>
+                                        </div>
+                                    </div>
+                                {{ /if }}
+
+                                {{ if limited_run_info }}
+                                    <div class="row">
+                                        <div class="col-xs-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
+                                            <div class="switchesmx-detail__limited-run-info">
+                                                <h3 class="switchesmx-detail__limited-run-info-heading">Information about this limited run</h3>
+                                                {{ limited_run_info }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                {{ /if }}
+
+                                <div class="switchesmx-detail__icon-list">
+                                    {{ if specs | count > 1 }}
+                                        <h3 class="switchesmx-detail__icon-variation-count">There are <strong>{{ specs | count }}</strong> variations of this switch:</h3>
+                                    {{ /if }}
+                                    <div class="container">
+                                        {{ specs }}
+                                            <div class="row">
+                                                <div class="col-xs-5 col-sm-5 col-lg-4 offset-lg-2 col-xl-3 offset-xl-3">
+                                                    {{ partial:switches/stats
+                                                        actuation="{{ actuation }}"
+                                                        bottom-out="{{ bottom-out }}"
+                                                        pre-travel="{{ pre-travel }}"
+                                                        total-travel="{{ total-travel }}"
+                                                    }}
+                                                </div>
+                                                <div class="col-xs-7 col-sm-7 col-lg-4 col-xl-4">
+                                                    <div class="switchesmx-detail__icon-materials">
+                                                        <strong></strong>
+                                                        {{ partial:switches/icon
+                                                            id="{{ index }}_{{ id }}"
+                                                            stem_construction="{{ stem_construction }}"
+                                                            mount="{{ mount }}"
+                                                            spring="{{ spring }}"
+                                                            spring_color="{{ spring_color }}"
+                                                            spring_color_info="{{ spring_color_info }}"
+                                                            spring_swap="{{ spring_swap }}"
+                                                            stem_type="{{ stem_type }}"
+                                                            stem_color="{{ stem_color }}"
+                                                            stem_material="{{ stem_material }}"
+                                                            stem_custom_material_notes="{{ stem_custom_material_notes }}"
+                                                            housing_top_type="{{ housing_top_type }}"
+                                                            housing_top_color="{{ housing_top_color }}"
+                                                            housing_top_material="{{ housing_top_material }}"
+                                                            housing_top_custom_material_notes="{{ housing_top_custom_material_notes }}"
+                                                            housing_bottom_type="{{ housing_bottom_type }}"
+                                                            housing_bottom_color="{{ housing_bottom_color }}"
+                                                            housing_bottom_material="{{ housing_bottom_material }}"
+                                                            housing_bottom_custom_material_notes="{{ housing_bottom_custom_material_notes }}"
+                                                        }}
+
+                                                        {{ partial:switches/materials
+                                                            stem_type="{{ stem_type }}"
+                                                            stem_material="{{ stem_material }}"
+                                                            stem_custom_material_notes="{{ stem_custom_material_notes }}"
+                                                            housing_top_type="{{ housing_top_type }}"
+                                                            housing_top_material="{{ housing_top_material }}"
+                                                            housing_top_custom_material_notes="{{ housing_top_custom_material_notes }}"
+                                                            housing_bottom_type="{{ housing_bottom_type }}"
+                                                            housing_bottom_material="{{ housing_bottom_material }}"
+                                                            housing_bottom_custom_material_notes="{{ housing_bottom_custom_material_notes }}"
+                                                        }}
+                                                    </div>
+                                                </div>
+                                                {{ if description }}
+                                                    <div class="col-xs-12 col-sm-12 col-lg-8 offset-lg-2 col-xl-7 offset-xl-3">
+                                                        <div class="switchesmx-detail__variation-description">{{ description }}</div>
+                                                    </div>
+                                                {{ /if }}
+                                            </div>
+                                        {{ /specs }}
+                                    </div>
+                                </div>
+
+                                {{ specs }}
+                                    {{ if force_graph }}
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-12 col-lg-10 offset-lg-1">
+                                                <div class="switchesmx-detail__force-graph">
+                                                    <h3>Force-graph</h3>
+                                                    <p class="switchesmx-detail__force-graph-info">A force-graph is a good way to help imagine how a switch might feel to the press. Many reputable manufacturers publish such graphs, either in their documentation or in their patents.<br />Not sure what you’re looking at? Check out <a href="https://www.keebtalk.com/t/how-to-read-a-force-curve/65" target="_blank" rel="noopener noreferrer">Haata’s fantastic guide on reading force curve graphs.</a></p>
+                                                    <img src="{{ force_graph }}{{ url }}{{ /force_graph }}" class="switchesmx-detail__force-graph-img" alt="Force graph for {{ title }}" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {{ /if }}
+                                {{ /specs }}
+                            </div>
+                        </div>
+                    </div>
+
+                    {{ if quotes }}
+                        {{ if quotes | count > 1 }}
+                            <div class="switchesmx-detail__col-main-lower-quotes">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="c-switch__quotes">
+                                            <h3>Quotes, thoughts and opinions</h3>
+                                            <p class="c-switch__quotes-intro">Stats and figures are one thing but here are some quotes, thoughts and opinions we've been able to find from across the web regarding these switches.</p>
+
+                                            {{ quotes }}
+                                                <div key={index} class="c-switch__quote">
+                                                    <div class="c-switch__quote-inner">
+                                                        {{ text }}
+                                                    </div>
+                                                    <a href="{{ source }}" target="_blank" rel="noopener noreferrer" class="c-switch__quote-link">
+                                                        {{ if title }}
+                                                            {{ title }}
+                                                        {{ else }}
+                                                            Source
+                                                        {{ /if }}
+                                                    </a>
+                                                </div>
+                                            {{ /quotes }}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {{ /if }}
+                    {{ /if }}
+
+                    <div class="switchesmx-detail__col-main-lower">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="photos-tab" data-bs-toggle="tab" data-bs-target="#photos" type="button" role="tab" aria-controls="photos" aria-selected="true">
+                                            <strong>{{ photos | count }}</strong> Photos
+                                        </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="videos-tab" data-bs-toggle="tab" data-bs-target="#videos" type="button" role="tab" aria-controls="videos" aria-selected="false">
+                                            <strong>{{ videos | count }}</strong> Sound tests and review videos
+                                        </button>
+                                    </li>
+                                </ul>
+
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show active" id="photos" role="tabpanel" aria-labelledby="photos-tab">
+                                        <div class="c-switch__photos">
+                                            <div id="photo-carousel" class="carousel slide" data-bs-ride="carousel">
+                                                <div class="carousel-indicators">
+                                                    {{ photos }}
+                                                        <a href="#" data-bs-target="#photo-carousel" data-bs-slide-to="{{ index }}" {{ if index == 0 }}class="active" aria-current="true"{{ /if }} aria-label="Photo {{ index }}">
+                                                            <img src="{{ glide src="{{ url }}" width="40" height="40" }}" class="c-switch__photo-thumbnail" />
+                                                        </a>
+                                                    {{ /photos }}
+                                                </div>
+                                                <div class="carousel-inner">
+                                                    {{ photos }}
+                                                        <div class="carousel-item {{ if index == 0 }}active{{ /if }}">
+                                                            <img src="{{ glide src="{{ url }}" width="800" height="600" }}" class="c-switch__photo" width="800" height="600">
+                                                            {{ if attribution }}
+                                                                <div class="c-switch__photo-caption">
+                                                                    <p>Photo attribution: {{ attribution }}</p>
+                                                                </div>
+                                                            {{ /if }}
+                                                        </div>
+                                                    {{ /photos }}
+                                                </div>
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#photo-carousel" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="carousel-control-label">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#photo-carousel" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="carousel-control-label">Next</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="videos" role="tabpanel" aria-labelledby="videos-tab">
+                                        <div class="c-switch__videos">
+                                            {{ videos }}
+                                                <div class="c-switch__video">
+                                                    <div class="c-switch__video-wrapper">
+                                                        {{ item_url | YouTubeEmbed }}
+                                                    </div>
+                                                    <div class="c-switch__video-caption">
+                                                        {{ description }}
+                                                    </div>
+                                                </div>
+                                            {{ /videos }}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-3 switchesmx-detail__col-secondary">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="switchesmx-detail__inner-container switchesmx-detail__inner-container--type">
+                                {{ partial:switches/type switch_type="{{ switch_type }}" }}
+                            </div>
+
+                            <div class="switchesmx-detail__inner-container switchesmx-detail__inner-container--details">
+                                <div class="switchesmx-detail__inner-block">
+                                    <h4>Mount type</h4>
+                                    {{ partial:switches/mount mount="{{ mount }}" }}
+                                </div>
+
+                                <div class="switchesmx-detail__inner-block">
+                                    <h4>Spring</h4>
+                                    {{ partial:switches/spring id="{{ id }}" spring="{{ specs.0.spring }}" spring_color="{{ specs.0.spring_color }}" }}
+                                </div>
+
+                                <div class="switchesmx-detail__inner-block">
+                                    <h4>Volume</h4>
+                                    {{ partial:switches/volume volume="{{ volume }}" volume_notes="{{ volume_notes }}" }}
+                                </div>
+
+                                {{ if factory_lubed }}
+                                    <div class="switchesmx-detail__inner-block">
+                                        <h4>Lubrication info</h4>
+                                        {{ partial:switches/details/lubed factory_lubed="{{ factory_lubed }}" lubrication_notes="{{ lubrication_notes }}" }}
+                                    </div>
+                                {{ /if }}
+
+                                {{ if film }}
+                                    <div class="switchesmx-detail__inner-block">
+                                        <h4>Switch film</h4>
+                                        {{ partial:switches/details/film film="{{ film }}" film_notes="{{ film_notes }}" }}
+                                    </div>
+                                {{ /if }}
+
+                                {{ if stem_construction }}
+                                    <div class="switchesmx-detail__inner-block">
+                                        <h4>Stem construction</h4>
+                                        {{ partial:switches/details/stem stem_construction="{{ stem_construction }}" }}
+                                    </div>
+                                {{ /if }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ if theremin_goat_scores }}
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="switchesmx-detail__inner-container switchesmx-detail__inner-container--theremingoat">
+                                    <img src="/images/icons/theremingoat.png" alt="ThereminGoat logo" class="c-switch__theremingoat-logo" />
+                                    <h2>ThereminGoat <strong>switch score</strong></h2>
+                                    {{ partial:switches/theremingoatscore title="{{ title }}" theremin_goat_scores={{ :theremin_goat_scores }}
+                                </div>
+                            </div>
+                        </div>
+                    {{ /if }}
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="switchesmx-detail__inner-container">
+                                <h2>Prices</h2>
+                                {{ partial:switches/prices linkToPrice="true" prices={{ :prices }}
+
+                                {{ partial:switches/limited
+                                    limited_run="{{ limited_run }}"
+                                    limited_run_reason="{{ limited_run_reason }}"
+                                    limited_run_gb_enddate="{{ limited_run_gb_enddate }}"
+                                }}
+
+                                <div class="switchesmx-detail__small-print">These prices are subject to change at any time and should be used only as a rough guide (plus, quite often switches are not sold individually and can sometimes include discounts for larger quantities).<br /><br /><strong>This information is not automatically updated.</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{ if related_links }}
+                        {{ if related_links | count > 0 }}
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="switchesmx-detail__inner-container">
+                                        <h2>Related Links</h2>
+                                        {{ partial:switches/details/links related_links={{ :related_links }}
+                                    </div>
+                                </div>
+                            </div>
+                        {{ /if }}
+                    {{ /if }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{# To prevent extra scrollbars #}}
+<style>body { overflow: hidden; }</style>

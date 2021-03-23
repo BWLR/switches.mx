@@ -1,0 +1,24 @@
+title: Dangkeebs
+country: US
+currency: USD
+website: 'https://dangkeebs.com/'
+favicon: vendors/favicons/825-dangkeebs.png
+social:
+  -
+    network: discord
+    item_url: 'https://discord.gg/pDS9bfM'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/Dangkeebs'
+    type: new_set
+    enabled: true
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/dangkeebs/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615543805
+blueprint: vendors

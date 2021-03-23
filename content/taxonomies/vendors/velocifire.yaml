@@ -1,0 +1,24 @@
+title: Velocifire
+country: CN
+currency: USD
+website: 'https://www.velocifiretech.com/'
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/VelocifireMK/'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/Velocifire/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/VelocifireMK'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615557985
+blueprint: vendors
+favicon: VFT_favicon.png

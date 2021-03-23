@@ -1,0 +1,9 @@
+title: 'Mauritian Rupee'
+symbol: MURs
+symbol_native: MURs
+decimal_digits: 0
+code: MUR
+title_plural: 'Mauritian rupees'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

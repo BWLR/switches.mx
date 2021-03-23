@@ -1,0 +1,9 @@
+title: 'Syrian Pound'
+symbol: SY£
+symbol_native: ل.س.‏
+decimal_digits: 0
+code: SYP
+title_plural: 'Syrian pounds'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

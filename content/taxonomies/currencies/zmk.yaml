@@ -1,0 +1,9 @@
+title: 'Zambian Kwacha'
+symbol: ZK
+symbol_native: ZK
+decimal_digits: 0
+code: ZMK
+title_plural: 'Zambian kwachas'
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1613398632
+blueprint: currencies

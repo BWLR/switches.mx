@@ -1,0 +1,14 @@
+title: Vintkeys
+country: CA
+currency: USD
+website: 'https://vintkeys.ca/'
+social:
+  -
+    network: discord
+    item_url: 'https://discord.com/invite/adCVrZ'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615558098
+blueprint: vendors
+favicon: vendor-vintkeys.png

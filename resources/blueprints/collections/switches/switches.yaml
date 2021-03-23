@@ -1,0 +1,961 @@
+title: Switches
+sections:
+  info:
+    display: Info
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+          width: 66
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+          width: 33
+      -
+        handle: volume
+        field:
+          options:
+            silent: 'This is a silent switch with internal rubber dampers'
+            normal: 'Standard switch with no dampers, can be further silenced with lubrication or O-rings'
+            loud: 'This is a loud switch. Not recommended for use in an office environment or others that don''t appreciated a loud keyboard ;)'
+          inline: false
+          cast_booleans: false
+          display: 'Switch volume'
+          default: normal
+          type: radio
+          icon: radio
+          instructions: 'Silent switch with internal dampers, or loud clicky switch?'
+          listable: hidden
+      -
+        handle: volume_notes
+        field:
+          display: 'Volume notes'
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          type: markdown
+          icon: markdown
+          instructions: 'eg. This switch is especially loud. Would avoid using in office situation (Box Navy?)'
+          listable: hidden
+      -
+        handle: factory_lubed
+        field:
+          options:
+            'no': 'No'
+            slight: 'Slight factory lube'
+            significant: 'Significant factory lube'
+          inline: false
+          cast_booleans: false
+          display: 'Factory lubed'
+          default: slight
+          type: radio
+          icon: radio
+          width: 33
+          listable: hidden
+      -
+        handle: lubrication_notes
+        field:
+          display: 'Lubrication notes'
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          type: markdown
+          icon: markdown
+          instructions: 'Does this switch in particular benefit from being lubricated? Is it worth doing? What kind of lubrication works best?'
+          width: 66
+          listable: hidden
+      -
+        handle: film
+        field:
+          options:
+            'yes': 'Yes, this switch in particular is vastly improved when switch films are used.'
+            'no': 'The benefits of using switch films on these are negligible. Considered not worth using.'
+            no-fit: 'No, and in addition, it has been found that switch films do not fit these switches.'
+            unknown: 'Not able to find any data. Add link on website encouraging anyone with experience to get in touch.'
+          inline: false
+          cast_booleans: false
+          display: 'Does this switch benefit from being switch filmed?'
+          default: unknown
+          type: radio
+          icon: radio
+          instructions: 'Switch films help keep switches more stable, reducing movement and wobbling.  [Great explanation video here](https://youtu.be/ndT_TTQLflI). [Great demonstration video here](https://gfycat.com/unlinedsmartleafhopper)  **Note: Kailh switches are not compatible with films.**'
+          listable: hidden
+      -
+        handle: film_notes
+        field:
+          display: 'Film notes'
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          type: markdown
+          icon: markdown
+          instructions: 'Do some films work and others not? Which work best? THICC films, Deskeys, TX, Kebo?'
+          listable: hidden
+      -
+        handle: notes
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          display: 'General notes'
+          type: markdown
+          icon: markdown
+          instructions: '(markdown format supported)'
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: manufacturer
+        field:
+          type: terms
+          taxonomies:
+            - manufacturers
+          display: Manufacturer
+          mode: select
+          listable: true
+          max_items: 1
+      -
+        handle: brand
+        field:
+          type: terms
+          taxonomies:
+            - brands
+          display: Brand
+          mode: select
+          listable: true
+          max_items: 1
+      -
+        handle: switch_type
+        field:
+          options:
+            linear: Linear
+            tactile: Tactile
+            clicky-jacket: 'Clicky (click-jacket)'
+            clicky-bar: 'Clicky (click-bar)'
+            click-leaf: 'Clicky (click-leaf, ALPS style)'
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: 'Switch type'
+          default: linear
+          type: select
+          icon: select
+          instructions: 'eg. Linear, tactile, clicky'
+          listable: true
+          validate:
+            - required
+      -
+        handle: mount
+        field:
+          options:
+            3: '3-pin (Plate mount)'
+            5: '5-pin (PCB mount)'
+            both: 'Available in both versions'
+          multiple: false
+          clearable: false
+          searchable: false
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: 'Mount type'
+          default: 5
+          type: select
+          icon: select
+          listable: hidden
+      -
+        handle: stem_construction
+        field:
+          options:
+            standard: Standard
+            box: 'Kailh Box'
+            top-only: 'Top only (eg. Kangaroo switches)'
+            cap: 'Long inner post (eg. Gateron cap)'
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: true
+          display: 'Stem construction'
+          default: standard
+          type: select
+          icon: select
+          instructions: 'Does the stem have a box surround or other non-standard design?'
+          listable: hidden
+  specs:
+    display: Specs
+    fields:
+      -
+        handle: variations
+        field:
+          display: Variations
+          type: section
+          icon: section
+          instructions: 'Some switches have multiple spring weighting options (Zealios for example) and also different stem/housing colours with different weightings (Gateron Laser).<br /><br />**Most switches will only have one entry here but in cases where there is more than one, the first one will be shown on the main website listing.**<br /><br /> **Nylon** (Polyamide) | **PC** (Polycarbonate) | **POM** (Polyoxymethylene) | **UHMWPE** (Ultra-high-molecular-weight polyethylene).<br /><br /><span style="color:#ff0000">If using black please use **<span style="colour:#3a4045;">#3a4045</span>** instead of **<span style="colour:#000000;">#000000</span>** – otherwise the switch icon loses all shading and contrast.</span><br /><br />Here are some great links to figures and stats already out there on the web if you''re struggling for numbers: <a href="https://thegamingsetup.com/gaming-keyboard/buying-guides/keyboard-switch-chart-table" target="_blank">thegamingsetup.com</a>, <a href="https://docs.google.com/spreadsheets/d/161QQynxAtsbUrHK81T7RnCztNaHFYbJXSrnz8kuApJo/edit#gid=0" target="_blank">Google spreadsheet 1</a>, <a href="https://docs.google.com/spreadsheets/d/1_h6m9-uVLrGwdeIYT7fiMwCVT5jNkijPGHPK2jfhiRI/edit#gid=0" target="_blank">Google spreadsheet 2</a>, <a href="https://mechwiki.com/category/switches/" target="_blank">Mechwiki</a>, <a href="https://docs.google.com/spreadsheets/d/1TJAIiWmwYkhnI_w5xcOl_RRXZvgYcJoAfOxHFholcFE/edit#gid=1735254964" target="_blank">Switch data</a>'
+          listable: hidden
+      -
+        handle: specs
+        field:
+          fields:
+            -
+              handle: name
+              field:
+                input_type: text
+                display: 'Variation name'
+                type: text
+                icon: text
+                instructions: 'Not always necessary because sometimes it''s just a different weighting, for example in the case of Tealios, Zealios etc. that come in 63.5g, 65g, 67g etc.<br /> But in the case of YOK Trash/Polar/Red Pandas it''s important to give them a name because they''re all the same switch just different recolours.'
+                listable: hidden
+            -
+              handle: description
+              field:
+                display: Description
+                restrict: false
+                automatic_line_breaks: true
+                automatic_links: false
+                escape_markup: false
+                smartypants: false
+                type: markdown
+                icon: markdown
+                listable: hidden
+            -
+              handle: weights_section
+              field:
+                display: 'Weights and numbers'
+                type: section
+                icon: section
+                listable: hidden
+            -
+              handle: actuation
+              field:
+                placeholder: 'eg. 67'
+                input_type: number
+                append: g
+                antlers: false
+                display: Actuation
+                type: text
+                icon: text
+                instructions: 'In Grammes'
+                width: 25
+                listable: hidden
+                validate:
+                  - numeric
+            -
+              handle: bottom-out
+              field:
+                placeholder: 'eg. 67'
+                input_type: number
+                append: g
+                antlers: false
+                display: Bottom-out
+                type: text
+                icon: text
+                instructions: 'In Grammes'
+                width: 25
+                listable: hidden
+                validate:
+                  - numeric
+            -
+              handle: pre-travel
+              field:
+                placeholder: 'eg. 1.00'
+                input_type: number
+                append: mm
+                antlers: false
+                display: 'Pre-travel/Actuation point'
+                type: text
+                icon: text
+                instructions: 'In Millimetres'
+                width: 25
+                listable: hidden
+                validate:
+                  - numeric
+            -
+              handle: total-travel
+              field:
+                placeholder: 'eg. 1.00'
+                input_type: number
+                append: mm
+                antlers: false
+                display: Total-travel
+                type: text
+                icon: text
+                instructions: 'In Millimetres'
+                width: 25
+                listable: hidden
+                validate:
+                  - numeric
+            -
+              handle: spring_section
+              field:
+                display: Spring
+                type: section
+                icon: section
+                listable: hidden
+            -
+              handle: spring
+              field:
+                options:
+                  standard: 'Standard (stainless steel)'
+                  gold-plated: Gold-plated
+                  coated: 'Color coated'
+                  long: 'Long spring'
+                  progressive: Progressive
+                  kailh: 'Kailh Box (smaller than MX)'
+                inline: false
+                cast_booleans: false
+                display: Spring
+                default: standard
+                type: radio
+                icon: radio
+                listable: hidden
+            -
+              handle: spring_color
+              field:
+                theme: nano
+                lock_opacity: true
+                default_color_mode: HEXA
+                color_modes:
+                  - hex
+                display: 'Spring colour'
+                type: color
+                icon: color
+                listable: hidden
+                width: 25
+                if_any:
+                  spring: 'equals coated'
+            -
+              handle: spring_color_info
+              field:
+                display: 'Spring color info'
+                type: textarea
+                icon: textarea
+                instructions: 'eg. The springs in these switches have a black coating to help reduce spring noise.'
+                listable: hidden
+                if:
+                  spring: 'equals coated'
+                width: 75
+            -
+              handle: spring_swap
+              field:
+                display: 'Spring swap info'
+                type: textarea
+                icon: textarea
+                instructions: 'eg. Widely reviewed as having noisy springs.'
+                listable: hidden
+                if:
+                  spring: 'equals coated'
+            -
+              handle: stem_section
+              field:
+                display: Stem
+                type: section
+                icon: section
+                listable: hidden
+            -
+              handle: stem_type
+              field:
+                options:
+                  coloured: 'Coloured (opaque)'
+                  transparent: 'Transparent (clear or coloured)'
+                  milky: Milky
+                  glow: 'Glow in the Dark'
+                inline: false
+                cast_booleans: false
+                display: Type
+                default: coloured
+                type: radio
+                icon: radio
+                instructions: 'For transparent leave the colour blank if it''s completely clear otherwise choose colour.'
+                listable: hidden
+            -
+              handle: stem_color
+              field:
+                theme: nano
+                lock_opacity: true
+                default_color_mode: HEXA
+                color_modes:
+                  - hex
+                display: 'Stem colour'
+                type: color
+                icon: color
+                listable: hidden
+            -
+              handle: stem_material
+              field:
+                options:
+                  nylon: Nylon
+                  pc: PC
+                  pcnylon: 'PC and Nylon mix'
+                  pom: POM
+                  uhmwpe: UHMWPE
+                  custom: Custom
+                default: pom
+                inline: true
+                cast_booleans: false
+                display: Material
+                type: radio
+                icon: radio
+                instructions: 'If in doubt, choose POM - most stems are POM'
+                listable: hidden
+            -
+              handle: stem_custom_material_notes
+              field:
+                display: 'Custom material notes'
+                type: textarea
+                icon: textarea
+                listable: hidden
+                if:
+                  stem_material: 'equals custom'
+            -
+              handle: housing_top_section
+              field:
+                display: 'Housing (top)'
+                type: section
+                icon: section
+                listable: hidden
+            -
+              handle: housing_top_type
+              field:
+                options:
+                  coloured: 'Coloured (opaque)'
+                  transparent: 'Transparent (clear or coloured)'
+                  milky: Milky
+                  glow: 'Glow in the Dark'
+                inline: false
+                cast_booleans: false
+                display: Type
+                default: coloured
+                type: radio
+                icon: radio
+                instructions: 'For transparent leave the colour blank if it''s completely clear otherwise choose colour.'
+                listable: hidden
+            -
+              handle: housing_top_color
+              field:
+                theme: nano
+                lock_opacity: true
+                default_color_mode: HEXA
+                color_modes:
+                  - hex
+                display: 'Housing colour'
+                type: color
+                icon: color
+                listable: hidden
+            -
+              handle: housing_top_material
+              field:
+                options:
+                  nylon: Nylon
+                  pc: PC
+                  pcnylon: 'PC and Nylon mix'
+                  pom: POM
+                  uhmwpe: UHMWPE
+                  custom: Custom
+                default: nylon
+                inline: true
+                cast_booleans: false
+                display: Material
+                type: radio
+                icon: radio
+                listable: hidden
+            -
+              handle: housing_top_custom_material_notes
+              field:
+                display: 'Custom material notes'
+                type: textarea
+                icon: textarea
+                listable: hidden
+                if:
+                  stem_material: 'equals custom'
+            -
+              handle: housing_bottom_section
+              field:
+                display: 'Housing (bottom)'
+                type: section
+                icon: section
+                listable: hidden
+            -
+              handle: housing_bottom_type
+              field:
+                options:
+                  coloured: 'Coloured (opaque)'
+                  transparent: 'Transparent (clear or coloured)'
+                  milky: Milky
+                  glow: 'Glow in the Dark'
+                inline: false
+                cast_booleans: false
+                display: Type
+                default: coloured
+                type: radio
+                icon: radio
+                instructions: 'For transparent leave the colour blank if it''s completely clear otherwise choose colour.'
+                listable: hidden
+            -
+              handle: housing_bottom_color
+              field:
+                theme: nano
+                lock_opacity: true
+                default_color_mode: HEXA
+                color_modes:
+                  - hex
+                display: 'Housing colour'
+                type: color
+                icon: color
+                listable: hidden
+            -
+              handle: housing_bottom_material
+              field:
+                options:
+                  nylon: Nylon
+                  pc: PC
+                  pcnylon: 'PC and Nylon mix'
+                  pom: POM
+                  uhmwpe: UHMWPE
+                  custom: Custom
+                default: nylon
+                inline: true
+                cast_booleans: false
+                display: Material
+                type: radio
+                icon: radio
+                listable: hidden
+            -
+              handle: housing_bottom_custom_material_notes
+              field:
+                display: 'Custom material notes'
+                type: textarea
+                icon: textarea
+                listable: hidden
+                if:
+                  stem_material: 'equals custom'
+            -
+              handle: force_graph
+              field:
+                mode: grid
+                container: assets
+                folder: switches/force-graphs
+                restrict: true
+                allow_uploads: true
+                display: 'Force graph'
+                type: assets
+                icon: assets
+                instructions: 'Force graph data might be found here <a href="https://plotly.com/~haata" target="_blank">haata''''s plotly page</a>. Images for these can be extracted from each graph by browsing to a switch eg. for <a href="https://plotly.com/~haata/100" target="_blank">Gateron Brown</a> choose the embed icon option at the bottom. The link to the png version can be found there.'
+                listable: hidden
+            -
+              handle: led_support
+              field:
+                options:
+                  smd-and-inswitch: 'Both SMD and in-switch/through hole LED compatible'
+                  non-compat: 'Non-LED compatible'
+                  smd: 'SMD LED compatible'
+                  inswitch-through: 'In-switch/through-hole LED compatible ONLY'
+                inline: false
+                cast_booleans: false
+                display: 'LED Support'
+                type: radio
+                icon: radio
+                instructions: 'Does the switch have a space to allow light to shine through from beneath or allow space for LED''s?'
+                listable: hidden
+          mode: stacked
+          add_row: 'Add variation'
+          reorderable: true
+          display: Variations
+          type: grid
+          icon: grid
+          listable: hidden
+  prices:
+    display: Prices
+    fields:
+      -
+        handle: prices
+        field:
+          fields:
+            -
+              handle: price
+              field:
+                input_type: text
+                display: Price
+                type: text
+                icon: text
+                listable: hidden
+                placeholder: 'eg. 0.50'
+                antlers: false
+            -
+              handle: extra_text
+              field:
+                input_type: text
+                display: 'Extra text'
+                type: text
+                icon: text
+                listable: hidden
+            -
+              handle: source
+              field:
+                input_type: text
+                display: Source
+                type: text
+                icon: text
+                listable: hidden
+            -
+              handle: vendor
+              field:
+                type: terms
+                taxonomies:
+                  - vendors
+                display: Vendor
+                mode: select
+                listable: true
+                max_items: 1
+            -
+              handle: datecheck
+              field:
+                mode: single
+                time_enabled: false
+                time_required: false
+                earliest_date: '1900-01-01'
+                full_width: false
+                inline: false
+                columns: 1
+                rows: 1
+                display: 'Last checked'
+                type: date
+                icon: date
+                listable: hidden
+                instructions: 'Date this price and availability was last checked (not used for now).'
+            -
+              handle: in_stock
+              field:
+                display: 'In stock?'
+                type: toggle
+                icon: toggle
+                instructions: '(not used yet - for future functionality)'
+                listable: hidden
+          mode: table
+          reorderable: true
+          display: Prices
+          type: grid
+          icon: grid
+          instructions: 'Prices below will be listed in order that they appear here - <span style="color:#CF3947">The 1st item in list will appear in main list (before hover)</span><br /><br />Enter price from vendor website using local currency. Currency symbol will be added on the front-end. **Use 2 decimal places.**<br /><br />Extra text field useful for switches with multiple variations. eg. YOK Trash, Mint, Polar, Red Panda'
+          listable: hidden
+      -
+        handle: limited_run_section
+        field:
+          display: 'Limited run?'
+          type: section
+          icon: section
+          listable: hidden
+      -
+        handle: limited_run
+        field:
+          options:
+            'no': 'No, not limited but availability is down to vendor - some switches are more readily available than others'
+            'yes': 'Yes, these are limited in availability for the reasons below'
+          inline: false
+          cast_booleans: false
+          display: 'Limited run/Availability'
+          default: 'no'
+          type: radio
+          icon: radio
+          listable: hidden
+      -
+        handle: limited_run_reason
+        field:
+          options:
+            group_buy: 'Available via Group Buy'
+            limited_stock: 'Limited stock - available until stock depleted'
+            discontinued: Discontinued
+          inline: false
+          cast_booleans: false
+          display: 'Reason for limited availability'
+          default: 'no'
+          type: radio
+          icon: radio
+          listable: hidden
+      -
+        handle: limited_run_gb_enddate
+        field:
+          mode: single
+          time_enabled: false
+          time_required: false
+          earliest_date: '1900-01-01'
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: 'Group Buy end date'
+          type: date
+          icon: date
+          listable: hidden
+          if:
+            limited_run_reason: 'equals group_buy'
+      -
+        handle: limited_run_info
+        field:
+          display: 'Limited run - more information'
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          type: markdown
+          icon: markdown
+          instructions: 'If this switch was only available for a limited time give some background information here.'
+          listable: hidden
+  media:
+    display: Media
+    fields:
+      -
+        handle: photos_section
+        field:
+          display: Photos
+          type: section
+          icon: section
+          instructions: 'Be sure to add Photo attribution where applicable. Eg. "Photo attribution: NovelKeys"'
+          listable: hidden
+      -
+        handle: photos
+        field:
+          mode: grid
+          container: assets
+          folder: switches/photos
+          restrict: true
+          allow_uploads: true
+          display: Photos
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: videos_section
+        field:
+          display: 'Videos - Reviews and sound tests'
+          type: section
+          icon: section
+          instructions: 'Only YouTube videos are supported at the moment. When adding videos for the description use the video title and author.'
+          listable: hidden
+      -
+        handle: videos
+        field:
+          fields:
+            -
+              handle: item_url
+              field:
+                display: Video
+                type: video
+                icon: video
+                width: 50
+                listable: hidden
+            -
+              handle: description
+              field:
+                input_type: text
+                display: Description
+                type: text
+                icon: text
+                width: 50
+                listable: hidden
+                instructions: 'Use format "**Video title** by **Video author**"'
+                antlers: false
+          mode: stacked
+          reorderable: true
+          display: Videos
+          type: grid
+          icon: grid
+          listable: hidden
+          add_row: 'Add new video'
+  links_and_quotes:
+    display: 'Links & Quotes'
+    fields:
+      -
+        handle: related_links
+        field:
+          fields:
+            -
+              handle: item_url
+              field:
+                input_type: url
+                display: Url
+                type: text
+                icon: text
+                listable: hidden
+                width: 50
+            -
+              handle: description
+              field:
+                input_type: text
+                display: Description
+                type: text
+                icon: text
+                listable: hidden
+                width: 50
+          mode: table
+          reorderable: true
+          display: Links
+          type: grid
+          icon: grid
+          instructions: 'It''s worth checking [ThereminGoat''s GitHub PDF Repository of switch score sheets](https://github.com/ThereminGoat/switch-scores) if one exists for this switch then link it here.'
+          listable: hidden
+          add_row: 'Add new link'
+      -
+        handle: quotes
+        field:
+          fields:
+            -
+              handle: title
+              field:
+                placeholder: 'eg. "ThereminGoat" or "/u/MrJahoolious on Reddit"'
+                input_type: text
+                display: 'Attribution title'
+                type: text
+                icon: text
+                width: 50
+                listable: hidden
+            -
+              handle: source
+              field:
+                input_type: url
+                display: 'Attribution source'
+                type: text
+                icon: text
+                width: 50
+                listable: hidden
+                validate:
+                  - url
+            -
+              handle: text
+              field:
+                restrict: false
+                automatic_line_breaks: true
+                automatic_links: false
+                escape_markup: false
+                smartypants: false
+                display: Quote
+                type: markdown
+                icon: markdown
+                listable: hidden
+          mode: stacked
+          reorderable: true
+          display: Quotes
+          type: grid
+          icon: grid
+          listable: hidden
+          add_row: 'Add new quote'
+      -
+        handle: theremin_goat_scores
+        field:
+          fields:
+            -
+              handle: push_feel
+              field:
+                input_type: number
+                antlers: false
+                display: 'Push Feel'
+                type: text
+                icon: text
+                append: /35
+                width: 33
+                listable: hidden
+            -
+              handle: wobble
+              field:
+                input_type: number
+                antlers: false
+                display: Wobble
+                type: text
+                icon: text
+                append: /25
+                width: 33
+                listable: hidden
+            -
+              handle: sound
+              field:
+                input_type: number
+                antlers: false
+                display: Sound
+                type: text
+                icon: text
+                append: /10
+                width: 33
+                listable: hidden
+            -
+              handle: context
+              field:
+                input_type: number
+                append: /20
+                antlers: false
+                display: Context
+                type: text
+                icon: text
+                width: 33
+                listable: hidden
+            -
+              handle: other
+              field:
+                input_type: number
+                append: /10
+                antlers: false
+                display: Other
+                type: text
+                icon: text
+                width: 33
+                listable: hidden
+            -
+              handle: total
+              field:
+                input_type: number
+                append: /100
+                antlers: false
+                display: Total
+                type: text
+                icon: text
+                width: 33
+                listable: hidden
+            -
+              handle: score_card_link
+              field:
+                placeholder: 'eg. https://github.com/ThereminGoat/switch-scores/blob/master/Opblack.pdf'
+                input_type: url
+                antlers: false
+                display: 'PDF GitHub Score Card link'
+                type: text
+                icon: text
+                listable: hidden
+            -
+              handle: link_to_review
+              field:
+                placeholder: 'eg. https://www.theremingoat.com/blog/opblack-switch-review'
+                input_type: url
+                antlers: false
+                display: 'Link to full review on ThereminGoat.com'
+                type: text
+                icon: text
+                listable: hidden
+          mode: stacked
+          max_rows: 1
+          add_row: 'Add scores'
+          reorderable: false
+          display: 'Theremin Goat Scores'
+          type: grid
+          icon: grid
+          listable: hidden

@@ -1,0 +1,19 @@
+title: Salvun
+country: BE
+currency: EUR
+website: 'https://salvun.com/'
+favicon: vendors/favicons/972-salvun-logo_32x32.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/salvun/'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/Y6FSsYm'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615540606
+blueprint: vendors

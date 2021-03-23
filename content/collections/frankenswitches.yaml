@@ -1,0 +1,10 @@
+title: Frankenswitches
+amp: true
+template: frankenswitches/show
+layout: layout
+revisions: false
+sort_dir: asc
+default_status: draft
+date_behavior:
+  past: public
+  future: private

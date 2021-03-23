@@ -1,0 +1,14 @@
+title: 'Infinity Key'
+country: VN
+currency: USD
+website: 'https://infinitykey.zone/'
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/infinity.key'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1615547428
+blueprint: vendors
+favicon: Fly_girl_32x32.png
