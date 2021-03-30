@@ -16,8 +16,8 @@ specs:
     description: null
     actuation: 52
     bottom-out: 67
-    pre-travel: 2
-    total-travel: 4
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: gold-plated
     spring_color: null
     spring_color_info: null
@@ -62,7 +62,7 @@ prices:
     datecheck: '2020-03-11'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1616495254
+updated_at: 1617098139
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -74,5 +74,6 @@ theremin_goat_scores:
     total: 57
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Gateron%20N1.pdf'
     link_to_review: null
+stem_length: standard
 id: 07c36c57-2aea-4228-9c6b-d212e10cf7f2
 ---

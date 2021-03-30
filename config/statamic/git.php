@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'automatic' => env('STATAMIC_GIT_AUTOMATIC', true),
+    'automatic' => env('STATAMIC_GIT_AUTOMATIC', false),
 
     /*
     |--------------------------------------------------------------------------

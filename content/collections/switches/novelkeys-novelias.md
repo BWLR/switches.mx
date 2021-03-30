@@ -15,8 +15,8 @@ specs:
     description: null
     actuation: 55
     bottom-out: 90
-    pre-travel: 0
-    total-travel: 3
+    pre-travel: null
+    total-travel: '3.60'
     spring: kailh
     spring_color: null
     spring_color_info: null
@@ -59,7 +59,7 @@ quotes:
     source: 'https://www.reddit.com/r/MechanicalKeyboards/comments/8nl5rz/new_novelkeys_switch_novelias_limited_time_only/'
     text: '<p>This is going to be a heavier BOX Royal. 90g spring vs the stock 75g spring. &#8211; mgsickler (novelkeys.xyz)</p>'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1616495630
+updated_at: 1617096265
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -71,5 +71,6 @@ theremin_goat_scores:
     total: 62
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Novelias.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/from-the-vault-novelias'
+stem_length: standard
 id: 9b88dcf9-012e-450a-9bed-cdd3fbbdc3ee
 ---

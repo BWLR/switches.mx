@@ -9,16 +9,16 @@ manufacturer: durock
 brand: keebwerk
 switch_type: tactile
 mount: '5'
-stem_construction: 'standard'
+stem_construction: standard
 limited_run: 'yes'
 specs:
   -
     name: null
     description: null
-    actuation: 0
+    actuation: null
     bottom-out: 67
-    pre-travel: 2
-    total-travel: 3
+    pre-travel: '2.00'
+    total-travel: '3.8'
     spring: gold-plated
     spring_color: null
     spring_color_info: null
@@ -93,8 +93,9 @@ prices:
     datecheck: '2020-04-05'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1615223129
+updated_at: 1617098543
 limited_run_reason: limited_stock
 limited_run_info: 'Silent tactile switches with a Green Wasabi colored stem. Produced by JWK and available for only a short time on the Keebwerk website.'
+stem_length: standard
 id: 88484fe2-4fa7-4f7b-95ca-3cce752fe3cb
 ---

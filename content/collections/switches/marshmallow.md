@@ -1,47 +1,48 @@
 ---
 title: 'Thic Thock x JWK Marshmallow'
 volume: normal
-volume_notes: ''
-factory_lubed: no
-lubrication_notes: '<p>any lube that would normally be used in linear switches that’s relatively thin would be an excellent fit for these switches.</p>
-'
-film: yes
-film_notes: '<p>V1 Marshmallows will improve with Filming while filming V2 Marshmallows isn&#8217;t necessary.</p>
-'
-notes: |-
-  <p>Marshmallows are a JWK linear recolor created/designed by Thic Thock, currently the only swith that bring an aftermarket progressive spring stock from the factory on the market.</p>
+factory_lubed: 'no'
+lubrication_notes: '<p>any lube that would normally be used in linear switches that’s relatively thin would be an excellent fit for these switches.</p>'
+film: 'yes'
+film_notes: '<p>V1 Marshmallows will improve with Filming while filming V2 Marshmallows isn&#8217;t necessary.</p>'
+notes: '<p>Marshmallows are a JWK linear recolor created/designed by Thic Thock, currently the only swith that bring an aftermarket progressive spring stock from the factory on the market.</p>'
 manufacturer: jwk
 brand: thic-thock
 switch_type: linear
 mount: '5'
-stem_construction: 'standard'
+stem_construction: standard
 limited_run: 'no'
 specs:
   -
-    name:
-    description: ''
+    name: null
+    description: null
     actuation: 50
     bottom-out: 68
-    pre-travel: 1.4
-    total-travel:
+    pre-travel: '1.40'
+    total-travel: null
     spring: gold-plated
-    spring_color: ''
-    spring_color_info: ''
+    spring_color: null
+    spring_color_info: null
     spring_swap: 'Thic Thocks own MP springs come stock in the Marshmallow.'
     stem_type: coloured
-    stem_color: '#f5b6cd'
+    stem_color: '#F5B6CD'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: coloured
-    housing_top_color: '#dddae8'
+    housing_top_color: '#DDDAE8'
     housing_top_material: nylon
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#dddae8'
+    housing_bottom_color: '#DDDAE8'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
 photos:
   - switches/photos/marshmallow-KabrjaD-scaled.jpg
   - switches/photos/marshmallow-oUt7dhf-scaled.jpg
@@ -106,6 +107,8 @@ prices:
     datecheck: '2020-12-17'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1608242093
+updated_at: 1617104538
+stem_length: standard
+limited_run_reason: 'no'
 id: e0079e39-5cf7-4606-b789-32eb26e3c131
 ---

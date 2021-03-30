@@ -15,8 +15,8 @@ specs:
     weights_section: null
     actuation: 62
     bottom-out: 67
-    pre-travel: 0
-    total-travel: 0
+    pre-travel:
+    total-travel:
     spring_section: null
     spring: gold-plated
     spring_color: null
@@ -46,8 +46,8 @@ specs:
     weights_section: null
     actuation: 67
     bottom-out: 72
-    pre-travel: 0
-    total-travel: 0
+    pre-travel:
+    total-travel:
     spring_section: null
     spring: gold-plated
     spring_color: null

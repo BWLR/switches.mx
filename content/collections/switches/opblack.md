@@ -16,8 +16,8 @@ specs:
     description: null
     actuation: 55
     bottom-out: 65
-    pre-travel: 0
-    total-travel: 0
+    pre-travel:
+    total-travel:
     spring: standard
     spring_color: null
     spring_color_info: 'opblack switches use Thicthock DL Series Springs'

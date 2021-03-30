@@ -1,49 +1,50 @@
 ---
 title: 'Gateron Black Inks'
 volume: normal
-volume_notes: ''
 factory_lubed: slight
-lubrication_notes: '<p>Gateron Black Inks respond particularly well to being lubricated. Krytox 205 Grade 0 is a great choice for an extra smooth feeling switch.</p>
-'
-film: yes
-film_notes: '<p>Switchandclick.com &#8211; We used a thinner switch film from the Kebo Store and found that it allowed the switch to rest more firmly in the plate and reduce the overall wobble of the Gateron Ink Black switches.</p>
-'
-notes: |-
-  <p>Black Inks are a well loved linear switch in community. Smooth from stock due to the custom housing material and coated spring but especially smooth with a great sound after lubing.</p><p>Note. The first version of Gateron Black Ink switches had minor issues with the leafs being loose and prone to falling out when dismantled. As of November 2019 that issue has been resolved.</p>
+lubrication_notes: '<p>Gateron Black Inks respond particularly well to being lubricated. Krytox 205 Grade 0 is a great choice for an extra smooth feeling switch.</p>'
+film: 'yes'
+film_notes: '<p>Switchandclick.com &#8211; We used a thinner switch film from the Kebo Store and found that it allowed the switch to rest more firmly in the plate and reduce the overall wobble of the Gateron Ink Black switches.</p>'
+notes: '<p>Black Inks are a well loved linear switch in community. Smooth from stock due to the custom housing material and coated spring but especially smooth with a great sound after lubing.</p><p>Note. The first version of Gateron Black Ink switches had minor issues with the leafs being loose and prone to falling out when dismantled. As of November 2019 that issue has been resolved.</p>'
 manufacturer: gateron
 brand: novelkeys
 switch_type: linear
 mount: '5'
-stem_construction: 'standard'
+stem_construction: standard
 limited_run: 'no'
 specs:
   -
-    name:
-    description: ''
+    name: null
+    description: null
     actuation: 60
     bottom-out: 70
-    pre-travel: 2
-    total-travel: 4
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: coated
     spring_color: '#333031'
     spring_color_info: 'The springs in these switches have a black coating to help reduce spring noise.'
-    spring_swap: ''
+    spring_swap: null
     stem_type: coloured
     stem_color: '#333031'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: transparent
     housing_top_color: '#333031'
     housing_top_material: custom
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: transparent
     housing_bottom_color: '#333031'
     housing_bottom_material: custom
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
   -
-    name: Silent Black Ink
+    name: 'Silent Black Ink'
     description: 'The same switch, but this variant has two rubber dampers underneath the stem.'
     actuation: 60
     bottom-out: 70
@@ -52,21 +53,26 @@ specs:
     spring: coated
     spring_color: '#333031'
     spring_color_info: 'The springs in these switches have a black coating to help reduce spring noise.'
-    spring_swap: ''
+    spring_swap: null
     stem_type: coloured
     stem_color: '#333031'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: transparent
     housing_top_color: '#333031'
     housing_top_material: custom
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: transparent
     housing_bottom_color: '#333031'
     housing_bottom_material: custom
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
 photos:
   - switches/photos/gateron-black-inks-iKxvNnbjTHykt7OsJPFw_1500x1000_MEC_NovelKeys_Gateron_Ink_Switches_MD-85764-TH4047.jpg
   - switches/photos/gateron-black-inks-Qsq4DSwQNiiO6tV7t39Z_1500x1000_MEC_NovelKeys_Gateron_Ink_Switches_MD-85764-TH4011.jpg
@@ -193,6 +199,8 @@ prices:
     datecheck: '2020-02-12'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1581505532
+updated_at: 1617107076
+stem_length: standard
+limited_run_reason: 'no'
 id: 427af87c-c983-4213-a5e1-064d5cdc1860
 ---

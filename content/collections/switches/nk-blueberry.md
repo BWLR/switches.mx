@@ -1,53 +1,54 @@
 ---
 title: 'NK_ Blueberry'
 volume: normal
-volume_notes: ''
-factory_lubed: no
-lubrication_notes: '<p>Being an all POM switch Blueberry&#8217;s, like Creams, are pretty smooth anyway but there is some noticeable friction. A small amount of Krytox 205 Grade 0 works well on these.</p>
-'
-film: yes
-film_notes: ''
-notes: |-
-  <p>Constructed of the same material as the Cream switches but with a new tactile stem. Very long tactile bump that ends at 3mm &#8211; which is the actuation point. </p>
+factory_lubed: 'no'
+lubrication_notes: '<p>Being an all POM switch Blueberry&#8217;s, like Creams, are pretty smooth anyway but there is some noticeable friction. A small amount of Krytox 205 Grade 0 works well on these.</p>'
+film: 'yes'
+notes: '<p>Constructed of the same material as the Cream switches but with a new tactile stem. Very long tactile bump that ends at 3mm &#8211; which is the actuation point. </p>'
 manufacturer: kailh
 brand: novelkeys
 switch_type: tactile
 mount: '5'
-stem_construction: 'standard'
+stem_construction: standard
 limited_run: 'no'
 specs:
   -
-    name:
-    description: ''
+    name: null
+    description: null
     actuation: 55
     bottom-out: 80
-    pre-travel: 3
-    total-travel: 4
+    pre-travel: '3.00'
+    total-travel: '4.00'
     spring: standard
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
-    stem_color: '#0040f7'
+    stem_color: '#0040F7'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: coloured
-    housing_top_color: '#faf1e1'
+    housing_top_color: '#FAF1E1'
     housing_top_material: pom
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#faf1e1'
+    housing_bottom_color: '#FAF1E1'
     housing_bottom_material: pom
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph:
       - switches/force-graphs/nk-blueberry-force-graph.png
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
 photos:
   - switches/photos/nk-blueberry-Blueberry_1024x1024@2x.png
 videos:
   -
     item_url: 'https://www.youtube.com/watch?v=QSdr-VYS_1o'
-    description: ' 5:28 / 8:58 Which Switch: Blueberry Analysis and Thoughts by Manofinterests'
+    description: '5:28 / 8:58 Which Switch: Blueberry Analysis and Thoughts by Manofinterests'
   -
     item_url: 'https://www.youtube.com/watch?v=SLqGjNRPXkU?start=4376'
     description: 'NovelKeys Blueberry Switch Reveal Stream'
@@ -102,6 +103,8 @@ prices:
     datecheck: '2020-10-03'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1589198043
+updated_at: 1617106994
+stem_length: standard
+limited_run_reason: 'no'
 id: dda17c45-d472-424f-b3d1-2d5a24efa6eb
 ---

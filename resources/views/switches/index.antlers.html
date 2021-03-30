@@ -49,7 +49,7 @@
 
                             <div class="switchesmx-list__pagination-summary">
                                 {{ current_page }} of {{ total_pages }} pages
-                                <span class="switchesmx-list__pagination-summary-total">(There are {{ total_items }} switches)</span>
+                                <span class="switchesmx-list__pagination-summary-total">(There are {{ total_items }} switches{{ if get:search | get:manufacturer | get:brand | get:switch-type }} that match your search{{ /if }})</span>
                             </div>
                         {{ /paginate }}
                     </div>

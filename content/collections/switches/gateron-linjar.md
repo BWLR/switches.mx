@@ -7,16 +7,16 @@ manufacturer: gateron
 brand: gateron
 switch_type: linear
 mount: '5'
-stem_construction: 'standard'
+stem_construction: standard
 limited_run: 'yes'
 specs:
   -
     name: null
     description: null
-    actuation: 0
+    actuation: null
     bottom-out: 65
-    pre-travel: 2
-    total-travel: 4
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: gold-plated
     spring_color: null
     spring_color_info: null
@@ -101,10 +101,11 @@ prices:
     datecheck: '2020-01-31'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1614965307
+updated_at: 1617103656
 limited_run_info: |-
   Designed by the Swedish keyboard community as a one off on a non-profit basis.
   The group buy ran until February 20, 2019 with the switches being shipped out in March - April, 2019.
 limited_run_reason: group_buy_ended
+stem_length: standard
 id: 88a8bf10-ada6-4f66-91d3-89c759f94950
 ---

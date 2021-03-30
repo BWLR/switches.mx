@@ -1,145 +1,165 @@
 ---
 title: 'Gateron Black'
 volume: normal
-volume_notes: ''
 factory_lubed: slight
-lubrication_notes: ''
 film: unknown
-film_notes: ''
-notes: |-
-
 manufacturer: gateron
 brand: gateron
 switch_type: linear
-mount: 'both'
-stem_construction: 'standard'
+mount: both
+stem_construction: standard
 limited_run: 'no'
 specs:
   -
     name: KS-8
-    description: ''
+    description: null
     actuation: 60
     bottom-out: 75
-    pre-travel: 2.00
-    total-travel: 4.00
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: standard
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
-    stem_color: '#3a4045'
+    stem_color: '#3A4045'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: transparent
-    housing_top_color: ''
+    housing_top_color: null
     housing_top_material: pcnylon
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#3a4045'
+    housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: inswitch-through
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
   -
     name: KS-3x1
-    description: ''
+    description: null
     actuation: 60
     bottom-out: 75
-    pre-travel: 2.00
-    total-travel: 4.00
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: standard
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
-    stem_color: '#3a4045'
+    stem_color: '#3A4045'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: milky
-    housing_top_color: ''
+    housing_top_color: null
     housing_top_material: pcnylon
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: milky
-    housing_bottom_color: ''
+    housing_bottom_color: null
     housing_bottom_material: pcnylon
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: inswitch-through
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
   -
     name: KS-3
-    description: ''
+    description: null
     actuation: 60
     bottom-out: 75
-    pre-travel: 2.00
-    total-travel: 4.00
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: standard
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
-    stem_color: '#3a4045'
+    stem_color: '#3A4045'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: coloured
-    housing_top_color: '#3a4045'
+    housing_top_color: '#3A4045'
     housing_top_material: nylon
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#3a4045'
+    housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: inswitch-through
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
   -
     name: KS-3X47
-    description: ''
+    description: null
     actuation: 60
     bottom-out: 75
-    pre-travel: 2.00
-    total-travel: 4.00
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: standard
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
-    stem_color: '#3a4045'
+    stem_color: '#3A4045'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: milky
-    housing_top_color: ''
+    housing_top_color: null
     housing_top_material: pcnylon
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#3a4045'
+    housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: inswitch-through
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
   -
     name: KS-9
-    description: ''
+    description: null
     actuation: 60
     bottom-out: 75
-    pre-travel: 2.00
-    total-travel: 4.00
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: standard
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
-    stem_color: '#3a4045'
+    stem_color: '#3A4045'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: transparent
-    housing_top_color: ''
+    housing_top_color: null
     housing_top_material: pcnylon
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#ffffff'
+    housing_bottom_color: '#FFFFFF'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
 photos:
   - switches/photos/gateron-black-GateronBlackKS9ObliqueRight-gateron.jpg
   - switches/photos/gateron-black-GateronBlackKS8TopBottom-gateron.jpg
@@ -179,6 +199,8 @@ prices:
     datecheck: '2020-10-28'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1576186263
+updated_at: 1617109984
+stem_length: standard
+limited_run_reason: 'no'
 id: c642d426-a157-410b-92b4-af58fe7f9db3
 ---

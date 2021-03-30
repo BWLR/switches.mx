@@ -15,10 +15,10 @@ specs:
   -
     name: 'Standard Tealio'
     description: null
-    actuation: 0
+    actuation: null
     bottom-out: 67
-    pre-travel: 0
-    total-travel: 4
+    pre-travel: null
+    total-travel: '4.00'
     spring: gold-plated
     spring_color: null
     spring_color_info: null
@@ -45,10 +45,10 @@ specs:
   -
     name: 'Turquoise Tealios'
     description: null
-    actuation: 0
+    actuation: null
     bottom-out: 65
-    pre-travel: 0
-    total-travel: 0
+    pre-travel: null
+    total-travel: '4.00'
     spring: gold-plated
     spring_color: null
     spring_color_info: null
@@ -75,10 +75,10 @@ specs:
   -
     name: 'Turquoise Tealios'
     description: null
-    actuation: 0
+    actuation: null
     bottom-out: 63
-    pre-travel: 0
-    total-travel: 0
+    pre-travel: null
+    total-travel: '4.00'
     spring: gold-plated
     spring_color: null
     spring_color_info: null
@@ -197,7 +197,8 @@ prices:
     datecheck: '2020-02-12'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1616497133
+updated_at: 1617015556
 limited_run_reason: 'no'
+stem_length: standard
 id: 6c0b892a-f363-481d-95ca-43eb3c1a2068
 ---

@@ -13,10 +13,10 @@ specs:
   -
     name: null
     description: null
-    actuation: 0
+    actuation: null
     bottom-out: 67
-    pre-travel: 0
-    total-travel: 4
+    pre-travel: null
+    total-travel: '4.00'
     spring: standard
     spring_color: null
     spring_color_info: null
@@ -75,7 +75,7 @@ prices:
     datecheck: '2020-09-28'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1616496463
+updated_at: 1617012198
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
