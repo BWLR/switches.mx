@@ -1,47 +1,48 @@
 ---
 title: 'Everglide Oreo'
 volume: normal
-volume_notes: ''
 factory_lubed: slight
-lubrication_notes: '<p>There&#8217;ve been a few mentions that the Everglide Oreos can feel &#8216;scratchy&#8217; in their stock form. A moderate application of lube, such as Tribosys 3204 or Krytox 205g0 can assist in this regard. Always remember that your mileage, especially with switch lubing, may vary.</p>
-'
-film: yes
-film_notes: '<p>The Everglide Oreos will benefit from switch filming. Films such as TX Clear can assist in lowering the <a href="https://drop.com/buy/everglide-oreo-mechanical-switches/reviews?sort=highestRated&amp;search=film">wobble</a> and improving the overall sound, which has been regarded as &#8216;rattly&#8217; due to the looser top housing.</p>
-'
-notes: |-
-  <p>A subtly punchy and decent sounding tactile option at an affordable price-point. The tactile bump is pronounced, starts high, and has virtually no pre-travel. The Everglide Oreo switch benefits from lubing and filming to eliminate inconsistencies and improve the overall sound and feel.</p>
+lubrication_notes: '<p>There&#8217;ve been a few mentions that the Everglide Oreos can feel &#8216;scratchy&#8217; in their stock form. A moderate application of lube, such as Tribosys 3204 or Krytox 205g0 can assist in this regard. Always remember that your mileage, especially with switch lubing, may vary.</p>'
+film: 'yes'
+film_notes: '<p>The Everglide Oreos will benefit from switch filming. Films such as TX Clear can assist in lowering the <a href="https://drop.com/buy/everglide-oreo-mechanical-switches/reviews?sort=highestRated&amp;search=film">wobble</a> and improving the overall sound, which has been regarded as &#8216;rattly&#8217; due to the looser top housing.</p>'
+notes: '<p>A subtly punchy and decent sounding tactile option at an affordable price-point. The tactile bump is pronounced, starts high, and has virtually no pre-travel. The Everglide Oreo switch benefits from lubing and filming to eliminate inconsistencies and improve the overall sound and feel.</p>'
 manufacturer: jwk
 brand: everglide
 switch_type: tactile
 mount: '5'
-stem_construction: 'standard'
+stem_construction: standard
 limited_run: 'no'
 specs:
   -
-    name:
-    description: ''
+    name: null
+    description: null
     actuation: 55
     bottom-out: 62
-    pre-travel: 2.00
-    total-travel: 4.00
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: gold-plated
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
-    stem_color: '#ffffff'
+    stem_color: '#FFFFFF'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: transparent
-    housing_top_color: '#3a4045'
+    housing_top_color: '#3A4045'
     housing_top_material: nylon
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: transparent
-    housing_bottom_color: '#3a4045'
+    housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
 photos:
   - switches/photos/everglide-oreo-everglide-oreo.jpg
   - switches/photos/everglide-oreo-everglide-oreo2.jpg
@@ -144,6 +145,8 @@ prices:
     datecheck: '2020-10-01'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1576495009
+updated_at: 1617107250
+stem_length: standard
+limited_run_reason: 'no'
 id: a407ac31-f27e-437e-9a64-b97e3bb34d2f
 ---

@@ -15,10 +15,10 @@ specs:
   -
     name: 60g
     description: null
-    actuation: 0
+    actuation: null
     bottom-out: 60
-    pre-travel: 2
-    total-travel: 4
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: coated
     spring_color: '#3A4045'
     spring_color_info: null
@@ -45,10 +45,10 @@ specs:
   -
     name: 70g
     description: null
-    actuation: 0
+    actuation: null
     bottom-out: 70
-    pre-travel: 2
-    total-travel: 4
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: coated
     spring_color: '#3A4045'
     spring_color_info: null
@@ -75,10 +75,10 @@ specs:
   -
     name: 80g
     description: null
-    actuation: 0
+    actuation: null
     bottom-out: 80
-    pre-travel: 2
-    total-travel: 4
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: coated
     spring_color: '#3A4045'
     spring_color_info: null
@@ -105,10 +105,10 @@ specs:
   -
     name: 100g
     description: null
-    actuation: 0
+    actuation: null
     bottom-out: 100
-    pre-travel: 2
-    total-travel: 4
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: coated
     spring_color: '#3A4045'
     spring_color_info: null
@@ -222,7 +222,7 @@ prices:
     datecheck: '2020-07-13'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1616431271
+updated_at: 1617014116
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -234,5 +234,6 @@ theremin_goat_scores:
     total: 59
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Aliaz%20(80g).pdf'
     link_to_review: null
+stem_length: standard
 id: cdad64e5-59ca-433d-9f74-08a7cbc6b838
 ---

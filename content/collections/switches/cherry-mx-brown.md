@@ -17,8 +17,8 @@ specs:
     description: null
     actuation: 45
     bottom-out: 55
-    pre-travel: 2
-    total-travel: 4
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: standard
     spring_color: null
     spring_color_info: null
@@ -48,8 +48,8 @@ specs:
     description: null
     actuation: 45
     bottom-out: 55
-    pre-travel: 2
-    total-travel: 4
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: standard
     spring_color: null
     spring_color_info: null
@@ -203,7 +203,7 @@ prices:
     datecheck: '2020-04-16'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1616495053
+updated_at: 1617098295
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -215,5 +215,6 @@ theremin_goat_scores:
     total: 62
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Cherry%20MX%20Brown.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/cherry-mx-brown-switch-review'
+stem_length: standard
 id: a0b65452-cb61-45b4-8b06-fd0ba62bfe1b
 ---

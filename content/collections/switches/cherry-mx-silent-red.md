@@ -1,71 +1,76 @@
 ---
 title: 'Cherry MX Silent Red'
 volume: silent
-volume_notes: ''
-factory_lubed: no
-lubrication_notes: ''
+factory_lubed: 'no'
 film: unknown
-film_notes: ''
-notes: |-
-
 manufacturer: cherry
 brand: cherry-mx
 switch_type: linear
-mount: 'both'
-stem_construction: 'standard'
+mount: both
+stem_construction: standard
 limited_run: 'no'
 specs:
   -
-    name:
-    description: ''
+    name: null
+    description: null
     actuation: 45
     bottom-out: 60
-    pre-travel: 1.90
-    total-travel: 3.70
+    pre-travel: '1.90'
+    total-travel: '3.70'
     spring: standard
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
-    stem_color: '#ec7575'
+    stem_color: '#EC7575'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: coloured
-    housing_top_color: '#3a4045'
+    housing_top_color: '#3A4045'
     housing_top_material: nylon
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#3a4045'
+    housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph:
       - switches/force-graphs/475.png
     led_support: inswitch-through
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
   -
     name: RGB
-    description: ''
+    description: null
     actuation: 45
     bottom-out: 60
-    pre-travel: 1.90
-    total-travel: 3.70
+    pre-travel: 1.9
+    total-travel: 3.7
     spring: standard
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
-    stem_color: '#ec7575'
+    stem_color: '#EC7575'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: transparent
-    housing_top_color: ''
+    housing_top_color: null
     housing_top_material: nylon
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: transparent
-    housing_bottom_color: ''
+    housing_bottom_color: null
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
 photos:
   - switches/photos/cherry-mx-silent-red-800px-Cherry_MX_Silent_Red_-_infobox.jpg
   - switches/photos/cherry-mx-silent-red-silent_red.jpg
@@ -126,7 +131,7 @@ prices:
     in_stock: true
   -
     price: '0.65'
-    extra_text: 'RGB'
+    extra_text: RGB
     source: 'https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=6457'
     vendor: mechanicalkeyboards-com
     datecheck: '2020-07-06'
@@ -153,6 +158,8 @@ prices:
     datecheck: '2020-07-06'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1576187288
+updated_at: 1617109096
+stem_length: standard
+limited_run_reason: 'no'
 id: 3654f704-0116-419b-bf47-98dac5f6d8d9
 ---

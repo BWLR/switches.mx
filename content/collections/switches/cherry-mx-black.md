@@ -1,97 +1,108 @@
 ---
 title: 'Cherry MX Black'
 volume: normal
-volume_notes: ''
-factory_lubed: no
-lubrication_notes: '<p>To achieve a smooth butter feel Cherry MX Blacks are great with a thicker lube such as Krytox GPL 205 Grade 0.</p>
-'
+factory_lubed: 'no'
+lubrication_notes: '<p>To achieve a smooth butter feel Cherry MX Blacks are great with a thicker lube such as Krytox GPL 205 Grade 0.</p>'
 film: unknown
-film_notes: ''
-notes: |-
-  <p>Similar to Cherry MX Reds but with heavier springs.</p><p>Older (pre 1994) Cherry MX Black Switches are in high demand due to being far smoother than modern Cherry MX Black switches. This is due to a change in mold tooling &#8211; which is why newer switches are often referred to as &#8220;retooled&#8221;.</p>
+notes: '<p>Similar to Cherry MX Reds but with heavier springs.</p><p>Older (pre 1994) Cherry MX Black Switches are in high demand due to being far smoother than modern Cherry MX Black switches. This is due to a change in mold tooling &#8211; which is why newer switches are often referred to as &#8220;retooled&#8221;.</p>'
 manufacturer: cherry
 brand: cherry-mx
 switch_type: linear
 mount: '5'
-stem_construction: 'standard'
+stem_construction: standard
 limited_run: 'no'
 specs:
   -
-    name:
-    description: ''
+    name: null
+    description: null
     actuation: 60
     bottom-out: 80
-    pre-travel: 2.00
-    total-travel: 4.00
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: standard
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
-    stem_color: '#3a4045'
+    stem_color: '#3A4045'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: coloured
-    housing_top_color: '#3a4045'
+    housing_top_color: '#3A4045'
     housing_top_material: nylon
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#3a4045'
+    housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph:
       - switches/force-graphs/cherry-mx-black-retool-vintage-force.jpg
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
   -
     name: Hyperglide
     description: 'Introduced during CES 2020, these switches feature the new Cherry "Hyperglide" tooling which results in increased smoothness and tighter tolerances.'
     actuation: 60
     bottom-out: 80
-    pre-travel: 2.00
-    total-travel: 4.00
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: standard
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
-    stem_color: '#3a4045'
+    stem_color: '#3A4045'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: coloured
-    housing_top_color: '#3a4045'
+    housing_top_color: '#3A4045'
     housing_top_material: nylon
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#3a4045'
+    housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
   -
     name: RGB
-    description: ''
+    description: null
     actuation: 60
     bottom-out: 80
-    pre-travel: 2.00
-    total-travel: 4.00
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: standard
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
-    stem_color: '#3a4045'
+    stem_color: '#3A4045'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: transparent
-    housing_top_color: ''
+    housing_top_color: null
     housing_top_material: nylon
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: transparent
-    housing_bottom_color: ''
+    housing_bottom_color: null
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
 photos:
   - switches/photos/cherry-mx-black-kZDgK-deskthority.jpg
   - switches/photos/cherry-mx-black-CHERRY_MX1A-11NN_01.png
@@ -245,6 +256,8 @@ prices:
     datecheck: '2020-07-07'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1576187249
+updated_at: 1617109111
+stem_length: standard
+limited_run_reason: 'no'
 id: 72f5a3c4-924c-4c16-9d37-bf0641cc9f20
 ---

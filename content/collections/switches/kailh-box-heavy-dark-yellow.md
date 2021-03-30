@@ -9,7 +9,7 @@ manufacturer: kailh
 brand: novelkeys
 switch_type: linear
 mount: '3'
-stem_construction: 'box'
+stem_construction: box
 limited_run: 'no'
 specs:
   -
@@ -17,8 +17,8 @@ specs:
     description: null
     actuation: 70
     bottom-out: 80
-    pre-travel: 1
-    total-travel: 3
+    pre-travel: '1.80'
+    total-travel: '3.60'
     spring: kailh
     spring_color: null
     spring_color_info: 'Stainless steel, silver in color.'
@@ -123,6 +123,8 @@ prices:
     datecheck: '2020-08-07'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1614877106
+updated_at: 1617103767
+stem_length: standard
+limited_run_reason: 'no'
 id: f69d9811-d6a4-466d-be2f-51ff33f7d4d8
 ---

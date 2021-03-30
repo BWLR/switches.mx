@@ -17,8 +17,8 @@ specs:
     description: null
     actuation: 60
     bottom-out: 90
-    pre-travel: 1
-    total-travel: 3
+    pre-travel: '1.80'
+    total-travel: '3.60'
     spring: kailh
     spring_color: null
     spring_color_info: null
@@ -135,7 +135,7 @@ prices:
     datecheck: '2020-04-03'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1616495503
+updated_at: 1617096425
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -147,5 +147,6 @@ theremin_goat_scores:
     total: 77
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Kailh%20Box%20Navy.pdf'
     link_to_review: null
+stem_length: standard
 id: f9c12457-5c07-4102-ac5f-c13737b078f5
 ---

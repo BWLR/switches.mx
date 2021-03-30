@@ -1,46 +1,47 @@
 ---
 title: 'Cherry MX Green'
 volume: loud
-volume_notes: ''
-factory_lubed: no
-lubrication_notes: ''
+factory_lubed: 'no'
 film: unknown
-film_notes: ''
-notes: |-
-  <p>Heavier version of the more common Cherry MX Blue.</p>
+notes: '<p>Heavier version of the more common Cherry MX Blue.</p>'
 manufacturer: cherry
 brand: cherry-mx
 switch_type: clicky-jacket
-mount: 'both'
-stem_construction: 'standard'
+mount: both
+stem_construction: standard
 limited_run: 'no'
 specs:
   -
-    name:
-    description: ''
+    name: null
+    description: null
     actuation: 80
-    bottom-out:
-    pre-travel: 2.00
-    total-travel: 4.00
+    bottom-out: null
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: standard
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
     stem_color: '#179976'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: coloured
-    housing_top_color: '#3a4045'
+    housing_top_color: '#3A4045'
     housing_top_material: nylon
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#3a4045'
+    housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph:
       - switches/force-graphs/84.png
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
 photos:
   - switches/photos/cherry-mx-green-Cherry_MX_Green_1500x1000.jpg
   - switches/photos/cherry-mx-green-CherryMXGreen.png
@@ -131,6 +132,8 @@ prices:
     datecheck: '2020-06-26'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1576187413
+updated_at: 1617108884
+stem_length: standard
+limited_run_reason: 'no'
 id: 8ae38650-643d-40aa-b723-3a913a8416b1
 ---

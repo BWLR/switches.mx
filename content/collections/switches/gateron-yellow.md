@@ -17,9 +17,9 @@ specs:
     name: KS-8
     description: 'The most common Gateron switch (most Gateron re-colours including Merlots are of this series).<br /><br />Very basic, very standard. Somewhat smooth, wobble is okay, a very average switch overall.'
     actuation: 55
-    bottom-out: 63
-    pre-travel: 2
-    total-travel: 4
+    bottom-out: 63.5
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: standard
     spring_color: null
     spring_color_info: null
@@ -48,9 +48,9 @@ specs:
     name: KS-3X1
     description: 'Milky top and bottom. The scratchiest standard Gateron switch.'
     actuation: 55
-    bottom-out: 63
-    pre-travel: 2
-    total-travel: 4
+    bottom-out: 63.5
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: standard
     spring_color: null
     spring_color_info: null
@@ -78,9 +78,9 @@ specs:
     name: KS-3
     description: 'Best variation of this switch. They do not need films and are by far the smoothest Gateron switches/housings aside from Inks which while definitely smoother are also 6 times the price.<br /><br />Gateron Linjär and N1S switches are re-colours of the KS-3 for example. The fixing pins (for PCB-mounting) are somewhat wider than Cherry MX, giving a tighter fit. Supports two-pin LED''s only.'
     actuation: 55
-    bottom-out: 63
-    pre-travel: 2
-    total-travel: 4
+    bottom-out: 63.5
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: standard
     spring_color: null
     spring_color_info: null
@@ -108,9 +108,9 @@ specs:
     name: KS-3X47
     description: 'Having KS-3 in the name doesn''t mean the bottom is actually the KS-3 black bottom. The KS-3X47 black bottom is the same from the clear top black bottom Gaterons that everyone is familiar with.'
     actuation: 55
-    bottom-out: 63
-    pre-travel: 2
-    total-travel: 4
+    bottom-out: 63.5
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: standard
     spring_color: null
     spring_color_info: null
@@ -138,9 +138,9 @@ specs:
     name: KS-9
     description: 'The only Gaterons (other than inks) to support SMD lighting. Not the worst and probably smoother than the KS-8 in stock form.'
     actuation: 55
-    bottom-out: 63
-    pre-travel: 2
-    total-travel: 4
+    bottom-out: 63.5
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: standard
     spring_color: null
     spring_color_info: null
@@ -444,7 +444,7 @@ prices:
     datecheck: '2020-09-17'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1616495377
+updated_at: 1617097965
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -456,5 +456,6 @@ theremin_goat_scores:
     total: 72
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Gateron%20Yellow%20KS8.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/gateron-yellow-switch-review'
+stem_length: standard
 id: db131ceb-a4bf-474a-90fc-c3411f3ee6e0
 ---

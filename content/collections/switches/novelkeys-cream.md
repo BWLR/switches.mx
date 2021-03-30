@@ -17,8 +17,8 @@ specs:
     description: null
     actuation: 55
     bottom-out: 70
-    pre-travel: 2
-    total-travel: 4
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring: standard
     spring_color: null
     spring_color_info: null
@@ -217,7 +217,8 @@ prices:
     datecheck: '2020-09-17'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1616495592
+updated_at: 1617096309
 limited_run_reason: 'no'
+stem_length: standard
 id: d86e1bf2-4845-425c-9f2d-dc764b3be44a
 ---

@@ -8,7 +8,7 @@ manufacturer: jwk
 brand: matrix-labs
 switch_type: linear
 mount: '5'
-stem_construction: 'standard'
+stem_construction: standard
 limited_run: 'yes'
 specs:
   -
@@ -16,8 +16,8 @@ specs:
     description: null
     actuation: 45
     bottom-out: 62
-    pre-travel: 0
-    total-travel: 4
+    pre-travel: null
+    total-travel: '4.00'
     spring: gold-plated
     spring_color: null
     spring_color_info: null
@@ -83,7 +83,8 @@ prices:
     datecheck: '2020-09-17'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1614965579
+updated_at: 1617099153
 limited_run_reason: discontinued
+stem_length: standard
 id: 6b1c63c6-3216-4ea0-86ec-149d4de6d8f5
 ---

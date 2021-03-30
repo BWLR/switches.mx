@@ -155,6 +155,9 @@ body.is-modal {
 
         // Stem construction
         &__stem-construction {
+            &-length {
+                margin-top: $grid-gutter-width;
+            }
         }
 
         // General spec notes
@@ -208,12 +211,14 @@ body.is-modal {
         // Icon
         &__icon {
             height: 152px;
+            width: 120px;
             text-align: left;
             display: inline-block;
             margin: 0;
             margin-left: -120px;
             position: relative;
             z-index: 2;
+            zoom: 1;
 
             &-stem {
                 transform: scale3d(2, 2, 2);
@@ -228,6 +233,10 @@ body.is-modal {
             &-housing-bottom {
                 top: 86px;
                 transform: scale3d(2, 2, 2);
+
+                @media all and (-ms-high-contrast:none) {
+                    top: 84px;
+                }
             }
 
             &:hover {
@@ -241,7 +250,7 @@ body.is-modal {
         &__materials {
             position: absolute;
             top: 0;
-            left: -20px;
+            left: -37px;
             font-weight: bold;
             font-size: 12px;
             letter-spacing: -0.02em;
@@ -407,7 +416,7 @@ body.is-modal {
             &:before {
                 display: block;
                 top: auto;
-                bottom: 0;
+                bottom: 2px;
                 left: 0;
                 color: $smx-color-01;
                 font-size: 11px;

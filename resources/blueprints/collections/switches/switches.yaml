@@ -203,6 +203,24 @@ sections:
           icon: select
           instructions: 'Does the stem have a box surround or other non-standard design?'
           listable: hidden
+      -
+        handle: stem_length
+        field:
+          options:
+            standard: Standard
+            long: 'Long Pole (eg. Halo/Holy Panda'
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: true
+          display: 'Stem length'
+          default: standard
+          type: select
+          icon: select
+          instructions: 'Does the stem have a longer than normal stem eg. Halo/Holy Panda'
+          listable: hidden
   specs:
     display: Specs
     fields:
@@ -250,13 +268,13 @@ sections:
               handle: actuation
               field:
                 placeholder: 'eg. 67'
-                input_type: number
+                input_type: text
                 append: g
                 antlers: false
                 display: Actuation
                 type: text
                 icon: text
-                instructions: 'In Grammes'
+                instructions: 'Grammes'
                 width: 25
                 listable: hidden
                 validate:
@@ -265,13 +283,13 @@ sections:
               handle: bottom-out
               field:
                 placeholder: 'eg. 67'
-                input_type: number
+                input_type: text
                 append: g
                 antlers: false
                 display: Bottom-out
                 type: text
                 icon: text
-                instructions: 'In Grammes'
+                instructions: 'Grammes'
                 width: 25
                 listable: hidden
                 validate:
@@ -280,13 +298,13 @@ sections:
               handle: pre-travel
               field:
                 placeholder: 'eg. 1.00'
-                input_type: number
+                input_type: text
                 append: mm
                 antlers: false
                 display: 'Pre-travel/Actuation point'
                 type: text
                 icon: text
-                instructions: 'In Millimetres'
+                instructions: 'Millimetres<br /><small>(use 2 decimal places)</small>'
                 width: 25
                 listable: hidden
                 validate:
@@ -295,13 +313,13 @@ sections:
               handle: total-travel
               field:
                 placeholder: 'eg. 1.00'
-                input_type: number
+                input_type: text
                 append: mm
                 antlers: false
                 display: Total-travel
                 type: text
                 icon: text
-                instructions: 'In Millimetres'
+                instructions: 'Millimetres<br /><small>(use 2 decimal places)</small>'
                 width: 25
                 listable: hidden
                 validate:

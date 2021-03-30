@@ -17,10 +17,10 @@ specs:
   -
     name: 62g
     description: null
-    actuation: 0
+    actuation: null
     bottom-out: 62
-    pre-travel: 0
-    total-travel: 0
+    pre-travel: null
+    total-travel: null
     spring: standard
     spring_color: null
     spring_color_info: 'High quality Korean stainless steel springs.'
@@ -47,10 +47,10 @@ specs:
   -
     name: 68g
     description: null
-    actuation: 0
+    actuation: null
     bottom-out: 68
-    pre-travel: 0
-    total-travel: 0
+    pre-travel: null
+    total-travel: null
     spring: standard
     spring_color: null
     spring_color_info: 'High quality Korean stainless steel springs.'
@@ -137,7 +137,7 @@ prices:
     datecheck: '2020-08-28'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1616495410
+updated_at: 1617013032
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -149,5 +149,6 @@ theremin_goat_scores:
     total: 85
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Gazzew%20U4%20Boba%2068g%20Sample.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/boba-u4-switch-review'
+stem_length: standard
 id: 08cb346a-9788-43cf-9adb-799f51c853e3
 ---

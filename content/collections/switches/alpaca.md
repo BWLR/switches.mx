@@ -14,10 +14,10 @@ specs:
   -
     name: null
     description: null
-    actuation: 0
+    actuation:
     bottom-out: 62
-    pre-travel: 0
-    total-travel: 0
+    pre-travel:
+    total-travel:
     spring: gold-plated
     spring_color: null
     spring_color_info: null

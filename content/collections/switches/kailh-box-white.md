@@ -1,46 +1,46 @@
 ---
 title: 'Kailh BOX White'
 volume: normal
-volume_notes: ''
 factory_lubed: slight
-lubrication_notes: ''
 film: no-fit
-film_notes: ''
-notes: |-
-
 manufacturer: kailh
 brand: kailh
 switch_type: clicky-bar
 mount: '3'
-stem_construction: 'box'
+stem_construction: box
 limited_run: 'no'
 specs:
   -
-    name:
-    description: ''
+    name: null
+    description: null
     actuation: 50
     bottom-out: 60
-    pre-travel: 1.8
-    total-travel: 3.6
+    pre-travel: '1.80'
+    total-travel: '3.60'
     spring: kailh
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
-    stem_color: '#ffffff'
+    stem_color: '#FFFFFF'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: transparent
-    housing_top_color: ''
+    housing_top_color: null
     housing_top_material: pc
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#ffffff'
+    housing_bottom_color: '#FFFFFF'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph:
       - switches/force-graphs/box-white-force.jpg
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
 photos:
   - switches/photos/kailh-box-white-box-white-1.jpg
   - switches/photos/kailh-box-white-box-white-2.jpg
@@ -111,6 +111,8 @@ prices:
     datecheck: '2020-03-13'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1576187490
+updated_at: 1617108804
+stem_length: standard
+limited_run_reason: 'no'
 id: fb4bc29c-7fca-4cfa-bd81-beb803df23ba
 ---

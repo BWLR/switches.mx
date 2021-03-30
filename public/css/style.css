@@ -7009,8 +7009,8 @@ progress {
   letter-spacing: -0.02em;
   position: relative;
   text-align: left;
-  line-height: 2;
-  font-size: 11px;
+  line-height: 2.2;
+  font-size: 10px;
   white-space: nowrap;
 }
 
@@ -7383,6 +7383,10 @@ body.is-modal {
   margin: 20px 0 0;
 }
 
+.switchesmx-detail .c-switch__stem-construction-length {
+  margin-top: 20px;
+}
+
 .switchesmx-detail .c-switch__spec-notes {
   margin-top: 10px;
   padding: 10px;
@@ -7432,12 +7436,14 @@ body.is-modal {
 
 .switchesmx-detail .c-switch__icon {
   height: 152px;
+  width: 120px;
   text-align: left;
   display: inline-block;
   margin: 0;
   margin-left: -120px;
   position: relative;
   z-index: 2;
+  zoom: 1;
 }
 
 .switchesmx-detail .c-switch__icon-stem {
@@ -7455,6 +7461,12 @@ body.is-modal {
   transform: scale3d(2, 2, 2);
 }
 
+@media all and (-ms-high-contrast: none) {
+  .switchesmx-detail .c-switch__icon-housing-bottom {
+    top: 84px;
+  }
+}
+
 .switchesmx-detail .c-switch__icon:hover .c-switch__icon-stem {
   top: 45px;
 }
@@ -7462,7 +7474,7 @@ body.is-modal {
 .switchesmx-detail .c-switch__materials {
   position: absolute;
   top: 0;
-  left: -20px;
+  left: -37px;
   font-weight: bold;
   font-size: 12px;
   letter-spacing: -0.02em;
@@ -7632,7 +7644,7 @@ body.is-modal {
 .switchesmx-detail .c-switch__stat:before {
   display: block;
   top: auto;
-  bottom: 0;
+  bottom: 2px;
   left: 0;
   color: #282A30;
   font-size: 11px;
