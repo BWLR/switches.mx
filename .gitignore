@@ -3,7 +3,7 @@
 /public/storage
 /public/vendor/statamic
 /public/assets/switches/photos/.meta/
-/storage/*.key
+/storage
 /vendor
 .env
 .env.backup
