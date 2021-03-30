@@ -2,7 +2,7 @@ name: SMX
 super: true
 avatar: android-chrome-192x192.png
 id: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-password_hash: $2y$10$Z8GtFs2xhyEwuQGPKYuUNOQkDSh.gh3wN7clAsiuuryugeKkv8BgO
+password_hash: $2y$10$HkqlpvdCZAV6fddg3aqDH.dXvf1gPQBF2mI8KFYoE.O3GKyA.Y6CS
 preferences:
   assets:
     assets:
