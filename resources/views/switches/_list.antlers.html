@@ -1,5 +1,5 @@
 {{ switches }}
-	<a href="/{{slug}}{{ if get:search | get:manufacturer | get:brand | get:switch-type }}?{{ /if }}{{ if get:search }}search={{ get:search }}&{{ /if }}{{ if get:manufacturer }}manufacturer={{ get:manufacturer }}&{{ /if }}{{ if get:brand }}brand={{ get:brand }}&{{ /if }}{{ if get:switch-type }}switch-type={{ get:switch-type }}&{{ /if }}" title="{{ title }}">
+	<a href="/{{slug}}{{ if get:search }}?{{ elseif get:manufacturer }}?{{ elseif get:brand }}?{{ elseif get:switch-type }}?{{ /if }}{{ if get:search }}search={{ get:search }}&{{ /if }}{{ if get:manufacturer }}manufacturer={{ get:manufacturer }}&{{ /if }}{{ if get:brand }}brand={{ get:brand }}&{{ /if }}{{ if get:switch-type }}switch-type={{ get:switch-type }}&{{ /if }}" title="{{ title }}">
 		{{ cache for="24 hours" scope="page" key="switch_{ slug }" }}
 			<div class="c-switch">
 				<div class="row">
