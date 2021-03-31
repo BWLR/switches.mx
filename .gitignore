@@ -1,6 +1,7 @@
 /node_modules
 /public/hot
 /public/storage
+/public/img/containers/assets
 /public/vendor/statamic
 /public/assets/switches/photos/.meta/
 /storage

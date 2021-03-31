@@ -6,6 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ site:name }} - {{ title ?? '' }}</title>
         <link rel="stylesheet" href="{{ mix src='css/style.css' }}">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-969ZHYE7C8"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-969ZHYE7C8');
+        </script>
     </head>
     <body>
         <div class="switchesmx">
