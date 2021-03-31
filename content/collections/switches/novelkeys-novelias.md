@@ -44,7 +44,7 @@ photos:
   - switches/photos/novelkeys-novelias-rZ1CUmPSeRlSKhy9jZHgrhX2_YBHmfqdgV4VPPRiHno.jpg
 videos:
   -
-    item_url: 'https://www.youtube.com/watch?v=UciGPSHUPDI?start=421'
+    item_url: 'https://www.youtube.com/watch?v=UciGPSHUPDI'
     description: 'Jae build stream using Novelias'
   -
     item_url: 'https://www.youtube.com/watch?v=_N3n5rVZD5Q'
@@ -53,13 +53,16 @@ related_links:
   -
     item_url: 'https://www.reddit.com/r/MechanicalKeyboards/comments/8nl5rz/new_novelkeys_switch_novelias_limited_time_only/'
     description: 'Pre-release discussion thread on Reddit'
+  -
+    item_url: 'https://www.theremingoat.com/blog/from-the-vault-novelias'
+    description: 'ThereminGoat.com - From The Vault: Novelias Switch Review'
 quotes:
   -
     title: null
     source: 'https://www.reddit.com/r/MechanicalKeyboards/comments/8nl5rz/new_novelkeys_switch_novelias_limited_time_only/'
     text: '<p>This is going to be a heavier BOX Royal. 90g spring vs the stock 75g spring. &#8211; mgsickler (novelkeys.xyz)</p>'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617096265
+updated_at: 1617180885
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -72,5 +75,13 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Novelias.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/from-the-vault-novelias'
 stem_length: standard
+prices:
+  -
+    price: '1.19'
+    extra_text: 'Single sample'
+    source: 'https://mechbox.co.uk/products/novelias-switch?variant=14009469403178'
+    vendor: mechbox
+    datecheck: '2021-03-31'
+    in_stock: true
 id: 9b88dcf9-012e-450a-9bed-cdd3fbbdc3ee
 ---

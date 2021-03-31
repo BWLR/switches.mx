@@ -213,11 +213,11 @@ prices:
     price: '3.50'
     extra_text: null
     source: 'https://keys.my/kailh-cream-switch'
-    vendor: keys
+    vendor: keys-my
     datecheck: '2020-09-17'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617096309
+updated_at: 1617180787
 limited_run_reason: 'no'
 stem_length: standard
 id: d86e1bf2-4845-425c-9f2d-dc764b3be44a

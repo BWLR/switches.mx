@@ -3,9 +3,6 @@
 /public/storage
 /public/img/containers/assets
 /public/vendor/statamic
-/public/assets/.meta
-/public/assets/vendors
-/public/assets/switches/photos/.meta
 /storage
 /vendor
 .env
