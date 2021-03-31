@@ -12,7 +12,7 @@
         "laravel/framework": "^8.0",
         "laravel/socialite": "^5.0",
         "laravel/tinker": "^2.0",
-        "league/glide-laravel": "^1.0",
+        "league/glide-laravel": "^2.1",
         "socialiteproviders/reddit": "^3.0",
         "statamic/cms": "3.1.1"
     },
