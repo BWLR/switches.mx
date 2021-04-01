@@ -8372,7 +8372,7 @@ body.is-modal {
   }
 }
 
-.page-home__block__heading-3 {
+.page-home__block-heading-3 {
   font-size: 24px;
   font-weight: 700;
   padding: 0;
@@ -8380,12 +8380,12 @@ body.is-modal {
 }
 
 @media (min-width: 768px) {
-  .page-home__block__heading-3 {
+  .page-home__block-heading-3 {
     font-size: 29px;
   }
 }
 
-.page-home__block__heading-4 {
+.page-home__block-heading-4 {
   font-size: 19px;
   font-weight: 700;
   padding: 0;
@@ -8393,7 +8393,7 @@ body.is-modal {
 }
 
 @media (min-width: 768px) {
-  .page-home__block__heading-4 {
+  .page-home__block-heading-4 {
     font-size: 22px;
   }
 }

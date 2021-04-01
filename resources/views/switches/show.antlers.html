@@ -2,9 +2,8 @@
     <div class="switchesmx-detail-inner">
         <a href="/switches{{ if get:search }}?{{ elseif get:manufacturer }}?{{ elseif get:brand }}?{{ elseif get:switch-type }}?{{ /if }}{{ if get:search }}search={{ get:search }}&{{ /if }}{{ if get:manufacturer }}manufacturer={{ get:manufacturer }}&{{ /if }}{{ if get:brand }}brand={{ get:brand }}&{{ /if }}{{ if get:switch-type }}switch-type={{ get:switch-type }}&{{ /if }}" class="switchesmx-detail__back" title="Back to list">&laquo; Back to list</a>
         <div class="container-fluid">
-            <div class="c-switch__updated" title="{{ updated_at }}">
-                Last updated {{ updated_at | ago }}
-
+            <div class="c-switch__updated">
+                <span class="c-switch__updated-content" data-updated="{{ updated_at format="Y-m-d H:i:s" }}">{{ updated_at format="Y-m-d H:i:s" }}</span>
                 <a class="c-switch__edit-github" href="http://github.com/BWLR/switches.mx/blob/main/content/collections/switches/{{ slug }}.md" target="_blank" rel="noopener noreferrer">Edit this switch on GitHub</a>
             </div>
             <div class="row">

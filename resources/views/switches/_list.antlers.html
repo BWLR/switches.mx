@@ -72,7 +72,7 @@
 						</div>
 						<div class="c-switch__column c-switch__column--updated">
 							<div class="c-switch__updated">
-								Last updated {{ updated_at | ago }}
+								<span class="c-switch__updated-content" data-updated="{{ updated_at format="Y-m-d H:i:s" }}">{{ updated_at format="Y-m-d H:i:s" }}</span>
 							</div>
 						</div>
 
