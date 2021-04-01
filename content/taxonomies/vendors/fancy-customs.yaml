@@ -1,6 +1,6 @@
 title: 'Fancy Customs'
-country: MX
-currency: MXN
+country: CL
+currency: CLP
 website: 'https://fancycustoms.com/'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
 updated_at: 1615544698
@@ -15,5 +15,10 @@ social:
   -
     network: facebook
     item_url: 'https://www.facebook.com/FancyCustomscl'
+    type: new_set
+    enabled: true
+-
+    network: discord
+    item_url: 'https://discord.com/invite/gBMUb3q'
     type: new_set
     enabled: true
