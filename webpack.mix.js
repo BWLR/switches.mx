@@ -18,9 +18,7 @@ mix.sass('resources/css/style.scss', 'public/css').options({
 
 mix.sass('resources/css/cp.scss', 'public/vendor/app/css');
 
-if (mix.inProduction()) {
-   mix.version();
-}
+mix.version();
 
 /*
  |--------------------------------------------------------------------------
