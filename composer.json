@@ -12,9 +12,9 @@
         "laravel/framework": "^8.0",
         "laravel/socialite": "^5.0",
         "laravel/tinker": "^2.0",
-        "league/glide-laravel": "^2.1",
+        "league/glide-laravel": "^1.0",
         "socialiteproviders/reddit": "^3.0",
-        "statamic/cms": "3.1.1"
+        "statamic/cms": "3.1.4"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",

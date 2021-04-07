@@ -1,9 +1,9 @@
 title: 'Fancy Customs'
-country: MX
-currency: MXN
+country: CL
+currency: clp
 website: 'https://fancycustoms.com/'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1615544698
+updated_at: 1617292171
 blueprint: vendors
 favicon: vendor-fancycustoms.png
 social:
