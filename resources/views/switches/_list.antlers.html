@@ -87,11 +87,15 @@
 							</div>
 						</div>
 
-						{{ partial:switches/limited
-							limited_run="{{ limited_run }}"
-							limited_run_reason="{{ limited_run_reason }}"
-							limited_run_gb_enddate="{{ limited_run_gb_enddate }}"
-						}}
+						{{ if limited_run == 'yes' }}
+							<div class="c-switch__column c-switch__column--limited">
+								{{ partial:switches/limited
+									limited_run="{{ limited_run }}"
+									limited_run_reason="{{ limited_run_reason }}"
+									limited_run_gb_enddate="{{ limited_run_gb_enddate }}"
+								}}
+							</div>
+						{{ /if }}
 					</div>
 				</div>
 			</div>

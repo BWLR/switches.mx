@@ -288,11 +288,13 @@
                                 <h2>Prices</h2>
                                 {{ partial:switches/prices linkToPrice="true" prices={{ :prices }}
 
-                                {{ partial:switches/limited
-                                    limited_run="{{ limited_run }}"
-                                    limited_run_reason="{{ limited_run_reason }}"
-                                    limited_run_gb_enddate="{{ limited_run_gb_enddate }}"
-                                }}
+                                {{ if limited_run == 'yes' }}
+                                    {{ partial:switches/limited
+                                        limited_run="{{ limited_run }}"
+                                        limited_run_reason="{{ limited_run_reason }}"
+                                        limited_run_gb_enddate="{{ limited_run_gb_enddate }}"
+                                    }}
+                                {{ /if }}
 
                                 <div class="switchesmx-detail__small-print">These prices are subject to change at any time and should be used only as a rough guide (plus, quite often switches are not sold individually and can sometimes include discounts for larger quantities).<br /><br /><strong>This information is not automatically updated.</strong></div>
                             </div>
