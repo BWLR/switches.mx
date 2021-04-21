@@ -1,0 +1,24 @@
+title: 'Mecha Store'
+country: SG
+currency: sgd
+website: 'https://mecha.store'
+favicon: Cu3n2owXS5XkU6JQjiGh_5QWGjbVTfjW4MheD.png
+social:
+  -
+    network: instagram
+    url: 'https://www.instagram.com/themechastore/'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    url: 'https://www.facebook.com/themechastore'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    url: 'https://discord.gg/wQze3BnYaE'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1619032683
+blueprint: vendors
