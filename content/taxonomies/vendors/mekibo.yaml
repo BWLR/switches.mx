@@ -1,0 +1,24 @@
+title: Mekibo
+country: US
+currency: usd
+website: 'https://mekibo.com/'
+favicon: 32pxOG_32x32.png
+social:
+  -
+    network: instagram
+    url: 'https://www.instagram.com/mekibo.inc/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    url: 'https://twitter.com/mekibo5'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    url: 'https://www.facebook.com/mekiboinc'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1619717004
+blueprint: vendors
