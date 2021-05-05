@@ -1,0 +1,19 @@
+title: 'Kyo Industries'
+country: DK
+currency: dkk
+website: 'https://kyo.industries/'
+favicon: circle-logo_3x_e3fb1443-4b0d-4e43-90de-cae60ee0cad3_32x32.png
+social:
+  -
+    network: instagram
+    url: 'https://kyo.industries/instagram.com/kyo.industries'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    url: 'https://www.facebook.com/KyoKeyboards'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1620206129
+blueprint: vendors
