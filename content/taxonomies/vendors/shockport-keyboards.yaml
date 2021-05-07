@@ -1,0 +1,19 @@
+title: 'Shockport Keyboards'
+country: CA
+currency: cad
+website: 'https://shockport.com/'
+favicon: vendor-shockport.png
+social:
+  -
+    network: instagram
+    url: 'https://www.instagram.com/shockport_keyboards/'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    url: 'https://www.facebook.com/Shockport'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1620121467
+blueprint: vendors
