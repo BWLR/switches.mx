@@ -4,6 +4,7 @@ material_pc: 'PC'
 material_pcnylon: 'PC/Nylon mix'
 material_pom: 'POM'
 material_uhmwpe: 'UHMWPE'
+material_polyamide: 'Polyamide'
 material_custom: 'Custom'
 type_coloured: 'Coloured (opaque)'
 type_transparent: 'Transparent'
@@ -26,8 +27,10 @@ type_glow: 'Glow in the Dark'
             {{ view:material_pom }}
         {{ elseif stem_material == 'uhmwpe' }}
             {{ view:material_uhmwpe }}
+        {{ elseif stem_material == 'polyamide' }}
+            {{ view:material_polyamide }}
         {{ elseif stem_material == 'custom' }}
-            {{ view:material_custom }}
+            {{ view:material_custom }} ({{ stem_custom_material_notes | strip_tags }})
         {{ /if }}
         <div class="c-switch__materials-type">
             {{ if stem_type == 'coloured' }}
@@ -52,8 +55,10 @@ type_glow: 'Glow in the Dark'
             {{ view:material_pom }}
         {{ elseif housing_top_material == 'uhmwpe' }}
             {{ view:material_uhmwpe }}
+        {{ elseif housing_top_material == 'polyamide' }}
+            {{ view:material_polyamide }}
         {{ elseif housing_top_material == 'custom' }}
-            {{ view:material_custom }}
+            {{ view:material_custom }} ({{ housing_top_custom_material_notes | strip_tags }})
         {{ /if }}
         <div class="c-switch__materials-type">
             {{ if housing_top_type == 'coloured' }}
@@ -78,8 +83,10 @@ type_glow: 'Glow in the Dark'
             {{ view:material_pom }}
         {{ elseif housing_bottom_material == 'uhmwpe' }}
             {{ view:material_uhmwpe }}
+        {{ elseif housing_bottom_material == 'polyamide' }}
+            {{ view:material_polyamide }}
         {{ elseif housing_bottom_material == 'custom' }}
-            {{ view:material_custom }}
+            {{ view:material_custom }} ({{ housing_bottom_custom_material_notes | strip_tags }})
         {{ /if }}
         <div class="c-switch__materials-type">
             {{ if housing_bottom_type == 'coloured' }}
