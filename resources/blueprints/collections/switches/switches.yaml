@@ -274,7 +274,7 @@ sections:
                 display: Actuation
                 type: text
                 icon: text
-                instructions: 'Grammes'
+                instructions: Grammes
                 width: 25
                 listable: hidden
                 validate:
@@ -289,7 +289,7 @@ sections:
                 display: Bottom-out
                 type: text
                 icon: text
-                instructions: 'Grammes'
+                instructions: Grammes
                 width: 25
                 listable: hidden
                 validate:
@@ -505,8 +505,9 @@ sections:
                 type: textarea
                 icon: textarea
                 listable: hidden
+                antlers: false
                 if:
-                  stem_material: 'equals custom'
+                  housing_top_material: 'equals custom'
             -
               handle: housing_bottom_section
               field:
@@ -566,8 +567,9 @@ sections:
                 type: textarea
                 icon: textarea
                 listable: hidden
+                antlers: false
                 if:
-                  stem_material: 'equals custom'
+                  housing_bottom_material: 'equals custom'
             -
               handle: force_graph
               field:
