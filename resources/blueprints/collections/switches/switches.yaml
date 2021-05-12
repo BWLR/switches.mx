@@ -428,6 +428,7 @@ sections:
                   pcnylon: 'PC and Nylon mix'
                   pom: POM
                   uhmwpe: UHMWPE
+                  polyamide: Polyamide
                   custom: Custom
                 default: pom
                 inline: true
@@ -490,6 +491,7 @@ sections:
                   pcnylon: 'PC and Nylon mix'
                   pom: POM
                   uhmwpe: UHMWPE
+                  polyamide: Polyamide
                   custom: Custom
                 default: nylon
                 inline: true
@@ -552,6 +554,7 @@ sections:
                   pcnylon: 'PC and Nylon mix'
                   pom: POM
                   uhmwpe: UHMWPE
+                  polyamide: Polyamide
                   custom: Custom
                 default: nylon
                 inline: true
