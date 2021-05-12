@@ -22,7 +22,7 @@
                                 <div class="col-xs-12 col-sm-12">
                                     <div class="page-vendors_list-item">
                                         <div class="page-vendors_list-flag">
-                                            <img class="page-vendors_list-flag-img" width="26" height="18" src="/images/flags/{{ country | lower }}.svg" alt="{{ country }}" />
+                                            <img class="page-vendors_list-flag-img" width="26" height="18" src="/images/flags/{{ country | lower }}.svg" alt="{{ country:label }}" />
                                         </div>
                                         <div class="page-vendors_list-favicon">
                                             <img class="page-vendors_list-favicon-img" width="32" height="32" alt="{{ title }}" src="{{ favicon }}" />
@@ -34,7 +34,7 @@
                                         {{ if social }}
                                             <div class="page-vendors_list-links-social-container">
                                                 {{ social }}
-                                                    <a class="page-vendors_list-social" href="{{ url }}" target="_blank" rel="noopener noreferrer">
+                                                    <a class="page-vendors_list-social" href="{{ item_url }}" target="_blank" rel="noopener noreferrer">
                                                         <img class="page-vendors_list--website-icon" width="24" height="24" src="/images/social/social_{{ network }}.svg" alt="{{ network | title }}" />
                                                     </a>
                                                 {{ /social }}
@@ -50,3 +50,13 @@
         </div>
     </div>
 </div>
+
+<!--
+| Country | Vendor | Website | Socials |
+|---|---|---|---|
+{{ taxonomy:vendors sort="country:asc,title:asc"}}
+{{ entries }}
+| {{ country:label }} | {{ title }} | {{ website }} | {{ if social }}{{ social }}{{ item_url }}{{ /social }}{{ /if }} |
+{{ /entries }}
+{{ /taxonomy:vendors }}
+-->

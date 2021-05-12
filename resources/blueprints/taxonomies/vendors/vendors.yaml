@@ -340,7 +340,7 @@ sections:
                     width: 50
                     listable: hidden
                 -
-                  handle: url
+                  handle: item_url
                   field:
                     input_type: url
                     display: Url
