@@ -1,4 +1,5 @@
 ---
+id: 0b662ac1-6819-4d7b-a3e7-1c856a743741
 title: 'TKC x C³ Equalz Kiwi'
 volume: normal
 factory_lubed: slight
@@ -17,7 +18,7 @@ specs:
     bottom-out: 67
     pre-travel: null
     total-travel: '4.00'
-    spring: standard
+    spring: gold-plated
     spring_color: null
     spring_color_info: null
     spring_swap: null
@@ -75,7 +76,7 @@ prices:
     datecheck: '2020-09-28'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617012198
+updated_at: 1622740791
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -87,5 +88,5 @@ theremin_goat_scores:
     total: 80
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Kiwi.pdf'
     link_to_review: null
-id: 0b662ac1-6819-4d7b-a3e7-1c856a743741
+stem_length: standard
 ---

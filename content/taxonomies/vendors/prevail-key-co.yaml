@@ -1,0 +1,24 @@
+title: 'Prevail Key Co.'
+country: US
+currency: usd
+website: 'https://prevailkeyco.com/'
+favicon: tiny-logo10_-_Copy_c74c0daf-5503-4956-a3b2-5dc5dc8efc4f_32x32.png
+social:
+  -
+    network: instagram
+    item_url: 'https://instagram.com/prevailkeyco'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/prevailkeyco'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://facebook.com/prevailkeyco'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1621350985
+blueprint: vendors
