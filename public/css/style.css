@@ -7012,6 +7012,14 @@ progress {
   line-height: 2.2;
   font-size: 10px;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c-switch__materials > div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  right: 0;
 }
 
 @media (min-width: 576px) {
@@ -8589,11 +8597,11 @@ body {
 a {
   text-decoration: none;
   color: #CF3947;
-  transition: color 0.1s ease-in-out;
 }
 
 a:hover {
   text-decoration: underline;
+  color: transparent;
 }
 
 .switchesmx {
