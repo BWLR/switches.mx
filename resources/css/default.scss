@@ -13,10 +13,10 @@ body {
 a {
     text-decoration: none;
     color: $smx-color-04;
-    transition: color .1s ease-in-out;
 
     &:hover {
         text-decoration: underline;
+        color: transparent;
     }
 }
 
