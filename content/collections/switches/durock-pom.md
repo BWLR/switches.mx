@@ -1,6 +1,5 @@
 ---
 id: 10510713-3127-4549-8ec1-ffbdcb910a83
-published: false
 blueprint: switches
 title: 'Durock POM'
 volume: normal
@@ -15,14 +14,10 @@ stem_length: standard
 limited_run: 'no'
 limited_run_reason: 'no'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1623655685
+updated_at: 1623668477
 lubrication_notes: 'Very light factory lube. Also available in dry version from some vendors.'
 notes: |-
-  JWK Durock POM Linear Switches, also known as Durock Piano Switches, use a proprietary POM blend for the top and bottom housing with a redesigned stem composed of a mystery material. This combination of switch materials provide a deeper sound signature while still giving you that smooth JWK feel.
-  - _Description taken from [Divinikey.com](https://divinikey.com/products/durock-pom-linear-switches)_
-
-  An excellent alternative to the popular ‘Cream’ switches. The Durock POM switches take the knowledge of what made previous Durock linear switches so popular and offers them in a newly designed POM housing. POM is a low friction plastic that feels almost ‘soapy’ to the touch, this makes it an excellent material for the creation of smooth switches. Typically POM is also found in the stems of mechanical switches but in this case Durock has opted to use a proprietary materials in order to avoid an issue known as “stick slip” which affects other POM housing switches.
-  - _Description taken from [1UPKeyboards.com](https://1upkeyboards.com/shop/switches/set-packs/durock-pom-linear-switches-lubed/)_
+  Also known as Durock Piano Switches. The Durock POM switch uses a proprietary POM blend for the top and bottom housing with a redesigned stem composed of a mystery material providing a deeper sound signature while still giving you that smooth JWK feel.
 
   Unlike other POM housing switches they do not benefit from or require a break-in period like NovelKeys Creams.
 specs:
@@ -43,19 +38,19 @@ specs:
     stem_type: coloured
     stem_color: '#E8ECE6'
     stem_material: custom
-    stem_custom_material_notes: '"Mystery" material'
+    stem_custom_material_notes: 'Mystery material'
     housing_top_section: null
     housing_top_type: coloured
     housing_top_color: '#3A4045'
-    housing_top_material: pom
-    housing_top_custom_material_notes: null
+    housing_top_material: custom
+    housing_top_custom_material_notes: 'Proprietary POM blend'
     housing_bottom_section: null
     housing_bottom_type: coloured
     housing_bottom_color: '#3A4045'
-    housing_bottom_material: pom
-    housing_bottom_custom_material_notes: null
+    housing_bottom_material: custom
+    housing_bottom_custom_material_notes: 'Proprietary POM blend'
     force_graph: {  }
-    led_support: null
+    led_support: smd-and-inswitch
 prices:
   -
     price: '0.63'
@@ -131,4 +126,55 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Durock%20POM%20Linear%20(Sample).pdf'
     link_to_review: 'https://www.theremingoat.com/blog/durock-pom-linear-switch-review'
 volume_notes: 'The longer pole and POM housing gives it a louder and clackier noise than other JWK switches'
+photos:
+  - switches/photos/POMCandid_2048x2048-1623668235.jpg
+  - switches/photos/POMCandid1_2048x2048-1623668236.jpg
+  - switches/photos/DP1_540x.jpg
+  - switches/photos/H45aa40617afa4b25b48b91b35ed8b030Y-removebg_1800x1800.png
+  - switches/photos/durock-pom-switches-switch-durock-2.jpg
+  - switches/photos/durock-pom-switches-switch-durock.jpg
+  - switches/photos/durock-pom-switch-63-5g-1.jpg
+  - switches/photos/DUROCK-Full-POM-Switches-Piano-Linear-with-Deeper-Sound-Super-Smooth-Performance-Linear-Switch-5-Pins.jpg_Q90.jpg_.webp
+  - switches/photos/DUROCK-Full-POM-Switches-Piano-Linear-with-Deeper-Sound-Super-Smooth-Performance-Linear-Switch-5-Pins.jpg_Q90.jpg_-(3).webp
+  - switches/photos/DUROCK-Full-POM-Switches-Piano-Linear-with-Deeper-Sound-Super-Smooth-Performance-Linear-Switch-5-Pins.jpg_Q90.jpg_-(2).webp
+  - switches/photos/DUROCK-Full-POM-Switches-Piano-Linear-with-Deeper-Sound-Super-Smooth-Performance-Linear-Switch-5-Pins.jpg_Q90.jpg_-(1).webp
+  - switches/photos/DP2_720x.jpg
+  - switches/photos/074154cd676542a5bc54080c1fc2cece.jpg
+videos:
+  -
+    item_url: 'https://www.youtube.com/watch?v=2fkYtbpU4I0'
+    description: 'POM Durock Switch Review | Linear Switch Comparison by Shoobs'
+  -
+    item_url: 'https://www.youtube.com/watch?v=dNfMjnYw5qk'
+    description: 'Goodbye NK Cream! The new BEST Clacky Linear Switch? DUROCK POM REVIEW and comparison + sounds by Keybored'
+  -
+    item_url: 'https://www.youtube.com/watch?v=EpZ4a5kG_WY'
+    description: 'Durock POM Switch Review: How Does It Compare Against Other Linear Switches? by Magniboards'
+  -
+    item_url: 'https://www.youtube.com/watch?v=r7drnar2A14'
+    description: 'Durock POM Linear Switch (lubing + typing test) w/ RAMA KARA by Barry Boards'
+  -
+    item_url: 'https://www.youtube.com/watch?v=kwuaaaDuF1E'
+    description: 'Durock Pom Switch Review | Stock Vs. Lubed & Filmed | by RA Visuals'
+  -
+    item_url: 'https://www.youtube.com/watch?v=9iH0ciJAjvo'
+    description: 'Jelly Epoch ink -with durock Pom linears / Typing by Stefan Frank'
+  -
+    item_url: 'https://www.youtube.com/watch?v=SkEz9XiAQsA'
+    description: 'KBDfans D60 KEYBOARD BUILD - DUROCK POM by BENTOL'
+  -
+    item_url: 'https://www.youtube.com/watch?v=CHTuiMdihSM'
+    description: 'Trying out Durock POM switches by Andrew Nguyen'
+  -
+    item_url: 'https://www.youtube.cm/watch?v=yKZdWoXV7dM'
+    description: 'KBD67 Lite Showcase | Durock POM + ePBT Miami Nights by Andrew Nguyen'
+quotes:
+  -
+    title: Divinikey.com
+    source: 'https://divinikey.com/products/durock-pom-linear-switches'
+    text: 'JWK Durock POM Linear Switches, also known as Durock Piano Switches, use a proprietary POM blend for the top and bottom housing with a redesigned stem composed of a mystery material. This combination of switch materials provide a deeper sound signature while still giving you that smooth JWK feel.'
+  -
+    title: 1UPKeyboards.com
+    source: 'https://1upkeyboards.com/shop/switches/set-packs/durock-pom-linear-switches-lubed/'
+    text: 'An excellent alternative to the popular ‘Cream’ switches. The Durock POM switches take the knowledge of what made previous Durock linear switches so popular and offers them in a newly designed POM housing. POM is a low friction plastic that feels almost ‘soapy’ to the touch, this makes it an excellent material for the creation of smooth switches. Typically POM is also found in the stems of mechanical switches but in this case Durock has opted to use a proprietary materials in order to avoid an issue known as “stick slip” which affects other POM housing switches.'
 ---

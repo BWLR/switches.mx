@@ -3,9 +3,9 @@ id: 8c67d45b-02a8-4366-a64e-41684321acdb
 blueprint: switches
 title: 'Everglide Aqua King'
 volume: normal
-factory_lubed: slight
+factory_lubed: significant
 film: unknown
-notes: 'aka Water King V3'
+notes: 'Also known as Water King V3. Most vendors don''t stock the 37g version due to sticky stem/return issues (some switches in these batches have issues with the stem coming back up).'
 manufacturer: everglide
 brand: everglide
 switch_type: linear
@@ -14,7 +14,37 @@ stem_construction: standard
 stem_length: standard
 specs:
   -
-    name: null
+    name: 37g
+    description: null
+    weights_section: null
+    actuation: '37'
+    bottom-out: null
+    pre-travel: '2.00'
+    total-travel: '4.00'
+    spring_section: null
+    spring: gold-plated
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_type: transparent
+    stem_color: null
+    stem_material: pc
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_type: transparent
+    housing_top_color: null
+    housing_top_material: pc
+    housing_top_custom_material_notes: null
+    housing_bottom_section: null
+    housing_bottom_type: transparent
+    housing_bottom_color: null
+    housing_bottom_material: pc
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
+    led_support: smd-and-inswitch
+  -
+    name: 55g
     description: null
     weights_section: null
     actuation: '55'
@@ -45,7 +75,7 @@ specs:
       - switches/force-graphs/ak55.webp
     led_support: smd-and-inswitch
   -
-    name: null
+    name: 62g
     description: null
     weights_section: null
     actuation: '62'
@@ -76,7 +106,7 @@ specs:
       - switches/force-graphs/ak62.webp
     led_support: smd-and-inswitch
   -
-    name: null
+    name: 67g
     description: null
     weights_section: null
     actuation: '67'
@@ -162,5 +192,6 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Everglide%20V3%20''Water%20King''%20(60g).pdf'
     link_to_review: 'https://www.theremingoat.com/blog/everglide-v3-water-king-switch-review'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1623441770
+updated_at: 1623663675
+lubrication_notes: 'These are very well lubed from the factory but some people have found the odd switch in a batch to be overlubed with return issues - especially the 37g variant.'
 ---

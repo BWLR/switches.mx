@@ -6,7 +6,7 @@ password_hash: $2y$10$HkqlpvdCZAV6fddg3aqDH.dXvf1gPQBF2mI8KFYoE.O3GKyA.Y6CS
 preferences:
   assets:
     assets:
-      mode: grid
+      mode: table
   collections:
     vendors:
       columns:
@@ -23,6 +23,8 @@ preferences:
         - housing_bottom
         - stem
         - known-as
+    switches:
+      after_save: continue_editing
   taxonomies:
     switch_type:
       after_save: create_another
