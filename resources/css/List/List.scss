@@ -166,6 +166,35 @@
             }
         }
     }
+
+    // Main list
+    // ----------------------------------------
+    #{$root}__materials {
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        > div {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 59px;
+
+            @include media-breakpoint-up(sm) {
+                width: 100px;
+            }
+
+            @include media-breakpoint-up(md) {
+                width: 59px;
+            }
+
+            @include media-breakpoint-up(lg) {
+                width: 75px;
+            }
+
+            @include media-breakpoint-up(xl) {
+                width: 102px;
+            }
+        }
+    }
 }
 
 .switchesmx-list {

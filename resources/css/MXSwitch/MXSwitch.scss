@@ -365,13 +365,27 @@
         line-height: 2.2;
         font-size: 10px;
         white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
 
         > div {
             overflow: hidden;
             text-overflow: ellipsis;
-            right: 0;
+            width: 220px;
+
+            @include media-breakpoint-up(sm) {
+                width: 140px;
+            }
+
+            @include media-breakpoint-up(md) {
+                width: 150px;
+            }
+
+            @include media-breakpoint-up(lg) {
+                width: 240px;
+            }
+
+            @include media-breakpoint-up(xl) {
+                width: 270px;
+            }
         }
 
         @include media-breakpoint-up(sm) {
