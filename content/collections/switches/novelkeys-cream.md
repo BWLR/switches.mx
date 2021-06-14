@@ -1,4 +1,6 @@
 ---
+id: d86e1bf2-4845-425c-9f2d-dc764b3be44a
+blueprint: switches
 title: 'NovelKeys Cream'
 volume: normal
 factory_lubed: 'no'
@@ -13,7 +15,7 @@ stem_construction: standard
 limited_run: 'no'
 specs:
   -
-    name: null
+    name: Cream
     description: null
     actuation: 55
     bottom-out: 70
@@ -43,6 +45,36 @@ specs:
     stem_section: null
     housing_top_section: null
     housing_bottom_section: null
+  -
+    name: 'Cream Chocolate'
+    description: null
+    weights_section: null
+    actuation: '55'
+    bottom-out: '70'
+    pre-travel: '2.00'
+    total-travel: '4.00'
+    spring_section: null
+    spring: standard
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_type: coloured
+    stem_color: '#FAF1E1'
+    stem_material: pom
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_type: coloured
+    housing_top_color: '#7D5A4F'
+    housing_top_material: pom
+    housing_top_custom_material_notes: null
+    housing_bottom_section: null
+    housing_bottom_type: coloured
+    housing_bottom_color: '#7D5A4F'
+    housing_bottom_material: pom
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
+    led_support: smd-and-inswitch
 photos:
   - switches/photos/novelkeys-cream-8m3r8h67oaw31.jpg
   - switches/photos/novelkeys-cream-nqenkedhzht21.jpg
@@ -58,6 +90,9 @@ photos:
   - switches/photos/novelkeys-cream-novelkeys-cream-switches-norcal-meetup-2_result.jpg
   - switches/photos/novelkeys-cream-novelkeys-cream-switches-norcal-meetup-3_result.jpg
   - switches/photos/novelkeys-cream-103597-cream2.jpg
+  - switches/photos/choc1.webp
+  - switches/photos/choc2.webp
+  - switches/photos/choc3.webp
 videos:
   -
     item_url: 'https://www.youtube.com/watch?v=-dW8Fgxg-rE'
@@ -216,9 +251,22 @@ prices:
     vendor: keys-my
     datecheck: '2020-09-17'
     in_stock: true
+  -
+    price: '0.66'
+    extra_text: null
+    source: 'https://www.thekeycapclub.co.uk/products/novelkeys-x-kailh-linear-cream-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-09'
+    in_stock: true
+  -
+    price: '0.68'
+    extra_text: 'Cream Chocolate'
+    source: 'https://kbdfans.com/products/choc'
+    vendor: kbdfans
+    datecheck: '2021-06-11'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617180787
+updated_at: 1623415862
 limited_run_reason: 'no'
 stem_length: standard
-id: d86e1bf2-4845-425c-9f2d-dc764b3be44a
 ---

@@ -10,6 +10,12 @@ sections:
           required: true
           validate:
             - required
+          display: 'Combination name'
+          instructions: 'Do not use common name - use combination of "Housing Top/Housing Bottom/Stem" eg. Creampaca would be "Alpaca Top/Alpaca Bottom/Cream Stem"'
+          listable: true
+          placeholder: 'eg. "Alpaca Top/Alpaca Bottom/Cream Stem"'
+          input_type: text
+          antlers: false
       -
         handle: slug
         field:
@@ -18,6 +24,10 @@ sections:
           localizable: true
           validate:
             - required
+            - 'unique_entry_value:{collection},{id},{site}'
+          instructions: 'Do not use common name - use combination of "Housing Top/Housing Bottom/Stem" eg. Creampaca would be "alpaca-top-alpaca-bottom-cream-stem"'
+          listable: hidden
+          generate: true
       -
         handle: description
         field:
@@ -31,20 +41,10 @@ sections:
           escape_markup: false
           smartypants: false
           antlers: false
+          instructions: 'Give a description of why these are a good combination and perhaps a little bit of history as to how they came about/where they first came about.'
   sidebar:
     display: Sidebar
     fields:
-      -
-        handle: stem
-        field:
-          max_items: 1
-          mode: select
-          collections:
-            - switches
-          display: Stem
-          type: entries
-          icon: entries
-          listable: true
       -
         handle: housing_top
         field:
@@ -68,6 +68,17 @@ sections:
           icon: entries
           listable: true
       -
+        handle: stem
+        field:
+          max_items: 1
+          mode: select
+          collections:
+            - switches
+          display: Stem
+          type: entries
+          icon: entries
+          listable: true
+      -
         handle: spring
         field:
           input_type: text
@@ -77,6 +88,14 @@ sections:
           icon: textarea
           instructions: 'A little description here about what spring has best results.'
           listable: hidden
+      -
+        handle: known-as
+        field:
+          display: 'Known as'
+          type: list
+          icon: list
+          instructions: 'eg. Zanda/Pandelios'
+          listable: true
   media:
     display: Media
     fields:

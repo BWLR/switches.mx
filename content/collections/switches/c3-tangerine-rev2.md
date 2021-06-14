@@ -1,71 +1,79 @@
 ---
+id: 18625d1e-befd-4c17-9199-f98365291265
+blueprint: switches
 title: 'C³ Tangerine Rev2'
 volume: normal
-volume_notes: ''
 factory_lubed: slight
-lubrication_notes: '<p>Lightly lubed from the factory and are extremely smooth out of the box. Adding lube after the fact lets them shine even more in terms of sound and switch feel.</p>
-'
-film: yes
-film_notes: ''
-notes: |-
-  <p>Quite uncommon amongst switches they have UHMWPE housings which makes for a fantastically smooth switch, only enhanced further with films and lubrication.</p><p>The first revision of these switches were made by Gateron not C³Equalz and not orange in colour.</p>
+lubrication_notes: '<p>Lubed from the factory with a lube that was stated to be exclusive to C3 switches. This gives it the potential to be extremely smooth stock, but batches can vary. Was stated to be similar to Krytox 204. </p>'
+film: 'yes'
+notes: '<p>Quite uncommon amongst switches, they have UHMWPE housings which makes for a fantastically smooth switch, only enhanced further with films and lubrication. It is not stated what percentage of this switch is UHMWPE, but it is not pure PE. </p><p>The first revision of these switches were made by Gateron not C³Equalz and not orange in colour. These Gateron made variants are no longer sold and hard to find in the aftermarket. </p>'
 manufacturer: jwk
 brand: c3
 switch_type: linear
 mount: '5'
-stem_construction: 'standard'
+stem_construction: standard
 limited_run: 'no'
 specs:
   -
-    name:
-    description: ''
-    actuation:
+    name: null
+    description: null
+    actuation: null
     bottom-out: 67
-    pre-travel:
-    total-travel:
+    pre-travel: null
+    total-travel: null
     spring: gold-plated
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
     stem_color: '#399554'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: transparent
-    housing_top_color: '#f14a1e'
+    housing_top_color: '#F14A1E'
     housing_top_material: uhmwpe
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: transparent
-    housing_bottom_color: '#f14a1e'
+    housing_bottom_color: '#F14A1E'
     housing_bottom_material: uhmwpe
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
   -
-    name:
-    description: ''
-    actuation:
+    name: null
+    description: null
+    actuation: null
     bottom-out: 62
-    pre-travel:
-    total-travel:
+    pre-travel: null
+    total-travel: null
     spring: gold-plated
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
-    stem_color: '#93e2bf'
+    stem_color: '#93E2BF'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: transparent
-    housing_top_color: '#f14a1e'
+    housing_top_color: '#F14A1E'
     housing_top_material: uhmwpe
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: transparent
-    housing_bottom_color: '#f14a1e'
+    housing_bottom_color: '#F14A1E'
     housing_bottom_material: uhmwpe
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
 photos:
   - switches/photos/c3-tangerine-rev2-Tangie02_1024x1024.png
   - switches/photos/c3-tangerine-rev2-Annotation-2020-04-07-160832.jpg
@@ -131,7 +139,7 @@ related_links:
     description: 'Review by /u/MrJahoolious on Reddit'
 quotes:
   -
-    title: 'ThereminGoat'
+    title: ThereminGoat
     source: 'https://www.theremingoat.com/blog/tangerine-v2s'
     text: '<p>Are they fantastic? Absolutely. Do they feel amazing? Absolutely. Do I have any doubts that they will sell well enough to run a V3 of them? None – These are a smash hit.</p>'
   -
@@ -154,7 +162,7 @@ prices:
     datecheck: '2020-04-07'
     in_stock: true
   -
-    price: '0.60'
+    price: '0.65'
     extra_text: null
     source: 'https://thekey.company/products/c3-tangerine-switches-r2'
     vendor: the-key-dot-co
@@ -174,7 +182,18 @@ prices:
     vendor: mykeyboard-eu
     datecheck: '2020-04-07'
     in_stock: true
+  -
+    price: '0.80'
+    extra_text: null
+    source: 'https://www.thekeycapclub.co.uk/products/c-equalz-tangerine-linear-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-09'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1576680644
-id: 18625d1e-befd-4c17-9199-f98365291265
+updated_at: 1623655460
+stem_length: standard
+limited_run_reason: limited_stock
+volume_notes: 'This switch has a volume similar to that of a standard JWK, but is noticeably higher pitched due to the UHMWPE (Ultra High Molecular Weight Polyurethane, sometimes referred to as simply PE) blend in the housing.'
+film_notes: 'All films work on this switch.'
+limited_run_info: 'This switch is most commonly purchased through TKC''s site, and are sold in packs of 25 for $16.25 each. They restock every couple of months, and sell out quick.'
 ---

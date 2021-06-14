@@ -1,0 +1,19 @@
+title: Swagkeys
+country: KR
+currency: usd
+website: 'https://swagkeys.com/'
+favicon: Favicon_Final_32x32.png
+social:
+  -
+    network: instagram
+    item_url: 'https://instagram.com/swag_keys'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/hsk3bZ7YfZ'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1623403053
+blueprint: vendors

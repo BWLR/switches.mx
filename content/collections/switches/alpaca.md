@@ -1,4 +1,6 @@
 ---
+id: a89efd99-f022-46d4-a719-02403067915f
+blueprint: switches
 title: Alpaca
 volume: normal
 factory_lubed: slight
@@ -14,10 +16,10 @@ specs:
   -
     name: null
     description: null
-    actuation:
+    actuation: null
     bottom-out: 62
-    pre-travel:
-    total-travel:
+    pre-travel: null
+    total-travel: null
     spring: gold-plated
     spring_color: null
     spring_color_info: null
@@ -117,7 +119,7 @@ prices:
     datecheck: '2020-06-29'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1616494518
+updated_at: 1623655516
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -129,5 +131,6 @@ theremin_goat_scores:
     total: 87
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Alpaca%20V2.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/alpaca-v2-switch-review?rq=Alpaca'
-id: a89efd99-f022-46d4-a719-02403067915f
+lubrication_notes: 'Lightly factory lubed with an oil.'
+stem_length: standard
 ---

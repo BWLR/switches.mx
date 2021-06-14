@@ -16,6 +16,13 @@ preferences:
         - currency
         - website
       per_page: 100
+    frankenswitches:
+      columns:
+        - title
+        - housing_top
+        - housing_bottom
+        - stem
+        - known-as
   taxonomies:
     switch_type:
       after_save: create_another

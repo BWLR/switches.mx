@@ -1,4 +1,6 @@
 ---
+id: 427af87c-c983-4213-a5e1-064d5cdc1860
+blueprint: switches
 title: 'Gateron Black Inks'
 volume: normal
 factory_lubed: slight
@@ -198,9 +200,15 @@ prices:
     vendor: daily-clack
     datecheck: '2020-02-12'
     in_stock: true
+  -
+    price: '0.75'
+    extra_text: null
+    source: 'https://www.thekeycapclub.co.uk/products/gateron-ink-v2-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-09'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617107076
+updated_at: 1623257414
 stem_length: standard
 limited_run_reason: 'no'
-id: 427af87c-c983-4213-a5e1-064d5cdc1860
 ---

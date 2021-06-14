@@ -1,0 +1,14 @@
+title: RHESET
+country: MX
+currency: mxn
+website: 'https://rheset.mx/'
+favicon: 143915280_442490497194342_2348558421824961941_n.jpg
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/rhesetmx/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1623403345
+blueprint: vendors

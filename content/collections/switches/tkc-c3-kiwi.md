@@ -1,5 +1,6 @@
 ---
 id: 0b662ac1-6819-4d7b-a3e7-1c856a743741
+blueprint: switches
 title: 'TKC x C³ Equalz Kiwi'
 volume: normal
 factory_lubed: slight
@@ -75,8 +76,15 @@ prices:
     vendor: ilumkb
     datecheck: '2020-09-28'
     in_stock: true
+  -
+    price: '0.81'
+    extra_text: null
+    source: 'https://www.thekeycapclub.co.uk/products/c-equalz-kiwi-tactile-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-09'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1622740791
+updated_at: 1623258958
 limited_run_reason: 'no'
 theremin_goat_scores:
   -

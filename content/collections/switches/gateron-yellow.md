@@ -1,4 +1,6 @@
 ---
+id: db131ceb-a4bf-474a-90fc-c3411f3ee6e0
+blueprint: switches
 title: 'Gateron Yellow'
 volume: normal
 factory_lubed: 'no'
@@ -443,8 +445,22 @@ prices:
     vendor: keys
     datecheck: '2020-09-17'
     in_stock: true
+  -
+    price: '0.29'
+    extra_text: KS-8
+    source: 'https://www.thekeycapclub.co.uk/products/gateron-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-09'
+    in_stock: true
+  -
+    price: '0.32'
+    extra_text: KS-3X1
+    source: 'https://www.thekeycapclub.co.uk/products/gateron-milky-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-09'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617097965
+updated_at: 1623259341
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -457,5 +473,4 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Gateron%20Yellow%20KS8.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/gateron-yellow-switch-review'
 stem_length: standard
-id: db131ceb-a4bf-474a-90fc-c3411f3ee6e0
 ---

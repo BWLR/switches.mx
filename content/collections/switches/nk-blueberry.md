@@ -1,4 +1,6 @@
 ---
+id: dda17c45-d472-424f-b3d1-2d5a24efa6eb
+blueprint: switches
 title: 'NK_ Blueberry'
 volume: normal
 factory_lubed: 'no'
@@ -102,9 +104,15 @@ prices:
     vendor: divinikey
     datecheck: '2020-10-03'
     in_stock: true
+  -
+    price: '0.66'
+    extra_text: null
+    source: 'https://www.thekeycapclub.co.uk/products/novelkeys-x-kailh-linear-cream-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-09'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617106994
+updated_at: 1623257707
 stem_length: standard
 limited_run_reason: 'no'
-id: dda17c45-d472-424f-b3d1-2d5a24efa6eb
 ---

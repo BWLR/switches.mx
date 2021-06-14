@@ -1,8 +1,10 @@
 ---
+id: b1b02ec5-8279-4c0a-a790-933dcca1561b
+blueprint: switches
 title: 'C3Equalz x TKC Banana Split/Macho'
 volume: normal
 factory_lubed: slight
-film: unknown
+film: 'yes'
 notes: '<p>These switches were originally released by C3Equalz as their &#8220;Macho Switches&#8221; in early 2020. They were re-introduced as TKC&#8217;s &#8220;Banana Split Switches&#8221; in September of 2020 in the US market, starting their &#8220;Snack Time Switch Line&#8221;. TKC&#8217;s 3PM drop was mildly successful, selling out in a few hours. The 9PM drop, however, was still in stock 12 hours later, at 9AM.</p>'
 manufacturer: jwk
 brand: c3
@@ -14,10 +16,10 @@ specs:
   -
     name: null
     description: null
-    actuation:
+    actuation: null
     bottom-out: 62
-    pre-travel:
-    total-travel:
+    pre-travel: null
+    total-travel: null
     spring: gold-plated
     spring_color: null
     spring_color_info: null
@@ -64,8 +66,15 @@ prices:
     vendor: ilumkb
     datecheck: '2020-09-30'
     in_stock: true
+  -
+    price: '0.80'
+    extra_text: null
+    source: 'https://www.thekeycapclub.co.uk/products/c-equalz-banana-split-linear-switches-macho'
+    vendor: the-keycap-club
+    datecheck: '2021-06-09'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1616494917
+updated_at: 1623655588
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -77,5 +86,6 @@ theremin_goat_scores:
     total: 61
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/C3%20Macho.pdf'
     link_to_review: null
-id: b1b02ec5-8279-4c0a-a790-933dcca1561b
+stem_length: standard
+volume_notes: 'Volume is similar to other JWKs. In comparison to Tangerines, they are slightly clackier and lower pitched.'
 ---

@@ -1,4 +1,6 @@
 ---
+id: f9c12457-5c07-4102-ac5f-c13737b078f5
+blueprint: switches
 title: 'Kailh BOX Navy'
 volume: loud
 factory_lubed: slight
@@ -134,8 +136,15 @@ prices:
     vendor: aliexpress
     datecheck: '2020-04-03'
     in_stock: true
+  -
+    price: '0.42'
+    extra_text: null
+    source: 'https://www.thekeycapclub.co.uk/products/kailh-box-jade-thick-click-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-09'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617096425
+updated_at: 1623257609
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -148,5 +157,4 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Kailh%20Box%20Navy.pdf'
     link_to_review: null
 stem_length: standard
-id: f9c12457-5c07-4102-ac5f-c13737b078f5
 ---

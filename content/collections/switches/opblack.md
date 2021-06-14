@@ -1,4 +1,6 @@
 ---
+id: 8ddaa66d-e8c3-41e6-a53f-6ee9eb3856dd
+blueprint: switches
 title: Opblack
 volume: normal
 factory_lubed: slight
@@ -16,8 +18,8 @@ specs:
     description: null
     actuation: 55
     bottom-out: 65
-    pre-travel:
-    total-travel:
+    pre-travel: null
+    total-travel: null
     spring: standard
     spring_color: null
     spring_color_info: 'opblack switches use Thicthock DL Series Springs'
@@ -73,7 +75,7 @@ prices:
     datecheck: '2020-09-30'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1616410000
+updated_at: 1623655742
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -85,5 +87,5 @@ theremin_goat_scores:
     total: 69
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Opblack.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/opblack-switch-review'
-id: 8ddaa66d-e8c3-41e6-a53f-6ee9eb3856dd
+stem_length: standard
 ---

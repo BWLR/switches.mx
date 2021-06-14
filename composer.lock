@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "83ad1bcedbaf4748a8d4a7c48a7e3369",
+    "content-hash": "e432847e27dfd140e32ef26be2158cbe",
     "packages": [
         {
             "name": "aryehraber/statamic-color-extractor",
@@ -180,16 +180,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.2.9",
+            "version": "1.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "78a0e288fdcebf92aa2318a8d3656168da6ac1a5"
+                "reference": "9fdb22c2e97a614657716178093cd1da90a64aa8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/78a0e288fdcebf92aa2318a8d3656168da6ac1a5",
-                "reference": "78a0e288fdcebf92aa2318a8d3656168da6ac1a5",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/9fdb22c2e97a614657716178093cd1da90a64aa8",
+                "reference": "9fdb22c2e97a614657716178093cd1da90a64aa8",
                 "shasum": ""
             },
             "require": {
@@ -236,7 +236,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.2.9"
+                "source": "https://github.com/composer/ca-bundle/tree/1.2.10"
             },
             "funding": [
                 {
@@ -252,20 +252,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-12T12:10:35+00:00"
+            "time": "2021-06-07T13:58:28+00:00"
         },
         {
             "name": "composer/composer",
-            "version": "2.1.1",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "e338749d4e6cc97e1136c210ce0212d4a59e3a58"
+                "reference": "fc5c4573aafce3a018eb7f1f8f91cea423970f2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/e338749d4e6cc97e1136c210ce0212d4a59e3a58",
-                "reference": "e338749d4e6cc97e1136c210ce0212d4a59e3a58",
+                "url": "https://api.github.com/repos/composer/composer/zipball/fc5c4573aafce3a018eb7f1f8f91cea423970f2e",
+                "reference": "fc5c4573aafce3a018eb7f1f8f91cea423970f2e",
                 "shasum": ""
             },
             "require": {
@@ -334,7 +334,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/composer/issues",
-                "source": "https://github.com/composer/composer/tree/2.1.1"
+                "source": "https://github.com/composer/composer/tree/2.1.3"
             },
             "funding": [
                 {
@@ -350,7 +350,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-04T06:46:46+00:00"
+            "time": "2021-06-09T14:31:20+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -4076,16 +4076,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.1.18",
+            "version": "v3.1.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "60645d04cecf35844b31384d21405051adaa5be0"
+                "reference": "d00e9ede1d11d2e55774ee6fffeea85efbb4cfbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/60645d04cecf35844b31384d21405051adaa5be0",
-                "reference": "60645d04cecf35844b31384d21405051adaa5be0",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/d00e9ede1d11d2e55774ee6fffeea85efbb4cfbb",
+                "reference": "d00e9ede1d11d2e55774ee6fffeea85efbb4cfbb",
                 "shasum": ""
             },
             "require": {
@@ -4153,7 +4153,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.1.18"
+                "source": "https://github.com/statamic/cms/tree/v3.1.22"
             },
             "funding": [
                 {
@@ -4161,7 +4161,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-05-28T15:37:29+00:00"
+            "time": "2021-06-11T14:25:19+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -9666,5 +9666,5 @@
         "php": "^7.3"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }

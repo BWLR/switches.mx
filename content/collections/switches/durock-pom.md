@@ -1,6 +1,7 @@
 ---
 id: 10510713-3127-4549-8ec1-ffbdcb910a83
 published: false
+blueprint: switches
 title: 'Durock POM'
 volume: normal
 factory_lubed: slight
@@ -14,7 +15,7 @@ stem_length: standard
 limited_run: 'no'
 limited_run_reason: 'no'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1621353011
+updated_at: 1623655685
 lubrication_notes: 'Very light factory lube. Also available in dry version from some vendors.'
 notes: |-
   JWK Durock POM Linear Switches, also known as Durock Piano Switches, use a proprietary POM blend for the top and bottom housing with a redesigned stem composed of a mystery material. This combination of switch materials provide a deeper sound signature while still giving you that smooth JWK feel.
@@ -129,4 +130,5 @@ theremin_goat_scores:
     total: 77
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Durock%20POM%20Linear%20(Sample).pdf'
     link_to_review: 'https://www.theremingoat.com/blog/durock-pom-linear-switch-review'
+volume_notes: 'The longer pole and POM housing gives it a louder and clackier noise than other JWK switches'
 ---

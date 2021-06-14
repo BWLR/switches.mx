@@ -1,4 +1,4 @@
-title: 'The Keycap Club'
+title: 'THE KEYCAP CLUB'
 country: GB
 currency: gbp
 website: 'https://www.thekeycapclub.co.uk/'
@@ -9,6 +9,11 @@ social:
     item_url: 'https://www.instagram.com/thekeycapclub/'
     type: new_set
     enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/thekeycapclub'
+    type: new_set
+    enabled: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1621349419
+updated_at: 1623257880
 blueprint: vendors
