@@ -1,4 +1,6 @@
 ---
+id: 08cb346a-9788-43cf-9adb-799f51c853e3
+blueprint: switches
 title: 'Gazzew Boba U4'
 volume: silent
 volume_notes: 'Incredibly silent switch with significant effort put into reducing noise.'
@@ -136,8 +138,15 @@ prices:
     vendor: daily-clack
     datecheck: '2020-08-28'
     in_stock: true
+  -
+    price: '0.73'
+    extra_text: null
+    source: 'https://www.thekeycapclub.co.uk/products/gazzew-boba-u4-silent-tactile-switches?variant=40085699756230'
+    vendor: the-keycap-club
+    datecheck: '2021-06-23'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617013032
+updated_at: 1624482211
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -150,5 +159,4 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Gazzew%20U4%20Boba%2068g%20Sample.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/boba-u4-switch-review'
 stem_length: standard
-id: 08cb346a-9788-43cf-9adb-799f51c853e3
 ---

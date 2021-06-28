@@ -1,0 +1,29 @@
+title: EscapeKeyboard
+country: AU
+currency: aud
+website: 'https://esckeyboard.com/'
+favicon: Capture_32x32.jpg
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/Escape_Keyboard/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/EscapeKeyboard'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/EscapeKeyboard/'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/channel/UCEsOSjPJhLKrtaO4Aa_yncg'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1624912058
+blueprint: vendors

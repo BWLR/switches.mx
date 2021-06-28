@@ -1,1 +1,13 @@
 title: KeebMonkey
+country: US
+currency: usd
+website: 'https://www.keebmonkey.com/'
+favicon: vendor-keebmonkey.png
+social:
+  -
+    network: discord
+    item_url: 'https://discord.gg/hZmG9au'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1624913160

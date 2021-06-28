@@ -1,4 +1,6 @@
 ---
+id: ec49effd-c274-46c3-a8a8-f5c4a83e418b
+blueprint: switches
 title: 'Kailh BOX Pinks'
 volume: normal
 factory_lubed: slight
@@ -84,9 +86,15 @@ prices:
     vendor: aliexpress
     datecheck: '2020-10-11'
     in_stock: true
+  -
+    price: '0.44'
+    extra_text: null
+    source: 'https://www.thekeycapclub.co.uk/products/novelkeys-x-kailh-box-pink-clicky-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-23'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617105379
+updated_at: 1624485885
 stem_length: standard
 limited_run_reason: 'no'
-id: ec49effd-c274-46c3-a8a8-f5c4a83e418b
 ---

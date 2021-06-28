@@ -158,6 +158,13 @@ prices:
     vendor: elboard-keyboard-supply
     datecheck: '2021-06-11'
     in_stock: true
+  -
+    price: '0.61'
+    extra_text: null
+    source: 'https://www.thekeycapclub.co.uk/products/everglide-aqua-king-linear-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-17'
+    in_stock: true
 limited_run: 'no'
 limited_run_reason: 'no'
 photos:
@@ -192,6 +199,6 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Everglide%20V3%20''Water%20King''%20(60g).pdf'
     link_to_review: 'https://www.theremingoat.com/blog/everglide-v3-water-king-switch-review'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1623663675
+updated_at: 1623952485
 lubrication_notes: 'These are very well lubed from the factory but some people have found the odd switch in a batch to be overlubed with return issues - especially the 37g variant.'
 ---

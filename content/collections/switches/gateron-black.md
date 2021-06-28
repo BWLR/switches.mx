@@ -1,4 +1,6 @@
 ---
+id: c642d426-a157-410b-92b4-af58fe7f9db3
+blueprint: switches
 title: 'Gateron Black'
 volume: normal
 factory_lubed: slight
@@ -198,9 +200,22 @@ prices:
     vendor: kbdfans
     datecheck: '2020-10-28'
     in_stock: true
+  -
+    price: '0.27'
+    extra_text: KS-8
+    source: 'https://www.thekeycapclub.co.uk/products/gateron-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-23'
+    in_stock: true
+  -
+    price: '0.35'
+    extra_text: KS-3x1
+    source: 'https://www.thekeycapclub.co.uk/products/gateron-milky-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-23'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617109984
+updated_at: 1624482604
 stem_length: standard
 limited_run_reason: 'no'
-id: c642d426-a157-410b-92b4-af58fe7f9db3
 ---

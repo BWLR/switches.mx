@@ -75,6 +75,36 @@ specs:
     housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: smd-and-inswitch
+  -
+    name: Nolive
+    description: null
+    weights_section: null
+    actuation: '55'
+    bottom-out: '70'
+    pre-travel: '2.00'
+    total-travel: '4.00'
+    spring_section: null
+    spring: standard
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_type: coloured
+    stem_color: '#373025'
+    stem_material: pom
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_type: coloured
+    housing_top_color: '#63623E'
+    housing_top_material: pom
+    housing_top_custom_material_notes: null
+    housing_bottom_section: null
+    housing_bottom_type: coloured
+    housing_bottom_color: '#63623E'
+    housing_bottom_material: pom
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
+    led_support: null
 photos:
   - switches/photos/novelkeys-cream-8m3r8h67oaw31.jpg
   - switches/photos/novelkeys-cream-nqenkedhzht21.jpg
@@ -93,6 +123,8 @@ photos:
   - switches/photos/choc1.webp
   - switches/photos/choc2.webp
   - switches/photos/choc3.webp
+  - switches/photos/0a0e3ce7ce780e7f36a4cb5400057cf0.jpg
+  - switches/photos/6fbf41de1d4c031371245af9acc68bb4-1623749243.jpg
 videos:
   -
     item_url: 'https://www.youtube.com/watch?v=-dW8Fgxg-rE'
@@ -265,8 +297,15 @@ prices:
     vendor: kbdfans
     datecheck: '2021-06-11'
     in_stock: true
+  -
+    price: '0.65'
+    extra_text: Nolive
+    source: 'https://mykeyboard.eu/catalogue/nolive-cream-switches-preorder-10-pack_1054/'
+    vendor: mykeyboard-eu
+    datecheck: '2021-06-15'
+    in_stock: false
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1623415862
+updated_at: 1623749246
 limited_run_reason: 'no'
 stem_length: standard
 ---

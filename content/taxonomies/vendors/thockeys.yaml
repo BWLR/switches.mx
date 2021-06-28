@@ -1,1 +1,18 @@
 title: ThocKeys
+country: US
+currency: usd
+website: 'https://thockeys.com/'
+favicon: thockeys_favicon.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/thockeys/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/ThocKeys'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1624913259
