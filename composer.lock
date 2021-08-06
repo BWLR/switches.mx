@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "69053c41eff71d1610b6d77c60f02d18",
+    "content-hash": "de62407cf0b993ae74284b570ff06eb5",
     "packages": [
         {
             "name": "aryehraber/statamic-color-extractor",
@@ -4222,16 +4222,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.1.29",
+            "version": "v3.1.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "88e1939d46378a278e216d151a68fe78745f1c64"
+                "reference": "1c50c2eb1625c8e1850be3cc83eaa536c24a0e57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/88e1939d46378a278e216d151a68fe78745f1c64",
-                "reference": "88e1939d46378a278e216d151a68fe78745f1c64",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/1c50c2eb1625c8e1850be3cc83eaa536c24a0e57",
+                "reference": "1c50c2eb1625c8e1850be3cc83eaa536c24a0e57",
                 "shasum": ""
             },
             "require": {
@@ -4299,7 +4299,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.1.29"
+                "source": "https://github.com/statamic/cms/tree/v3.1.32"
             },
             "funding": [
                 {
@@ -4307,7 +4307,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-07-16T19:26:39+00:00"
+            "time": "2021-07-28T20:13:45+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -10088,5 +10088,5 @@
         "php": "^7.3"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }

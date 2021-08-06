@@ -207,8 +207,15 @@ prices:
     vendor: the-keycap-club
     datecheck: '2021-06-09'
     in_stock: true
+  -
+    price: '1.07'
+    extra_text: null
+    source: 'https://loob.no/collections/switches/products/gateron-ink-v2-black-linear'
+    vendor: loob
+    datecheck: '2021-08-06'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1623257414
+updated_at: 1628282068
 stem_length: standard
 limited_run_reason: 'no'
 ---

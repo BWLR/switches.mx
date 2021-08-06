@@ -212,8 +212,22 @@ prices:
     vendor: the-keycap-club
     datecheck: '2021-06-17'
     in_stock: true
+  -
+    price: '1.34'
+    extra_text: Standard
+    source: 'https://loob.no/collections/switches/products/tealio-v2-switches-linear'
+    vendor: loob
+    datecheck: '2021-08-06'
+    in_stock: true
+  -
+    price: '1.46'
+    extra_text: Turquoise
+    source: 'https://loob.no/collections/switches/products/turquoise-tealio-linear'
+    vendor: loob
+    datecheck: '2021-08-06'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1623952872
+updated_at: 1628284496
 limited_run_reason: 'no'
 stem_length: standard
 ---

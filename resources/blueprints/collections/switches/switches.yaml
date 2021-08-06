@@ -652,6 +652,7 @@ sections:
                 mode: select
                 listable: true
                 max_items: 1
+                instructions: 'Please select one from the list (don''t add new vendors from here)'
             -
               handle: datecheck
               field:

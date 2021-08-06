@@ -85,5 +85,5 @@ quotes:
     source: 'https://www.reddit.com/r/MechanicalKeyboards/comments/lybyke/akko_cs_series_switches_surprisingly_excellent/'
     text: 'Just got these Akko CS series switches in. Surprisingly excellent for the price at $20 for 90 switches (and free postage in the UK). Very well packaged and presented too.'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1626893166
+updated_at: 1628284247
 ---

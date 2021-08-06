@@ -442,7 +442,7 @@ prices:
     price: '1.00'
     extra_text: KS-3X1
     source: 'https://keys.my/gateron-milky-yellow-switch/'
-    vendor: keys
+    vendor: keys-my
     datecheck: '2020-09-17'
     in_stock: true
   -
@@ -459,8 +459,15 @@ prices:
     vendor: the-keycap-club
     datecheck: '2021-06-09'
     in_stock: true
+  -
+    price: '0.36'
+    extra_text: KS-9
+    source: 'https://loob.no/collections/switches/products/gateron-ks9?variant=39985617141951'
+    vendor: loob
+    datecheck: '2021-08-06'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1623259341
+updated_at: 1628284722
 limited_run_reason: 'no'
 theremin_goat_scores:
   -

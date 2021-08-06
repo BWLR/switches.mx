@@ -1,1 +1,28 @@
 title: Epomaker
+country: US
+currency: usd
+website: 'https://epomaker.com/'
+favicon: android-chrome-512x512_32x32.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/epomaker_keyboard'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/EpomakerK'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/Epomaker'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/2q3Z7C2'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1628282633

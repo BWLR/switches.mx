@@ -1,0 +1,14 @@
+title: 'Paramount Keeb'
+country: US
+currency: usd
+website: 'https://paramountkeeb.com/'
+favicon: vendor-paramountkeeb.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/paramountkeeb/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1628281165
+blueprint: vendors

@@ -1,0 +1,24 @@
+title: 'heebie keebies'
+country: US
+currency: usd
+website: 'https://heebiekeebies.com/'
+favicon: favicon_b9424b38-1479-4959-a20a-2e29f87ee989_32x32.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/heebiekeebies/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/heebiekeebies'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.com/invite/582Mu89xUm'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1628282778
+blueprint: vendors

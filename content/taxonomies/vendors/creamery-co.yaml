@@ -1,0 +1,19 @@
+title: 'Creamery Co'
+country: US
+currency: usd
+website: 'https://www.creameryco.com/'
+favicon: vendor-creameryco.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/creamerycontact/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/creamerycontact'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1628283775
+blueprint: vendors
