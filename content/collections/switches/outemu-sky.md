@@ -1,9 +1,10 @@
 ---
 id: 7433654a-2197-4b57-b4cd-8861d07d5b71
+blueprint: switches
 title: 'Outemu SKY'
 volume: normal
 factory_lubed: 'no'
-lubrication_notes: 'This switch greatly benefits from being lubed. Krytox 205g0 or TriboSys 3204 would be good lube choices (while avoiding the stem legs to preserve tactility).'
+lubrication_notes: 'This switch greatly benefits from being lubed. Krytox 205g0 or TriboSys 3204 would be good lube choices.'
 film: unknown
 notes: 'Outemu SKY is a series of Cherry MX clone switches envisioned by Reddit user /u/hbheroinbob. He has stated that his goal was "to make a versatile factory made ergo-clear alternative with a reasonable street price; and have all of the parts be interchangeable with the cherry-class ecosystem".'
 manufacturer: outemu
@@ -116,6 +117,10 @@ quotes:
     title: 'Review by Tamal Firoz on Flashquark'
     source: 'https://flashquark.com/product/outemu-sky-switches/#reviews'
     text: 'In short – despite my misgivings, I absolutely LOVE LOVE this switch. I prefer these to Durock Koalas, which I got in last week after paying express shipping from China, and those cost 3 times what I paid for the Skies.'
+  -
+    title: '@mech.labz on Instagram'
+    source: 'https://www.instagram.com/p/CQ_9Cwfnz2C/'
+    text: 'It is way better after modding! I like''em a lot more now!'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1623196988
+updated_at: 1625604158
 ---

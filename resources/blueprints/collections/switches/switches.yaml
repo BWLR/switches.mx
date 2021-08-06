@@ -717,6 +717,8 @@ sections:
           type: radio
           icon: radio
           listable: hidden
+          if:
+            limited_run: 'equals yes'
       -
         handle: limited_run_gb_enddate
         field:

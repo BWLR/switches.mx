@@ -1,0 +1,14 @@
+title: 'Custom KBD'
+country: AU
+currency: aud
+website: 'https://customkbd.com/'
+favicon: 119628126_103158838211220_3877286072413894639_n.png
+social:
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/CustomKBD/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1624980777
+blueprint: vendors

@@ -23,6 +23,8 @@ preferences:
         - housing_bottom
         - stem
         - known-as
+    switches:
+      after_save: continue_editing
   taxonomies:
     switch_type:
       after_save: create_another

@@ -1,0 +1,14 @@
+title: RNDKBD
+country: CA
+currency: cad
+website: 'https://rndkbd.com'
+favicon: rndkbd_logo_3_94ec85bd-d1fc-4be0-be2a-d562d63116eb_32x32.png
+social:
+  -
+    network: instagram
+    item_url: 'http://instagram.com/rndkbd'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1624978493
+blueprint: vendors
