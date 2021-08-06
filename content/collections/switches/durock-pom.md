@@ -14,7 +14,7 @@ stem_length: standard
 limited_run: 'no'
 limited_run_reason: 'no'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1623668477
+updated_at: 1624481774
 lubrication_notes: 'Very light factory lube. Also available in dry version from some vendors.'
 notes: |-
   Also known as Durock Piano Switches. The Durock POM switch uses a proprietary POM blend for the top and bottom housing with a redesigned stem composed of a mystery material providing a deeper sound signature while still giving you that smooth JWK feel.
@@ -114,6 +114,13 @@ prices:
     source: 'https://www.aliexpress.com/item/1005002553368040.html?spm=a2g0o.productlist.0.0.4a2225029s2H7E&algo_pvid=669392b0-6394-4f1d-b379-73bed5aad9ff&algo_expid=669392b0-6394-4f1d-b379-73bed5aad9ff-0&btsid=0bb0622d16213512598681342eb44e&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_'
     vendor: aliexpress
     datecheck: '2021-05-18'
+    in_stock: true
+  -
+    price: '0.80'
+    extra_text: Unlubed
+    source: 'https://www.thekeycapclub.co.uk/products/durock-piano-pom-linear-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-23'
     in_stock: true
 theremin_goat_scores:
   -

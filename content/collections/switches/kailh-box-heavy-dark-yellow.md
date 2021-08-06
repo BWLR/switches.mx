@@ -1,4 +1,6 @@
 ---
+id: f69d9811-d6a4-466d-be2f-51ff33f7d4d8
+blueprint: switches
 title: 'Kailh BOX Heavy Dark Yellow'
 volume: normal
 volume_notes: 'This switch is clacky, the sound level is along the lines of most average budget linears (i.e. Gateron Yellows) but without as much of the scratch.'
@@ -122,9 +124,15 @@ prices:
     vendor: daily-clack
     datecheck: '2020-08-07'
     in_stock: true
+  -
+    price: '0.35'
+    extra_text: null
+    source: 'https://www.thekeycapclub.co.uk/products/novelkeys-x-kailh-box-heavy-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-23'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617103767
+updated_at: 1624481977
 stem_length: standard
 limited_run_reason: 'no'
-id: f69d9811-d6a4-466d-be2f-51ff33f7d4d8
 ---

@@ -1,70 +1,77 @@
 ---
+id: 6f5d158d-dfe7-4f17-854a-ad1559443334
+blueprint: switches
 title: 'KBDFans X MiTo Laser'
 volume: normal
-volume_notes: ''
 factory_lubed: slight
-lubrication_notes: ''
 film: unknown
-film_notes: ''
-notes: |-
-
 manufacturer: gateron
 brand: kbdfans
 switch_type: linear
 mount: '5'
-stem_construction: 'standard'
+stem_construction: standard
 limited_run: 'no'
 specs:
   -
-    name:
-    description: ''
-    actuation:
+    name: null
+    description: null
+    actuation: null
     bottom-out: 60
-    pre-travel:
-    total-travel:
-    spring: standard
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    pre-travel: null
+    total-travel: null
+    spring: gold-plated
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
-    stem_color: '#19afc6'
+    stem_color: '#19AFC6'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: coloured
-    housing_top_color: '#6a4c97'
+    housing_top_color: '#6A4C97'
     housing_top_material: nylon
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#6a4c97'
+    housing_bottom_color: '#6A4C97'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
   -
-    name:
-    description: ''
-    actuation:
+    name: null
+    description: null
+    actuation: null
     bottom-out: 74
-    pre-travel:
-    total-travel:
-    spring: standard
-    spring_color: ''
-    spring_color_info: ''
-    spring_swap: ''
+    pre-travel: null
+    total-travel: null
+    spring: gold-plated
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
     stem_type: coloured
-    stem_color: '#d92667'
+    stem_color: '#D92667'
     stem_material: pom
-    stem_custom_material_notes: ''
+    stem_custom_material_notes: null
     housing_top_type: coloured
-    housing_top_color: '#6a4c97'
+    housing_top_color: '#6A4C97'
     housing_top_material: nylon
-    housing_top_custom_material_notes: ''
+    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#6a4c97'
+    housing_bottom_color: '#6A4C97'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: ''
+    housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
 photos:
   - switches/photos/kbdfans-x-mito-laser-70305774_155459195545229_4026236544621696112_n.jpg
   - switches/photos/kbdfans-x-mito-laser-70506892_144586976775077_6881202483123694485_n.jpg
@@ -97,6 +104,7 @@ prices:
     datecheck: '2019-12-18'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1580830632
-id: 6f5d158d-dfe7-4f17-854a-ad1559443334
+updated_at: 1624871471
+stem_length: standard
+limited_run_reason: 'no'
 ---

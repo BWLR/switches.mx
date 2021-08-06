@@ -1,4 +1,6 @@
 ---
+id: 08ce35f4-165a-464f-8f20-3b954bade56d
+blueprint: switches
 title: 'Kailh BOX Heavy Pale Blue'
 volume: loud
 volume_notes: 'This switch is fairly clicky, along the sound level of clicking a pen open and closed with each key press.'
@@ -115,8 +117,15 @@ prices:
     vendor: aliexpress
     datecheck: '2020-08-06'
     in_stock: true
+  -
+    price: '0.35'
+    extra_text: null
+    source: 'https://www.thekeycapclub.co.uk/products/novelkeys-x-kailh-box-heavy-switches?variant=40064494305478'
+    vendor: the-keycap-club
+    datecheck: '2021-06-23'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1616601547
+updated_at: 1624482351
 limited_run_reason: 'no'
-id: 08ce35f4-165a-464f-8f20-3b954bade56d
+stem_length: standard
 ---

@@ -1,4 +1,6 @@
 ---
+id: 6c0b892a-f363-481d-95ca-43eb3c1a2068
+blueprint: switches
 title: 'Zeal Tealios V2'
 volume: normal
 factory_lubed: slight
@@ -196,9 +198,22 @@ prices:
     vendor: daily-clack
     datecheck: '2020-02-12'
     in_stock: true
+  -
+    price: '0.98'
+    extra_text: Standard
+    source: 'https://www.thekeycapclub.co.uk/products/tealio-v2-linear-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-17'
+    in_stock: true
+  -
+    price: '1.06'
+    extra_text: Turquoise
+    source: 'https://www.thekeycapclub.co.uk/products/turquoise-tealio-linear-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-17'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617015556
+updated_at: 1623952872
 limited_run_reason: 'no'
 stem_length: standard
-id: 6c0b892a-f363-481d-95ca-43eb3c1a2068
 ---

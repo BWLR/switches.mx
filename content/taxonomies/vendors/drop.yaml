@@ -1,1 +1,23 @@
 title: Drop
+country: US
+currency: usd
+website: 'https://drop.com/'
+favicon: drop-apple-touch-icon-180x180.jpg
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/drop'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/drop'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/drop'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1624912401

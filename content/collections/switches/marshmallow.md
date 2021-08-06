@@ -1,8 +1,10 @@
 ---
+id: e0079e39-5cf7-4606-b789-32eb26e3c131
+blueprint: switches
 title: 'Thic Thock x JWK Marshmallow'
 volume: normal
 factory_lubed: 'no'
-lubrication_notes: '<p>any lube that would normally be used in linear switches that’s relatively thin would be an excellent fit for these switches.</p>'
+lubrication_notes: '<p>Any lube that would normally be used in linear switches that’s relatively thin would be an excellent fit for these switches.</p>'
 film: 'yes'
 film_notes: '<p>V1 Marshmallows will improve with Filming while filming V2 Marshmallows isn&#8217;t necessary.</p>'
 notes: '<p>Marshmallows are a JWK linear recolor created/designed by Thic Thock, currently the only swith that bring an aftermarket progressive spring stock from the factory on the market.</p>'
@@ -20,7 +22,7 @@ specs:
     bottom-out: 68
     pre-travel: '1.40'
     total-travel: null
-    spring: gold-plated
+    spring: progressive
     spring_color: null
     spring_color_info: null
     spring_swap: 'Thic Thocks own MP springs come stock in the Marshmallow.'
@@ -107,8 +109,7 @@ prices:
     datecheck: '2020-12-17'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617104538
+updated_at: 1624913588
 stem_length: standard
 limited_run_reason: 'no'
-id: e0079e39-5cf7-4606-b789-32eb26e3c131
 ---

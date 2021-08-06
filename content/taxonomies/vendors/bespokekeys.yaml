@@ -1,1 +1,13 @@
 title: BespokeKeys
+country: US
+currency: usd
+website: 'https://bespokekeys.shop/'
+favicon: Bespoke_Logo_32x32.png
+social:
+  -
+    network: discord
+    item_url: 'https://discord.com/invite/zz9Apfcm'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1624912555

@@ -1,4 +1,6 @@
 ---
+id: fb4bc29c-7fca-4cfa-bd81-beb803df23ba
+blueprint: switches
 title: 'Kailh BOX White'
 volume: normal
 factory_lubed: slight
@@ -110,9 +112,15 @@ prices:
     vendor: novelkeys
     datecheck: '2020-03-13'
     in_stock: true
+  -
+    price: '0.36'
+    extra_text: null
+    source: 'https://www.thekeycapclub.co.uk/products/kailh-box-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-17'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617108804
+updated_at: 1623952671
 stem_length: standard
 limited_run_reason: 'no'
-id: fb4bc29c-7fca-4cfa-bd81-beb803df23ba
 ---

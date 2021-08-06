@@ -1,4 +1,6 @@
 ---
+id: e41bc344-8533-4e85-b050-afcd54927750
+blueprint: switches
 title: 'NK_ Sherbet'
 volume: loud
 factory_lubed: 'no'
@@ -72,9 +74,15 @@ prices:
     vendor: novelkeys
     datecheck: '2020-04-04'
     in_stock: true
+  -
+    price: '0.46'
+    extra_text: null
+    source: 'https://www.thekeycapclub.co.uk/products/novelkeys-x-kailh-sherbet-clicky-switches'
+    vendor: the-keycap-club
+    datecheck: '2021-06-23'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617107033
+updated_at: 1624482850
 stem_length: standard
 limited_run_reason: 'no'
-id: e41bc344-8533-4e85-b050-afcd54927750
 ---
