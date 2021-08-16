@@ -118,8 +118,15 @@ prices:
     vendor: apexkeyboards
     datecheck: '2020-06-29'
     in_stock: true
+  -
+    price: '0.65'
+    extra_text: null
+    source: 'https://hippokeys.com/products/alpaca-switches-10-pack'
+    vendor: hippokeys
+    datecheck: '2021-08-10'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1623749137
+updated_at: 1628637412
 limited_run_reason: 'no'
 theremin_goat_scores:
   -

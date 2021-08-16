@@ -1,0 +1,19 @@
+title: KeebCats
+country: GB
+currency: gbp
+website: 'https://keebcats.co.uk/'
+favicon: 4A21BFA7-0EC3-41BF-9119-8040148F6CFE_32x32.png
+social:
+  -
+    network: instagram
+    item_url: 'https://instagram.com/keebcats'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.com/invite/qWPNjRpAx2'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1628505744
+blueprint: vendors

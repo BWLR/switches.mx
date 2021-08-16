@@ -1,0 +1,19 @@
+title: HippoKeys
+country: US
+currency: usd
+website: 'https://hippokeys.com/'
+favicon: vendor-hippokeys.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/hippokeyscom/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'http://twitter.com/hippokeys'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1628508080
+blueprint: vendors

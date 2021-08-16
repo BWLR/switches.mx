@@ -304,8 +304,15 @@ prices:
     vendor: mykeyboard-eu
     datecheck: '2021-06-15'
     in_stock: false
+  -
+    price: '0.79'
+    extra_text: null
+    source: 'https://hippokeys.com/products/novelkeys-x-kailh-linear-cream-switches-10-pack'
+    vendor: hippokeys
+    datecheck: '2021-08-09'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1623749246
+updated_at: 1628508221
 limited_run_reason: 'no'
 stem_length: standard
 ---

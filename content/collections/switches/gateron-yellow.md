@@ -467,7 +467,7 @@ prices:
     datecheck: '2021-08-06'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1628284722
+updated_at: 1628285355
 limited_run_reason: 'no'
 theremin_goat_scores:
   -

@@ -97,6 +97,13 @@ prices:
     vendor: mode-designs
     datecheck: '2021-07-21'
     in_stock: true
+  -
+    price: '0.55'
+    extra_text: null
+    source: 'https://hippokeys.com/products/durock-t1-tactile-switches-10-pack'
+    vendor: hippokeys
+    datecheck: '2021-08-10'
+    in_stock: true
 limited_run: 'no'
 limited_run_reason: 'no'
 photos:
@@ -120,5 +127,5 @@ quotes:
     source: 'https://www.reddit.com/r/MechanicalKeyboards/comments/kzxo05/durock_t1_review/'
     text: 'Feels like popping really small bubble wrap.'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1626879126
+updated_at: 1628637488
 ---
