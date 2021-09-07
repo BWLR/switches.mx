@@ -191,7 +191,7 @@ sections:
             standard: Standard
             box: 'Kailh Box'
             top-only: 'Top only (eg. Kangaroo switches)'
-            cap: 'Long inner post (eg. Gateron cap)'
+            cap: 'Enlarged pole with hollowed hole (eg. Gateron cap)'
           multiple: false
           clearable: false
           searchable: true
@@ -209,7 +209,7 @@ sections:
         field:
           options:
             standard: Standard
-            long: 'Long Pole (eg. Halo/Holy Panda'
+            long: 'Long Pole (eg. Halo/Holy Panda)'
           multiple: false
           clearable: false
           searchable: true
