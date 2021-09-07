@@ -157,7 +157,7 @@ prices:
     source: 'https://drop.com/buy/gateron-ink-switches'
     vendor: drop
     datecheck: '2020-02-12'
-    in_stock: true
+    in_stock: false
   -
     price: '0.75'
     extra_text: null
@@ -215,14 +215,14 @@ prices:
     datecheck: '2021-08-06'
     in_stock: true
   -
-    price: '0.69'
+    price: '0.72'
     extra_text: null
     source: 'https://hippokeys.com/products/gateron-ink-v2-black-switches'
     vendor: hippokeys
     datecheck: '2021-08-10'
-    in_stock: false
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1628637677
+updated_at: 1629782526
 stem_length: standard
 limited_run_reason: 'no'
 ---

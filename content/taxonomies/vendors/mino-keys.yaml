@@ -1,0 +1,29 @@
+title: 'Mino Keys'
+country: CA
+currency: cad
+website: 'https://minokeys.com/'
+favicon: minokeys-logo-horizontal_220x-1629199725.png
+social:
+  -
+    network: instagram
+    item_url: 'https://instagram.com/minokeys'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/mino_keys'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://facebook.com/minokeys'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://minokeys.com/discord'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1629221908
+blueprint: vendors
