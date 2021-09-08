@@ -1,0 +1,14 @@
+title: Keybot
+country: MY
+currency: myr
+website: 'https://www.keybot.my/'
+favicon: 5491360.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/keybotmy/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1631104253
+blueprint: vendors

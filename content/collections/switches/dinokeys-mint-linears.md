@@ -44,9 +44,9 @@ specs:
     led_support: smd-and-inswitch
 prices:
   -
-    price: '0.70'
+    price: '0.69'
     extra_text: null
-    source: 'https://dinokeys.co/products/dinokeys-linear-switches?variant=39828912013465'
+    source: 'https://dinokeys.co/products/dinokeys-linear-switches?variant=39828911980697'
     vendor: dinokeys
     datecheck: '2021-08-29'
     in_stock: true
@@ -64,5 +64,5 @@ related_links:
     item_url: 'https://www.youtube.com/watch?v=gDxS8vuOFNg&t=50s'
     description: 'Mint Linear Switch by Keybored'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1630278278
+updated_at: 1631009130
 ---
