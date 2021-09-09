@@ -3,7 +3,8 @@ standard: 'Standard <em>(stainless steel)</em>'
 gold-plated: 'Gold-plated'
 coated: 'Color coated'
 long: 'Long spring'
-progressive: Progressive
+progressive: 'Progressive'
+double-stage: 'Symmetric double-staged (gold plated)'
 kailh: 'Kailh Box spring <em>(smaller than MX)</em>'
 ---
 
@@ -14,6 +15,8 @@ kailh: 'Kailh Box spring <em>(smaller than MX)</em>'
             [data-spring-id="{{ id }}"] .switch-spring-top,
             [data-spring-id="{{ id }}"] .switch-spring-bottom {
                 {{ if spring == 'gold-plated' }}
+                    stroke: #BC960A;
+                {{ elseif spring == 'double-stage' }}
                     stroke: #BC960A;
                 {{ elseif spring == 'coated' }}
                     stroke: {{ spring_color }};
@@ -35,6 +38,8 @@ kailh: 'Kailh Box spring <em>(smaller than MX)</em>'
             {{ view:long }}
         {{ elseif spring == 'progressive' }}
             {{ view:progressive }}
+        {{ elseif spring == 'double-stage' }}
+            {{ view:double-stage }}
         {{ elseif spring == 'kailh' }}
             {{ view:kailh }}
         {{ /if }}
