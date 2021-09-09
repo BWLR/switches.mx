@@ -1,0 +1,19 @@
+title: 'Nico & Steph Studios'
+country: US
+currency: usd
+website: 'https://nicoandstephstudios.com/'
+favicon: Nico_Steph_Studios_Crown_180x.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/nico_and_steph_studios/'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/JAt8kdc'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1631099023
+blueprint: vendors

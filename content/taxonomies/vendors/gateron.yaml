@@ -1,0 +1,14 @@
+title: Gateron
+country: US
+currency: usd
+website: 'https://www.gateron.co/'
+favicon: g_gateron_32x32.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/gateron.official/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1631092653
+blueprint: vendors

@@ -1,0 +1,19 @@
+title: 'Coffee Keys'
+country: IT
+currency: eur
+website: 'https://coffeekeys.eu/'
+favicon: cup_only_32x32.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/coffee_keys'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/Coffeekeys-105644074716545'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1631104740
+blueprint: vendors

@@ -1,0 +1,24 @@
+title: KeebsForAll
+country: US
+currency: usd
+website: 'https://keebsforall.com/'
+favicon: keebsforall_logo_2_60x.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/keebsforall/'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/dRjsAh5jMX'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/channel/UCYUEDd2rqsZbSoy2tHg71Yg'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1631104338
+blueprint: vendors
