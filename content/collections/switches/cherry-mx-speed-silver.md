@@ -14,7 +14,7 @@ specs:
     name: null
     description: null
     actuation: 46
-    bottom-out: null
+    bottom-out: 71
     pre-travel: '1.20'
     total-travel: '3.40'
     spring: standard
@@ -45,7 +45,7 @@ specs:
     name: RGB
     description: null
     actuation: 46
-    bottom-out: null
+    bottom-out: 71
     pre-travel: '1.20'
     total-travel: '3.40'
     spring: standard
