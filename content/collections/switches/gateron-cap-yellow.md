@@ -477,10 +477,22 @@ videos:
   -
     item_url: 'https://www.youtube.com/watch?v=fUKrRwM8T30&t=16803s'
     description: 'Gateron Cap Switches + D65 Build Stream by Taeha Tapes'
+  -
+    item_url: 'https://www.youtube.com/watch?v=nL1SzqLmYEw'
+    description: 'Gateron Caps Switches Review - So Satisfying to Use by Switch and Click'
+  -
+    item_url: 'https://www.youtube.com/watch?v=euvjN3OY_N4'
+    description: 'Gateron INK BLACKS for More than 50% OFF? Finally, a BUDGET INK BLACK... GATERON CAP V2 Switch by Keybored'
+  -
+    item_url: 'https://www.youtube.com/watch?v=aBCFr5T11ws'
+    description: 'Gateron Cap Review *honest* by Richard Beans'
+  -
+    item_url: 'https://www.youtube.com/watch?v=lRY-G7aLjGc'
+    description: 'Gateron Caps : How do they compare to other Gateron Yellows? by smilindown'
 related_links:
   -
     item_url: 'https://www.reddit.com/r/MechanicalKeyboards/comments/jna6fc/gateron_caps_switches_vs_milky_yellows/'
     description: 'Gateron Caps Switches Vs. Milky Yellows review by Posted byu/jkon-12 10 months ago'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1631106380
+updated_at: 1631108411
 ---
