@@ -32,7 +32,7 @@
                         </div>
                     </div>
 
-                    {{ partial:switches/list :items="switches" }}
+                    {{ partial:switches/list :items="switches" currentpage="{{ paginate }}{{ current_page }}{{ /paginate }}" }}
 
                     {{ if no_results }}
                         <div class="switchesmx-list__no-results">
