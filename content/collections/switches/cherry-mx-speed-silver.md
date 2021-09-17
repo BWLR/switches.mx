@@ -1,4 +1,6 @@
 ---
+id: 351354b4-dcf9-4c0e-952d-55b116db2819
+blueprint: switches
 title: 'Cherry MX Speed Silver'
 volume: normal
 factory_lubed: slight
@@ -14,7 +16,7 @@ specs:
     name: null
     description: null
     actuation: 46
-    bottom-out: 71
+    bottom-out: '71'
     pre-travel: '1.20'
     total-travel: '3.40'
     spring: standard
@@ -45,7 +47,7 @@ specs:
     name: RGB
     description: null
     actuation: 46
-    bottom-out: 71
+    bottom-out: '71'
     pre-travel: '1.20'
     total-travel: '3.40'
     spring: standard
@@ -102,8 +104,7 @@ prices:
     datecheck: '2020-09-30'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617105433
+updated_at: 1631525432
 stem_length: standard
 limited_run_reason: 'no'
-id: 351354b4-dcf9-4c0e-952d-55b116db2819
 ---

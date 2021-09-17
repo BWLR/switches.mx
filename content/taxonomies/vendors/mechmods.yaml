@@ -1,0 +1,19 @@
+title: MechMods
+country: GB
+currency: gbp
+website: 'https://www.mechmods.co.uk/'
+favicon: mm_32x32.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/mechmods_uk/'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/7SYXmNG7PJ'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1631527829
+blueprint: vendors
