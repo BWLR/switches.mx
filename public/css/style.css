@@ -5999,14 +5999,20 @@ progress {
   padding: 2px 6px;
   box-shadow: 3px 3px 0 #282A30;
   transition: all 0.2s ease-in-out;
+  text-decoration: none;
 }
 
 .switchesmx__header-menu-link:hover,
 .switchesmx__header-menu-link:focus,
 .switchesmx__header-menu-link:active {
-  background: #282A30;
+  background: #822029;
   color: #F9F9F9;
   text-decoration: none;
+}
+
+.switchesmx__header-menu-link--active {
+  background: #300c0f;
+  color: #F9F9F9;
 }
 
 .switchesmx__body {
@@ -8514,12 +8520,18 @@ body.is-modal {
   font-size: 13px;
 }
 
+a.page-home__block {
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+
 a.page-home__block:hover,
 a.page-home__block:active,
 a.page-home__block:focus {
   color: #fff;
   text-decoration: none;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  transform: translate3d(0, -4px, 0);
 }
 
 .page-home__block--latest {
