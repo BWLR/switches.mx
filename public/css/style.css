@@ -6175,6 +6175,15 @@ progress {
   color: #3D3D3D;
 }
 
+.switchesmx-filter__button--filter:hover,
+.switchesmx-filter__button--filter:focus,
+.switchesmx-filter__button--filter:active {
+  background: #822029;
+  border-color: #822029;
+  color: #F9F9F9;
+  text-decoration: none;
+}
+
 @keyframes fadeInOpacity {
   0% {
     opacity: 0;
@@ -6898,6 +6907,56 @@ progress {
   font-weight: 500;
   margin-bottom: 5px;
   color: #939393;
+}
+
+.c-switch__affiliate-mechbox {
+  padding: 10px 20px;
+}
+
+.c-switch__affiliate-mechbox h3 {
+  margin-bottom: 10px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.c-switch__affiliate-mechbox-link-button {
+  display: inline-block;
+  width: auto;
+  background: #CF3947;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-color: #CF3947;
+  letter-spacing: -0.3px;
+  line-height: 1.3;
+  border-radius: 5px;
+  border: solid 2px #F9F9F9;
+  padding: 5px 20px;
+  text-transform: none;
+}
+
+.c-switch__affiliate-mechbox-link-button:hover,
+.c-switch__affiliate-mechbox-link-button:focus,
+.c-switch__affiliate-mechbox-link-button:active {
+  background: #822029;
+  color: #F9F9F9;
+  text-decoration: none;
+}
+
+.c-switch__affiliate-mechbox-from {
+  display: block;
+  font-weight: 500;
+  font-size: 13px;
+  text-align: center;
+  color: #C4C4C4;
+  margin: 5px 0;
+}
+
+.c-switch__affiliate-mechbox-logo {
+  width: 160px;
+  max-width: 100%;
+  margin: 0 10px 10px;
 }
 
 .c-switch__prices {
@@ -8203,6 +8262,12 @@ body.is-modal {
   text-align: center;
   letter-spacing: -0.03em;
   color: #939393;
+}
+
+.switchesmx-detail__small-print--affiliate {
+  font-size: 11px;
+  margin-bottom: 30px;
+  margin-top: -10px;
 }
 
 .switchesmx-detail__inner-container {

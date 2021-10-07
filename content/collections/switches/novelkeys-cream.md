@@ -312,7 +312,8 @@ prices:
     datecheck: '2021-08-09'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1628508221
+updated_at: 1633617152
 limited_run_reason: 'no'
 stem_length: standard
+mechbox_affiliate_link: 'https://mechbox.co.uk/collections/switches-singles/products/novelkeys-cream-switch?variant=14697264381994'
 ---
