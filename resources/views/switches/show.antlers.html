@@ -282,24 +282,44 @@
                             </div>
                         </div>
                     {{ /if }}
+
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="switchesmx-detail__inner-container">
-                                <h2>Prices</h2>
-                                {{ partial:switches/prices linkToPrice="true" prices={{ :prices }}
-
-                                {{ if limited_run == 'yes' }}
-                                    {{ partial:switches/limited
-                                        limited_run="{{ limited_run }}"
-                                        limited_run_reason="{{ limited_run_reason }}"
-                                        limited_run_gb_enddate="{{ limited_run_gb_enddate }}"
-                                    }}
-                                {{ /if }}
-
-                                <div class="switchesmx-detail__small-print">These prices are subject to change at any time and should be used only as a rough guide (plus, quite often switches are not sold individually and can sometimes include discounts for larger quantities).<br /><br /><strong>This information is not automatically updated.</strong></div>
+                                <div class="c-switch__affiliate-mechbox">
+                                    <h3>Want to try this switch out for yourself?</h3>
+                                    <a href="{{ if mechbox_affiliate_link }}{{ mechbox_affiliate_link }}&ref=switchesmx{{ else }}https://mechbox.co.uk/collections/switches-singles?ref=switchesmx{{ /if }}" class="c-switch__affiliate-mechbox-link-button" target="_blank">Buy a single <em>{{ title }}</em> sample switch</a>
+                                    <div class="c-switch__affiliate-mechbox-from">from our friends at...</div>
+                                    <img src="/images/affiliates/mechbox-logo.png" class="c-switch__affiliate-mechbox-logo" alt="Mechbox.co.uk logo" />
+                                </div>
+                            </div>
+                            <div class="switchesmx-detail__small-print switchesmx-detail__small-print--affiliate">
+                                <strong>Small disclaimer:</strong> This is an affiliate link. Switches.mx receives a small commission if you make a purchase after clicking this link. This helps us to cover costs and support us :)<br />
+                                Regardless, we highly recommend Mechbox for your switch needs, and encourage you to support Mechbox.
                             </div>
                         </div>
                     </div>
+
+                    {{ if prices }}
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="switchesmx-detail__inner-container">
+                                    <h2>Prices</h2>
+                                    {{ partial:switches/prices linkToPrice="true" prices={{ :prices }}
+
+                                    {{ if limited_run == 'yes' }}
+                                        {{ partial:switches/limited
+                                            limited_run="{{ limited_run }}"
+                                            limited_run_reason="{{ limited_run_reason }}"
+                                            limited_run_gb_enddate="{{ limited_run_gb_enddate }}"
+                                        }}
+                                    {{ /if }}
+
+                                    <div class="switchesmx-detail__small-print">These prices are subject to change at any time and should be used only as a rough guide (plus, quite often switches are not sold individually and can sometimes include discounts for larger quantities).<br /><br /><strong>This information is not automatically updated.</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                    {{ /if }}
 
                     {{ if related_links }}
                         {{ if related_links | count > 0 }}

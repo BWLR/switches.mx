@@ -81,13 +81,19 @@
             padding: 2px 6px;
             box-shadow: 3px 3px 0 $smx-color-01;
             transition: all .2s ease-in-out;
+            text-decoration: none;
 
             &:hover,
             &:focus,
             &:active {
-                background: $smx-color-01;
+                background: darken($smx-color-04, 20%);
                 color: $smx-color-06;
                 text-decoration: none;
+            }
+
+            &--active {
+                background: darken($smx-color-04, 40%);
+                color: $smx-color-06;
             }
         }
     }

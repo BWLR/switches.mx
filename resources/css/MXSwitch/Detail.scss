@@ -880,6 +880,12 @@ body.is-modal {
         text-align: center;
         letter-spacing: -0.03em;
         color: $smx-color-03;
+
+        &--affiliate {
+            font-size: 11px;
+            margin-bottom: 30px;
+            margin-top: -10px;
+        }
     }
 
     // Inner container item

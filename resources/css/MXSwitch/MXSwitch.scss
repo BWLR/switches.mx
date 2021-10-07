@@ -192,6 +192,57 @@
         }
     }
 
+    // Affiliate
+    &__affiliate-mechbox {
+        padding: 10px 20px;
+
+        h3 {
+            margin-bottom: 10px;
+            font-size: 19px;
+            font-weight: 700;
+        }
+
+        &-link-button {
+            display: inline-block;
+            width: auto;
+            background: $smx-color-04;
+            color: #fff;
+            font-weight: 700;
+            font-size: 16px;
+            text-transform: uppercase;
+            border-color: $smx-color-04;
+            letter-spacing: -0.3px;
+            line-height: 1.3;
+            border-radius: 5px;
+            border: solid 2px $smx-color-06;
+            padding: 5px 20px;
+            text-transform: none;
+
+            &:hover,
+            &:focus,
+            &:active {
+                background: darken($smx-color-04, 20%);
+                color: $smx-color-06;
+                text-decoration: none;
+            }
+        }
+
+        &-from {
+            display: block;
+            font-weight: 500;
+            font-size: 13px;
+            text-align: center;
+            color: $smx-color-05;
+            margin: 5px 0;
+        }
+
+        &-logo {
+            width: 160px;
+            max-width: 100%;
+            margin: 0 10px 10px;
+        }
+    }
+
     // Prices
     &__prices {
         position: relative;

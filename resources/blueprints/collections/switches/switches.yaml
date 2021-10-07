@@ -686,6 +686,24 @@ sections:
           instructions: 'Prices below will be listed in order that they appear here - <span style="color:#CF3947">The 1st item in list will appear in main list (before hover)</span><br /><br />Enter price from vendor website using local currency. Currency symbol will be added on the front-end. **Use 2 decimal places.**<br /><br />Extra text field useful for switches with multiple variations. eg. YOK Trash, Mint, Polar, Red Panda'
           listable: hidden
       -
+        handle: mechbox_affiliate_link_section
+        field:
+          display: 'Mechbox.co.uk affiliate link'
+          instructions: 'Find switch link in https://mechbox.co.uk/collections/switches-singles'
+          type: section
+          icon: section
+          listable: hidden
+      -
+        handle: mechbox_affiliate_link
+        field:
+          input_type: url
+          display: 'Mechbox.co.uk affiliate link'
+          type: text
+          icon: text
+          listable: hidden
+          placeholder: 'eg. https://mechbox.co.uk/collections/switches-singles/products/novelkeys-cream-switch?variant=14697264381994'
+          antlers: false
+      -
         handle: limited_run_section
         field:
           display: 'Limited run?'

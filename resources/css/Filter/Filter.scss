@@ -123,6 +123,17 @@
                 color: $smx-color-02;
             }
         }
+
+        &--filter {
+            &:hover,
+            &:focus,
+            &:active {
+                background: darken($smx-color-04, 20%);
+                border-color: darken($smx-color-04, 20%);;
+                color: $smx-color-06;
+                text-decoration: none;
+            }
+        }
     }
 }
 

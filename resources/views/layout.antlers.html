@@ -41,8 +41,8 @@
                 <div class="row">
                     <div class="col">
                         <ul class="switchesmx__header-menu">
-                            <li><a class="switchesmx__header-menu-link" href="/switches/">MX Switches</a></li>
-                            <li><a class="switchesmx__header-menu-link" href="/vendors/">Vendors</a></li>
+                            <li><a class="switchesmx__header-menu-link {{ if current_uri  === '/switches' }}switchesmx__header-menu-link--active{{ /if }}" href="/switches/">MX Switches</a></li>
+                            <li><a class="switchesmx__header-menu-link {{ if current_uri  === '/vendors' }}switchesmx__header-menu-link--active{{ /if }}" href="/vendors/">Vendors</a></li>
                         </ul>
                     </div>
                 </div>
@@ -54,12 +54,24 @@
                 <div class="row">
                     <div class="col">
                         <div class="switchesmx__footer">
-                            Found a bug or issue? <a href="https://github.com/BWLR/switches.mx/issues/new" target="_blank" rel="noopener noreferrer">Raise a new issue on GitHub</a>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h4>Found a bug or issue?</h4>
+                                    Raise a new issue on GitHub<br />
+                                    <a class="github-button" href="https://github.com/BWLR/switches.mx/issues" data-size="large" data-show-count="true" aria-label="Issue BWLR/switches.mx on GitHub">Issue</a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h4>Want to get in touch?</h4>
+                                    Email <a href="mailto:k@switches.mx">k@switches.mx</a><br />
+                                    Discord <a href="https://discordapp.com/users/BOWLER#2802">BOWLER#2802</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <script src="{{ mix src='/js/site.js' }}"></script>
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
     </body>
 </html>
