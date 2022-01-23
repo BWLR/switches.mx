@@ -1,7 +1,7 @@
 ---
 id: 427af87c-c983-4213-a5e1-064d5cdc1860
 blueprint: switches
-title: 'Gateron Black Inks'
+title: 'Gateron Black Ink V2s'
 volume: normal
 factory_lubed: slight
 lubrication_notes: '<p>Gateron Black Inks respond particularly well to being lubricated. Krytox 205 Grade 0 is a great choice for an extra smooth feeling switch.</p>'
