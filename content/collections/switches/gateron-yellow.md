@@ -466,8 +466,15 @@ prices:
     vendor: loob
     datecheck: '2021-08-06'
     in_stock: true
+  -
+    price: '0.35'
+    extra_text: KS-3X1
+    source: 'https://tokeebs.ca/products/gateron-milky-yellow-switches'
+    vendor: toronto-keyboards-tokeebs
+    datecheck: '2021-12-09'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1628285355
+updated_at: 1639087221
 limited_run_reason: 'no'
 theremin_goat_scores:
   -

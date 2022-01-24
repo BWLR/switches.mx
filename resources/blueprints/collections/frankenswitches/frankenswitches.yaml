@@ -46,6 +46,17 @@ sections:
     display: Sidebar
     fields:
       -
+        handle: stem
+        field:
+          max_items: 1
+          mode: select
+          collections:
+            - switches
+          display: Stem
+          type: entries
+          icon: entries
+          listable: true
+      -
         handle: housing_top
         field:
           max_items: 1
@@ -68,17 +79,6 @@ sections:
           icon: entries
           listable: true
       -
-        handle: stem
-        field:
-          max_items: 1
-          mode: select
-          collections:
-            - switches
-          display: Stem
-          type: entries
-          icon: entries
-          listable: true
-      -
         handle: spring
         field:
           input_type: text
@@ -88,14 +88,17 @@ sections:
           icon: textarea
           instructions: 'A little description here about what spring has best results.'
           listable: hidden
+          instructions_position: above
+          placeholder: 'eg. "Use spring from the Tangerine housing" or "TX long springs work great"'
       -
-        handle: known-as
+        handle: also-known-as
         field:
-          display: 'Known as'
+          display: 'Also known as'
           type: list
           icon: list
           instructions: 'eg. Zanda/Pandelios'
           listable: true
+          instructions_position: above
   media:
     display: Media
     fields:
