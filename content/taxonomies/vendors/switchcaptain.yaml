@@ -1,0 +1,14 @@
+title: SwitchCaptain
+country: US
+currency: usd
+website: 'https://www.switchcaptain.com/'
+favicon: switchlogo_440x.png
+social:
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/channel/UCqpXzcgDCE24jA88T_M1VEw'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1633960022
+blueprint: vendors

@@ -39,7 +39,7 @@ specs:
     housing_bottom_custom_material_notes: null
     force_graph:
       - switches/force-graphs/ce325e07fb1805900739b6dd3923507ac8ff98c3.png
-    led_support: smd-and-inswitch
+    led_support: inswitch-through
     weights_section: null
     spring_section: null
     stem_section: null
@@ -74,7 +74,7 @@ specs:
     housing_bottom_material: pom
     housing_bottom_custom_material_notes: null
     force_graph: {  }
-    led_support: smd-and-inswitch
+    led_support: inswitch-through
   -
     name: Nolive
     description: null
@@ -104,7 +104,37 @@ specs:
     housing_bottom_material: pom
     housing_bottom_custom_material_notes: null
     force_graph: {  }
-    led_support: null
+    led_support: inswitch-through
+  -
+    name: 'Launch Edition'
+    description: null
+    weights_section: null
+    actuation: '50'
+    bottom-out: '63.5'
+    pre-travel: '2.00'
+    total-travel: '4.00'
+    spring_section: null
+    spring: standard
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_type: coloured
+    stem_color: '#00B1E7'
+    stem_material: pom
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_type: coloured
+    housing_top_color: '#00B1E7'
+    housing_top_material: pom
+    housing_top_custom_material_notes: null
+    housing_bottom_section: null
+    housing_bottom_type: coloured
+    housing_bottom_color: '#00B1E7'
+    housing_bottom_material: pom
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
+    led_support: inswitch-through
 photos:
   - switches/photos/novelkeys-cream-8m3r8h67oaw31.jpg
   - switches/photos/novelkeys-cream-nqenkedhzht21.jpg
@@ -141,9 +171,6 @@ videos:
   -
     item_url: 'https://www.youtube.com/watch?v=P6gW18XE6EM'
     description: 'Tfue''s Keycult No.1/60 Commission with lubed NovelKeys Creams Typing Sounds ASMR by Taeha Types'
-  -
-    item_url: 'https://www.youtube.com/watch?v=rEl3Mkv35Pc'
-    description: 'Keycult No 2 with Lubed Creams by Minterly'
   -
     item_url: 'https://www.youtube.com/watch?v=kz2eA6YfWJ0'
     description: 'Cypher with lubed NovelKeys Creams Typing Sounds ASMR by Taeha Types'
@@ -196,6 +223,9 @@ related_links:
   -
     item_url: 'https://www.reddit.com/r/MechanicalKeyboards/comments/9cpmfm/novelkeys_cream_switches_review/'
     description: 'Review by Krelbit of Switchmod.net'
+  -
+    item_url: 'https://www.theremingoat.com/blog/from-the-vault-novelkeys-cream-switch-review?ref=switchesmx'
+    description: 'From The Vault: Novelkeys Cream Switch Review by ThereminGoat'
 quotes:
   -
     title: Ashkeebs
@@ -212,6 +242,13 @@ prices:
     source: 'https://novelkeys.xyz/products/novelkeys-cream-switches'
     vendor: novelkeys
     datecheck: '2020-04-20'
+    in_stock: true
+  -
+    price: '0.95'
+    extra_text: 'Launch Edition'
+    source: 'https://novelkeys.com/collections/switches/products/nk_-cream-series?variant=40916045889703'
+    vendor: novelkeys
+    datecheck: '2021-10-08'
     in_stock: true
   -
     price: '0.65'
@@ -284,6 +321,13 @@ prices:
     datecheck: '2020-09-17'
     in_stock: true
   -
+    price: '0.65'
+    extra_text: null
+    source: 'https://www.keycrox.co.uk/product/cream-switch'
+    vendor: keycrox-uk
+    datecheck: '2021-11-24'
+    in_stock: true
+  -
     price: '0.66'
     extra_text: null
     source: 'https://www.thekeycapclub.co.uk/products/novelkeys-x-kailh-linear-cream-switches'
@@ -312,7 +356,7 @@ prices:
     datecheck: '2021-08-09'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1633617152
+updated_at: 1637756647
 limited_run_reason: 'no'
 stem_length: standard
 mechbox_affiliate_link: 'https://mechbox.co.uk/collections/switches-singles/products/novelkeys-cream-switch?variant=14697264381994'
