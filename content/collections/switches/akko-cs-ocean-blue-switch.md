@@ -28,7 +28,7 @@ specs:
     spring_swap: null
     stem_section: null
     stem_type: coloured
-    stem_color: '#14A6FF'
+    stem_color: '#106498'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_section: null
@@ -38,7 +38,7 @@ specs:
     housing_top_custom_material_notes: null
     housing_bottom_section: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#14A6FF'
+    housing_bottom_color: '#106498'
     housing_bottom_material: nylon
     housing_bottom_custom_material_notes: null
     force_graph:
@@ -75,5 +75,5 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Akko%20CS%20Ocean%20Blue.pdf'
     link_to_review: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1642990745
+updated_at: 1643059222
 ---

@@ -28,17 +28,17 @@ specs:
     spring_swap: null
     stem_section: null
     stem_type: coloured
-    stem_color: '#7B5730'
+    stem_color: '#694824'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_section: null
     housing_top_type: coloured
-    housing_top_color: '#7B5730'
+    housing_top_color: '#C87A26'
     housing_top_material: nylon
     housing_top_custom_material_notes: null
     housing_bottom_section: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#7B5730'
+    housing_bottom_color: '#C87A26'
     housing_bottom_material: nylon
     housing_bottom_custom_material_notes: null
     force_graph: {  }
@@ -58,7 +58,7 @@ specs:
     spring_swap: null
     stem_section: null
     stem_type: coloured
-    stem_color: '#7B5730'
+    stem_color: '#694824'
     stem_material: pom
     stem_custom_material_notes: '"Milky"'
     housing_top_section: null
@@ -117,5 +117,5 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Gateron%20Cap%20Brown.pdf'
     link_to_review: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1642899722
+updated_at: 1643145831
 ---
