@@ -17,7 +17,7 @@
             <div class="col-xs-12 col-sm-7">
                 <div class="page-vendors_list">
                     <div class="row">
-                        {{ taxonomy:vendors sort="country:asc,title:asc"}}
+                        {{ taxonomy:vendors sort="country:asc|title:asc"}}
                             {{ entries }}
                                 <div class="col-xs-12 col-sm-12">
                                     <div class="page-vendors_list-item">
@@ -52,7 +52,7 @@
 </div>
 
 <!--
-{{ taxonomy:vendors sort="country:asc,title:asc"}}
+{{ taxonomy:vendors sort="country:asc|title:asc"}}
 {{ entries }}**__{{ country:label }}__** - {{ title }} - {{ website }}{{ if social }} - {{ social }}(**{{ network:label }}** - {{ item_url }}) {{ /social }}{{ /if }}{{ /entries }}
 {{ /taxonomy:vendors }}
 -->
