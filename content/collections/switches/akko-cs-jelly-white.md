@@ -46,9 +46,9 @@ specs:
     led_support: null
 prices:
   -
-    price: '.26'
+    price: '0.27'
     extra_text: null
-    source: null
+    source: 'https://en.akkogear.com/product/akko-cs-jelly-white-switch-45pcs/'
     vendor: akko
     datecheck: '2022-01-25'
     in_stock: true
@@ -75,5 +75,5 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Akko%20CS%20Jelly%20White.pdf'
     link_to_review: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643158538
+updated_at: 1643601098
 ---

@@ -29,7 +29,7 @@ specs:
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_type: coloured
-    housing_top_color: '#FF7FA1'
+    housing_top_color: '#FFB1E4'
     housing_top_material: pcnylon
     housing_top_custom_material_notes: null
     housing_bottom_type: coloured
@@ -65,16 +65,16 @@ prices:
     source: 'https://ilumkb.com/products/gb-c-macho-switch'
     vendor: ilumkb
     datecheck: '2020-09-30'
-    in_stock: true
+    in_stock: false
   -
-    price: '0.80'
+    price: '0.83'
     extra_text: null
     source: 'https://www.thekeycapclub.co.uk/products/c-equalz-banana-split-linear-switches-macho'
     vendor: the-keycap-club
     datecheck: '2021-06-09'
-    in_stock: true
+    in_stock: false
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1623655588
+updated_at: 1643604657
 limited_run_reason: 'no'
 theremin_goat_scores:
   -

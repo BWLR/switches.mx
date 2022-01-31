@@ -12,7 +12,7 @@ notes: |-
   Matching [lavender stabilizers](https://cannonkeys.com/collections/featured/products/lavender-stabilizers) are also available.
 
   Comparable in feel to Alpaca V2's and Gazzew's line of linear switches.
-manufacturer: durock
+manufacturer: jwk
 brand: cannonkeys
 switch_type: linear
 mount: 5
@@ -157,5 +157,5 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Lavenders.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/lavender-switch-review'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1631539936
+updated_at: 1643584829
 ---

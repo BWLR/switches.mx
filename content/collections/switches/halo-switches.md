@@ -74,16 +74,9 @@ specs:
     led_support: smd
 prices:
   -
-    price: '.50'
-    extra_text: Clear
-    source: null
-    vendor: drop
-    datecheck: '2022-01-25'
-    in_stock: true
-  -
-    price: '.50'
-    extra_text: 'True'
-    source: null
+    price: '0.50'
+    extra_text: null
+    source: 'https://drop.com/buy/drop-halo-switch-pack'
     vendor: drop
     datecheck: '2022-01-25'
     in_stock: true
@@ -98,8 +91,8 @@ photos:
   - switches/photos/switch-1643153120.PNG
 videos:
   -
-    item_url: 'https://www.youtube.com/watch?v=6pC7lyjedzs'
-    description: 'Drop Halo True Switch Review | A Unique Tactile Experience - Preston''s Thoughts'
+    item_url: 'https://www.youtube.com/watch?v=e3BVSMTW4sI'
+    description: 'Lubing/Filming Halo Clear Switches (Fix Spring Ping) | Fully Modding a Drop CTRL High-Profile Part 3 - Austin V'
   -
     item_url: 'https://www.youtube.com/watch?v=wEsu_Cvv2vQ'
     description: 'Drop ENTR Mechanical Keyboard Review w/ Halo True Switches - minimalistik'
@@ -122,5 +115,6 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=e3BVSMTW4sI'
     description: 'Lubing/Filming Halo Clear Switches (Fix Spring Ping) | Fully Modding a Drop CTRL High-Profile Part 3 - Austin V'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643153426
+updated_at: 1643481963
+brand: drop
 ---

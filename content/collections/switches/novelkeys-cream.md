@@ -65,12 +65,12 @@ specs:
     stem_custom_material_notes: null
     housing_top_section: null
     housing_top_type: coloured
-    housing_top_color: '#7D5A4F'
+    housing_top_color: '#63463C'
     housing_top_material: pom
     housing_top_custom_material_notes: null
     housing_bottom_section: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#7D5A4F'
+    housing_bottom_color: '#63463C'
     housing_bottom_material: pom
     housing_bottom_custom_material_notes: null
     force_graph: {  }
@@ -356,8 +356,8 @@ prices:
     datecheck: '2021-08-09'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1637756647
+updated_at: 1643516868
 limited_run_reason: 'no'
-stem_length: standard
+stem_length: long
 mechbox_affiliate_link: 'https://mechbox.co.uk/collections/switches-singles/products/novelkeys-cream-switch?variant=14697264381994'
 ---

@@ -1,6 +1,5 @@
 ---
 id: d485927a-d0f6-43f8-9e7e-27781cc2e5b9
-published: false
 blueprint: switches
 title: 'JWK Epsilon'
 volume: normal
@@ -30,15 +29,15 @@ specs:
     stem_type: milky
     stem_color: null
     stem_material: custom
-    stem_custom_material_notes: 'Durock POM Stem, has UHMWPE properties.'
+    stem_custom_material_notes: P3
     housing_top_section: null
     housing_top_type: transparent
-    housing_top_color: '#FF3500'
+    housing_top_color: '#FF4100'
     housing_top_material: nylon
     housing_top_custom_material_notes: null
     housing_bottom_section: null
     housing_bottom_type: transparent
-    housing_bottom_color: '#FF3500'
+    housing_bottom_color: '#FF4100'
     housing_bottom_material: nylon
     housing_bottom_custom_material_notes: null
     force_graph: {  }
@@ -49,8 +48,8 @@ prices:
     extra_text: null
     source: 'https://prevailkeyco.com/collections/switches/products/prevail-epsilon-switches'
     vendor: prevail-key-co
-    datecheck: '2021-11-18'
-    in_stock: true
+    datecheck: '2022-01-28'
+    in_stock: false
   -
     price: '0.65'
     extra_text: null
@@ -71,10 +70,7 @@ videos:
   -
     item_url: 'https://www.youtube.com/watch?v=YQGQxGA0fIg'
     description: 'Prevail Epsilon Review by SVIZ'
-related_links:
-  -
-    item_url: null
-    description: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1637266299
+updated_at: 1643428246
+mechbox_affiliate_link: 'https://mechbox.co.uk/products/prevail-epsilon-switch-sample?variant=42131439157493'
 ---

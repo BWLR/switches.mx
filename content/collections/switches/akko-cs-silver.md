@@ -46,9 +46,9 @@ specs:
     led_support: null
 prices:
   -
-    price: '.31'
+    price: '.32'
     extra_text: null
-    source: null
+    source: 'https://en.akkogear.com/product/akko-cs-silver-switch-45pcs/'
     vendor: akko
     datecheck: '2022-01-25'
     in_stock: true
@@ -71,5 +71,5 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=7o25TxdPeAY'
     description: 'Akko CS Silver switches on MOD001 typing sound - Edogaster'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643157095
+updated_at: 1643602212
 ---

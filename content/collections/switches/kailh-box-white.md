@@ -2,7 +2,7 @@
 id: fb4bc29c-7fca-4cfa-bd81-beb803df23ba
 blueprint: switches
 title: 'Kailh BOX White'
-volume: normal
+volume: loud
 factory_lubed: slight
 film: no-fit
 manufacturer: kailh
@@ -120,7 +120,7 @@ prices:
     datecheck: '2021-06-17'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1623952671
+updated_at: 1643428312
 stem_length: standard
 limited_run_reason: 'no'
 ---

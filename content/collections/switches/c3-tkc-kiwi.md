@@ -70,18 +70,18 @@ prices:
     datecheck: '2020-09-28'
     in_stock: true
   -
-    price: '0.66'
+    price: '0.90'
     extra_text: null
     source: 'https://ilumkb.com/collections/switches/products/c-equalz-x-tkc-kiwi-switches'
     vendor: ilumkb
-    datecheck: '2020-09-28'
+    datecheck: '2022-01-30'
     in_stock: true
   -
-    price: '0.81'
+    price: '0.83'
     extra_text: null
     source: 'https://www.thekeycapclub.co.uk/products/c-equalz-kiwi-tactile-switches'
     vendor: the-keycap-club
-    datecheck: '2021-06-09'
+    datecheck: '2022-01-30'
     in_stock: true
   -
     price: '0.86'
@@ -91,7 +91,7 @@ prices:
     datecheck: '2021-12-09'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1639087761
+updated_at: 1643605431
 limited_run_reason: 'no'
 theremin_goat_scores:
   -

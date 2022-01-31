@@ -28,8 +28,8 @@ specs:
     spring_color_info: null
     spring_swap: null
     stem_section: null
-    stem_type: transparent
-    stem_color: '#79C692'
+    stem_type: coloured
+    stem_color: '#A5E4B7'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_section: null
@@ -60,7 +60,7 @@ specs:
     spring_swap: null
     stem_section: null
     stem_type: coloured
-    stem_color: '#CFD231'
+    stem_color: '#E1E222'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_section: null
@@ -79,10 +79,17 @@ specs:
 prices:
   -
     price: '1.30'
-    extra_text: null
-    source: null
+    extra_text: 40g
+    source: 'https://zealpc.net/collections/all/products/clickiez?variant=39379354026048'
     vendor: zeal
     datecheck: '2022-01-25'
+    in_stock: true
+  -
+    price: '1.30'
+    extra_text: 75g
+    source: 'https://zealpc.net/collections/all/products/clickiez?variant=39379354058816'
+    vendor: zeal
+    datecheck: '2022-01-28'
     in_stock: true
 limited_run: 'no'
 limited_run_reason: 'no'
@@ -96,6 +103,12 @@ videos:
   -
     item_url: 'https://www.youtube.com/watch?v=bxOvyHv-lDw'
     description: 'Clickiez™ Switch Sound Demo - Zeal'
+  -
+    item_url: 'https://www.youtube.com/watch?v=5UQnZKcd3QQ'
+    description: 'TGR Jane V2 CE | 40g Clickiez™ | SA Olivia | Sound Typing Test| [8K ASMR] by Zeal'
+  -
+    item_url: 'https://www.youtube.com/watch?v=F4LYxaZGwK4'
+    description: 'TGR Jane V2 CE | 40g Clickiez™ | GMK Olivia++ | Sound Typing Test| [8K ASMR] by Zeal'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643160862
+updated_at: 1643471420
 ---

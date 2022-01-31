@@ -15,7 +15,6 @@ sections:
         handle: slug
         field:
           type: slug
-          required: true
           localizable: true
           validate:
             - required
@@ -341,7 +340,7 @@ sections:
                   coated: 'Color coated'
                   long: 'Long spring'
                   progressive: Progressive
-                  double-stage: Symmetric double-staged (gold plated)
+                  double-stage: 'Symmetric double-staged (gold plated)'
                   kailh: 'Kailh Box (smaller than MX)'
                 inline: false
                 cast_booleans: false
@@ -627,6 +626,8 @@ sections:
                 listable: hidden
                 placeholder: 'eg. 0.50'
                 antlers: false
+                instructions: 'include 0 before the decimal place'
+                instructions_position: above
             -
               handle: extra_text
               field:
@@ -643,6 +644,9 @@ sections:
                 type: text
                 icon: text
                 listable: hidden
+                instructions: 'url for switch on the vendor website'
+                instructions_position: above
+                antlers: false
             -
               handle: vendor
               field:
@@ -685,6 +689,7 @@ sections:
           icon: grid
           instructions: 'Prices below will be listed in order that they appear here - <span style="color:#CF3947">The 1st item in list will appear in main list (before hover)</span><br /><br />Enter price from vendor website using local currency. Currency symbol will be added on the front-end. **Use 2 decimal places.**<br /><br />Extra text field useful for switches with multiple variations. eg. YOK Trash, Mint, Polar, Red Panda'
           listable: hidden
+          instructions_position: above
       -
         handle: mechbox_affiliate_link_section
         field:

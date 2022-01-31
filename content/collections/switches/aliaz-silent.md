@@ -1,4 +1,6 @@
 ---
+id: cdad64e5-59ca-433d-9f74-08a7cbc6b838
+blueprint: switches
 title: 'Aliaz Silent'
 volume: silent
 factory_lubed: slight
@@ -192,7 +194,7 @@ prices:
     source: 'https://novelkeys.xyz/products/aliaz-switches'
     vendor: novelkeys
     datecheck: '2020-07-13'
-    in_stock: true
+    in_stock: false
   -
     price: '0.51'
     extra_text: null
@@ -208,21 +210,21 @@ prices:
     datecheck: '2020-07-13'
     in_stock: true
   -
-    price: '0.57'
+    price: '0.59'
     extra_text: null
-    source: 'https://flashquark.com/product/aliaz-silent-switches-pcb-mount-pack-of-50/'
+    source: 'https://flashquark.com/product/aliaz-silent-switches-pcb-mount/'
     vendor: flashquark
-    datecheck: '2020-07-13'
+    datecheck: '2022-01-30'
     in_stock: true
   -
-    price: '0.83'
+    price: '1.20'
     extra_text: null
     source: 'https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=6801'
     vendor: mechanicalkeyboards-com
-    datecheck: '2020-07-13'
+    datecheck: '2022-01-30'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617014116
+updated_at: 1643603355
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -235,5 +237,4 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Aliaz%20(80g).pdf'
     link_to_review: null
 stem_length: standard
-id: cdad64e5-59ca-433d-9f74-08a7cbc6b838
 ---

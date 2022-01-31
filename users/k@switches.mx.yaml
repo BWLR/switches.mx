@@ -24,8 +24,8 @@ preferences:
         - stem
         - known-as
     switches:
-      after_save: continue_editing
       per_page: 100
+      after_save: continue_editing
   taxonomies:
     switch_type:
       after_save: create_another

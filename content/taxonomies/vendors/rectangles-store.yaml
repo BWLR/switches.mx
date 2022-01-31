@@ -1,0 +1,14 @@
+title: Rectangles.Store
+country: IN
+currency: inr
+website: 'https://rectangles.store/collections/switches'
+favicon: favicon_64px_96x.png
+social:
+  -
+    network: discord
+    item_url: 'http://discord.rectangles.store/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1643286881
+blueprint: vendors

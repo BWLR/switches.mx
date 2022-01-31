@@ -10,5 +10,7 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=_1EGH3rwux0'
     description: 'UHMWYPE Cthulhu Sound Test'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643075096
+updated_at: 1643417969
+also-known-as:
+  - Cthulus
 ---

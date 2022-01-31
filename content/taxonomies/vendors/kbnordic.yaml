@@ -1,0 +1,24 @@
+title: KBnordic
+country: SE
+currency: eur
+website: 'https://kbnordic.eu/switches/'
+favicon: vendor-kbnnordic.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/kbnordicse/'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/kbnordic.se'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/wCFq3WxPuM'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1643287088
+blueprint: vendors

@@ -27,7 +27,7 @@ specs:
     spring_swap: null
     stem_section: null
     stem_type: coloured
-    stem_color: '#92FF55'
+    stem_color: '#CEEC4A'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_section: null
@@ -37,7 +37,7 @@ specs:
     housing_top_custom_material_notes: null
     housing_bottom_section: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#9BD87F'
+    housing_bottom_color: '#CFEBD9'
     housing_bottom_material: nylon
     housing_bottom_custom_material_notes: null
     force_graph:
@@ -46,12 +46,20 @@ specs:
 limited_run: 'no'
 limited_run_reason: 'no'
 photos:
+  - switches/photos/vd8N3hNXSKSppiX9Agyc_18.jpg
+  - switches/photos/ZxaKTTGTMyHb9UvFkOmz_16.jpg
+  - switches/photos/Hc5afeb67d9c1432e8b8c12fe5add5c35b.webp
+  - switches/photos/H679d8a03a89344d79ace16d99d67b39c1.webp
+  - switches/photos/B0Iz3JkjR2WiwAP2ZmXK_12.jpg
+  - switches/photos/bI4cPIGrQoOJ4Q2PKvcg_6.jpg
+  - switches/photos/dI9iA1KBQkK0IgsieYKL_4.jpg
+  - switches/photos/K32v5KSfSfag9GkMSgCc_7.jpg
+  - switches/photos/VxqsyTHXR76jpRjYhGvV_15.jpg
+  - switches/photos/xgr0lpajSBCNJVdMTUi6_1.jpg
   - switches/photos/H5ba30324c5444e089a74359c4d5d8291F.webp
   - switches/photos/Ha9a4ae556bf14d318072312d4f2b7e3aQ.webp
   - switches/photos/Hb180366e72a54080b2b201d34d58c5dcc.webp
   - switches/photos/H92fdb03e13704f289d6ea8b7319c254dz.webp
-  - switches/photos/Hc5afeb67d9c1432e8b8c12fe5add5c35b.webp
-  - switches/photos/H679d8a03a89344d79ace16d99d67b39c1.webp
 videos:
   -
     item_url: 'https://www.youtube.com/watch?v=n_lqJNCMzDQ'
@@ -59,11 +67,61 @@ videos:
   -
     item_url: 'https://www.youtube.com/watch?v=cYclIsAePhM'
     description: 'IQUNIX L80 || TTC ACE Switches || Alu Plate || ASMR Sound Test by filled types'
+  -
+    item_url: 'https://www.youtube.com/watch?v=M_rc6O2uMg0'
+    description: 'Space65 - ACE TTC Linear switches | keyboard sound test by Ira James'
 quotes:
   -
     title: Coco11211
     source: 'https://switches.mx/ttc-ace'
-    text: '<p>I found these switches to have a very smooth feeling in stock form. They sounded very deep, but hearing other soundtests, make me come to the conclusion that it varies greatly depending on the keyboard.</p>'
+    text: 'I found these switches to have a very smooth feeling in stock form. They sounded very deep, but hearing other soundtests, make me come to the conclusion that it varies greatly depending on the keyboard.'
+  -
+    title: 'lambertylin on drop'
+    source: 'https://drop.com/buy/ace-ttc-linear-switches/talk/2792891'
+    text: |-
+      This switch is one of the most popular linear switches recently in the Chinese community, most of the reviews are very good. I think the reason people are not interested in it is the lack of marketing overseas from TTC. They normally manufacture switches for mass production keyboards, but since last year they have had several good switches for the custom community, such as TTC gold pink, so far I can only find them on the KBDfans website.
+
+      The person who designed this switch is also a reviewer and keyboard enthusiast who uploads videos on Chinese Youtube. It was a limited run in China and sold out pretty quickly.
+
+      For the sound, most of the sound tests I heard are high pitch, and crispy. I would say it is very good for gaming and fast typing. Most importantly, it is one of the best factory-lubed switches in the market - that's the feedback from the Chinese community over the past two months. Because the designer wants it to be a ready-to-use switch for everyone.
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1642863850
+updated_at: 1643405727
+prices:
+  -
+    price: '0.55'
+    extra_text: null
+    source: 'https://kprepublic.com/products/ttc-ace-linear-switch-2pin-3pin-rgb-smd-linear-60g-force-mx-stem-switch-for-backlit-mechanical-keyboard-10m?variant=39857962156195'
+    vendor: kprepublic
+    datecheck: '2022-01-27'
+    in_stock: true
+  -
+    price: n/a
+    extra_text: null
+    source: 'https://drop.com/buy/ace-ttc-linear-switches'
+    vendor: drop
+    datecheck: '2022-01-27'
+    in_stock: false
+  -
+    price: '0.85'
+    extra_text: null
+    source: 'https://ilumkb.com/products/ttc-ace-switch'
+    vendor: ilumkb
+    datecheck: '2022-01-27'
+    in_stock: true
+  -
+    price: '0.56'
+    extra_text: null
+    source: 'https://keebsforall.com/products/ttc-ace-switches'
+    vendor: keebsforall
+    datecheck: '2022-01-27'
+    in_stock: true
+mechbox_affiliate_link: 'https://mechbox.co.uk/products/ttc-ace-linear-60g-switch?variant=39971321249954'
+notes: |-
+  Underrate switch. Smooth, great sound from factory.
+
+  Designed by Chinese reviewer and keyboard enthusiast Red Eye Monster (hence the "Reymo" badge on the side of the switch top housing).
+related_links:
+  -
+    item_url: 'https://www.instagram.com/p/CTVE10qFkIP/'
+    description: 'TTC Ace report by switch.riiport on Instagram'
 ---

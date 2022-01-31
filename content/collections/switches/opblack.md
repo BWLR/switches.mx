@@ -3,7 +3,7 @@ id: 8ddaa66d-e8c3-41e6-a53f-6ee9eb3856dd
 blueprint: switches
 title: Opblack
 volume: normal
-factory_lubed: slight
+factory_lubed: 'no'
 film: unknown
 notes: '<p>On the product page, some vendors released a tribute to Nixdorf:</p><p><strong>To Nixdorf:</strong></p><p><strong>Unfortunately, the designer of Nixdorf has passed away. The material for the top housing was developed step by step. Try to keep it consistent with Nixdorf, with the material being slightly white and slightly opaque.</strong><br /><strong>&#8211; 43 studio</strong></p>'
 manufacturer: jwk
@@ -14,7 +14,7 @@ stem_construction: standard
 limited_run: 'no'
 specs:
   -
-    name: null
+    name: OPBlack
     description: null
     actuation: 55
     bottom-out: 65
@@ -43,9 +43,40 @@ specs:
     stem_section: null
     housing_top_section: null
     housing_bottom_section: null
+  -
+    name: Popu
+    description: null
+    weights_section: null
+    actuation: '55'
+    bottom-out: '65'
+    pre-travel: null
+    total-travel: null
+    spring_section: null
+    spring: gold-plated
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_type: coloured
+    stem_color: '#D6B2FF'
+    stem_material: pom
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_type: milky
+    housing_top_color: null
+    housing_top_material: custom
+    housing_top_custom_material_notes: 'Material Secret, similar to Nixdorf'
+    housing_bottom_section: null
+    housing_bottom_type: coloured
+    housing_bottom_color: '#F9CAFF'
+    housing_bottom_material: nylon
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
+    led_support: null
 photos:
   - switches/photos/opblack-QQ_20200924192459_590x.jpg
   - switches/photos/opblack-QQ_20200924192516_720x.jpg
+  - switches/photos/switch-1643520685.PNG
 videos:
   -
     item_url: 'https://www.youtube.com/watch?v=-0X2jmsMqLA'
@@ -74,8 +105,29 @@ prices:
     vendor: ilumkb
     datecheck: '2020-09-30'
     in_stock: true
+  -
+    price: '0.70'
+    extra_text: Popu
+    source: 'https://divinikey.com/collections/43-studio-switches/products/43-studio-popu-linear-switches'
+    vendor: divinikey
+    datecheck: '2022-01-30'
+    in_stock: false
+  -
+    price: '0.70'
+    extra_text: null
+    source: 'https://elboard.store/collections/switches/products/opblack-linear-switch'
+    vendor: elboard-keyboard-supply
+    datecheck: '2022-01-30'
+    in_stock: false
+  -
+    price: '0.70'
+    extra_text: Popu
+    source: 'https://elboard.store/collections/switches/products/popu-switches'
+    vendor: elboard-keyboard-supply
+    datecheck: '2022-01-30'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1623655742
+updated_at: 1643521341
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -88,4 +140,5 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Opblack.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/opblack-switch-review'
 stem_length: standard
+mechbox_affiliate_link: 'https://mechbox.co.uk/products/opblack-r2-switch-sample?variant=40801875263650'
 ---

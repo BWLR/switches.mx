@@ -1,7 +1,7 @@
 ---
 id: 2271ac46-f889-47f1-b5d9-afa41e2e4cf4
 blueprint: switches
-title: 'Zeal Pearlios'
+title: 'Zeal Pearlio'
 volume: normal
 factory_lubed: slight
 film: unknown
@@ -27,7 +27,7 @@ specs:
     spring_color_info: null
     spring_swap: null
     stem_section: null
-    stem_type: transparent
+    stem_type: milky
     stem_color: null
     stem_material: uhmwpe
     stem_custom_material_notes: null
@@ -47,7 +47,7 @@ prices:
   -
     price: '1.20'
     extra_text: null
-    source: null
+    source: 'https://zealpc.net/products/pearlio?variant=39379359531072'
     vendor: zeal
     datecheck: '2022-01-25'
     in_stock: true
@@ -56,5 +56,5 @@ limited_run_reason: 'no'
 photos:
   - switches/photos/switch-1643156035.PNG
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643156041
+updated_at: 1643481995
 ---
