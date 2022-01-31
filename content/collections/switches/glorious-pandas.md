@@ -53,7 +53,7 @@ specs:
     spring_swap: null
     stem_section: null
     stem_type: coloured
-    stem_color: '#FF822C'
+    stem_color: '#FF9B2C'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_section: null
@@ -130,5 +130,5 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Glorious%20Panda.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/glorious-panda-switch-review'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1642884729
+updated_at: 1643145731
 ---
