@@ -1,4 +1,6 @@
 ---
+id: 72f5a3c4-924c-4c16-9d37-bf0641cc9f20
+blueprint: switches
 title: 'Cherry MX Black'
 volume: normal
 factory_lubed: 'no'
@@ -13,8 +15,8 @@ stem_construction: standard
 limited_run: 'no'
 specs:
   -
-    name: null
-    description: null
+    name: Vintage
+    description: 'Vintages use a different mold that is no longer possessed by cherry. The molds to vintage switches were lost, so cherry designed _retooled_ switches.'
     actuation: 60
     bottom-out: 80
     pre-travel: '2.00'
@@ -43,6 +45,36 @@ specs:
     stem_section: null
     housing_top_section: null
     housing_bottom_section: null
+  -
+    name: 'Retooled Black'
+    description: 'Retooled Blacks were the solution to the mold loss in cherry switches.'
+    weights_section: null
+    actuation: '60'
+    bottom-out: '80'
+    pre-travel: '2'
+    total-travel: '4'
+    spring_section: null
+    spring: standard
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_type: coloured
+    stem_color: '#3A4045'
+    stem_material: pom
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_type: coloured
+    housing_top_color: '#3A4045'
+    housing_top_material: nylon
+    housing_top_custom_material_notes: null
+    housing_bottom_section: null
+    housing_bottom_type: coloured
+    housing_bottom_color: '#3A4045'
+    housing_bottom_material: nylon
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
+    led_support: null
   -
     name: Hyperglide
     description: 'Introduced during CES 2020, these switches feature the new Cherry "Hyperglide" tooling which results in increased smoothness and tighter tolerances.'
@@ -90,10 +122,10 @@ specs:
     stem_custom_material_notes: null
     housing_top_type: transparent
     housing_top_color: null
-    housing_top_material: nylon
+    housing_top_material: pc
     housing_top_custom_material_notes: null
-    housing_bottom_type: transparent
-    housing_bottom_color: null
+    housing_bottom_type: coloured
+    housing_bottom_color: '#FFFCE6'
     housing_bottom_material: nylon
     housing_bottom_custom_material_notes: null
     force_graph: {  }
@@ -166,21 +198,21 @@ related_links:
 prices:
   -
     price: '0.35'
-    extra_text: null
+    extra_text: Hyperglide
     source: 'https://novelkeys.xyz/products/cherry-switches?variant=12495307669597'
     vendor: novelkeys
     datecheck: '2020-07-07'
     in_stock: true
   -
     price: '0.39'
-    extra_text: null
+    extra_text: Hyperglide
     source: 'https://kbdfans.com/products/cherry-mx-swtich?variant=36019543629'
     vendor: kbdfans
     datecheck: '2020-07-07'
     in_stock: true
   -
     price: '0.39'
-    extra_text: null
+    extra_text: Hyperglide
     source: 'https://divinikey.com/collections/switches/products/cherry-mx-switches'
     vendor: divinikey
     datecheck: '2020-10-03'
@@ -201,7 +233,7 @@ prices:
     in_stock: true
   -
     price: '0.49'
-    extra_text: null
+    extra_text: Retooled
     source: 'https://www.switchtop.com/product/cherry-mx-switches'
     vendor: switchtop
     datecheck: '2020-07-07'
@@ -232,8 +264,8 @@ prices:
     extra_text: null
     source: 'https://kebo.store/collections/switches-cherry/products/cherry-mx-switch?variant=6337386512426'
     vendor: kebo
-    datecheck: '2020-07-07'
-    in_stock: true
+    datecheck: '2022-01-29'
+    in_stock: false
   -
     price: '0.50'
     extra_text: null
@@ -255,9 +287,30 @@ prices:
     vendor: daily-clack
     datecheck: '2020-07-07'
     in_stock: true
+  -
+    price: '.45'
+    extra_text: 'Vintage 5 pin'
+    source: 'https://elboard.store/collections/switches/products/cherry-black-switches-pre-retools-year-2000'
+    vendor: elboard-keyboard-supply
+    datecheck: '2022-01-29'
+    in_stock: false
+  -
+    price: '.55'
+    extra_text: 'Vintage 3 pin'
+    source: 'https://elboard.store/collections/switches/products/vintage-cherry-mx-black-switches'
+    vendor: elboard-keyboard-supply
+    datecheck: '2022-01-29'
+    in_stock: false
+  -
+    price: '.36'
+    extra_text: Retooled
+    source: 'https://meckeyalpha.com/products/cherry-mx-switch?variant=13561671876683'
+    vendor: meckey-alpha
+    datecheck: '2022-01-29'
+    in_stock: false
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617109111
+updated_at: 1643471178
 stem_length: standard
-limited_run_reason: 'no'
-id: 72f5a3c4-924c-4c16-9d37-bf0641cc9f20
+limited_run_reason: discontinued
+mechbox_affiliate_link: 'https://mechbox.co.uk/products/cherry-hyperglide-mx-black-5pin-switch?variant=39971213410466'
 ---

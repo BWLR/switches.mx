@@ -1,7 +1,7 @@
 ---
 id: 6c0b892a-f363-481d-95ca-43eb3c1a2068
 blueprint: switches
-title: 'Zeal Tealios V2'
+title: 'Zeal Tealio V2'
 volume: normal
 factory_lubed: slight
 lubrication_notes: '<p>These are some of the smoothest stock linears on the market but improved further with a thin layer of Krytox 205 Grade 0. The spring noise is vastly improved when lubed.</p>'
@@ -26,7 +26,7 @@ specs:
     spring_color_info: null
     spring_swap: null
     stem_type: coloured
-    stem_color: '#42CEBC'
+    stem_color: '#69DECF'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_type: transparent
@@ -56,15 +56,15 @@ specs:
     spring_color_info: null
     spring_swap: null
     stem_type: coloured
-    stem_color: '#35CCBD'
+    stem_color: '#69DECF'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_type: transparent
-    housing_top_color: '#59ECE3'
+    housing_top_color: '#6DCDC0'
     housing_top_material: pc
     housing_top_custom_material_notes: null
     housing_bottom_type: transparent
-    housing_bottom_color: '#0E9EB6'
+    housing_bottom_color: '#64D3DC'
     housing_bottom_material: pc
     housing_bottom_custom_material_notes: null
     force_graph: {  }
@@ -78,7 +78,7 @@ specs:
     name: 'Turquoise Tealios'
     description: null
     actuation: null
-    bottom-out: 63
+    bottom-out: '63.5'
     pre-travel: null
     total-travel: '4.00'
     spring: gold-plated
@@ -86,15 +86,15 @@ specs:
     spring_color_info: null
     spring_swap: null
     stem_type: coloured
-    stem_color: '#59ECE3'
+    stem_color: '#69DECF'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_type: transparent
-    housing_top_color: '#59ECE3'
+    housing_top_color: '#6DCDC0'
     housing_top_material: pc
     housing_top_custom_material_notes: null
     housing_bottom_type: transparent
-    housing_bottom_color: '#59ECE3'
+    housing_bottom_color: '#6DCDC0'
     housing_bottom_material: pc
     housing_bottom_custom_material_notes: null
     force_graph: {  }
@@ -227,7 +227,8 @@ prices:
     datecheck: '2021-08-06'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1628284496
+updated_at: 1643481999
 limited_run_reason: 'no'
 stem_length: standard
+mechbox_affiliate_link: 'https://mechbox.co.uk/products/tealio-v2-switch?variant=37127327023266'
 ---

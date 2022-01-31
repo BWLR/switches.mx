@@ -7,7 +7,7 @@ factory_lubed: slight
 film: 'yes'
 notes: 'JWICK''s are a JWK switch designed to be cheap and affordable, while maintaining the JWK sound of alpaca''s and others.'
 manufacturer: jwk
-brand: durock
+brand: jwick
 switch_type: linear
 mount: '5'
 stem_construction: standard
@@ -75,18 +75,46 @@ specs:
     led_support: inswitch-through
 prices:
   -
-    price: '.24'
+    price: '0.24'
     extra_text: null
-    source: null
+    source: 'https://keebsforall.com/products/jwick-black-t1-switch'
     vendor: keebsforall
     datecheck: '2022-01-24'
     in_stock: false
   -
-    price: '.25'
+    price: '0.25'
     extra_text: 'Clear Top'
-    source: null
+    source: 'https://paramountkeeb.com/products/jwick-black?_pos=1&_psq=jwic&_ss=e&_v=1.0'
     vendor: paramount-keeb
     datecheck: '2022-01-24'
+    in_stock: true
+  -
+    price: '0.27'
+    extra_text: V2
+    source: 'https://thockpop.com/product/jwk-black-v2-nylon-linear-switches/'
+    vendor: thockpop
+    datecheck: '2022-01-28'
+    in_stock: true
+  -
+    price: '0.23'
+    extra_text: null
+    source: 'https://divinikey.com/products/jwk-jwick-linear-switches?variant=39452486926401'
+    vendor: divinikey
+    datecheck: '2022-01-28'
+    in_stock: false
+  -
+    price: '0.25'
+    extra_text: V2
+    source: 'https://mecha.store/collections/jwk/products/jwick-black-lubricated-linear-switches'
+    vendor: mecha-store
+    datecheck: '2022-01-28'
+    in_stock: false
+  -
+    price: '0.25'
+    extra_text: null
+    source: 'https://prevailkeyco.com/products/jwk-black-linear-switches?variant=42331357544702'
+    vendor: prevail-key-co
+    datecheck: '2022-01-28'
     in_stock: true
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/jwk-black-linear-v2-58-5g-switch-sample?variant=42131435258101'
 limited_run: 'no'
@@ -106,5 +134,5 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=qgAah3aY1MQ&t=19s'
     description: 'Budget MX Blacks? | JWICK Black Linear Switch Review - Technology Brother'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643145892
+updated_at: 1643482115
 ---

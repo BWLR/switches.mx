@@ -1,11 +1,13 @@
 ---
+id: 88484fe2-4fa7-4f7b-95ca-3cce752fe3cb
+blueprint: switches
 title: 'Keebwerk Tacit'
 volume: silent
 factory_lubed: 'no'
 film: 'yes'
 film_notes: '<p>The Tacit switch benefits from switch films much like most Durock switches do.</p>'
 notes: '<p>Smooth and silent switch rivaling the more expensive Zeal Zilent V2 67g. Similar in tactility to the Durock T1.</p>'
-manufacturer: durock
+manufacturer: jwk
 brand: keebwerk
 switch_type: tactile
 mount: '5'
@@ -93,9 +95,8 @@ prices:
     datecheck: '2020-04-05'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617098543
+updated_at: 1643584740
 limited_run_reason: limited_stock
 limited_run_info: 'Silent tactile switches with a Green Wasabi colored stem. Produced by JWK and available for only a short time on the Keebwerk website.'
 stem_length: standard
-id: 88484fe2-4fa7-4f7b-95ca-3cce752fe3cb
 ---

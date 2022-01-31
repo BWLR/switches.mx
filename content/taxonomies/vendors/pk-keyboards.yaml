@@ -1,0 +1,24 @@
+title: 'PK Keyboards'
+country: US
+currency: usd
+website: 'https://pkkeyboards.com/'
+favicon: pk_keyboards_logo_no_keyboard_32x32.jpg
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/pkkeyboards/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/pkkeyboards'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/profile.php?id=100069633217307'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1643285778
+blueprint: vendors

@@ -1,9 +1,11 @@
 ---
-title: 'Seriko Silent Switches'
+id: 9babf666-2250-464a-9bdf-8ea5d5bc154d
+blueprint: switches
+title: 'Seriko Silent Switch'
 volume: silent
 factory_lubed: 'no'
 film: unknown
-manufacturer: durock
+manufacturer: jwk
 brand: homerow-co
 switch_type: linear
 mount: '5'
@@ -69,7 +71,7 @@ prices:
     datecheck: '2020-04-05'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617096144
+updated_at: 1643584790
 limited_run_reason: group_buy
 limited_run_info: 'These switches were available as part of a group buy on Dailyclack and Homerow Co. Store until the 25th of January. Designed by Zambumon, and are a great compliment for any Serika keycap set.'
 limited_run_gb_enddate: '2020-01-25'
@@ -84,5 +86,4 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Seriko.pdf'
     link_to_review: null
 stem_length: standard
-id: 9babf666-2250-464a-9bdf-8ea5d5bc154d
 ---

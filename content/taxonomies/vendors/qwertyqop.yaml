@@ -1,0 +1,14 @@
+title: qwertyqop
+country: SG
+currency: sgd
+website: 'https://qwertyqop.com/'
+favicon: logo_only_white_face_a6f08790-f441-4411-a1d4-ff7889c4ddbf_32x32.png
+social:
+  -
+    network: discord
+    item_url: 'https://discord.gg/Bq4jz97NAe'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1643285902
+blueprint: vendors

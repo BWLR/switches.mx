@@ -1,7 +1,7 @@
 ---
 id: c88a088b-bf5c-46a1-8c29-09fb80142b0f
 blueprint: switches
-title: 'Zeal Crystals'
+title: 'Zeal Crystal'
 volume: normal
 factory_lubed: slight
 film: unknown
@@ -47,14 +47,14 @@ prices:
   -
     price: '1.20'
     extra_text: null
-    source: null
+    source: 'https://zealpc.net/products/crystal?variant=39379357827136'
     vendor: zeal
-    datecheck: null
-    in_stock: false
+    datecheck: '2022-01-28'
+    in_stock: true
 limited_run: 'no'
 limited_run_reason: 'no'
 photos:
   - switches/photos/switch-1643155721.PNG
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643155773
+updated_at: 1643481990
 ---

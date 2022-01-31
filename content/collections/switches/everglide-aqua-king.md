@@ -6,7 +6,7 @@ volume: normal
 factory_lubed: significant
 film: unknown
 notes: 'Also known as Water King V3. Most vendors don''t stock the 37g version due to sticky stem/return issues (some switches in these batches have issues with the stem coming back up).'
-manufacturer: everglide
+manufacturer: jwk
 brand: everglide
 switch_type: linear
 mount: 5
@@ -199,6 +199,6 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Everglide%20V3%20''Water%20King''%20(60g).pdf'
     link_to_review: 'https://www.theremingoat.com/blog/everglide-v3-water-king-switch-review'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1623952485
+updated_at: 1643584684
 lubrication_notes: 'These are very well lubed from the factory but some people have found the odd switch in a batch to be overlubed with return issues - especially the 37g variant.'
 ---

@@ -87,5 +87,6 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Glorious%20Lynx%20(Unlubed).pdf'
     link_to_review: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1642952402
+updated_at: 1643585576
+manufacturer: unknown
 ---

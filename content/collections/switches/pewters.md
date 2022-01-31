@@ -19,8 +19,8 @@ specs:
     weights_section: null
     actuation: '58.5'
     bottom-out: null
-    pre-travel: '2'
-    total-travel: '4'
+    pre-travel: '2.00'
+    total-travel: '4.00'
     spring_section: null
     spring: gold-plated
     spring_color: null
@@ -34,21 +34,21 @@ specs:
     housing_top_section: null
     housing_top_type: transparent
     housing_top_color: '#201E1E'
-    housing_top_material: pc
+    housing_top_material: uhmwpe
     housing_top_custom_material_notes: null
     housing_bottom_section: null
     housing_bottom_type: transparent
     housing_bottom_color: '#201E1E'
-    housing_bottom_material: pc
+    housing_bottom_material: uhmwpe
     housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: null
 prices:
   -
-    price: '.77'
-    extra_text: Parallel.limited
-    source: null
-    vendor: null
+    price: '0.77'
+    extra_text: null
+    source: 'https://parallel.limited/products/70-pewter-switches'
+    vendor: parallel-limited
     datecheck: '2022-01-25'
     in_stock: true
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/pewter-switch?variant=39368431632546'
@@ -81,5 +81,6 @@ theremin_goat_scores:
     score_card_link: null
     link_to_review: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643159907
+updated_at: 1643412120
+brand: parallel-limited
 ---
