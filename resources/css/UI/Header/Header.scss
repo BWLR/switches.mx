@@ -92,8 +92,15 @@
             }
 
             &--active {
-                background: darken($smx-color-04, 40%);
+                background: #000;
                 color: $smx-color-06;
+
+                &:hover,
+                &:focus,
+                &:active {
+                    background: #000;
+                    color: $smx-color-06;
+                }
             }
         }
     }

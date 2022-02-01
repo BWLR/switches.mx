@@ -6011,7 +6011,14 @@ progress {
 }
 
 .switchesmx__header-menu-link--active {
-  background: #300c0f;
+  background: #000;
+  color: #F9F9F9;
+}
+
+.switchesmx__header-menu-link--active:hover,
+.switchesmx__header-menu-link--active:focus,
+.switchesmx__header-menu-link--active:active {
+  background: #000;
   color: #F9F9F9;
 }
 

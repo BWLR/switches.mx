@@ -18,3 +18,4 @@ To get it running inside a virtual machine you'll need to run `composer install`
 To build local assets and then to run the watcher:
 - `npm install`
 - `npm run watch-poll`
+- Open [homesteadswitchesmx.test](http://homesteadswitchesmx.test/)
