@@ -45,35 +45,35 @@ specs:
     led_support: null
 prices:
   -
-    price: '6.50'
+    price: '0.65'
     extra_text: null
     source: 'https://prevailkeyco.com/products/tecsee-oreo-switches'
     vendor: prevail-key-co
     datecheck: '2022-01-29'
     in_stock: false
   -
-    price: '14.95'
+    price: '0.59'
     extra_text: null
     source: 'https://divinikey.com/collections/tecsee-switches/products/tecsee-oreo-linear-switches'
     vendor: divinikey
     datecheck: '2022-01-29'
     in_stock: false
   -
-    price: '4.95'
+    price: '0.49'
     extra_text: null
-    source: 'https://www.noesc.com/products/tecsee-oreo'
+    source: 'https://www.noesc.com/collections/switches/products/tecsee-oreo'
     vendor: noesc
     datecheck: '2022-01-29'
     in_stock: true
   -
-    price: '.60'
+    price: '0.60'
     extra_text: null
     source: 'https://keebsforall.com/products/tecsee-oreo-linear-switches'
     vendor: keebsforall
     datecheck: '2022-01-29'
     in_stock: true
   -
-    price: '38,00'
+    price: '3,80'
     extra_text: null
     source: 'https://kyo.industries/products/tecsee-oreo-linear-switch-10-switches'
     vendor: kyo-industries
@@ -99,5 +99,5 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=tdXPBWWWrw8'
     description: 'Dolphin with Tecsee Oreo stock vs lubed - Switch Sounds'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643434717
+updated_at: 1643707480
 ---

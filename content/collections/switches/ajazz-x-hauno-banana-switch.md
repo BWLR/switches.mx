@@ -5,7 +5,7 @@ title: 'Ajazz x Huano Banana Switch'
 volume: normal
 factory_lubed: slight
 film: unknown
-manufacturer: unknown
+manufacturer: huano
 brand: ajazz
 switch_type: tactile
 mount: '3'
@@ -96,5 +96,5 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Ajazz%20x%20Huano%20Banana.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/ajazz-x-huano-banana-switch-review'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643596800
+updated_at: 1643738613
 ---

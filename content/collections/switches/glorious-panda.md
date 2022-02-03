@@ -130,6 +130,6 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Glorious%20Panda.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/glorious-panda-switch-review'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643585608
-manufacturer: unknown
+updated_at: 1643646151
+manufacturer: tecsee
 ---

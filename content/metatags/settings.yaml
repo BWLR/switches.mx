@@ -1,0 +1,5 @@
+site_name: Switches.mx
+site_name_separator: '|'
+basics:
+  - basic
+  - advanced

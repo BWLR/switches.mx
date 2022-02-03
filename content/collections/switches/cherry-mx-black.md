@@ -124,8 +124,8 @@ specs:
     housing_top_color: null
     housing_top_material: pc
     housing_top_custom_material_notes: null
-    housing_bottom_type: coloured
-    housing_bottom_color: '#FFFCE6'
+    housing_bottom_type: transparent
+    housing_bottom_color: '#CFCF82'
     housing_bottom_material: nylon
     housing_bottom_custom_material_notes: null
     force_graph: {  }
@@ -309,7 +309,7 @@ prices:
     datecheck: '2022-01-29'
     in_stock: false
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643471178
+updated_at: 1643778697
 stem_length: standard
 limited_run_reason: discontinued
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/cherry-hyperglide-mx-black-5pin-switch?variant=39971213410466'

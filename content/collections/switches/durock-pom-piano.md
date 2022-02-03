@@ -14,7 +14,7 @@ stem_length: standard
 limited_run: 'no'
 limited_run_reason: 'no'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1635264704
+updated_at: 1643707321
 lubrication_notes: 'Very light factory lube. Also available in dry version from some vendors.'
 notes: |-
   Also known as Durock Piano Switches. The Durock POM switch uses a proprietary POM blend for the top and bottom housing with a redesigned stem composed of a mystery material providing a deeper sound signature while still giving you that smooth JWK feel.
@@ -128,6 +128,13 @@ prices:
     source: 'https://shopee.ph/Durock-Piano-Pom-Linear-Switches-63.5-g-Bottom-out-10-pcs--i.559627565.13226286334'
     vendor: cassiniph
     datecheck: '2021-10-26'
+    in_stock: true
+  -
+    price: '0.65'
+    extra_text: null
+    source: 'https://www.noesc.com/collections/switches/products/durock-pom-piano'
+    vendor: noesc
+    datecheck: '2022-02-01'
     in_stock: true
 theremin_goat_scores:
   -

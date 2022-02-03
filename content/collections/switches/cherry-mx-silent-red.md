@@ -1,4 +1,6 @@
 ---
+id: 3654f704-0116-419b-bf47-98dac5f6d8d9
+blueprint: switches
 title: 'Cherry MX Silent Red'
 volume: silent
 factory_lubed: 'no'
@@ -58,10 +60,10 @@ specs:
     stem_custom_material_notes: null
     housing_top_type: transparent
     housing_top_color: null
-    housing_top_material: nylon
+    housing_top_material: pc
     housing_top_custom_material_notes: null
     housing_bottom_type: transparent
-    housing_bottom_color: null
+    housing_bottom_color: '#CFCF82'
     housing_bottom_material: nylon
     housing_bottom_custom_material_notes: null
     force_graph: {  }
@@ -158,8 +160,7 @@ prices:
     datecheck: '2020-07-06'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617109096
+updated_at: 1643778943
 stem_length: standard
 limited_run_reason: 'no'
-id: 3654f704-0116-419b-bf47-98dac5f6d8d9
 ---

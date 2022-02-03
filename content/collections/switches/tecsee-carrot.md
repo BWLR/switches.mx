@@ -45,25 +45,25 @@ specs:
     led_support: null
 prices:
   -
-    price: '.54'
+    price: '0.54'
     extra_text: null
-    source: null
+    source: 'https://keebsforall.com/collections/mx-keyboard-switches/products/tecsee-carrot-linear-switches'
     vendor: keebsforall
     datecheck: '2022-01-25'
     in_stock: true
   -
-    price: '.45'
-    extra_text: Drop.com
-    source: null
-    vendor: null
-    datecheck: null
+    price: '0.45'
+    extra_text: null
+    source: 'https://drop.com/buy/tecsee-custom-mechanical-switches'
+    vendor: drop
+    datecheck: '2022-01-31'
     in_stock: false
   -
-    price: '.49'
-    extra_text: 'Code Shoobs'
-    source: null
+    price: '0.49'
+    extra_text: null
+    source: 'https://divinikey.com/collections/switches/products/tecsee-carrot-linear-switches'
     vendor: divinikey
-    datecheck: null
+    datecheck: '2022-01-31'
     in_stock: true
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/tecsee-pme-orange-linear-switch?variant=40016508387490'
 limited_run: 'no'
@@ -85,5 +85,5 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=kPxZCrOtgMk'
     description: 'tecsee carrot switch lubed sound test - krayvenz'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643143668
+updated_at: 1643631657
 ---

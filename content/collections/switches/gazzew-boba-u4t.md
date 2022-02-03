@@ -297,6 +297,13 @@ prices:
     vendor: custom-kbd
     datecheck: '2021-06-29'
     in_stock: true
+  -
+    price: '7.80'
+    extra_text: '(also available pre-lubed)'
+    source: 'https://www.smord.store/products/boba-u4t-switches'
+    vendor: smord-store
+    datecheck: '2022-01-31'
+    in_stock: true
 limited_run: 'no'
 limited_run_reason: 'no'
 photos:
@@ -346,5 +353,5 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/U4T%20(62g).pdf'
     link_to_review: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1625000672
+updated_at: 1643631295
 ---

@@ -1,5 +1,6 @@
 ---
 id: 416819f2-b4b7-4f49-929d-be6da182d5a6
+published: false
 blueprint: switches
 title: 'Cherry MX Browns'
 volume: normal

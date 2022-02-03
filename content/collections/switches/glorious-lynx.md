@@ -6,7 +6,7 @@ volume: normal
 factory_lubed: 'no'
 lubrication_notes: 'You can purchase it lubed or unlubed. If purchased unlubed lube it like a normal linear.'
 film: unknown
-notes: 'Very high pitched and clacky. Also, perfect for gaming.'
+notes: 'High pitched, very inconsistent. Top out sound, bottom out sound, feeling, its all inconsistent.'
 brand: glorious
 switch_type: linear
 mount: 5
@@ -87,6 +87,6 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Glorious%20Lynx%20(Unlubed).pdf'
     link_to_review: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643585576
-manufacturer: unknown
+updated_at: 1643861030
+manufacturer: tecsee
 ---

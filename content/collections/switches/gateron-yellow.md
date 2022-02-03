@@ -473,8 +473,36 @@ prices:
     vendor: toronto-keyboards-tokeebs
     datecheck: '2021-12-09'
     in_stock: true
+  -
+    price: '3.00'
+    extra_text: 'KS-3X1 (also available pre-lubed)'
+    source: 'https://www.smord.store/products/smord-gateron-milky-yellow-10st'
+    vendor: smord-store
+    datecheck: '2022-01-31'
+    in_stock: true
+  -
+    price: '3.00'
+    extra_text: 'KS-3X47 (also available pre-lubed)'
+    source: 'https://www.smord.store/products/lubed-gateron-milky-top-yellow-10pcs'
+    vendor: smord-store
+    datecheck: '2022-01-31'
+    in_stock: true
+  -
+    price: '0.25'
+    extra_text: KS-3X1
+    source: 'https://www.noesc.com/collections/switches/products/gateron-milky-yellow'
+    vendor: noesc
+    datecheck: '2022-02-01'
+    in_stock: true
+  -
+    price: '0.25'
+    extra_text: KS-3X47
+    source: 'https://www.noesc.com/collections/switches/products/gateron-milky-top-yellow'
+    vendor: noesc
+    datecheck: '2022-02-01'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1639087221
+updated_at: 1643707299
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
