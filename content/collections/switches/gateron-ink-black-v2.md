@@ -221,8 +221,22 @@ prices:
     vendor: toronto-keyboards-tokeebs
     datecheck: '2021-12-09'
     in_stock: false
+  -
+    price: '8.9'
+    extra_text: null
+    source: 'https://www.smord.store/products/gateron-black-ink-v2'
+    vendor: smord-store
+    datecheck: '2022-01-31'
+    in_stock: true
+  -
+    price: '0.69'
+    extra_text: null
+    source: 'https://www.noesc.com/collections/switches/products/gateron-black-inks-v2'
+    vendor: noesc
+    datecheck: '2022-02-01'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643586086
+updated_at: 1643707184
 stem_length: standard
 limited_run_reason: 'no'
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/gateron-ink-black-switch-v2?variant=37101048332450'

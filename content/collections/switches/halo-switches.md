@@ -16,8 +16,8 @@ specs:
     name: 'Halo Clear'
     description: null
     weights_section: null
-    actuation: '54'
-    bottom-out: '100'
+    actuation: '52'
+    bottom-out: '78'
     pre-travel: '1.9'
     total-travel: '4'
     spring_section: null
@@ -27,12 +27,12 @@ specs:
     spring_swap: null
     stem_section: null
     stem_type: coloured
-    stem_color: '#FFFAFA'
+    stem_color: '#FFFFFF'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_section: null
     housing_top_type: transparent
-    housing_top_color: '#FFFFFF'
+    housing_top_color: null
     housing_top_material: pc
     housing_top_custom_material_notes: null
     housing_bottom_section: null
@@ -46,8 +46,8 @@ specs:
     name: 'Halo True'
     description: null
     weights_section: null
-    actuation: '52'
-    bottom-out: '78'
+    actuation: '54'
+    bottom-out: '100'
     pre-travel: '1.9'
     total-travel: '4'
     spring_section: null
@@ -62,7 +62,7 @@ specs:
     stem_custom_material_notes: null
     housing_top_section: null
     housing_top_type: transparent
-    housing_top_color: '#FFFFFF'
+    housing_top_color: null
     housing_top_material: pc
     housing_top_custom_material_notes: null
     housing_bottom_section: null
@@ -84,11 +84,11 @@ mechbox_affiliate_link: 'https://mechbox.co.uk/products/halo-true-switch?variant
 limited_run: 'no'
 limited_run_reason: 'no'
 photos:
-  - switches/photos/switch-1643153016.PNG
-  - switches/photos/switch-1643153053.PNG
-  - switches/photos/switch-1643153081.PNG
-  - switches/photos/switch-1643153097.PNG
-  - switches/photos/switch-1643153120.PNG
+  - switches/photos/HaloStem.PNG
+  - switches/photos/HaloTrueTopProfile.PNG
+  - switches/photos/HaloTrueDropDisassembled.PNG
+  - switches/photos/HaloClearTopProfile.PNG
+  - switches/photos/HaloClearDropSideProfile.PNG
 videos:
   -
     item_url: 'https://www.youtube.com/watch?v=e3BVSMTW4sI'
@@ -115,6 +115,6 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=e3BVSMTW4sI'
     description: 'Lubing/Filming Halo Clear Switches (Fix Spring Ping) | Fully Modding a Drop CTRL High-Profile Part 3 - Austin V'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643481963
+updated_at: 1643828112
 brand: drop
 ---

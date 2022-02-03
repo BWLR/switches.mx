@@ -254,7 +254,7 @@ sections:
             UZ: Uzbekistan
             VU: Vanuatu
             VE: 'Venezuela (Bolivarian Republic of)'
-            VN: 'Vietnam'
+            VN: Vietnam
             VG: 'Virgin Islands (British)'
             VI: 'Virgin Islands (U.S.)'
             WF: 'Wallis and Futuna'
@@ -300,6 +300,19 @@ sections:
           validate:
             - url
           antlers: false
+          width: 50
+      -
+        handle: affiliate_code
+        field:
+          input_type: text
+          antlers: false
+          display: 'Affiliate code'
+          type: text
+          icon: text
+          instructions: 'eg. ref=switchesmx'
+          width: 50
+          listable: hidden
+          instructions_position: above
       -
         handle: favicon
         field:

@@ -1,4 +1,6 @@
 ---
+id: a0b65452-cb61-45b4-8b06-fd0ba62bfe1b
+blueprint: switches
 title: 'Cherry MX Brown'
 volume: normal
 factory_lubed: 'no'
@@ -44,7 +46,7 @@ specs:
     housing_top_section: null
     housing_bottom_section: null
   -
-    name: null
+    name: RGB
     description: null
     actuation: 45
     bottom-out: 55
@@ -59,11 +61,11 @@ specs:
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_type: transparent
-    housing_top_color: '#FFFFFF'
-    housing_top_material: nylon
+    housing_top_color: null
+    housing_top_material: pc
     housing_top_custom_material_notes: null
-    housing_bottom_type: coloured
-    housing_bottom_color: '#3A4045'
+    housing_bottom_type: transparent
+    housing_bottom_color: '#CFCF82'
     housing_bottom_material: nylon
     housing_bottom_custom_material_notes: null
     force_graph: {  }
@@ -80,6 +82,9 @@ photos:
   - switches/photos/cherry-mx-brown-mxbrown2.jpg
   - switches/photos/cherry-mx-brown-Cherry_MX_Brown_1500x1000.jpg
   - switches/photos/cherry-mx-brown-brown-switch.jpg
+  - switches/photos/switch-1643321729.PNG
+  - switches/photos/switch-1643321670.PNG
+  - switches/photos/switch-1643321698.PNG
 videos:
   -
     item_url: 'https://www.youtube.com/watch?v=9IsuqFej-z8'
@@ -105,6 +110,9 @@ videos:
   -
     item_url: 'https://www.youtube.com/watch?v=UHH93T8fNEI'
     description: 'Corsair STRAFE RGB Mechanical Keyboard w/ Cherry MX Brown Switches REVIEW by Andrew Evans'
+  -
+    item_url: 'https://www.youtube.com/watch?v=B6oZZQ-rrJc'
+    description: 'Ducky One 2 Mini RGB | Brown Switches by Zip'
 related_links:
   -
     item_url: 'https://www.cherrymx.de/en/mx-original/mx-brown.html'
@@ -203,7 +211,7 @@ prices:
     datecheck: '2020-04-16'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617098295
+updated_at: 1643778559
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -216,5 +224,4 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Cherry%20MX%20Brown.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/cherry-mx-brown-switch-review'
 stem_length: standard
-id: a0b65452-cb61-45b4-8b06-fd0ba62bfe1b
 ---
