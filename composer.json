@@ -8,6 +8,7 @@
         "aryehraber/statamic-color-extractor": "^1.1",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
+        "gioppy/statamic-metatags": "^1.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0",
         "laravel/socialite": "^5.0",
