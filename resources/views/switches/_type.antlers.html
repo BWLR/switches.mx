@@ -6,7 +6,15 @@ clicky-bar: 'Clicky switches, as the name suggests, make an audible click when a
 click-leaf: 'Clicky switches, as the name suggests, make an audible click when activated. The click leaf design is traditionally found in ALPS/Matias switches and less common amongst MX switches. This click mechanism takes up more space leaving no room for in-switch LED''s.'
 ---
 <div class="c-switch__type">
-    <div class="c-switch__type-label">{{ if switch_type == 'linear' }}Linear{{ elseif switch_type == 'tactile' }}Tactile{{ elseif switch_type|contains:clicky }}Clicky{{ /if }}</div>
+    <div class="c-switch__type-label">
+        {{ if switch_type == 'linear' }}
+            Linear
+        {{ elseif switch_type == 'tactile' }}
+            Tactile
+        {{ elseif switch_type|contains:click }}
+            Clicky
+        {{ /if }}
+    </div>
     <div class="c-switch__type-icon">
         {{ if switch_type|contains:click }}
             <img src="/images/icons/switch_type_clicky.svg" alt="Switch Type icon" />
