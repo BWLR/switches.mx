@@ -8,7 +8,7 @@ click-leaf: 'Clicky switches, as the name suggests, make an audible click when a
 <div class="c-switch__type">
     <div class="c-switch__type-label">{{ if switch_type == 'linear' }}Linear{{ elseif switch_type == 'tactile' }}Tactile{{ elseif switch_type|contains:clicky }}Clicky{{ /if }}</div>
     <div class="c-switch__type-icon">
-        {{ if switch_type|contains:clicky }}
+        {{ if switch_type|contains:click }}
             <img src="/images/icons/switch_type_clicky.svg" alt="Switch Type icon" />
         {{ else }}
             <img src="/images/icons/switch_type_{{ switch_type }}.svg" alt="Switch Type icon" />
@@ -19,7 +19,7 @@ click-leaf: 'Clicky switches, as the name suggests, make an audible click when a
             {{ if switch_type == 'clicky-jacket' }}
                 Click-jacket
             {{ elseif switch_type == 'clicky-bar' }}
-                Click-bar
+                Click-bar (Kailh style)
             {{ elseif switch_type == 'click-leaf' }}
                 Click-leaf (ALPS style)
             {{ /if }}
