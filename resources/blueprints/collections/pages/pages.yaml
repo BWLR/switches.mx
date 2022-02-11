@@ -22,7 +22,6 @@ sections:
         handle: slug
         field:
           type: slug
-          required: true
           localizable: true
           validate:
             - required
@@ -44,3 +43,5 @@ sections:
           type: template
           icon: template
           listable: hidden
+      -
+        import: metatags

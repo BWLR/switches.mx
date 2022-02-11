@@ -3,18 +3,18 @@ id: c2030e26-5d9b-435a-b9a0-5bf44caede20
 blueprint: switches
 title: 'Kailh Box Jade'
 volume: loud
-factory_lubed: slight
-lubrication_notes: '<p>Do not lube these switches. It will ruin them.</p>'
+factory_lubed: 'no'
+lubrication_notes: '<p>The stock switch has a bit of spring ping which can be solved by lubing with Krytox 205g0, GPL 105, or something similar. Make sure to avoid the click bar and the click bar contact points.</p>'
 film: no-fit
 manufacturer: kailh
-brand: novelkeys
+brand: kailh
 switch_type: clicky-bar
 mount: '3'
 stem_construction: box
 stem_length: standard
 specs:
   -
-    name: null
+    name: Jade
     description: null
     weights_section: null
     actuation: '50'
@@ -41,8 +41,67 @@ specs:
     housing_bottom_color: '#FFFFFF'
     housing_bottom_material: nylon
     housing_bottom_custom_material_notes: null
-    force_graph:
-      - switches/force-graphs/newplot-1642860558.png
+    force_graph: {  }
+    led_support: smd-and-inswitch
+  -
+    name: 'Crystal Jade'
+    description: null
+    weights_section: null
+    actuation: '50'
+    bottom-out: '60'
+    pre-travel: '1.80'
+    total-travel: '3.60'
+    spring_section: null
+    spring: kailh
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_type: coloured
+    stem_color: '#C0DCA3'
+    stem_material: pom
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_type: transparent
+    housing_top_color: null
+    housing_top_material: pc
+    housing_top_custom_material_notes: null
+    housing_bottom_section: null
+    housing_bottom_type: transparent
+    housing_bottom_color: null
+    housing_bottom_material: pc
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
+    led_support: smd-and-inswitch
+  -
+    name: 'Midnight Jade'
+    description: null
+    weights_section: null
+    actuation: '50'
+    bottom-out: '60'
+    pre-travel: '1.80'
+    total-travel: '3.60'
+    spring_section: null
+    spring: kailh
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_type: coloured
+    stem_color: '#36AFE4'
+    stem_material: pom
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_type: transparent
+    housing_top_color: '#49B7E8'
+    housing_top_material: pc
+    housing_top_custom_material_notes: null
+    housing_bottom_section: null
+    housing_bottom_type: transparent
+    housing_bottom_color: '#49B7E8'
+    housing_bottom_material: pc
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
     led_support: smd-and-inswitch
 prices:
   -
@@ -149,5 +208,6 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Kailh%20Box%20Jade.pdf'
     link_to_review: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643481968
+updated_at: 1643933399
+volume_notes: 'This switch is fairly clicky, along the sound level of clicking a pen open and closed with each key press.'
 ---

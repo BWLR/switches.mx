@@ -1,4 +1,6 @@
 ---
+id: 06a23573-21b9-4ebf-9212-19509390d163
+blueprint: switches
 title: 'FEI R2'
 volume: normal
 factory_lubed: slight
@@ -9,7 +11,7 @@ manufacturer: gateron
 brand: fei
 switch_type: linear
 mount: '5'
-stem_construction: 'standard'
+stem_construction: standard
 limited_run: 'yes'
 specs:
   -
@@ -17,8 +19,8 @@ specs:
     description: null
     actuation: 55
     bottom-out: 62
-    pre-travel:
-    total-travel:
+    pre-travel: null
+    total-travel: null
     spring: gold-plated
     spring_color: null
     spring_color_info: null
@@ -78,8 +80,8 @@ prices:
     datecheck: '2020-07-02'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1614965671
+updated_at: 1644528172
 limited_run_reason: group_buy_ended
 limited_run_info: 'These were a available in a limited run group buy from Jan 6th 2019 - Jan 15th 2019.'
-id: 06a23573-21b9-4ebf-9212-19509390d163
+stem_length: standard
 ---

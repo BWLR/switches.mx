@@ -7,7 +7,7 @@ factory_lubed: slight
 film: 'yes'
 notes: '<p>Alpacas are a re-colour of Durock&#8217;s incredibly smooth linear based on the SA Bliss colorway by Minterly.</p><p>A very popular and sought after switch, especially recently (June 2020).</p>'
 manufacturer: jwk
-brand: durock
+brand: jwk
 switch_type: linear
 mount: '5'
 stem_construction: standard
@@ -126,7 +126,7 @@ prices:
     datecheck: '2021-08-10'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643603780
+updated_at: 1644528082
 limited_run_reason: 'no'
 theremin_goat_scores:
   -

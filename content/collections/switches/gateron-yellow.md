@@ -16,6 +16,66 @@ stem_construction: standard
 limited_run: 'no'
 specs:
   -
+    name: KS-3X47
+    description: 'Having KS-3 in the name doesn''t mean the bottom is actually the KS-3 black bottom. The KS-3X47 black bottom is the same from the clear top black bottom Gaterons that everyone is familiar with.'
+    actuation: 55
+    bottom-out: 63.5
+    pre-travel: '2.00'
+    total-travel: '4.00'
+    spring: standard
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_type: coloured
+    stem_color: '#FFE07B'
+    stem_material: pom
+    stem_custom_material_notes: null
+    housing_top_type: milky
+    housing_top_color: null
+    housing_top_material: pcnylon
+    housing_top_custom_material_notes: null
+    housing_bottom_type: coloured
+    housing_bottom_color: '#3A4045'
+    housing_bottom_material: nylon
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
+    led_support: inswitch-through
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
+  -
+    name: KS-3
+    description: 'Best variation of this switch. They do not need films and are by far the smoothest Gateron switches/housings aside from Inks which while definitely smoother are also 6 times the price.<br /><br />Gateron Linjär and N1S switches are re-colours of the KS-3 for example. The fixing pins (for PCB-mounting) are somewhat wider than Cherry MX, giving a tighter fit. Supports two-pin LED''s only.'
+    actuation: 55
+    bottom-out: 63.5
+    pre-travel: '2.00'
+    total-travel: '4.00'
+    spring: standard
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_type: coloured
+    stem_color: '#FFE07B'
+    stem_material: pom
+    stem_custom_material_notes: null
+    housing_top_type: coloured
+    housing_top_color: '#3A4045'
+    housing_top_material: nylon
+    housing_top_custom_material_notes: null
+    housing_bottom_type: coloured
+    housing_bottom_color: '#3A4045'
+    housing_bottom_material: nylon
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
+    led_support: inswitch-through
+    weights_section: null
+    spring_section: null
+    stem_section: null
+    housing_top_section: null
+    housing_bottom_section: null
+  -
     name: KS-8
     description: 'The most common Gateron switch (most Gateron re-colours including Merlots are of this series).<br /><br />Very basic, very standard. Somewhat smooth, wobble is okay, a very average switch overall.'
     actuation: 55
@@ -32,7 +92,7 @@ specs:
     stem_custom_material_notes: null
     housing_top_type: transparent
     housing_top_color: null
-    housing_top_material: pcnylon
+    housing_top_material: pc
     housing_top_custom_material_notes: null
     housing_bottom_type: coloured
     housing_bottom_color: '#3A4045'
@@ -77,66 +137,6 @@ specs:
     housing_top_section: null
     housing_bottom_section: null
   -
-    name: KS-3
-    description: 'Best variation of this switch. They do not need films and are by far the smoothest Gateron switches/housings aside from Inks which while definitely smoother are also 6 times the price.<br /><br />Gateron Linjär and N1S switches are re-colours of the KS-3 for example. The fixing pins (for PCB-mounting) are somewhat wider than Cherry MX, giving a tighter fit. Supports two-pin LED''s only.'
-    actuation: 55
-    bottom-out: 63.5
-    pre-travel: '2.00'
-    total-travel: '4.00'
-    spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_type: coloured
-    stem_color: '#FFE07B'
-    stem_material: pom
-    stem_custom_material_notes: null
-    housing_top_type: coloured
-    housing_top_color: '#3A4045'
-    housing_top_material: nylon
-    housing_top_custom_material_notes: null
-    housing_bottom_type: coloured
-    housing_bottom_color: '#3A4045'
-    housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
-    led_support: inswitch-through
-    weights_section: null
-    spring_section: null
-    stem_section: null
-    housing_top_section: null
-    housing_bottom_section: null
-  -
-    name: KS-3X47
-    description: 'Having KS-3 in the name doesn''t mean the bottom is actually the KS-3 black bottom. The KS-3X47 black bottom is the same from the clear top black bottom Gaterons that everyone is familiar with.'
-    actuation: 55
-    bottom-out: 63.5
-    pre-travel: '2.00'
-    total-travel: '4.00'
-    spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_type: coloured
-    stem_color: '#FFE07B'
-    stem_material: pom
-    stem_custom_material_notes: null
-    housing_top_type: milky
-    housing_top_color: null
-    housing_top_material: pcnylon
-    housing_top_custom_material_notes: null
-    housing_bottom_type: coloured
-    housing_bottom_color: '#3A4045'
-    housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
-    led_support: inswitch-through
-    weights_section: null
-    spring_section: null
-    stem_section: null
-    housing_top_section: null
-    housing_bottom_section: null
-  -
     name: KS-9
     description: 'The only Gaterons (other than inks) to support SMD lighting. Not the worst and probably smoother than the KS-8 in stock form.'
     actuation: 55
@@ -153,7 +153,7 @@ specs:
     stem_custom_material_notes: null
     housing_top_type: transparent
     housing_top_color: null
-    housing_top_material: pcnylon
+    housing_top_material: pc
     housing_top_custom_material_notes: null
     housing_bottom_type: coloured
     housing_bottom_color: '#F9F9F9'
@@ -502,7 +502,7 @@ prices:
     datecheck: '2022-02-01'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643707299
+updated_at: 1643935701
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -515,4 +515,5 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Gateron%20Yellow%20KS8.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/gateron-yellow-switch-review'
 stem_length: standard
+basic_description: 'A very well priced but often hard to get hold of switch. Weighted in between reds and blacks, and are well loved due to the spring and feel, especially once lubed.'
 ---

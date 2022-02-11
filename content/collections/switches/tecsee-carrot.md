@@ -28,17 +28,17 @@ specs:
     spring_swap: null
     stem_section: null
     stem_type: coloured
-    stem_color: '#23C2A9'
+    stem_color: '#7DFBE7'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_section: null
     housing_top_type: coloured
-    housing_top_color: '#F89323'
+    housing_top_color: '#FF6C35'
     housing_top_material: custom
     housing_top_custom_material_notes: PME
     housing_bottom_section: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#F89323'
+    housing_bottom_color: '#FF6C35'
     housing_bottom_material: custom
     housing_bottom_custom_material_notes: PME
     force_graph: {  }
@@ -85,5 +85,5 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=kPxZCrOtgMk'
     description: 'tecsee carrot switch lubed sound test - krayvenz'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643631657
+updated_at: 1644463075
 ---

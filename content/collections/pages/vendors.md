@@ -4,5 +4,6 @@ blueprint: pages
 title: Vendors
 template: vendors/index
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1633003727
+updated_at: 1643895871
+basic_title: Vendors
 ---

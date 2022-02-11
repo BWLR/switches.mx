@@ -107,5 +107,6 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=bCHLgStCt4Q'
     description: 'KTT Grapefruit soundtest (Tofu 60 w/ POM plate) - Xenocult'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643424275
+updated_at: 1644528270
+brand: ktt
 ---

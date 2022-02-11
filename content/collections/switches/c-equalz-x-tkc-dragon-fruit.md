@@ -34,12 +34,12 @@ specs:
     housing_top_section: null
     housing_top_type: transparent
     housing_top_color: '#E02E6C'
-    housing_top_material: nylon
+    housing_top_material: uhmwpe
     housing_top_custom_material_notes: null
     housing_bottom_section: null
     housing_bottom_type: transparent
     housing_bottom_color: '#E02E6C'
-    housing_bottom_material: nylon
+    housing_bottom_material: uhmwpe
     housing_bottom_custom_material_notes: null
     force_graph: {  }
     led_support: null
@@ -54,5 +54,5 @@ prices:
 limited_run: 'no'
 limited_run_reason: 'no'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643605070
+updated_at: 1643992282
 ---

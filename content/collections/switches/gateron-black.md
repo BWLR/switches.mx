@@ -29,7 +29,7 @@ specs:
     stem_custom_material_notes: null
     housing_top_type: transparent
     housing_top_color: null
-    housing_top_material: pcnylon
+    housing_top_material: pc
     housing_top_custom_material_notes: null
     housing_bottom_type: coloured
     housing_bottom_color: '#3A4045'
@@ -149,7 +149,7 @@ specs:
     stem_custom_material_notes: null
     housing_top_type: transparent
     housing_top_color: null
-    housing_top_material: pcnylon
+    housing_top_material: pc
     housing_top_custom_material_notes: null
     housing_bottom_type: coloured
     housing_bottom_color: '#FFFFFF'
@@ -215,7 +215,7 @@ prices:
     datecheck: '2021-06-23'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1624482604
+updated_at: 1643935840
 stem_length: standard
 limited_run_reason: 'no'
 ---

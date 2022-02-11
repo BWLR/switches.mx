@@ -1,19 +1,19 @@
 ---
 id: ec49effd-c274-46c3-a8a8-f5c4a83e418b
 blueprint: switches
-title: 'Kailh BOX Pink'
+title: 'Kailh Box Pink'
 volume: loud
-factory_lubed: slight
+factory_lubed: 'no'
 film: no-fit
 manufacturer: kailh
-brand: novelkeys
+brand: kailh
 switch_type: clicky-bar
 mount: '3'
 stem_construction: box
 limited_run: 'no'
 specs:
   -
-    name: null
+    name: Pink
     description: null
     actuation: 55
     bottom-out: 65
@@ -42,6 +42,36 @@ specs:
     stem_section: null
     housing_top_section: null
     housing_bottom_section: null
+  -
+    name: 'Crystal Pink'
+    description: null
+    weights_section: null
+    actuation: '55'
+    bottom-out: '65'
+    pre-travel: '1.80'
+    total-travel: '3.60'
+    spring_section: null
+    spring: kailh
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_type: coloured
+    stem_color: '#F17BA2'
+    stem_material: pom
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_type: transparent
+    housing_top_color: null
+    housing_top_material: pc
+    housing_top_custom_material_notes: null
+    housing_bottom_section: null
+    housing_bottom_type: transparent
+    housing_bottom_color: null
+    housing_bottom_material: pc
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
+    led_support: smd-and-inswitch
 photos:
   - switches/photos/kailh-box-pinks-Novelkeys_x_Kailh_Box_Pink_1024x1024@2x.jpg
   - switches/photos/kailh-box-pinks-13_e0d8758b-1e62-4f82-acc0-1a0db3e23928_1800x1800.jpg
@@ -94,7 +124,9 @@ prices:
     datecheck: '2021-06-23'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643481971
+updated_at: 1643933274
 stem_length: standard
 limited_run_reason: 'no'
+volume_notes: 'This switch is fairly clicky, along the sound level of clicking a pen open and closed with each key press.'
+lubrication_notes: '<p>The stock switch has a bit of spring ping which can be solved by lubing with Krytox 205g0, GPL 105, or something similar. Make sure to avoid the click bar and the click bar contact points.</p>'
 ---

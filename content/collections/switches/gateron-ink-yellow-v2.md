@@ -123,5 +123,6 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Gateron%20Ink%20Yellow%20V2.pdf'
     link_to_review: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643884325
+updated_at: 1643886567
+basic_description: 'Yellow Inks are the brothers of the Ink Blacks, the well loved linear switch in community. Smooth from stock due to the custom housing material and coated spring but especially smooth with a great sound after lubing.'
 ---

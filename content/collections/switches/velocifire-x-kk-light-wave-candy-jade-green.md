@@ -1,7 +1,7 @@
 ---
 id: 92489b0c-d3eb-4a62-acd4-d23ce355babf
 blueprint: switches
-title: 'Velocifire X KK Light Wave V2 / Candy Jade Green'
+title: 'Candy Jade Green'
 volume: normal
 factory_lubed: slight
 film: unknown
@@ -107,5 +107,5 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=IjMdg7UciAE'
     description: 'Square80 - KK Light Wave V2 - Kiyoboard'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643741475
+updated_at: 1643934384
 ---

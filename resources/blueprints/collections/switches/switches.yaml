@@ -221,6 +221,8 @@ sections:
           icon: select
           instructions: 'Does the stem have a longer than normal stem eg. Halo/Holy Panda'
           listable: hidden
+      -
+        import: metatags
   specs:
     display: Specs
     fields:
@@ -431,6 +433,7 @@ sections:
                   uhmwpe: UHMWPE
                   polyamide: Polyamide
                   custom: Custom
+                  unknown: Unknown
                 default: pom
                 inline: true
                 cast_booleans: false
@@ -439,6 +442,7 @@ sections:
                 icon: radio
                 instructions: 'If in doubt, choose POM - most stems are POM'
                 listable: hidden
+                instructions_position: above
             -
               handle: stem_custom_material_notes
               field:
@@ -494,6 +498,7 @@ sections:
                   uhmwpe: UHMWPE
                   polyamide: Polyamide
                   custom: Custom
+                  unknown: Unknown
                 default: nylon
                 inline: true
                 cast_booleans: false
@@ -501,6 +506,7 @@ sections:
                 type: radio
                 icon: radio
                 listable: hidden
+                instructions_position: above
             -
               handle: housing_top_custom_material_notes
               field:
@@ -557,6 +563,7 @@ sections:
                   uhmwpe: UHMWPE
                   polyamide: Polyamide
                   custom: Custom
+                  unknown: Unknown
                 default: nylon
                 inline: true
                 cast_booleans: false
@@ -564,6 +571,7 @@ sections:
                 type: radio
                 icon: radio
                 listable: hidden
+                instructions_position: above
             -
               handle: housing_bottom_custom_material_notes
               field:
@@ -609,6 +617,7 @@ sections:
           type: grid
           icon: grid
           listable: hidden
+          instructions_position: above
   prices:
     display: Prices
     fields:

@@ -1,21 +1,21 @@
 ---
 id: f9c12457-5c07-4102-ac5f-c13737b078f5
 blueprint: switches
-title: 'Kailh BOX Navy'
+title: 'Kailh Box Navy'
 volume: loud
-factory_lubed: slight
-lubrication_notes: '<p>Do not lube these switches. It will ruin them.</p>'
+factory_lubed: 'no'
+lubrication_notes: '<p>The stock switch has a bit of spring ping which can be solved by lubing with Krytox 205g0, GPL 105, or something similar. Make sure to avoid the click bar and the click bar contact points.</p>'
 film: no-fit
 notes: '<p>These switches are probably the loudest MX switches you can get. Devisive amongst the community, some people love them, some hate them.</p><p>Manufactured by Kailh in collaboration with Novelkeys. They are an evolution of the original Kailh Box White and Box Pales switches.</p><p>They have 0.30mm thick click bars compared to the 0.25mm on the Kailh Box Whites and similar.</p>'
 manufacturer: kailh
-brand: novelkeys
+brand: kailh
 switch_type: clicky-bar
 mount: '3'
 stem_construction: box
 limited_run: 'no'
 specs:
   -
-    name: null
+    name: Navy
     description: null
     actuation: 60
     bottom-out: 90
@@ -45,6 +45,36 @@ specs:
     stem_section: null
     housing_top_section: null
     housing_bottom_section: null
+  -
+    name: 'Crystal Navy'
+    description: null
+    weights_section: null
+    actuation: '60'
+    bottom-out: '90'
+    pre-travel: '1.80'
+    total-travel: '3.60'
+    spring_section: null
+    spring: kailh
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_type: coloured
+    stem_color: '#20336E'
+    stem_material: pom
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_type: transparent
+    housing_top_color: null
+    housing_top_material: pc
+    housing_top_custom_material_notes: null
+    housing_bottom_section: null
+    housing_bottom_type: transparent
+    housing_bottom_color: null
+    housing_bottom_material: pc
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
+    led_support: smd-and-inswitch
 photos:
   - switches/photos/kailh-box-navy-Novelkeys_x_Kailh_Box_Navy_1_1024x1024@2x.jpg
   - switches/photos/kailh-box-navy-sjrys1y6htg01.jpg
@@ -144,7 +174,7 @@ prices:
     datecheck: '2021-06-09'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1623257609
+updated_at: 1643933593
 limited_run_reason: 'no'
 theremin_goat_scores:
   -

@@ -9,7 +9,7 @@ film: unknown
 notes: 'Featuring a Patent Pending multi mode click leaf design, this switch can be transformed from Clicky to Ultra High Tactile (think BKE level, but even more extreme) to super smooth Linear switch modes by simply moving the secondary switch leaf within the housing. (this means it is a click leaf, a tactile switch, and a linear switch.)'
 manufacturer: gateron
 brand: zeal
-switch_type: tactile
+switch_type: click-leaf
 mount: 5
 stem_construction: cap
 stem_length: standard
@@ -110,5 +110,5 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=F4LYxaZGwK4'
     description: 'TGR Jane V2 CE | 40g Clickiez™ | GMK Olivia++ | Sound Typing Test| [8K ASMR] by Zeal'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643471420
+updated_at: 1643893705
 ---

@@ -1,14 +1,14 @@
 ---
 id: 08ce35f4-165a-464f-8f20-3b954bade56d
 blueprint: switches
-title: 'Kailh BOX Heavy Pale Blue'
+title: 'Kailh Box Heavy Pale Blue'
 volume: loud
 volume_notes: 'This switch is fairly clicky, along the sound level of clicking a pen open and closed with each key press.'
 factory_lubed: 'no'
-lubrication_notes: '<p>The stock switch has a bit of spring ping which can be solved by lubing with Krytox 205g0, GPL 105, or something similar.</p>'
+lubrication_notes: '<p>The stock switch has a bit of spring ping which can be solved by lubing with Krytox 205g0, GPL 105, or something similar. Make sure to avoid the click bar and the click bar contact points.</p>'
 film: no-fit
 manufacturer: kailh
-brand: novelkeys
+brand: kailh
 switch_type: clicky-bar
 mount: '3'
 stem_construction: box
@@ -125,7 +125,7 @@ prices:
     datecheck: '2021-06-23'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1624482351
+updated_at: 1643933043
 limited_run_reason: 'no'
 stem_length: standard
 ---

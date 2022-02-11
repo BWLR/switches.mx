@@ -28,17 +28,17 @@ specs:
     spring_swap: null
     stem_section: null
     stem_type: coloured
-    stem_color: '#90F56F'
+    stem_color: '#B2FB9A'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_section: null
     housing_top_type: transparent
-    housing_top_color: '#E8DFC8'
+    housing_top_color: '#F7DE9D'
     housing_top_material: custom
     housing_top_custom_material_notes: 'Proprietary "INK" blend'
     housing_bottom_section: null
     housing_bottom_type: transparent
-    housing_bottom_color: '#E8DFC8'
+    housing_bottom_color: '#F7DE9D'
     housing_bottom_material: custom
     housing_bottom_custom_material_notes: 'Proprietary "INK" blend'
     force_graph:
@@ -98,5 +98,5 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Gateron%20Kangaroo%20Ink.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/gateron-kangaroo-ink-switch-review'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1642951683
+updated_at: 1644462671
 ---
