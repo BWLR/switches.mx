@@ -101,9 +101,13 @@ body.is-modal {
     .c-switch {
         // Title
         &__title {
-            font-size: 32px;
+            font-size: 24px;
             text-align: center;
             padding: $grid-gutter-width 0 0;
+
+            @include media-breakpoint-up(sm) {
+                font-size: 32px;
+            }
         }
 
         // Type
@@ -304,7 +308,7 @@ body.is-modal {
 
             @include media-breakpoint-up(sm) {
                 color: $smx-color-03;
-                top: 10px;
+                top: 6px;
                 left: 20px;
             }
         }
@@ -669,11 +673,21 @@ body.is-modal {
                 color: #fff;
                 left: 0;
                 bottom: 70px;
-                font-size: 13px;
-                padding: 10px 20px;
+                font-size: 11px;
+                padding: 2px 10px;
                 background: $smx-color-04;
                 border-top-right-radius: 5px;
                 border-bottom-right-radius: 5px;
+                letter-spacing: .3px;
+
+                @include media-breakpoint-up(lg) {
+                    font-size: 13px;
+                    padding: 10px 20px;
+                }
+
+                p {
+                    margin: 0;
+                }
             }
 
             &-thumbnail {

@@ -7480,9 +7480,15 @@ body.is-modal {
 }
 
 .switchesmx-detail .c-switch__title {
-  font-size: 32px;
+  font-size: 24px;
   text-align: center;
   padding: 20px 0 0;
+}
+
+@media (min-width: 576px) {
+  .switchesmx-detail .c-switch__title {
+    font-size: 32px;
+  }
 }
 
 .switchesmx-detail .c-switch__type {
@@ -7668,7 +7674,7 @@ body.is-modal {
 @media (min-width: 576px) {
   .switchesmx-detail .c-switch__updated {
     color: #939393;
-    top: 10px;
+    top: 6px;
     left: 20px;
   }
 }
@@ -8049,11 +8055,23 @@ body.is-modal {
   color: #fff;
   left: 0;
   bottom: 70px;
-  font-size: 13px;
-  padding: 10px 20px;
+  font-size: 11px;
+  padding: 2px 10px;
   background: #CF3947;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  letter-spacing: 0.3px;
+}
+
+@media (min-width: 992px) {
+  .switchesmx-detail .c-switch__photo-caption {
+    font-size: 13px;
+    padding: 10px 20px;
+  }
+}
+
+.switchesmx-detail .c-switch__photo-caption p {
+  margin: 0;
 }
 
 .switchesmx-detail .c-switch__photo-thumbnail {
