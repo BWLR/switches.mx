@@ -1,0 +1,19 @@
+title: 'KEEBD'
+country: AU
+currency: aud
+website: 'https://keebd.com/'
+favicon: vendor-keebd.png
+social:
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/keebdcom/'
+    type: new_set
+    enabled: true
+  -
+    network: instagram
+    item_url: 'https://instagram.com/keebdcom'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1648759790
+blueprint: vendors
