@@ -4,5 +4,6 @@ currency: gbp
 website: 'https://www.amazon.com/'
 favicon: vendor-amazon.png
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643289402
+updated_at: 1647434582
 blueprint: vendors
+is_affiliate: true

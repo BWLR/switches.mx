@@ -28,7 +28,7 @@ specs:
     spring_swap: null
     stem_section: null
     stem_type: coloured
-    stem_color: '#FF5252'
+    stem_color: '#FA3000'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_section: null
@@ -38,7 +38,7 @@ specs:
     housing_top_custom_material_notes: null
     housing_bottom_section: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#FFFFFD'
+    housing_bottom_color: '#FFFFF2'
     housing_bottom_material: nylon
     housing_bottom_custom_material_notes: null
     force_graph: {  }
@@ -88,5 +88,5 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=AgGYpGZHOwY'
     description: 'Kailh BOX Red Mechanical Keyboard Build : 60% B.face with Acrylic Case - TaeKeyboards'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1644035220
+updated_at: 1645332666
 ---

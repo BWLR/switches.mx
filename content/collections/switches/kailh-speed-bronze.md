@@ -7,7 +7,7 @@ factory_lubed: 'no'
 film: unknown
 manufacturer: kailh
 brand: kailh
-switch_type: clicky-jacket
+switch_type: clicky-bar
 mount: '3'
 stem_construction: standard
 stem_length: long
@@ -27,7 +27,7 @@ specs:
     spring_swap: null
     stem_section: null
     stem_type: coloured
-    stem_color: '#E89840'
+    stem_color: '#DD8050'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_section: null
@@ -37,7 +37,7 @@ specs:
     housing_top_custom_material_notes: null
     housing_bottom_section: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#FFFFFE'
+    housing_bottom_color: '#FFFFF2'
     housing_bottom_material: nylon
     housing_bottom_custom_material_notes: null
     force_graph: {  }
@@ -81,5 +81,5 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=6FnC541qzMM'
     description: 'The ULTIMATE sound test! 0:04 / 3:20 KAILH SPEED BRONZE Sound Test - Wow, Just Wow!! - Click and Thock'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643427971
+updated_at: 1645210589
 ---

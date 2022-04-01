@@ -17,7 +17,6 @@ limited_run: 'no'
 specs:
   -
     name: 'Gateron Black Ink'
-    description: null
     actuation: 60
     bottom-out: 70
     pre-travel: '2.00'
@@ -25,11 +24,9 @@ specs:
     spring: coated
     spring_color: '#333031'
     spring_color_info: 'The springs in these switches have a black coating to help reduce spring noise.'
-    spring_swap: null
     stem_type: coloured
     stem_color: '#333031'
     stem_material: pom
-    stem_custom_material_notes: null
     housing_top_type: transparent
     housing_top_color: '#333031'
     housing_top_material: custom
@@ -38,13 +35,7 @@ specs:
     housing_bottom_color: '#333031'
     housing_bottom_material: custom
     housing_bottom_custom_material_notes: Ink
-    force_graph: {  }
     led_support: smd-and-inswitch
-    weights_section: null
-    spring_section: null
-    stem_section: null
-    housing_top_section: null
-    housing_bottom_section: null
   -
     name: 'Gateron Silent Black Ink'
     description: 'The same switch, but this variant has two rubber dampers underneath the stem.'
@@ -55,11 +46,9 @@ specs:
     spring: coated
     spring_color: '#333031'
     spring_color_info: 'The springs in these switches have a black coating to help reduce spring noise.'
-    spring_swap: null
     stem_type: coloured
     stem_color: '#333031'
     stem_material: pom
-    stem_custom_material_notes: null
     housing_top_type: transparent
     housing_top_color: '#333031'
     housing_top_material: custom
@@ -68,13 +57,7 @@ specs:
     housing_bottom_color: '#333031'
     housing_bottom_material: custom
     housing_bottom_custom_material_notes: Ink
-    force_graph: {  }
     led_support: smd-and-inswitch
-    weights_section: null
-    spring_section: null
-    stem_section: null
-    housing_top_section: null
-    housing_bottom_section: null
 photos:
   - switches/photos/gateron-black-inks-iKxvNnbjTHykt7OsJPFw_1500x1000_MEC_NovelKeys_Gateron_Ink_Switches_MD-85764-TH4047.jpg
   - switches/photos/gateron-black-inks-Qsq4DSwQNiiO6tV7t39Z_1500x1000_MEC_NovelKeys_Gateron_Ink_Switches_MD-85764-TH4011.jpg
@@ -139,105 +122,101 @@ quotes:
 prices:
   -
     price: '0.75'
-    extra_text: null
     source: 'https://kbdfans.com/products/gateron-ink-switches?variant=29235458277424'
     vendor: kbdfans
     datecheck: '2020-02-12'
     in_stock: true
   -
     price: '0.70'
-    extra_text: null
     source: 'https://drop.com/buy/gateron-ink-switches'
     vendor: drop
     datecheck: '2020-02-12'
     in_stock: false
   -
     price: '0.75'
-    extra_text: null
     source: 'https://auramech.com/collections/switches/products/gateron-ink-switches'
     vendor: auramech
     datecheck: '2020-02-12'
     in_stock: true
   -
     price: '0.76'
-    extra_text: null
     source: 'https://dangkeebs.com/collections/our-offerings/products/gateron-black-ink-v2'
     vendor: dangkeebs
     datecheck: '2020-09-07'
     in_stock: true
   -
     price: '0.75'
-    extra_text: null
     source: 'https://divinikey.com/collections/switches/products/gateron-ink-v2-switches?variant=32067927048257'
     vendor: divinikey
     datecheck: '2020-10-03'
     in_stock: true
   -
     price: '0.68'
-    extra_text: null
     source: 'https://www.aliexpress.com/item/4000167937627.html'
     vendor: aliexpress
     datecheck: '2020-02-12'
     in_stock: true
   -
     price: '1.15'
-    extra_text: null
     source: 'https://www.switchkeys.com.au/products/gateron-ink-switches'
     vendor: switchkeys
     datecheck: '2020-02-12'
     in_stock: true
   -
     price: '0.96'
-    extra_text: null
     source: 'https://dailyclack.com/products/gateron-ink-switches'
     vendor: daily-clack
     datecheck: '2020-02-12'
     in_stock: true
   -
     price: '0.75'
-    extra_text: null
     source: 'https://www.thekeycapclub.co.uk/products/gateron-ink-v2-switches'
     vendor: the-keycap-club
     datecheck: '2021-06-09'
     in_stock: true
   -
     price: '1.07'
-    extra_text: null
     source: 'https://loob.no/collections/switches/products/gateron-ink-v2-black-linear'
     vendor: loob
     datecheck: '2021-08-06'
     in_stock: true
   -
     price: '0.72'
-    extra_text: null
     source: 'https://hippokeys.com/products/gateron-ink-v2-black-switches'
     vendor: hippokeys
     datecheck: '2021-08-10'
     in_stock: true
   -
     price: '0.94'
-    extra_text: null
     source: 'https://tokeebs.ca/products/gateron-ink-black-switches?variant=37794667430088'
     vendor: toronto-keyboards-tokeebs
     datecheck: '2021-12-09'
     in_stock: false
   -
     price: '8.9'
-    extra_text: null
     source: 'https://www.smord.store/products/gateron-black-ink-v2'
     vendor: smord-store
     datecheck: '2022-01-31'
     in_stock: true
   -
     price: '0.69'
-    extra_text: null
     source: 'https://www.noesc.com/collections/switches/products/gateron-black-inks-v2'
     vendor: noesc
     datecheck: '2022-02-01'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643707184
+updated_at: 1646586607
 stem_length: standard
 limited_run_reason: 'no'
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/gateron-ink-black-switch-v2?variant=37101048332450'
+basic_title: 'Gateron Ink Black V2 | Switches.mx'
+basic_keywords:
+  - 'Gateron Ink Black V2 switch'
+  - 'Gateron Ink Black V2'
+  - 'Gateron Ink Black V2 switches'
+  - 'Gateron Ink'
+  - 'Gateron Ink Black'
+  - 'mechanical switches'
+  - 'keyboard switch'
+  - 'keyboard switches'
 ---

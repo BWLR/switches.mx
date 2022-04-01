@@ -14,35 +14,18 @@ stem_construction: standard
 limited_run: 'no'
 specs:
   -
-    name: null
-    description: null
-    actuation: null
     bottom-out: 62
-    pre-travel: null
-    total-travel: null
     spring: gold-plated
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
     stem_type: coloured
     stem_color: '#FFD9CE'
     stem_material: pom
-    stem_custom_material_notes: null
     housing_top_type: coloured
     housing_top_color: '#3A4045'
     housing_top_material: pc
-    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
     housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
     led_support: smd-and-inswitch
-    weights_section: null
-    spring_section: null
-    stem_section: null
-    housing_top_section: null
-    housing_bottom_section: null
 photos:
   - switches/photos/alpaca-64c09adc9ef025544f78c319d493f4b1.jpg
   - switches/photos/alpaca-dpc6o8oppt341.png
@@ -99,34 +82,30 @@ quotes:
 prices:
   -
     price: '0.55'
-    extra_text: null
     source: 'https://www.primekb.com/products/alpaca-linears?variant=31565132857440'
     vendor: prime-keyboards
     datecheck: '2020-04-07'
     in_stock: true
   -
     price: '0.59'
-    extra_text: null
     source: 'https://mykeyboard.eu/catalogue/alpaca-switches-10-pack_2041/'
     vendor: mykeyboard-eu
     datecheck: '2020-06-29'
     in_stock: true
   -
     price: '0.68'
-    extra_text: null
     source: 'https://www.apexkeyboards.ca/products/alpacas'
     vendor: apexkeyboards
     datecheck: '2020-06-29'
     in_stock: true
   -
     price: '0.70'
-    extra_text: null
     source: 'https://hippokeys.com/products/alpaca-switches-10-pack'
     vendor: hippokeys
     datecheck: '2021-08-10'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1644528082
+updated_at: 1646586907
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -140,4 +119,9 @@ theremin_goat_scores:
     link_to_review: 'https://www.theremingoat.com/blog/alpaca-v2-switch-review?rq=Alpaca'
 lubrication_notes: 'Lightly factory lubed with an oil.'
 stem_length: standard
+basic_title: 'Alpaca | Switches.mx'
+basic_keywords:
+  - alpaca
+  - 'alpaca switch'
+  - 'alpaca switches'
 ---

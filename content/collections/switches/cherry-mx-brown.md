@@ -15,66 +15,39 @@ stem_construction: standard
 limited_run: 'no'
 specs:
   -
-    name: null
-    description: null
     actuation: 45
     bottom-out: 55
     pre-travel: '2.00'
     total-travel: '4.00'
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
     stem_type: coloured
     stem_color: '#674842'
     stem_material: pom
-    stem_custom_material_notes: null
     housing_top_type: coloured
     housing_top_color: '#3A4045'
     housing_top_material: nylon
-    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
     housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
     force_graph:
       - switches/force-graphs/brown-force.png
     led_support: smd-and-inswitch
-    weights_section: null
-    spring_section: null
-    stem_section: null
-    housing_top_section: null
-    housing_bottom_section: null
   -
     name: RGB
-    description: null
     actuation: 45
     bottom-out: 55
     pre-travel: '2.00'
     total-travel: '4.00'
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
     stem_type: coloured
     stem_color: '#674842'
     stem_material: pom
-    stem_custom_material_notes: null
     housing_top_type: transparent
-    housing_top_color: null
     housing_top_material: pc
-    housing_top_custom_material_notes: null
     housing_bottom_type: transparent
     housing_bottom_color: '#CFCF82'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
     led_support: smd-and-inswitch
-    weights_section: null
-    spring_section: null
-    stem_section: null
-    housing_top_section: null
-    housing_bottom_section: null
 photos:
   - switches/photos/cherry-mx-brown-brown.jpg
   - switches/photos/cherry-mx-brown-Cherry_Brown_NK.jpg
@@ -135,83 +108,72 @@ quotes:
 prices:
   -
     price: '0.35'
-    extra_text: null
     source: 'https://novelkeys.xyz/products/cherry-switches?variant=28058371850333'
     vendor: novelkeys
     datecheck: '2020-04-16'
     in_stock: true
   -
     price: '0.45'
-    extra_text: null
     source: 'https://kbdfans.com/products/cherry-pcb-mount-5pin-switches-10pcs?variant=21746277089328'
     vendor: kbdfans
     datecheck: '2020-04-16'
     in_stock: true
   -
     price: '0.45'
-    extra_text: null
     source: 'https://www.aliexpress.com/item/4000100166477.html?spm=a2g0o.productlist.0.0.527b7cf0RT4vgN&algo_pvid=cc1bca6c-69a7-4bac-8618-e64a3c77d8df&algo_expid=cc1bca6c-69a7-4bac-8618-e64a3c77d8df-0&btsid=0ab6f82c15870503543466990e6eb8&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_'
     vendor: aliexpress
     datecheck: '2020-04-16'
     in_stock: true
   -
     price: '0.49'
-    extra_text: null
     source: 'https://www.switchtop.com/product/cherry-mx-switches'
     vendor: switchtop
     datecheck: '2020-04-16'
     in_stock: true
   -
     price: '0.50'
-    extra_text: null
     source: 'https://kono.store/products/cherry-mx-switches'
     vendor: kono
     datecheck: '2020-04-16'
     in_stock: true
   -
     price: '0.50'
-    extra_text: null
     source: 'https://mechboards.co.uk/shop/switches/cherry-switches/'
     vendor: mechboards
     datecheck: '2020-04-16'
     in_stock: true
   -
     price: '0.50'
-    extra_text: null
     source: 'https://candykeys.com/product/cherry-mx-brown-plate-m'
     vendor: candy-keys
     datecheck: '2020-04-16'
     in_stock: true
   -
     price: '0.61'
-    extra_text: null
     source: 'https://www.1upkeyboards.com/shop/switches/set-packs/cherry-mx-switch-packs/'
     vendor: 1up-keyboards
     datecheck: '2020-04-16'
     in_stock: true
   -
     price: '0.65'
-    extra_text: null
     source: 'https://kebo.store/products/cherry-mx-switch?_pos=4&_sid=7370ad342&_ss=r&variant=6338323906602'
     vendor: kebo
     datecheck: '2020-04-16'
     in_stock: true
   -
     price: '1.00'
-    extra_text: null
     source: 'https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=1036'
     vendor: mechanicalkeyboards-com
     datecheck: '2020-04-16'
     in_stock: true
   -
     price: '1.50'
-    extra_text: null
     source: 'https://www.wasdkeyboards.com/cherry-mx-brown-keyswitch-mx1a-g1nw-tactile-bump.html'
     vendor: wasd-keyboards
     datecheck: '2020-04-16'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643778559
+updated_at: 1646587641
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
@@ -224,4 +186,22 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Cherry%20MX%20Brown.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/cherry-mx-brown-switch-review'
 stem_length: standard
+basic_title: 'Cherry MX Brown | Switches.mx'
+basic_description: 'One of the most common Cherry switches found on mechanical keyboards. A great tactile starter switch.'
+basic_keywords:
+  - 'Cherry MX Brown'
+  - 'cherry mx brown'
+  - 'cherry mx brown switch'
+  - 'brown switch'
+  - 'brown keyboard switch'
+  - 'cherry mx switch'
+  - 'cherry mx switches'
+  - 'brown gaming switch'
+  - 'tactile gaming switch'
+  - 'gaming switch'
+  - typist
+  - 'typist switch'
+  - 'best keyboard switch'
+  - 'fastest keyboard'
+  - brown
 ---

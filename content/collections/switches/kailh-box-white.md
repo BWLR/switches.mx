@@ -32,7 +32,7 @@ specs:
     housing_top_material: pc
     housing_top_custom_material_notes: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#FFFFFF'
+    housing_bottom_color: '#FFFFF2'
     housing_bottom_material: nylon
     housing_bottom_custom_material_notes: null
     force_graph:
@@ -120,7 +120,7 @@ prices:
     datecheck: '2021-06-17'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643428312
+updated_at: 1645210686
 stem_length: standard
 limited_run_reason: 'no'
 ---

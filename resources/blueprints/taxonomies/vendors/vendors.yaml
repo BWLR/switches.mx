@@ -273,7 +273,7 @@ sections:
           type: select
           icon: select
           listable: true
-          width: 50
+          width: 33
           validate:
             - required
       -
@@ -288,7 +288,7 @@ sections:
           max_items: 1
           validate:
             - required
-          width: 50
+          width: 33
       -
         handle: website
         field:
@@ -300,19 +300,7 @@ sections:
           validate:
             - url
           antlers: false
-          width: 50
-      -
-        handle: affiliate_code
-        field:
-          input_type: text
-          antlers: false
-          display: 'Affiliate code'
-          type: text
-          icon: text
-          instructions: 'eg. ref=switchesmx'
-          width: 50
-          listable: hidden
-          instructions_position: above
+          width: 33
       -
         handle: favicon
         field:
@@ -324,6 +312,29 @@ sections:
           type: assets
           icon: assets
           listable: true
+      -
+        handle: affiliate_code
+        field:
+          input_type: text
+          antlers: false
+          display: 'Affiliate code'
+          type: text
+          icon: text
+          instructions: 'eg. ref=switchesmx. If included here it''ll be appended to the end of the url.'
+          width: 50
+          listable: hidden
+          instructions_position: above
+      -
+        handle: is_affiliate
+        field:
+          default: false
+          display: 'Is affiliate?'
+          type: toggle
+          icon: toggle
+          instructions: 'If checked, an icon will be added to the listing. Additionally we may change the ordering of some links based on this.'
+          width: 50
+          listable: hidden
+          instructions_position: below
       -
         handle: social
         field:
@@ -341,6 +352,7 @@ sections:
                       geekhack: GeekHack
                       discord: Discord
                       youtube: YouTube
+                      tiktok: TikTok
                     multiple: false
                     clearable: false
                     searchable: true
@@ -352,6 +364,7 @@ sections:
                     icon: select
                     width: 50
                     listable: hidden
+                    instructions_position: above
                 -
                   handle: item_url
                   field:
@@ -367,6 +380,8 @@ sections:
           type: replicator
           icon: replicator
           listable: hidden
+          instructions_position: above
+          collapse: false
   sidebar:
     display: Sidebar
     fields:

@@ -3,7 +3,7 @@ id: aa18344e-c22a-466d-82ce-7c9af51823b0
 blueprint: switches
 title: 'Drop Holy Panda'
 volume: normal
-factory_lubed: slight
+factory_lubed: 'no'
 film: 'no'
 notes: |-
   Originally a frankenswitch (INVYR/Other Panda Housing + Halo stem), Drop capitalized on the market by selling their own, assembled versions. Originally, these matched the tactility of frankenswitch holy pandas, but when drop switched manufacturers to Tecsee, they went to Tecsee's noticably less tactile leaf and slightly different stem. For a more authentic Holy Panda, make your own.
@@ -63,5 +63,5 @@ quotes:
     source: null
     text: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643765805
+updated_at: 1648549319
 ---

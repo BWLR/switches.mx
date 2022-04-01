@@ -5,7 +5,7 @@
     "type": "project",
     "require": {
         "php": "^7.3",
-        "aryehraber/statamic-color-extractor": "^1.1",
+        "aryehraber/statamic-color-extractor": "1.2.0",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "gioppy/statamic-metatags": "^1.0",
@@ -16,7 +16,7 @@
         "league/glide-laravel": "^1.0",
         "pecotamic/sitemap": "^1.2",
         "socialiteproviders/reddit": "^3.0",
-        "statamic/cms": "3.2.32"
+        "statamic/cms": "3.2.33"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",

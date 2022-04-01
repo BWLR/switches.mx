@@ -15,65 +15,31 @@ stem_construction: standard
 limited_run: 'no'
 specs:
   -
-    name: null
-    description: null
-    actuation: null
     bottom-out: 67
-    pre-travel: null
-    total-travel: null
     spring: gold-plated
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
     stem_type: coloured
     stem_color: '#399554'
     stem_material: pom
-    stem_custom_material_notes: null
     housing_top_type: transparent
     housing_top_color: '#F14A1E'
     housing_top_material: uhmwpe
-    housing_top_custom_material_notes: null
     housing_bottom_type: transparent
     housing_bottom_color: '#F14A1E'
     housing_bottom_material: uhmwpe
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
     led_support: smd-and-inswitch
-    weights_section: null
-    spring_section: null
-    stem_section: null
-    housing_top_section: null
-    housing_bottom_section: null
   -
-    name: null
-    description: null
-    actuation: null
     bottom-out: 62
-    pre-travel: null
-    total-travel: null
     spring: gold-plated
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
     stem_type: coloured
     stem_color: '#93E2BF'
     stem_material: pom
-    stem_custom_material_notes: null
     housing_top_type: transparent
     housing_top_color: '#F14A1E'
     housing_top_material: uhmwpe
-    housing_top_custom_material_notes: null
     housing_bottom_type: transparent
     housing_bottom_color: '#F14A1E'
     housing_bottom_material: uhmwpe
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
     led_support: smd-and-inswitch
-    weights_section: null
-    spring_section: null
-    stem_section: null
-    housing_top_section: null
-    housing_bottom_section: null
 photos:
   - switches/photos/c3-tangerine-rev2-Tangie02_1024x1024.png
   - switches/photos/c3-tangerine-rev2-Annotation-2020-04-07-160832.jpg
@@ -149,59 +115,69 @@ quotes:
 prices:
   -
     price: '0.95'
-    extra_text: null
     source: 'https://www.switchkeys.com.au/collections/switches/products/c-tangerine-switches-x10'
     vendor: switchkeys
     datecheck: '2020-04-07'
     in_stock: true
   -
     price: '0.80'
-    extra_text: null
     source: 'https://ilumkb.com/collections/switches/products/pre-order-c3-tangerine-switch'
     vendor: ilumkb
     datecheck: '2020-04-07'
     in_stock: true
   -
     price: '0.65'
-    extra_text: null
     source: 'https://thekey.company/products/c3-tangerine-switches-r2'
     vendor: the-key-dot-co
     datecheck: '2020-04-07'
     in_stock: true
   -
     price: '0.86'
-    extra_text: null
     source: 'https://dailyclack.com/products/c-equalz-tangerine-linears'
     vendor: daily-clack
     datecheck: '2020-04-07'
     in_stock: true
   -
     price: '0.60'
-    extra_text: null
     source: 'https://mykeyboard.eu/catalogue/c3-tangerine-switches-dark-green-67g-10-pack_1579/'
     vendor: mykeyboard-eu
     datecheck: '2020-04-07'
     in_stock: true
   -
     price: '0.80'
-    extra_text: null
     source: 'https://www.thekeycapclub.co.uk/products/c-equalz-tangerine-linear-switches'
     vendor: the-keycap-club
     datecheck: '2021-06-09'
     in_stock: true
   -
     price: '0.88'
-    extra_text: null
     source: 'https://tokeebs.ca/products/c3-tangerine-switches-v2'
     vendor: toronto-keyboards-tokeebs
     datecheck: '2021-12-09'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1639087664
+updated_at: 1646587095
 stem_length: standard
 limited_run_reason: limited_stock
 volume_notes: 'This switch has a volume similar to that of a standard JWK, but is noticeably higher pitched due to the UHMWPE (Ultra High Molecular Weight Polyurethane, sometimes referred to as simply PE) blend in the housing.'
 film_notes: 'All films work on this switch.'
 limited_run_info: 'This switch is most commonly purchased through TKC''s site, and are sold in packs of 25 for $16.25 each. They restock every couple of months, and sell out quick.'
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/c-equalz-x-tkc-green-62g-tangerine-switch?variant=40112767303842'
+basic_title: 'C³Equalz X TKC Tangerine V2 | Switches.mx'
+basic_keywords:
+  - 'C³Equalz X TKC Tangerine V2'
+  - TKC
+  - TheKeyCompany
+  - C3
+  - C3Equalz
+  - C3equals
+  - C³Equalz
+  - C³Equals
+  - C³Equal
+  - 'Tangerine V2 switch'
+  - 'Tangerine V2'
+  - Tangerine
+  - 'Tangerine V2 switches'
+  - 'Tangerine switches'
+  - switches
 ---

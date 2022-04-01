@@ -52,6 +52,13 @@ prices:
     vendor: akko
     datecheck: null
     in_stock: true
+  -
+    price: '0.33'
+    extra_text: null
+    source: 'https://amzn.to/3JjKrgX'
+    vendor: amazon-uk
+    datecheck: '2022-03-16'
+    in_stock: true
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/akko-cs-rose-red-switch?variant=40112716775586'
 limited_run: 'no'
 limited_run_reason: 'no'
@@ -84,5 +91,5 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Akko%20CS%20Rose%20Red.pdf'
     link_to_review: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643602078
+updated_at: 1647434547
 ---
