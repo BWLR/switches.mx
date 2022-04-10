@@ -12,7 +12,7 @@ notes: |-
 manufacturer: unknown
 brand: massdrop-x-invyr
 switch_type: tactile
-mount: 5
+mount: 3
 stem_construction: standard
 stem_length: long
 specs:
