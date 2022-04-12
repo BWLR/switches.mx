@@ -110,6 +110,13 @@ prices:
     vendor: noesc
     datecheck: '2022-02-01'
     in_stock: true
+  -
+    price: '1.10'
+    extra_text: 67g
+    source: 'https://www.apexmechs.com.au/product-page/koala'
+    vendor: apex-mechs
+    datecheck: '2022-04-12'
+    in_stock: true
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/koala-switch?variant=37100135121058'
 limited_run: 'no'
 limited_run_reason: 'no'
@@ -133,5 +140,5 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=F_m1Dr2JYqE'
     description: 'Durock Koala Typing Sounds | NK65 Aluminium | EPBTxGOK BoW - rad mechanica.'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643707388
+updated_at: 1649772385
 ---

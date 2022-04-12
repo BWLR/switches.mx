@@ -49,32 +49,46 @@ specs:
     led_support: smd-and-inswitch
 prices:
   -
-    price: '.75'
+    price: '0.75'
     extra_text: null
     source: 'https://kbdfans.com/products/gateron-ink-switches?variant=29235458211888'
     vendor: kbdfans
     datecheck: '2022-01-30'
     in_stock: true
   -
-    price: '.75'
+    price: '0.75'
     extra_text: null
     source: 'https://divinikey.com/products/gateron-ink-v2-switches?variant=32069741641793'
     vendor: divinikey
     datecheck: '2022-01-30'
     in_stock: true
   -
-    price: '.75'
+    price: '0.75'
     extra_text: null
     source: 'https://keebsforall.com/products/gateron-red-ink-v2-switches'
     vendor: keebsforall
     datecheck: '2022-01-30'
     in_stock: true
   -
-    price: '.75'
+    price: '0.75'
     extra_text: null
     source: 'https://dangkeebs.com/products/gateron-red-ink-v2'
     vendor: dangkeebs
     datecheck: '2022-01-30'
+    in_stock: true
+  -
+    price: '1.05'
+    extra_text: null
+    source: 'https://keebd.com/products/gateron-ink-v2-5pin-switches-pack-of-10?variant=40776396013720'
+    vendor: keebd
+    datecheck: '2022-04-01'
+    in_stock: false
+  -
+    price: '0.75'
+    extra_text: null
+    source: 'https://www.serpentkeys.co.uk/products/gateron-ink-v2-switches-10-pcs'
+    vendor: serpentkeys
+    datecheck: null
     in_stock: true
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/gateron-ink-red-switch-v2?variant=37100615401634'
 limited_run: 'no'
@@ -102,5 +116,5 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=LdpOx87jOJs'
     description: 'Horde Themed Keycult No.1 with lubed Red Gateron Inks Typing Sounds ASMR - Taeha Types'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643587147
+updated_at: 1649696374
 ---

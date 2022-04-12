@@ -1,0 +1,20 @@
+title: 'Custom Keyboard Co.'
+country: US
+currency: usd
+website: 'https://www.customkeysco.com/'
+favicon: Screenshot-2022-04-05-114205.jpg
+is_affiliate: false
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/customkb.co/'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/C9cf5A9wSD'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1649155343
+blueprint: vendors

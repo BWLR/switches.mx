@@ -1,0 +1,19 @@
+title: 'APEX MECHS'
+country: AU
+currency: aud
+website: 'https://www.apexmechs.com.au/'
+favicon: Apex_Mechs_Logo.png
+is_affiliate: false
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/apexmechs/'
+    type: new_set
+    enabled: true
+  -
+    item_url: 'https://www.pinterest.com.au/apexmechs/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1649773352
+blueprint: vendors

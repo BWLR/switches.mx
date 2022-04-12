@@ -1,7 +1,7 @@
 title: SerpentKeys
 country: GB
 currency: gbp
-website: 'https://www.serpentkeys.com/'
+website: 'https://www.serpentkeys.co.uk'
 favicon: 265103953_592327918645192_5710340224509360214_n.jpg
 social:
   -
@@ -20,5 +20,6 @@ social:
     type: new_set
     enabled: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1646598467
+updated_at: 1649696599
 blueprint: vendors
+is_affiliate: false

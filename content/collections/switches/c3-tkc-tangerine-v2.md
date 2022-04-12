@@ -27,6 +27,23 @@ specs:
     housing_bottom_color: '#F14A1E'
     housing_bottom_material: uhmwpe
     led_support: smd-and-inswitch
+    name: null
+    description: null
+    weights_section: null
+    actuation: null
+    pre-travel: null
+    total-travel: null
+    spring_section: null
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_custom_material_notes: null
+    housing_bottom_section: null
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
   -
     bottom-out: 62
     spring: gold-plated
@@ -40,6 +57,23 @@ specs:
     housing_bottom_color: '#F14A1E'
     housing_bottom_material: uhmwpe
     led_support: smd-and-inswitch
+    name: null
+    description: null
+    weights_section: null
+    actuation: null
+    pre-travel: null
+    total-travel: null
+    spring_section: null
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_custom_material_notes: null
+    housing_bottom_section: null
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
 photos:
   - switches/photos/c3-tangerine-rev2-Tangie02_1024x1024.png
   - switches/photos/c3-tangerine-rev2-Annotation-2020-04-07-160832.jpg
@@ -119,44 +153,58 @@ prices:
     vendor: switchkeys
     datecheck: '2020-04-07'
     in_stock: true
+    extra_text: null
   -
     price: '0.80'
     source: 'https://ilumkb.com/collections/switches/products/pre-order-c3-tangerine-switch'
     vendor: ilumkb
     datecheck: '2020-04-07'
     in_stock: true
+    extra_text: null
   -
     price: '0.65'
     source: 'https://thekey.company/products/c3-tangerine-switches-r2'
     vendor: the-key-dot-co
     datecheck: '2020-04-07'
     in_stock: true
+    extra_text: null
   -
     price: '0.86'
     source: 'https://dailyclack.com/products/c-equalz-tangerine-linears'
     vendor: daily-clack
     datecheck: '2020-04-07'
     in_stock: true
+    extra_text: null
   -
     price: '0.60'
     source: 'https://mykeyboard.eu/catalogue/c3-tangerine-switches-dark-green-67g-10-pack_1579/'
     vendor: mykeyboard-eu
     datecheck: '2020-04-07'
     in_stock: true
+    extra_text: null
   -
     price: '0.80'
     source: 'https://www.thekeycapclub.co.uk/products/c-equalz-tangerine-linear-switches'
     vendor: the-keycap-club
     datecheck: '2021-06-09'
     in_stock: true
+    extra_text: null
   -
     price: '0.88'
     source: 'https://tokeebs.ca/products/c3-tangerine-switches-v2'
     vendor: toronto-keyboards-tokeebs
     datecheck: '2021-12-09'
     in_stock: true
+    extra_text: null
+  -
+    price: '0.65'
+    extra_text: null
+    source: 'https://www.serpentkeys.co.uk/products/c-equalz-tangerine-switches-10pcs'
+    vendor: serpentkeys
+    datecheck: '2022-04-11'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1646587095
+updated_at: 1649695610
 stem_length: standard
 limited_run_reason: limited_stock
 volume_notes: 'This switch has a volume similar to that of a standard JWK, but is noticeably higher pitched due to the UHMWPE (Ultra High Molecular Weight Polyurethane, sometimes referred to as simply PE) blend in the housing.'

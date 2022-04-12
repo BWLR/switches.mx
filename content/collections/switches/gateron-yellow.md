@@ -32,6 +32,19 @@ specs:
     housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
     led_support: inswitch-through
+    weights_section: null
+    spring_section: null
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_color: null
+    housing_top_custom_material_notes: null
+    housing_bottom_section: null
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
   -
     name: KS-3
     description: 'Best variation of this switch. They do not need films and are by far the smoothest Gateron switches/housings aside from Inks which while definitely smoother are also 6 times the price.<br /><br />Gateron Linjär and N1S switches are re-colours of the KS-3 for example. The fixing pins (for PCB-mounting) are somewhat wider than Cherry MX, giving a tighter fit. Supports two-pin LED''s only.'
@@ -50,6 +63,18 @@ specs:
     housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
     led_support: inswitch-through
+    weights_section: null
+    spring_section: null
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_custom_material_notes: null
+    housing_bottom_section: null
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
   -
     name: KS-8
     description: 'The most common Gateron switch (most Gateron re-colours including Merlots are of this series).<br /><br />Very basic, very standard. Somewhat smooth, wobble is okay, a very average switch overall.'
@@ -69,6 +94,18 @@ specs:
     force_graph:
       - switches/force-graphs/520.png
     led_support: inswitch-through
+    weights_section: null
+    spring_section: null
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_color: null
+    housing_top_custom_material_notes: null
+    housing_bottom_section: null
+    housing_bottom_custom_material_notes: null
   -
     name: KS-3X1
     description: 'Milky top and bottom. The scratchiest standard Gateron switch.'
@@ -85,6 +122,20 @@ specs:
     housing_bottom_type: milky
     housing_bottom_material: pcnylon
     led_support: inswitch-through
+    weights_section: null
+    spring_section: null
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_color: null
+    housing_top_custom_material_notes: null
+    housing_bottom_section: null
+    housing_bottom_color: null
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
   -
     name: KS-9
     description: 'The only Gaterons (other than inks) to support SMD lighting. Not the worst and probably smoother than the KS-8 in stock form.'
@@ -102,6 +153,19 @@ specs:
     housing_bottom_color: '#F9F9F9'
     housing_bottom_material: nylon
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_color: null
+    housing_top_custom_material_notes: null
+    housing_bottom_section: null
+    housing_bottom_custom_material_notes: null
+    force_graph: {  }
 photos:
   - switches/photos/gateron-yellow-Gateron_Yellow_1024x1024@2x.jpg
   - switches/photos/gateron-yellow-DSC00475_1024x1024.jpg
@@ -437,8 +501,15 @@ prices:
     vendor: noesc
     datecheck: '2022-02-01'
     in_stock: true
+  -
+    price: '0.45'
+    extra_text: KS-8
+    source: 'https://keebd.com/products/gateron-5pin-switches-pack-of-10?variant=40383061295256'
+    vendor: keebd
+    datecheck: '2022-04-01'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1646586441
+updated_at: 1648818473
 limited_run_reason: 'no'
 theremin_goat_scores:
   -

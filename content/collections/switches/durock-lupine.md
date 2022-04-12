@@ -46,32 +46,39 @@ specs:
     led_support: null
 prices:
   -
-    price: '.70'
+    price: '0.70'
     extra_text: null
     source: 'https://keygem.store/products/durock-lupine-10pcs'
     vendor: keygem
     datecheck: '2022-02-15'
     in_stock: true
   -
-    price: '.75'
+    price: '0.75'
     extra_text: null
     source: 'https://kirballskeys.com/durock-lupine-62g-linear/'
     vendor: kirball-s-keys
     datecheck: '2022-02-15'
     in_stock: true
   -
-    price: '.70'
+    price: '0.70'
     extra_text: null
     source: 'https://divinikey.com/products/durock-lupine-linear-switches'
     vendor: divinikey
     datecheck: '2022-02-15'
     in_stock: true
   -
-    price: '.70'
+    price: '0.70'
     extra_text: null
     source: 'https://dangkeebs.com/products/durock-lupine'
     vendor: dangkeebs
     datecheck: '2022-02-15'
+    in_stock: true
+  -
+    price: '1.00'
+    extra_text: null
+    source: 'https://www.apexmechs.com.au/product-page/lupine-by-durock'
+    vendor: apex-mechs
+    datecheck: '2022-04-11'
     in_stock: true
 limited_run: 'no'
 limited_run_reason: 'no'
@@ -81,5 +88,5 @@ photos:
   - switches/photos/second-switch-1644977070.png
   - switches/photos/second-switch-1644977086.png
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1645116062
+updated_at: 1649689101
 ---

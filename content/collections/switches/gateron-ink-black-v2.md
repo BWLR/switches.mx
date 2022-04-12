@@ -36,6 +36,15 @@ specs:
     housing_bottom_material: custom
     housing_bottom_custom_material_notes: Ink
     led_support: smd-and-inswitch
+    description: null
+    weights_section: null
+    spring_section: null
+    spring_swap: null
+    stem_section: null
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_bottom_section: null
+    force_graph: {  }
   -
     name: 'Gateron Silent Black Ink'
     description: 'The same switch, but this variant has two rubber dampers underneath the stem.'
@@ -58,6 +67,14 @@ specs:
     housing_bottom_material: custom
     housing_bottom_custom_material_notes: Ink
     led_support: smd-and-inswitch
+    weights_section: null
+    spring_section: null
+    spring_swap: null
+    stem_section: null
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_bottom_section: null
+    force_graph: {  }
 photos:
   - switches/photos/gateron-black-inks-iKxvNnbjTHykt7OsJPFw_1500x1000_MEC_NovelKeys_Gateron_Ink_Switches_MD-85764-TH4047.jpg
   - switches/photos/gateron-black-inks-Qsq4DSwQNiiO6tV7t39Z_1500x1000_MEC_NovelKeys_Gateron_Ink_Switches_MD-85764-TH4011.jpg
@@ -126,86 +143,114 @@ prices:
     vendor: kbdfans
     datecheck: '2020-02-12'
     in_stock: true
+    extra_text: null
   -
     price: '0.70'
     source: 'https://drop.com/buy/gateron-ink-switches'
     vendor: drop
     datecheck: '2020-02-12'
     in_stock: false
+    extra_text: null
   -
     price: '0.75'
     source: 'https://auramech.com/collections/switches/products/gateron-ink-switches'
     vendor: auramech
     datecheck: '2020-02-12'
     in_stock: true
+    extra_text: null
   -
     price: '0.76'
     source: 'https://dangkeebs.com/collections/our-offerings/products/gateron-black-ink-v2'
     vendor: dangkeebs
     datecheck: '2020-09-07'
     in_stock: true
+    extra_text: null
   -
     price: '0.75'
     source: 'https://divinikey.com/collections/switches/products/gateron-ink-v2-switches?variant=32067927048257'
     vendor: divinikey
     datecheck: '2020-10-03'
     in_stock: true
+    extra_text: null
   -
     price: '0.68'
     source: 'https://www.aliexpress.com/item/4000167937627.html'
     vendor: aliexpress
     datecheck: '2020-02-12'
     in_stock: true
+    extra_text: null
   -
     price: '1.15'
     source: 'https://www.switchkeys.com.au/products/gateron-ink-switches'
     vendor: switchkeys
     datecheck: '2020-02-12'
     in_stock: true
+    extra_text: null
   -
     price: '0.96'
     source: 'https://dailyclack.com/products/gateron-ink-switches'
     vendor: daily-clack
     datecheck: '2020-02-12'
     in_stock: true
+    extra_text: null
   -
     price: '0.75'
     source: 'https://www.thekeycapclub.co.uk/products/gateron-ink-v2-switches'
     vendor: the-keycap-club
     datecheck: '2021-06-09'
     in_stock: true
+    extra_text: null
   -
     price: '1.07'
     source: 'https://loob.no/collections/switches/products/gateron-ink-v2-black-linear'
     vendor: loob
     datecheck: '2021-08-06'
     in_stock: true
+    extra_text: null
   -
     price: '0.72'
     source: 'https://hippokeys.com/products/gateron-ink-v2-black-switches'
     vendor: hippokeys
     datecheck: '2021-08-10'
     in_stock: true
+    extra_text: null
   -
     price: '0.94'
     source: 'https://tokeebs.ca/products/gateron-ink-black-switches?variant=37794667430088'
     vendor: toronto-keyboards-tokeebs
     datecheck: '2021-12-09'
     in_stock: false
+    extra_text: null
   -
     price: '8.9'
     source: 'https://www.smord.store/products/gateron-black-ink-v2'
     vendor: smord-store
     datecheck: '2022-01-31'
     in_stock: true
+    extra_text: null
   -
     price: '0.69'
     source: 'https://www.noesc.com/collections/switches/products/gateron-black-inks-v2'
     vendor: noesc
     datecheck: '2022-02-01'
     in_stock: true
+    extra_text: null
+  -
+    price: '1.05'
+    extra_text: null
+    source: 'https://keebd.com/products/gateron-ink-v2-5pin-switches-pack-of-10?variant=40776395882648'
+    vendor: keebd
+    datecheck: '2022-04-01'
+    in_stock: true
+  -
+    price: '0.75'
+    extra_text: null
+    source: 'https://www.serpentkeys.co.uk/products/gateron-ink-v2-switches-10-pcs'
+    vendor: serpentkeys
+    datecheck: null
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1646586607
+updated_at: 1649696091
 stem_length: standard
 limited_run_reason: 'no'
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/gateron-ink-black-switch-v2?variant=37101048332450'

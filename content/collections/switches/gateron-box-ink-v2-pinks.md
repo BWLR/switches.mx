@@ -71,5 +71,34 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Gateron%20Box%20Ink%20Pink.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/gateron-box-ink-pink-switch-review'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643337141
+updated_at: 1649697038
+prices:
+  -
+    price: '0.75'
+    extra_text: null
+    source: 'https://www.serpentkeys.co.uk/products/gateron-ink-v2-wall-stem-switches'
+    vendor: serpentkeys
+    datecheck: '2022-04-11'
+    in_stock: true
+  -
+    price: '0.95'
+    extra_text: null
+    source: 'https://kbdfans.com/collections/switches/products/gateron-box-ink-pink-linear-switches'
+    vendor: kbdfans
+    datecheck: null
+    in_stock: true
+  -
+    price: '0.85'
+    extra_text: null
+    source: 'https://keebsforall.com/products/gateron-box-ink-v2-switches?variant=42122879107291'
+    vendor: keebsforall
+    datecheck: null
+    in_stock: true
+  -
+    price: '0.75'
+    extra_text: null
+    source: 'https://keygem.store/products/gateron-box-ink-pink-10pcs?pr_prod_strat=copurchase&pr_rec_id=536c7a647&pr_rec_pid=7047642185894&pr_ref_pid=7047624196262&pr_seq=uniform'
+    vendor: keygem
+    datecheck: null
+    in_stock: true
 ---

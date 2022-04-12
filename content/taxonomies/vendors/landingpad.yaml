@@ -1,0 +1,20 @@
+title: LandingPad
+country: SG
+currency: sgd
+website: 'https://landingpad.shop/'
+favicon: 130699287_303458294306722_4087222783774567216_n.jpg
+is_affiliate: false
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/landingpadsg/'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/LandingPadSG/'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1649155150
+blueprint: vendors

@@ -84,6 +84,13 @@ prices:
     vendor: cannon-keys
     datecheck: null
     in_stock: false
+  -
+    price: '0.65'
+    extra_text: null
+    source: 'https://www.serpentkeys.co.uk/products/gateron-cj-switches'
+    vendor: serpentkeys
+    datecheck: '2022-04-11'
+    in_stock: true
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/gateron-cj-switch-sample?variant=42131410452725'
 limited_run: 'no'
 limited_run_reason: 'no'
@@ -110,5 +117,5 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Gateron%20CJ.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/gateron-cj-switch-review'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643289018
+updated_at: 1649696029
 ---
