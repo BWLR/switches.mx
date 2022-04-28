@@ -189,7 +189,7 @@ sections:
           options:
             standard: Standard
             box: 'Kailh Box'
-            top-only: 'Top only (eg. Kangaroo switches)'
+            top-only: 'Dust-Proof (eg. Kangaroo switches)'
             cap: 'Enlarged pole with hollowed hole (eg. Gateron cap)'
           multiple: false
           clearable: false
@@ -203,6 +203,7 @@ sections:
           icon: select
           instructions: 'Does the stem have a box surround or other non-standard design?'
           listable: hidden
+          instructions_position: above
       -
         handle: stem_length
         field:

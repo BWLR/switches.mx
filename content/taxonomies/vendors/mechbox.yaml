@@ -20,6 +20,7 @@ social:
     type: new_set
     enabled: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643627156
+updated_at: 1647434595
 blueprint: vendors
 affiliate_code: ref=switchesmx
+is_affiliate: true

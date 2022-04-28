@@ -22,59 +22,35 @@ specs:
     pre-travel: '2.00'
     total-travel: '4.00'
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
     stem_type: coloured
     stem_color: '#3A4045'
     stem_material: pom
-    stem_custom_material_notes: null
     housing_top_type: coloured
     housing_top_color: '#3A4045'
     housing_top_material: nylon
-    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
     housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
     force_graph:
       - switches/force-graphs/cherry-mx-black-retool-vintage-force.jpg
     led_support: smd-and-inswitch
-    weights_section: null
-    spring_section: null
-    stem_section: null
-    housing_top_section: null
-    housing_bottom_section: null
   -
     name: 'Retooled Black'
     description: 'Retooled Blacks were the solution to the mold loss in cherry switches.'
-    weights_section: null
     actuation: '60'
     bottom-out: '80'
     pre-travel: '2'
     total-travel: '4'
-    spring_section: null
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
     stem_type: coloured
     stem_color: '#3A4045'
     stem_material: pom
-    stem_custom_material_notes: null
-    housing_top_section: null
     housing_top_type: coloured
     housing_top_color: '#3A4045'
     housing_top_material: nylon
-    housing_top_custom_material_notes: null
-    housing_bottom_section: null
     housing_bottom_type: coloured
     housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
-    led_support: null
   -
     name: Hyperglide
     description: 'Introduced during CES 2020, these switches feature the new Cherry "Hyperglide" tooling which results in increased smoothness and tighter tolerances.'
@@ -83,58 +59,32 @@ specs:
     pre-travel: '2.00'
     total-travel: '4.00'
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
     stem_type: coloured
     stem_color: '#3A4045'
     stem_material: pom
-    stem_custom_material_notes: null
     housing_top_type: coloured
     housing_top_color: '#3A4045'
     housing_top_material: nylon
-    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
     housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
     led_support: smd-and-inswitch
-    weights_section: null
-    spring_section: null
-    stem_section: null
-    housing_top_section: null
-    housing_bottom_section: null
   -
     name: RGB
-    description: null
     actuation: 60
     bottom-out: 80
     pre-travel: '2.00'
     total-travel: '4.00'
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
     stem_type: coloured
     stem_color: '#3A4045'
     stem_material: pom
-    stem_custom_material_notes: null
     housing_top_type: transparent
-    housing_top_color: null
     housing_top_material: pc
-    housing_top_custom_material_notes: null
     housing_bottom_type: transparent
     housing_bottom_color: '#CFCF82'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
     led_support: smd-and-inswitch
-    weights_section: null
-    spring_section: null
-    stem_section: null
-    housing_top_section: null
-    housing_bottom_section: null
 photos:
   - switches/photos/cherry-mx-black-kZDgK-deskthority.jpg
   - switches/photos/cherry-mx-black-CHERRY_MX1A-11NN_01.png
@@ -219,14 +169,12 @@ prices:
     in_stock: true
   -
     price: '0.45'
-    extra_text: null
     source: 'https://keygem.store/products/cherry-mx-black'
     vendor: keygem
     datecheck: '2020-07-07'
     in_stock: true
   -
     price: '0.46'
-    extra_text: null
     source: 'https://www.aliexpress.com/item/4000810151652.html?spm=a2g0o.productlist.0.0.1a24618fjosrdw&algo_pvid=b9dbbf96-cc73-401f-ab51-912a2b79739c&algo_expid=b9dbbf96-cc73-401f-ab51-912a2b79739c-1&btsid=0b0a22a415941098469273421e64c5&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_'
     vendor: aliexpress
     datecheck: '2020-07-07'
@@ -240,49 +188,42 @@ prices:
     in_stock: true
   -
     price: '0.58'
-    extra_text: null
     source: 'https://kprepublic.com/collections/switch/products/cherry-switch-3pin-5pin-blue-red-black-brown-linear-green-white-clear-for-custom-mechnical-keyboard-xd64-xd60-eepw84-gh60-tada?variant=9465431162924'
     vendor: kprepublic
     datecheck: '2020-07-07'
     in_stock: true
   -
     price: '0.60'
-    extra_text: null
     source: 'https://www.wasdkeyboards.com/cherry-mx-black-keyswitch-mx1a-11nw-linear.html'
     vendor: wasd-keyboards
     datecheck: '2020-07-07'
     in_stock: true
   -
     price: '0.62'
-    extra_text: null
     source: 'https://www.1upkeyboards.com/shop/switches/set-packs/cherry-mx-switch-packs/'
     vendor: 1up-keyboards
     datecheck: '2020-07-07'
     in_stock: true
   -
     price: '0.65'
-    extra_text: null
     source: 'https://kebo.store/collections/switches-cherry/products/cherry-mx-switch?variant=6337386512426'
     vendor: kebo
     datecheck: '2022-01-29'
     in_stock: false
   -
     price: '0.50'
-    extra_text: null
     source: 'https://mechboards.co.uk/shop/switches/cherry-switches/'
     vendor: mechboards
     datecheck: '2020-07-07'
     in_stock: true
   -
     price: '0.65'
-    extra_text: null
     source: 'https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=1030'
     vendor: mechanicalkeyboards-com
     datecheck: '2020-07-07'
     in_stock: true
   -
     price: '0.75'
-    extra_text: null
     source: 'https://dailyclack.com/products/cherry-mx-retooled-blacks-switches'
     vendor: daily-clack
     datecheck: '2020-07-07'
@@ -309,8 +250,16 @@ prices:
     datecheck: '2022-01-29'
     in_stock: false
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643778697
+updated_at: 1646586972
 stem_length: standard
 limited_run_reason: discontinued
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/cherry-hyperglide-mx-black-5pin-switch?variant=39971213410466'
+basic_title: 'Cherry MX Black | Switches.mx'
+basic_keywords:
+  - 'Cherry MX'
+  - 'Cherry MX Black'
+  - 'Cherry MX Black Switch'
+  - 'Cherry MX Black Switches'
+  - 'Cherry MX switches'
+  - 'Cherry MX switch'
 ---

@@ -98,9 +98,6 @@ photos:
   - switches/photos/switch-1643154938.PNG
 videos:
   -
-    item_url: 'https://www.youtube.com/watch?v=brCQ1saxd6o'
-    description: 'Alps x Cherry MX: Teardown - ZealPC Clickiez switches! - Chryosan22'
-  -
     item_url: 'https://www.youtube.com/watch?v=bxOvyHv-lDw'
     description: 'Clickiez™ Switch Sound Demo - Zeal'
   -
@@ -109,6 +106,19 @@ videos:
   -
     item_url: 'https://www.youtube.com/watch?v=F4LYxaZGwK4'
     description: 'TGR Jane V2 CE | 40g Clickiez™ | GMK Olivia++ | Sound Typing Test| [8K ASMR] by Zeal'
+  -
+    item_url: 'https://www.youtube.com/watch?v=PCdeFCRyeW8'
+    description: 'Checking out ZealPC Clickiez + 21kb Keycaps by Taeha Tapes'
+  -
+    item_url: 'https://www.youtube.com/watch?v=0eDG5dNpWrs'
+    description: 'The Ultimate Switch (All in one) | Zeal Clickiez Review by Shoobs'
+  -
+    item_url: 'https://www.youtube.com/watch?v=brCQ1saxd6o'
+    description: 'Alps x Cherry MX: Teardown - ZealPC Clickiez switches! - Chryosan22'
+  -
+    item_url: 'https://www.youtube.com/watch?v=W6yV-c5Sk0I'
+    description: 'ZealPC Clickiez switches review (GMMK Pro) by Chyrosran22'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643893705
+updated_at: 1645460223
+basic_title: 'Zeal Clickiez'
 ---

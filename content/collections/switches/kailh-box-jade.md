@@ -28,7 +28,7 @@ specs:
     spring_swap: null
     stem_section: null
     stem_type: coloured
-    stem_color: '#C0DCA3'
+    stem_color: '#BBE0AA'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_section: null
@@ -38,7 +38,7 @@ specs:
     housing_top_custom_material_notes: null
     housing_bottom_section: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#FFFFFF'
+    housing_bottom_color: '#FFFFF2'
     housing_bottom_material: nylon
     housing_bottom_custom_material_notes: null
     force_graph: {  }
@@ -58,7 +58,7 @@ specs:
     spring_swap: null
     stem_section: null
     stem_type: coloured
-    stem_color: '#C0DCA3'
+    stem_color: '#BBE0AA'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_section: null
@@ -88,17 +88,17 @@ specs:
     spring_swap: null
     stem_section: null
     stem_type: coloured
-    stem_color: '#36AFE4'
+    stem_color: '#24ADD4'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_section: null
     housing_top_type: transparent
-    housing_top_color: '#49B7E8'
+    housing_top_color: '#00BBD0'
     housing_top_material: pc
     housing_top_custom_material_notes: null
     housing_bottom_section: null
     housing_bottom_type: transparent
-    housing_bottom_color: '#49B7E8'
+    housing_bottom_color: '#00BBD0'
     housing_bottom_material: pc
     housing_bottom_custom_material_notes: null
     force_graph: {  }
@@ -208,6 +208,6 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Kailh%20Box%20Jade.pdf'
     link_to_review: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643933399
+updated_at: 1645212951
 volume_notes: 'This switch is fairly clicky, along the sound level of clicking a pen open and closed with each key press.'
 ---

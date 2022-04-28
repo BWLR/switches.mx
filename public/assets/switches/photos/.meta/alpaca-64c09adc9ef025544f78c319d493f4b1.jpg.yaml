@@ -1,6 +1,8 @@
-data: {  }
+data:
+  attribution: PrimeKB.com
 size: 325811
 last_modified: 1616591369
 width: 1620
 height: 1080
 mime_type: image/jpeg
+duration: null

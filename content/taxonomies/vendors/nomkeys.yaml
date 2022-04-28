@@ -1,0 +1,34 @@
+title: Nomkeys
+country: US
+currency: usd
+website: 'https://nomkeys.xyz/'
+favicon: nomkeys_favicon.png
+social:
+  -
+    network: instagram
+    item_url: 'https://instagram.com/nomkeys.xyz'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/nomkeys'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://facebook.com/nomkeys'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://youtube.com/c/nomkeys'
+    type: new_set
+    enabled: true
+  -
+    network: tiktok
+    item_url: 'https://tiktok.com/@nomkeys'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1646598587
+blueprint: vendors

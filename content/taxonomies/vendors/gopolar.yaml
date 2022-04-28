@@ -1,0 +1,24 @@
+title: Gopolar
+country: CN
+currency: usd
+website: 'https://gopolar.net/'
+favicon: goploarLOGO.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/gopolar2021'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/gopolar2021'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/gopolar'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1646224220
+blueprint: vendors

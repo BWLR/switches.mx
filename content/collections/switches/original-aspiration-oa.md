@@ -1,4 +1,6 @@
 ---
+id: 8aeacdad-cbe7-4e0c-9fec-6e127a43c36d
+blueprint: switches
 title: 'Original Aspiration (OA)'
 volume: normal
 factory_lubed: 'no'
@@ -71,7 +73,7 @@ prices:
   -
     price: '0.60'
     extra_text: null
-    source: 'https://shop.wuquestudio.com/products/original-aspiration-oa-switch-gb'
+    source: 'https://shop.wuquestudio.com/r?id=fbtd19'
     vendor: wuque-studio
     datecheck: '2020-09-26'
     in_stock: true
@@ -125,7 +127,7 @@ prices:
     datecheck: '2020-09-26'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1617096206
+updated_at: 1645030847
 limited_run_reason: group_buy_ended
 limited_run_info: 'Unlimited groupbuy from Sep. 24 - Oct. 9 2020'
 theremin_goat_scores:
@@ -139,5 +141,4 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Original%20Aspiration%20(Release).pdf'
     link_to_review: null
 stem_length: standard
-id: 8aeacdad-cbe7-4e0c-9fec-6e127a43c36d
 ---

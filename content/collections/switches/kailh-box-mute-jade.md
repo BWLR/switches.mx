@@ -2,7 +2,7 @@
 id: 4fa05fb6-d55d-4872-aaab-89f9eca130dd
 blueprint: switches
 title: 'Kailh BOX Mute Jade'
-volume: silent
+volume: normal
 factory_lubed: slight
 film: no-fit
 manufacturer: kailh
@@ -33,17 +33,17 @@ specs:
     spring_swap: null
     stem_section: null
     stem_type: coloured
-    stem_color: '#CFD1D2'
+    stem_color: '#B0B0BB'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_section: null
     housing_top_type: transparent
     housing_top_color: null
-    housing_top_material: nylon
+    housing_top_material: pc
     housing_top_custom_material_notes: null
     housing_bottom_section: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#FFFFFF'
+    housing_bottom_color: '#FFFFF2'
     housing_bottom_material: nylon
     housing_bottom_custom_material_notes: null
     force_graph: {  }
@@ -82,5 +82,5 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Kailh%20Box%20Mute%20Jade.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/kailh-box-mute-jade-switch-review'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1644175034
+updated_at: 1645334769
 ---

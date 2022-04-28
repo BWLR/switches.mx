@@ -1,5 +1,6 @@
 ---
 id: fb130b7c-cdd6-4912-a098-0e9767d4a573
+published: false
 blueprint: switches
 title: 'Halo Switches'
 volume: normal

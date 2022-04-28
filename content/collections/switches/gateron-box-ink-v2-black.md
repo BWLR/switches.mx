@@ -72,6 +72,20 @@ prices:
     vendor: dangkeebs
     datecheck: null
     in_stock: true
+  -
+    price: '1.05'
+    extra_text: null
+    source: 'https://keebd.com/products/gateron-ink-v2-5pin-switches-pack-of-10?variant=40776395882648'
+    vendor: keebd
+    datecheck: '2022-04-01'
+    in_stock: true
+  -
+    price: '0.75'
+    extra_text: null
+    source: 'https://www.serpentkeys.co.uk/products/gateron-ink-v2-wall-stem-switches'
+    vendor: serpentkeys
+    datecheck: '2022-04-11'
+    in_stock: true
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/gateron-box-ink-black-v2-switches-sample?variant=42157341245685'
 limited_run: 'no'
 limited_run_reason: 'no'
@@ -102,5 +116,5 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Gateron%20Box%20Ink%20Black.pdf'
     link_to_review: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643036880
+updated_at: 1649686714
 ---

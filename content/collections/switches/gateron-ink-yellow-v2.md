@@ -90,6 +90,20 @@ prices:
     vendor: keebsforall
     datecheck: '2022-02-02'
     in_stock: true
+  -
+    price: '1.05'
+    extra_text: null
+    source: 'https://keebd.com/products/gateron-ink-v2-5pin-switches-pack-of-10?variant=40776396079256'
+    vendor: keebd
+    datecheck: '2022-04-01'
+    in_stock: false
+  -
+    price: '0.75'
+    extra_text: null
+    source: 'https://www.serpentkeys.co.uk/products/gateron-ink-v2-switches-10-pcs'
+    vendor: serpentkeys
+    datecheck: null
+    in_stock: true
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/gateron-ink-yellow-switch-v2?variant=37562664845474'
 limited_run: 'no'
 limited_run_reason: 'no'
@@ -123,6 +137,6 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Gateron%20Ink%20Yellow%20V2.pdf'
     link_to_review: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643886567
+updated_at: 1649696402
 basic_description: 'Yellow Inks are the brothers of the Ink Blacks, the well loved linear switch in community. Smooth from stock due to the custom housing material and coated spring but especially smooth with a great sound after lubing.'
 ---

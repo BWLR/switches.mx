@@ -26,7 +26,7 @@ specs:
     spring_color_info: 'Stainless steel spring, silver in color.'
     spring_swap: 'This switch is a heavier Kailh Box White, any spring swap would need to be Kailh Box Springs, not MX springs. Swapped spring needs to be heavy enough to click the click-bar on the upstroke.'
     stem_type: coloured
-    stem_color: '#568EBF'
+    stem_color: '#6D99C9'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_type: transparent
@@ -34,7 +34,7 @@ specs:
     housing_top_material: pc
     housing_top_custom_material_notes: null
     housing_bottom_type: coloured
-    housing_bottom_color: '#FCFCFC'
+    housing_bottom_color: '#FFFFF2'
     housing_bottom_material: nylon
     housing_bottom_custom_material_notes: null
     force_graph:
@@ -125,7 +125,7 @@ prices:
     datecheck: '2021-06-23'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643933043
+updated_at: 1645211021
 limited_run_reason: 'no'
 stem_length: standard
 ---
