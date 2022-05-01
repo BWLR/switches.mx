@@ -249,6 +249,13 @@ prices:
     vendor: serpentkeys
     datecheck: null
     in_stock: true
+  -
+    price: '0.75'
+    extra_text: null
+    source: 'https://keebd.com/products/gateron-ink-black'
+    vendor: keebd
+    datecheck: '2022-05-01'
+    in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
 updated_at: 1649696091
 stem_length: standard
