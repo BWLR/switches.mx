@@ -502,11 +502,18 @@ prices:
     datecheck: '2022-02-01'
     in_stock: true
   -
-    price: '0.45'
+    price: '0.32'
     extra_text: KS-8
-    source: 'https://keebd.com/products/gateron-5pin-switches-pack-of-10?variant=40383061295256'
+    source: 'https://keebd.com/products/gateron-yellow'
     vendor: keebd
-    datecheck: '2022-04-01'
+    datecheck: '2022-05-01'
+    in_stock: true
+  -
+    price: '0.32'
+    extra_text: KS-3X1
+    source: 'https://keebd.com/products/gateron-milky-yellow'
+    vendor: keebd
+    datecheck: '2022-05-01'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
 updated_at: 1648818473
