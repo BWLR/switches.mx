@@ -441,6 +441,13 @@ prices:
     vendor: serpentkeys
     datecheck: '2022-04-11'
     in_stock: true
+  -
+    price: '0.46'
+    extra_text: 'Golden Yellow'
+    source: 'https://keebhut.com/products/gateron-cap-v2-golden-yellow-linear-switches'
+    vendor: the-keyboard-hut
+    datecheck: '2022-04-20'
+    in_stock: true
 limited_run: 'no'
 limited_run_reason: 'no'
 photos:
@@ -501,6 +508,6 @@ related_links:
     item_url: 'https://www.reddit.com/r/MechanicalKeyboards/comments/jna6fc/gateron_caps_switches_vs_milky_yellows/'
     description: 'Gateron Caps Switches Vs. Milky Yellows review by Posted byu/jkon-12 10 months ago'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1649695892
+updated_at: 1650465347
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/gateron-cap-yellow-switch?variant=39826070634658'
 ---

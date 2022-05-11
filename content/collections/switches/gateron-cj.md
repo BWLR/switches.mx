@@ -27,7 +27,7 @@ specs:
     pre-travel: '2.00'
     total-travel: '4.00'
     spring_section: null
-    spring: standard
+    spring: gold-plated
     spring_color: null
     spring_color_info: null
     spring_swap: null
@@ -85,11 +85,18 @@ prices:
     datecheck: null
     in_stock: false
   -
-    price: '0.65'
+    price: '0.60'
     extra_text: null
     source: 'https://www.serpentkeys.co.uk/products/gateron-cj-switches'
     vendor: serpentkeys
     datecheck: '2022-04-11'
+    in_stock: true
+  -
+    price: '0.60'
+    extra_text: null
+    source: 'https://keebhut.com/products/gateron-cjs'
+    vendor: the-keyboard-hut
+    datecheck: '2022-04-20'
     in_stock: true
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/gateron-cj-switch-sample?variant=42131410452725'
 limited_run: 'no'
@@ -117,5 +124,5 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Gateron%20CJ.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/gateron-cj-switch-review'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1649696029
+updated_at: 1651926920
 ---

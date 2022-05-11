@@ -4,7 +4,7 @@ blueprint: switches
 title: 'Magic Girl Tactile Switches'
 volume: normal
 factory_lubed: slight
-film: unknown
+film: 'no'
 notes: '_" While the tactile bump gives a rounded, muted, and soft snapping sound to it, the bottoming and topping out of these switches really don’t provide all that much more total noise to the switch at normal typing speeds. At higher typing speeds the topping outs begin to add a bit of a more bright poppy sound to the switches, but even then, these are still surprisingly quiet for what I’ve become accustomed to expecting of tactile switches. " -Theremingoat_'
 manufacturer: sp-star
 brand: sp-star
@@ -206,5 +206,5 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/SP%20Star%20Magic%20Girl.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/sp-star-magic-girl-switch-review'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643581181
+updated_at: 1649855947
 ---

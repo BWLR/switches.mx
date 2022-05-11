@@ -197,14 +197,14 @@ prices:
     in_stock: true
     extra_text: null
   -
-    price: '0.65'
+    price: '0.62'
     extra_text: null
     source: 'https://www.serpentkeys.co.uk/products/c-equalz-tangerine-switches-10pcs'
     vendor: serpentkeys
     datecheck: '2022-04-11'
     in_stock: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1649695610
+updated_at: 1651926035
 stem_length: standard
 limited_run_reason: limited_stock
 volume_notes: 'This switch has a volume similar to that of a standard JWK, but is noticeably higher pitched due to the UHMWPE (Ultra High Molecular Weight Polyurethane, sometimes referred to as simply PE) blend in the housing.'
