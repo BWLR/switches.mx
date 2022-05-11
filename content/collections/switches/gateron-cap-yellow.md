@@ -447,6 +447,19 @@ prices:
     source: 'https://keebhut.com/products/gateron-cap-v2-golden-yellow-linear-switches'
     vendor: the-keyboard-hut
     datecheck: '2022-04-20'
+  -
+    price: '0.45'
+    extra_text: 'Milky Yellow'
+    source: 'https://keebd.com/products/gateron-cap-milky-yellow'
+    vendor: keebd
+    datecheck: '2022-05-11'
+    in_stock: true
+  -
+    price: '0.55'
+    extra_text: 'Golden Yellow'
+    source: 'https://keebd.com/products/gateron-cap-golden-yellow'
+    vendor: keebd
+    datecheck: '2022-05-11'
     in_stock: true
 limited_run: 'no'
 limited_run_reason: 'no'
