@@ -141,6 +141,12 @@ prices:
     vendor: ymdk
     datecheck: '2022-03-06'
     in_stock: true
+  -
+    price: '0.75'
+    source: 'https://keebd.com/products/gateron-oil-king'
+    vendor: keebd
+    datecheck: '2022-05-11'
+    in_stock: true
 limited_run: 'no'
 limited_run_reason: 'no'
 photos:
