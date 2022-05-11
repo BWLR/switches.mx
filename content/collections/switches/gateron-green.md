@@ -199,7 +199,7 @@ prices:
     vendor: kbdfans
     datecheck: '2022-02-03'
     in_stock: true
-   -
+  -
     price: '0.32'
     extra_text: null
     source: 'https://keebd.com/products/gateron-green'
