@@ -58,6 +58,20 @@ prices:
     vendor: glorious-pc-gaming-race
     datecheck: null
     in_stock: true
+  -
+    price: '0.69'
+    extra_text: Unlubed
+    source: 'https://computerorbit.com/collections/keyboard-switches/products/glorious-lynx-switches-36pc'
+    vendor: computer-orbit
+    datecheck: '2022-06-29'
+    in_stock: true
+  -
+    price: '0.97'
+    extra_text: Lubed
+    source: 'https://computerorbit.com/collections/keyboard-switches/products/glorious-lynx-lubed-switches-36pc'
+    vendor: computer-orbit
+    datecheck: '2022-06-29'
+    in_stock: true
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/glorious-lynx-unlubed-switch-sample?variant=41008228171938'
 limited_run: 'no'
 limited_run_reason: 'no'
@@ -87,6 +101,6 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Glorious%20Lynx%20(Unlubed).pdf'
     link_to_review: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643861030
+updated_at: 1656513309
 manufacturer: tecsee
 ---

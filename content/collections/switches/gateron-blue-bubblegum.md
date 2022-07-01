@@ -31,16 +31,16 @@ specs:
     spring_swap: null
     stem_section: null
     stem_type: coloured
-    stem_color: '#D7DDF4'
+    stem_color: '#90E4F2'
     stem_material: pom
     stem_custom_material_notes: null
     housing_top_section: null
     housing_top_type: coloured
-    housing_top_color: '#DFACE5'
+    housing_top_color: '#CC85D4'
     housing_top_material: nylon
     housing_top_custom_material_notes: null
     housing_bottom_section: null
-    housing_bottom_type: coloured
+    housing_bottom_type: transparent
     housing_bottom_color: '#3A4045'
     housing_bottom_material: custom
     housing_bottom_custom_material_notes: 'Proprietary "INK" blend'
@@ -84,5 +84,5 @@ photos:
   - switches/photos/7---AF0LzeW.jpg
   - switches/photos/1---vrm6pxU.jpg
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1652089755
+updated_at: 1654091040
 ---

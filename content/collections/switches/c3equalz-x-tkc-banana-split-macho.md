@@ -73,8 +73,15 @@ prices:
     vendor: the-keycap-club
     datecheck: '2021-06-09'
     in_stock: false
+  -
+    price: '0.65'
+    extra_text: null
+    source: 'https://computerorbit.com/collections/keyboard-switches/products/c-equalz-banana-split-linear-switch'
+    vendor: computer-orbit
+    datecheck: null
+    in_stock: false
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643604657
+updated_at: 1656513341
 limited_run_reason: 'no'
 theremin_goat_scores:
   -

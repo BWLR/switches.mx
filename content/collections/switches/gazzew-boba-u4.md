@@ -136,6 +136,66 @@ specs:
     housing_bottom_custom_material_notes: 'Very smooth new plastic composition - softer than Nylon PA66.'
     force_graph: {  }
     led_support: smd
+  -
+    name: '65g Limited Edition Black'
+    description: 'A limited edition Black Boba U4 switch, in celebration of Black History Month. A recolour of the U4, designed by Gazzew and in collaboration with 3Dkeebs.'
+    weights_section: null
+    actuation: null
+    bottom-out: '65'
+    pre-travel: null
+    total-travel: null
+    spring_section: null
+    spring: standard
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_type: coloured
+    stem_color: '#3A4045'
+    stem_material: pom
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_type: coloured
+    housing_top_color: '#3A4045'
+    housing_top_material: custom
+    housing_top_custom_material_notes: 'Very smooth new plastic composition - softer than Nylon PA66.'
+    housing_bottom_section: null
+    housing_bottom_type: coloured
+    housing_bottom_color: '#3A4045'
+    housing_bottom_material: custom
+    housing_bottom_custom_material_notes: 'Very smooth new plastic composition - softer than Nylon PA66.'
+    force_graph: {  }
+    led_support: smd-and-inswitch
+  -
+    name: '55g Limited Edition Black'
+    description: '55g version of the limited edition Black Boba U4 switch.'
+    weights_section: null
+    actuation: null
+    bottom-out: '55'
+    pre-travel: null
+    total-travel: null
+    spring_section: null
+    spring: standard
+    spring_color: null
+    spring_color_info: null
+    spring_swap: null
+    stem_section: null
+    stem_type: coloured
+    stem_color: '#3A4045'
+    stem_material: pom
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_type: coloured
+    housing_top_color: '#3A4045'
+    housing_top_material: custom
+    housing_top_custom_material_notes: 'Very smooth new plastic composition - softer than Nylon PA66.'
+    housing_bottom_section: null
+    housing_bottom_type: coloured
+    housing_bottom_color: '#3A4045'
+    housing_bottom_material: custom
+    housing_bottom_custom_material_notes: 'Very smooth new plastic composition - softer than Nylon PA66.'
+    force_graph: {  }
+    led_support: smd-and-inswitch
 photos:
   - switches/photos/gazzew-boba-u4-aliex2.jpg
   - switches/photos/gazzew-boba-u4-aliex4.jpg
@@ -213,12 +273,19 @@ prices:
     datecheck: '2022-05-03'
     in_stock: true
   -
-    price: '0.67'
-    extra_text: null
-    source: 'https://www.liligecko.com/products/gazzew-boba-u4-rgb-62g?variant=40893685170338'
-    vendor: null
+    price: '0.65'
+    extra_text: 62g
+    source: 'https://www.liligecko.com/products/gazzew-u4-62g?variant=40893655351458'
+    vendor: liligecko
     datecheck: '2022-05-03'
     in_stock: true
+  -
+    price: '0.65'
+    extra_text: 68g
+    source: 'https://www.liligecko.com/products/gazzew-u4-62g?variant=40893655384226'
+    vendor: liligecko
+    datecheck: null
+    in_stock: false
   -
     price: '0.87'
     extra_text: null
@@ -240,8 +307,43 @@ prices:
     vendor: swagkeys
     datecheck: '2022-05-03'
     in_stock: false
+  -
+    price: '0.71'
+    extra_text: '65g Limited Edition Black'
+    source: 'https://splitkb.com/products/gazzew-boba-u4-black-silent-tactile-switch'
+    vendor: splitkb
+    datecheck: '2022-06-22'
+    in_stock: false
+  -
+    price: '0.65'
+    extra_text: '55g Limited Edition Black'
+    source: 'https://3dkeebs.com/collections/switches/products/3dkeebs-black-u4?variant=42388186530047'
+    vendor: 3dkeebs
+    datecheck: '2022-06-22'
+    in_stock: true
+  -
+    price: '0.65'
+    extra_text: '65g Limited Edition Black'
+    source: 'https://3dkeebs.com/collections/switches/products/3dkeebs-black-u4?variant=42388186562815'
+    vendor: 3dkeebs
+    datecheck: '2022-06-22'
+    in_stock: true
+  -
+    price: '0.59'
+    extra_text: '65g Limited Edition Black'
+    source: 'https://mechbox.co.uk/products/3dkeebs-x-gazzew-boba-black-u4-65g-switch-10-switches?variant=42361310576885'
+    vendor: mechbox
+    datecheck: '2022-06-22'
+    in_stock: false
+  -
+    price: '0.95'
+    extra_text: '65g Limited Edition Black'
+    source: 'https://customkbd.com/products/boba-u4b-black-silent-tactile-switches?_pos=4&_sid=0deff33b6&_ss=r'
+    vendor: custom-kbd
+    datecheck: null
+    in_stock: false
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1651607641
+updated_at: 1655891051
 limited_run_reason: 'no'
 theremin_goat_scores:
   -
