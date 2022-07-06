@@ -1,5 +1,5 @@
 ---
-id: 5946f16b-ff8c-447d-87a5-fb2b4e0800c6
+id: b39d9605-12a5-48bb-ae96-78ca46971ebd
 blueprint: switches
 title: 'Durock T1 Silent Shrimp'
 volume: silent
@@ -58,6 +58,6 @@ videos:
   -
     item_url: 'hhttps://www.youtube.com/watch?v=kASOrvT3KpQ'
     description: 'New Silent Tactile | Durock Shrimp Quick Review'
-updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_by: faccbd64-a9de-4c64-a170-c46c91450cd4
 updated_at: 1657125185
 ---
