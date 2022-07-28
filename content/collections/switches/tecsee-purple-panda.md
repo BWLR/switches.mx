@@ -144,7 +144,7 @@ theremin_goat_scores:
     context: 14
     other: 6
     total: 79
-    score_card_link: null
+    score_card_link: https://github.com/ThereminGoat/switch-scores/blob/master/Tecsee%20Purple%20Panda.pdf
     link_to_review: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
 updated_at: 1643707410
