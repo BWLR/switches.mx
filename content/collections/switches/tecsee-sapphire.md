@@ -100,7 +100,7 @@ theremin_goat_scores:
     context: 11
     other: 8
     total: 73
-    score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Tecsee%20Sapphire%20V2.pdf and https://github.com/ThereminGoat/switch-scores/blob/master/Tecsee%20Sapphire.pdf'
+    score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Tecsee%20Sapphire%20V2.pdf
     link_to_review: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
 updated_at: 1642896977
