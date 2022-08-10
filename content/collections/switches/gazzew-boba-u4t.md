@@ -54,10 +54,10 @@ specs:
     name: 68g
     description: null
     weights_section: null
-    actuation: null
+    actuation: '39~'
     bottom-out: '68'
-    pre-travel: null
-    total-travel: null
+    pre-travel: '1.7mm~'
+    total-travel: '3.1mm~'
     spring_section: null
     spring: standard
     spring_color: null
