@@ -313,29 +313,6 @@ sections:
           icon: assets
           listable: true
       -
-        handle: affiliate_code
-        field:
-          input_type: text
-          antlers: false
-          display: 'Affiliate code'
-          type: text
-          icon: text
-          instructions: 'eg. ref=switchesmx. If included here it''ll be appended to the end of the url.'
-          width: 50
-          listable: hidden
-          instructions_position: above
-      -
-        handle: is_affiliate
-        field:
-          default: false
-          display: 'Is affiliate?'
-          type: toggle
-          icon: toggle
-          instructions: 'If checked, an icon will be added to the listing. Additionally we may change the ordering of some links based on this.'
-          width: 50
-          listable: hidden
-          instructions_position: below
-      -
         handle: social
         field:
           sets:
@@ -395,3 +372,68 @@ sections:
             - required
           listable: hidden
           generate: true
+      -
+        handle: affiliate
+        field:
+          display: Affiliate
+          type: section
+          icon: section
+          instructions: 'Add any affiliate or referral scheme information for this vendor here'
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: is_affiliate
+        field:
+          default: false
+          display: 'Is affiliate?'
+          type: toggle
+          icon: toggle
+          instructions: 'If checked, an icon will be added to the listing. Additionally we may change the ordering of some links based on this.'
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: affiliate_code
+        field:
+          input_type: text
+          antlers: false
+          display: 'Affiliate code'
+          type: text
+          icon: text
+          instructions: 'eg. ref=switchesmx. If included here it''ll be appended to the end of the url.'
+          listable: hidden
+          instructions_position: above
+      -
+        handle: referral_code
+        field:
+          input_type: text
+          antlers: false
+          display: 'Referral code'
+          type: text
+          icon: text
+          instructions: 'If defined, a small icon will will appear next to any links to this vendor'
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: referral_discount_bonus
+        field:
+          input_type: text
+          append: '%'
+          antlers: false
+          display: 'Referral discount bonus'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: internal_notes
+        field:
+          antlers: false
+          display: 'Internal notes'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above

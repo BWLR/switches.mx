@@ -222,8 +222,6 @@ sections:
           icon: select
           instructions: 'Does the stem have a longer than normal stem eg. Halo/Holy Panda'
           listable: hidden
-      -
-        import: metatags
   specs:
     display: Specs
     fields:
@@ -692,6 +690,15 @@ sections:
                 icon: toggle
                 instructions: '(not used yet - for future functionality)'
                 listable: hidden
+            -
+              handle: include_vendor_discount_code
+              field:
+                default: false
+                display: 'Include vendor discount code'
+                type: toggle
+                icon: toggle
+                listable: hidden
+                instructions_position: above
           mode: table
           reorderable: true
           display: Prices

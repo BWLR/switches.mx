@@ -15,5 +15,9 @@ social:
     type: new_set
     enabled: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1628508080
+updated_at: 1650468394
 blueprint: vendors
+is_affiliate: true
+referral_code: SMX
+referral_discount_bonus: '5'
+affiliate_code: ref=6qZm9mBUXykky
