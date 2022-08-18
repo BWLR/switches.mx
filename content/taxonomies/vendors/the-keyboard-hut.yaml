@@ -1,0 +1,20 @@
+title: 'The Keyboard Hut'
+country: US
+currency: usd
+website: 'https://keebhut.com/'
+favicon: vendor-keebhut.png
+is_affiliate: false
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/keebhut/'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://twitter.com/keebhut'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1650464365
+blueprint: vendors

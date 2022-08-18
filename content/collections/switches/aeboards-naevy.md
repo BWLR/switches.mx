@@ -5,7 +5,7 @@ title: 'AEBoards Naevy'
 volume: normal
 factory_lubed: slight
 film: 'no'
-manufacturer: unknown
+manufacturer: aeboards
 brand: aeboards
 switch_type: tactile
 mount: 5
@@ -28,8 +28,8 @@ specs:
     stem_section: null
     stem_type: coloured
     stem_color: '#FFFFFF'
-    stem_material: pom
-    stem_custom_material_notes: null
+    stem_material: custom
+    stem_custom_material_notes: 'MPE tactile stem - Custom xixed PE - A proprietary MPE blend'
     housing_top_section: null
     housing_top_type: coloured
     housing_top_color: '#416187'
@@ -55,5 +55,15 @@ limited_run_reason: 'no'
 photos:
   - switches/photos/naevy-hero_1024x1024@2x.webp
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1649456280
+updated_at: 1650127499
+theremin_goat_scores:
+  -
+    push_feel: 29
+    wobble: 17
+    sound: 8
+    context: 16
+    other: 7
+    total: 77
+    score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Naevy%20V1.5.pdf'
+    link_to_review: 'https://www.theremingoat.com/blog/naevy-v15-switch-review'
 ---

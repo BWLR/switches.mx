@@ -14,7 +14,7 @@ stem_length: standard
 specs:
   -
     actuation: '55'
-    bottom-out: '80'
+    bottom-out: '65'
     pre-travel: '2.00'
     total-travel: '4.00'
     spring: coated
@@ -32,6 +32,17 @@ specs:
     spring_color_info: 'These also have a longer spring.'
     force_graph:
       - switches/force-graphs/Gateron-Oil-King_force-graph.png
+    name: null
+    description: null
+    weights_section: null
+    spring_section: null
+    spring_swap: null
+    stem_section: null
+    stem_custom_material_notes: null
+    housing_top_section: null
+    housing_top_custom_material_notes: null
+    housing_bottom_section: null
+    led_support: null
 prices:
   -
     price: '0.65'
@@ -39,107 +50,131 @@ prices:
     vendor: thockeys
     datecheck: '2022-01-24'
     in_stock: true
+    extra_text: null
   -
     price: '0.65'
     source: 'https://kbdfans.com/products/gateron-oil-king-linear-switches'
     vendor: kbdfans
     datecheck: '2022-03-06'
     in_stock: true
+    extra_text: null
   -
     price: '0.65'
     source: 'https://candykeys.com/product/gateron-oil-king-switch'
     vendor: candy-keys
     datecheck: '2022-03-06'
     in_stock: true
+    extra_text: null
   -
     price: '0.65'
     source: 'https://www.keycrox.co.uk/product/gateron-oil-king-switches'
     vendor: keycrox-uk
     datecheck: '2022-03-06'
     in_stock: false
+    extra_text: null
   -
     price: '0.65'
     source: 'https://keygem.store/products/gateron-oil-king-10pcs'
     vendor: keygem
     datecheck: '2022-03-06'
     in_stock: false
+    extra_text: null
   -
     price: '0.67'
     source: 'https://keebsforall.com/products/gateron-oil-king-switches'
     vendor: keebsforall
     datecheck: '2022-03-06'
     in_stock: false
+    extra_text: null
   -
     price: '0.65'
     source: 'https://www.serpentkeys.co.uk/products/gateron-oil-king-switches-10pcs'
     vendor: serpentkeys
     datecheck: '2022-03-06'
     in_stock: true
+    extra_text: null
   -
     price: '0.70'
     source: 'https://www.eloquentclicks.com/product/gateron-oil-king/'
     vendor: eloquent-clicks
     datecheck: '2022-03-06'
     in_stock: true
+    extra_text: null
   -
     price: '0.65'
     source: 'https://prevailkeyco.com/products/gateron-oil-king-switches'
     vendor: prevail-key-co
     datecheck: '2022-03-06'
     in_stock: false
+    extra_text: null
   -
     price: '0.65'
     source: 'https://hippokeys.com/products/gateron-oil-king'
     vendor: hippokeys
     datecheck: '2022-03-06'
     in_stock: false
+    extra_text: null
   -
     price: '55'
     source: 'https://rectangles.store/products/gateron-oil-kings'
     vendor: rectangles-store
     datecheck: '2022-03-06'
     in_stock: true
+    extra_text: null
   -
     price: '0.82'
     source: 'https://shockport.com/products/gateron-oil-kings'
     vendor: shockport-keyboards
     datecheck: '2022-03-06'
     in_stock: false
+    extra_text: null
   -
     price: '0.65'
     source: 'https://minokeys.com/collections/switches/products/gateron-oil-king-linear-switches'
     vendor: mino-keys
     datecheck: '2022-03-06'
     in_stock: false
+    extra_text: null
   -
     price: '0.65'
     source: 'https://www.ashkeebs.com/product/gateron-oil-king-linear-switches/'
     vendor: ashkeebs
     datecheck: '2022-03-06'
     in_stock: true
+    extra_text: null
   -
     price: '0.65'
     source: 'https://dangkeebs.com/products/gateron-oil-king'
     vendor: dangkeebs
     datecheck: '2022-03-06'
     in_stock: false
+    extra_text: null
   -
     price: '0.65'
     source: 'https://www.mechmods.co.uk/collections/switches/products/gateron-oil-king-switches?variant=42483594526943'
     vendor: mechmods
     datecheck: '2022-03-06'
     in_stock: true
+    extra_text: null
   -
     price: '0.69'
     source: 'https://nomkeys.xyz/products/gateron-oil-king'
     vendor: nomkeys
     datecheck: '2022-03-06'
     in_stock: true
+    extra_text: null
   -
     price: '0.85'
     source: 'https://ymdkey.com/products/gateron-oil-king-pre-lubed-5pin-switches-55g-linear-mechanical-keyboard-custom-switch'
     vendor: ymdk
     datecheck: '2022-03-06'
+    in_stock: true
+    extra_text: null
+  -
+    price: '0.75'
+    source: 'https://keebd.com/products/gateron-oil-king'
+    vendor: keebd
+    datecheck: '2022-05-11'
     in_stock: true
 limited_run: 'no'
 limited_run_reason: 'no'
@@ -186,6 +221,10 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Gateron%20Oil%20King.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/gateron-oil-king-switch-review'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1646598761
-notes: 'New for 2022, Gateron Oil King switches offer a very smooth typing experience right out of the box and are very usable without having to mod due to Gateron''s new factory lubing method. Featuring nylon top housing, ink bottom housing and POM stem with a long 20mm spring.'
+updated_at: 1652095286
+notes: |-
+  New for 2022, Gateron Oil King switches offer a very smooth typing experience right out of the box and are very usable without having to mod due to Gateron's new factory lubing method. Featuring nylon top housing, ink bottom housing and POM stem with a long 20mm spring.
+
+  From [Thockeys.com](https://thockeys.com/switches/oil-kings/)
+  "Gateron has released updated spring force measurements. Bottom out was originally listed as 80g, it is now corrected to 65g."
 ---

@@ -116,6 +116,13 @@ prices:
     vendor: prevail-key-co
     datecheck: '2022-01-28'
     in_stock: true
+  -
+    price: '0.26'
+    extra_text: V2
+    source: 'https://www.serpentkeys.co.uk/products/jwk-black-linear-v2-switches'
+    vendor: serpentkeys
+    datecheck: '2022-05-07'
+    in_stock: true
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/jwk-black-linear-v2-58-5g-switch-sample?variant=42131435258101'
 limited_run: 'no'
 limited_run_reason: 'no'
@@ -134,5 +141,5 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=qgAah3aY1MQ&t=19s'
     description: 'Budget MX Blacks? | JWICK Black Linear Switch Review - Technology Brother'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643482115
+updated_at: 1651952024
 ---

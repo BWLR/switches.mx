@@ -1,0 +1,25 @@
+title: 'Computer Orbit'
+country: GB
+currency: gbp
+website: 'https://computerorbit.com/collections/custom-keyboards'
+favicon: computer-orbit.png
+is_affiliate: false
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/computerorbit'
+    type: new_set
+    enabled: true
+  -
+    network: twitter
+    item_url: 'https://www.twitter.com/computerorbit'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/computerorbit'
+    type: new_set
+    enabled: true
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1656513125
+blueprint: vendors

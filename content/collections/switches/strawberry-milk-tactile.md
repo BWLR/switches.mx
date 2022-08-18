@@ -4,7 +4,7 @@ blueprint: switches
 title: 'Strawberry Milk Tactile'
 volume: normal
 factory_lubed: 'no'
-film: unknown
+film: 'no'
 notes: 'Strawberry Milk Tactiles were inspired by one of our favorite childhood treats. They feature their own collectible milk bottle packaging, and a new medium-high tactile mold from Tecsee. The tactile event starts with minimal pre-travel, continues with a sharp tactile bump, and ends with the distinct sound signature of a long pole stem. Take the plunge to enjoy this refreshing typing experience – you may get hooked! - Dangkeebs'
 manufacturer: tecsee
 brand: unknown
@@ -106,5 +106,5 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=5ClvaXfp68Q'
     description: 'Haytco Cake60 Acrylic Plate w/ Strawberry Milk Switches - Sound Test - Relapse'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1644641735
+updated_at: 1650126897
 ---

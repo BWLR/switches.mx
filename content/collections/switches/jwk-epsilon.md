@@ -1,7 +1,7 @@
 ---
 id: d485927a-d0f6-43f8-9e7e-27781cc2e5b9
 blueprint: switches
-title: 'JWK Epsilon'
+title: 'Prevail JWK Epsilon'
 volume: normal
 factory_lubed: slight
 film: unknown
@@ -57,6 +57,13 @@ prices:
     vendor: ashkeebs
     datecheck: '2021-11-18'
     in_stock: true
+  -
+    price: '0.70'
+    extra_text: null
+    source: 'https://computerorbit.com/collections/keyboard-switches/products/prevail-epsilon-linear-switches'
+    vendor: computer-orbit
+    datecheck: '2022-06-29'
+    in_stock: true
 limited_run: 'no'
 limited_run_reason: 'no'
 photos:
@@ -71,6 +78,6 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=YQGQxGA0fIg'
     description: 'Prevail Epsilon Review by SVIZ'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643428246
+updated_at: 1656491685
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/prevail-epsilon-switch-sample?variant=42131439157493'
 ---

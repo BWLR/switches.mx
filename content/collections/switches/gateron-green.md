@@ -199,6 +199,13 @@ prices:
     vendor: kbdfans
     datecheck: '2022-02-03'
     in_stock: true
+  -
+    price: '0.32'
+    extra_text: null
+    source: 'https://keebd.com/products/gateron-green'
+    vendor: keebd
+    datecheck: '2022-05-01'
+    in_stock: true
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/gateron-milky-green-switch?variant=39826384945314'
 limited_run: 'no'
 limited_run_reason: 'no'
