@@ -83,6 +83,7 @@ prices:
     vendor: divinikey
     datecheck: '2021-07-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.55'
     extra_text: Smokey
@@ -90,6 +91,7 @@ prices:
     vendor: prime-keyboards
     datecheck: '2021-07-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.55'
     extra_text: null
@@ -97,13 +99,15 @@ prices:
     vendor: mode-designs
     datecheck: '2021-07-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.55'
     extra_text: Smokey
-    source: 'https://hippokeys.com/products/durock-t1-tactile-switches-10-pack'
+    source: 'https://hippokeys.com/products/durock-t1-tactile-switches-10-pack?variation=30330'
     vendor: hippokeys
     datecheck: '2021-08-10'
     in_stock: true
+    include_vendor_discount_code: true
   -
     price: '1.00'
     extra_text: Smokey
@@ -111,6 +115,7 @@ prices:
     vendor: apex-mechs
     datecheck: '2022-04-12'
     in_stock: true
+    include_vendor_discount_code: false
 limited_run: 'no'
 limited_run_reason: 'no'
 photos:
@@ -134,5 +139,5 @@ quotes:
     source: 'https://www.reddit.com/r/MechanicalKeyboards/comments/kzxo05/durock_t1_review/'
     text: 'Feels like popping really small bubble wrap.'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1649772921
+updated_at: 1650470120
 ---

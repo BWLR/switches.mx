@@ -18,3 +18,13 @@ $grid-gutter-width: 20px;
 // https://uxengineer.com/inline-block-elements-100-percent-width/
 // - We didn't need to do this in the React version because the html was minified
 .col { font-size: 0; }
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateX(0); }
+    40% {
+      transform: translateX(10px); }
+    60% {
+      transform: translateX(-5px);
+    }
+}

@@ -4,19 +4,18 @@
     "keywords": ["statamic", "cms", "flat file", "laravel"],
     "type": "project",
     "require": {
-        "php": "^7.3",
+        "php": "^8.0",
         "aryehraber/statamic-color-extractor": "1.2.0",
+        "cnj/seotamic": "^2.0",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
-        "gioppy/statamic-metatags": "^1.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0",
         "laravel/socialite": "^5.0",
         "laravel/tinker": "^2.0",
         "league/glide-laravel": "^1.0",
         "pecotamic/sitemap": "^1.2",
-        "socialiteproviders/reddit": "^3.0",
-        "statamic/cms": "3.2.33"
+        "statamic/cms": "3.3.7"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",
@@ -29,7 +28,10 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "pixelfear/composer-dist-plugin": true
+        }
     },
     "extra": {
         "laravel": {

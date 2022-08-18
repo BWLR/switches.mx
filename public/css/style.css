@@ -4,6 +4,20 @@
   font-size: 0;
 }
 
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(0);
+  }
+
+  40% {
+    transform: translateX(10px);
+  }
+
+  60% {
+    transform: translateX(-5px);
+  }
+}
+
 /*!
  * Bootstrap Reboot v5.0.0-beta2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -7043,6 +7057,7 @@ progress {
 .c-switch__price {
   text-align: left;
   border-bottom: solid 1px #F9F9F9;
+  position: relative;
 }
 
 .c-switch__price-vendor {
@@ -7066,7 +7081,7 @@ progress {
   font-weight: 500;
   position: absolute;
   left: 50px;
-  bottom: 1px;
+  top: 24px;
   color: #939393;
   letter-spacing: -0.1px;
 }
@@ -7094,7 +7109,6 @@ progress {
 .c-switch__price-inner {
   padding: 5px 10px;
   position: relative;
-  overflow: hidden;
 }
 
 .c-switch__price a {
@@ -7108,6 +7122,65 @@ progress {
   background: #F9F9F9;
   color: #3D3D3D;
   text-decoration: none;
+}
+
+.c-switch__price-vendor-referral-discount {
+  position: relative;
+  margin-top: 3px;
+  width: auto;
+  display: inline-block;
+  background: #7289DA;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  padding: 2px 8px;
+  font-size: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+  margin-left: -2px;
+  pointer-events: none;
+}
+
+@media (min-width: 1200px) {
+  .c-switch__price-vendor-referral-discount {
+    position: absolute;
+    margin: 0;
+    left: 100%;
+    top: 9px;
+  }
+}
+
+.c-switch__price-vendor-referral-discount:before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  left: 50%;
+  top: -8px;
+  margin-left: -3px;
+  border-width: 6px 6px 6px 0;
+  border-color: transparent #7289DA transparent transparent;
+  transform: rotate(90deg);
+}
+
+@media (min-width: 1200px) {
+  .c-switch__price-vendor-referral-discount:before {
+    left: -5px;
+    top: 5px;
+    margin-left: 0;
+    border-width: 6px 6px 6px 0;
+    border-color: transparent #7289DA transparent transparent;
+    transform: rotate(0);
+  }
+}
+
+@media (min-width: 1200px) {
+  .c-switch__price:hover .c-switch__price-vendor-referral-discount {
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+    animation: bounce 1s infinite;
+  }
 }
 
 .c-switch__materials {

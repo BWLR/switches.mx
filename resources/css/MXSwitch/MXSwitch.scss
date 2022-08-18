@@ -337,6 +337,8 @@
     &__price {
         text-align: left;
         border-bottom: solid 1px $smx-color-06;
+        position: relative;
+        $root: &;
 
         &-vendor {
             display: block;
@@ -358,7 +360,7 @@
                 font-weight: 500;
                 position: absolute;
                 left: 50px;
-                bottom: 1px;
+                top: 24px;
                 color: $smx-color-03;
                 letter-spacing: -0.1px;
             }
@@ -390,7 +392,6 @@
         &-inner {
             padding: ($grid-gutter-width / 4) ($grid-gutter-width / 2);
             position: relative;
-            overflow: hidden;
         }
         a {
             color: $smx-color-02;
@@ -402,6 +403,63 @@
                 background: $smx-color-06;
                 color: $smx-color-02;
                 text-decoration: none;
+            }
+        }
+
+        &-vendor-referral-discount {
+            position: relative;
+            margin-top: 3px;
+            width: auto;
+            display: inline-block;
+            background: $smx-color-10;
+            color: #fff;
+            text-shadow: 1px 1px 2px rgb(0,0,0,.3);
+            padding: 2px 8px;
+            font-size: 12px;
+            box-shadow: 0 0 10px rgb(0,0,0,.2);
+            transition: all .2s ease-in-out;
+            border-radius: 5px;
+            margin-left: -2px;
+            pointer-events: none;
+
+            @include media-breakpoint-up(xl) {
+                position: absolute;
+                margin: 0;
+                left: 100%;
+                top: 9px;
+            }
+
+            &:before {
+                display: block;
+                position: absolute;
+                content: '';
+                width: 0;
+                height: 0;
+                border-style: solid;
+                left: 50%;
+                top: -8px;
+                margin-left: -3px;
+                border-width: 6px 6px 6px 0;
+                border-color: transparent $smx-color-10 transparent transparent;
+                transform: rotate(90deg);
+
+                @include media-breakpoint-up(xl) {
+                    left: -5px;
+                    top: 5px;
+                    margin-left: 0;
+                    border-width: 6px 6px 6px 0;
+                    border-color: transparent $smx-color-10 transparent transparent;
+                    transform: rotate(0);
+                }
+            }
+        }
+
+        @include media-breakpoint-up(xl) {
+            &:hover {
+                #{$root}-vendor-referral-discount {
+                    box-shadow: 0 0 16px rgb(0,0,0,.4);
+                    animation: bounce 1s infinite;
+                }
             }
         }
     }
