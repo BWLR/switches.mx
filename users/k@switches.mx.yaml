@@ -44,3 +44,8 @@ preferences:
         - country
         - currency
         - website
+  start_page: collections/switches
+  favorites:
+    -
+      name: 'Switches ‹ Collections'
+      url: collections/switches

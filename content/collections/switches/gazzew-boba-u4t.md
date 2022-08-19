@@ -22,183 +22,123 @@ stem_length: standard
 specs:
   -
     name: 62g
-    description: null
-    weights_section: null
-    actuation: null
     bottom-out: '62'
-    pre-travel: null
-    total-travel: null
-    spring_section: null
+    pre-travel: '1.70'
+    total-travel: '3.10'
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
     stem_type: coloured
     stem_color: '#E9AA00'
     stem_material: pom
-    stem_custom_material_notes: null
-    housing_top_section: null
     housing_top_type: coloured
     housing_top_color: '#F4F2EE'
     housing_top_material: custom
     housing_top_custom_material_notes: 'Custom Plastic Mix'
-    housing_bottom_section: null
     housing_bottom_type: coloured
     housing_bottom_color: '#F4F2EE'
     housing_bottom_material: custom
     housing_bottom_custom_material_notes: 'Custom Plastic Mix'
-    force_graph: {  }
     led_support: smd-and-inswitch
   -
     name: 68g
-    description: null
-    weights_section: null
-    actuation: null
+    actuation: '39'
     bottom-out: '68'
-    pre-travel: null
-    total-travel: null
-    spring_section: null
+    pre-travel: '1.70'
+    total-travel: '3.10'
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
     stem_type: coloured
     stem_color: '#E9AA00'
     stem_material: pom
-    stem_custom_material_notes: null
-    housing_top_section: null
     housing_top_type: coloured
     housing_top_color: '#F4F2EE'
     housing_top_material: custom
     housing_top_custom_material_notes: 'Custom Plastic Mix'
-    housing_bottom_section: null
     housing_bottom_type: coloured
     housing_bottom_color: '#F4F2EE'
     housing_bottom_material: custom
     housing_bottom_custom_material_notes: 'Custom Plastic Mix'
-    force_graph: {  }
     led_support: smd-and-inswitch
   -
     name: '62g Clear'
-    description: null
-    weights_section: null
-    actuation: null
     bottom-out: '62'
-    pre-travel: null
-    total-travel: null
-    spring_section: null
+    pre-travel: '1.70'
+    total-travel: '3.10'
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
     stem_type: coloured
     stem_color: '#E9AA00'
     stem_material: pom
-    stem_custom_material_notes: null
-    housing_top_section: null
     housing_top_type: transparent
-    housing_top_color: null
     housing_top_material: custom
     housing_top_custom_material_notes: 'Custom Plastic Mix'
-    housing_bottom_section: null
     housing_bottom_type: coloured
     housing_bottom_color: '#F4F2EE'
     housing_bottom_material: custom
     housing_bottom_custom_material_notes: 'Custom Plastic Mix'
-    force_graph: {  }
     led_support: smd-and-inswitch
   -
     name: '3DKeebs x Gazzew Boba Black U4T 62g'
-    description: null
-    weights_section: null
-    actuation: null
     bottom-out: '62'
-    pre-travel: null
-    total-travel: null
-    spring_section: null
+    pre-travel: '1.70'
+    total-travel: '3.10'
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
     stem_type: coloured
     stem_color: '#3A4045'
     stem_material: pom
-    stem_custom_material_notes: null
-    housing_top_section: null
     housing_top_type: coloured
     housing_top_color: '#3A4045'
     housing_top_material: custom
     housing_top_custom_material_notes: 'Custom Plastic Mix'
-    housing_bottom_section: null
     housing_bottom_type: coloured
     housing_bottom_color: '#3A4045'
     housing_bottom_material: custom
     housing_bottom_custom_material_notes: 'Custom Plastic Mix'
-    force_graph: {  }
     led_support: smd-and-inswitch
   -
     name: '3DKeebs x Gazzew Boba Black U4T 68g'
-    description: null
-    weights_section: null
-    actuation: null
     bottom-out: '68'
-    pre-travel: null
-    total-travel: null
-    spring_section: null
+    pre-travel: '1.70'
+    total-travel: '3.10'
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
     stem_type: coloured
     stem_color: '#3A4045'
     stem_material: pom
-    stem_custom_material_notes: null
-    housing_top_section: null
     housing_top_type: coloured
     housing_top_color: '#3A4045'
     housing_top_material: custom
     housing_top_custom_material_notes: 'Custom Plastic Mix'
-    housing_bottom_section: null
     housing_bottom_type: coloured
     housing_bottom_color: '#3A4045'
     housing_bottom_material: custom
     housing_bottom_custom_material_notes: 'Custom Plastic Mix'
-    force_graph: {  }
     led_support: smd-and-inswitch
 prices:
   -
     price: '0.62'
-    extra_text: null
     source: 'https://splitkb.com/products/gazzew-boba-u4t-thocky-tactile-switch'
     vendor: splitkb
     datecheck: '2021-06-28'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.60'
-    extra_text: null
     source: 'https://www.ashkeebs.com/product/gazzew-u4t-boba-switches/'
     vendor: ashkeebs
     datecheck: '2021-06-28'
     in_stock: false
+    include_vendor_discount_code: false
   -
     price: '0.60'
-    extra_text: null
     source: 'https://ringerkeys.com/products/gazzew-boba-u4t-thocky-tactile-switches'
     vendor: ringer-keys
     datecheck: '2021-06-28'
     in_stock: false
+    include_vendor_discount_code: false
   -
     price: '0.60'
-    extra_text: null
     source: 'https://www.monstargears.com/35/?idx=394'
     vendor: monstargear
     datecheck: '2021-06-29'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.65'
     extra_text: '3DKeebs x Gazzew Boba Black'
@@ -206,13 +146,14 @@ prices:
     vendor: 3dkeebs
     datecheck: '2021-06-28'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.66'
-    extra_text: null
     source: 'https://mkultra.click/boba-tactile-u4t-switches/'
     vendor: mkultra
     datecheck: '2021-06-28'
     in_stock: false
+    include_vendor_discount_code: false
   -
     price: '0.67'
     extra_text: 'MKzealots Store'
@@ -220,41 +161,42 @@ prices:
     vendor: aliexpress
     datecheck: '2021-06-28'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.73'
-    extra_text: null
     source: 'https://www.eloquentclicks.com/'
     vendor: eloquent-clicks
     datecheck: '2021-06-28'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.85'
-    extra_text: null
     source: 'https://pantheonkeys.com/products/gazzew-boba-u4t'
     vendor: pantheon-keys
     datecheck: '2021-06-28'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.87'
-    extra_text: null
     source: 'https://dailyclack.com/products/gazzew-boba-u4t-tactile-switches'
     vendor: daily-clack
     datecheck: '2021-06-28'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '4.20'
-    extra_text: null
     source: 'https://item.taobao.com/item.htm?id=636047411330&ali_trackid=2:mm_26632674_99800204_108709300222:1624916313_138_1280567658&union_lens=lensId:TAPI@1624916286@0b0923e9_0dd8_17a548edad8_e412@01;linkRuleId:2;recoveryid:1624916313_138_1280567658&spm=a21wu.12321156-tw.0.0&ak=26008535&bxsign=tbkYTjGGTgKjJQEHiVhpQrZTmnEfC9kXKYZRKuxW3+fkG8rhc5FWIppIuCU8wdBrvY8JFBer6JiSPqAjd76Gan/HPe6pXOjeI4TfK0S1FMCn7g='
     vendor: taobao
     datecheck: '2021-06-28'
     in_stock: false
+    include_vendor_discount_code: false
   -
     price: '0.63'
-    extra_text: null
     source: 'https://www.thekeycapclub.co.uk/products/gazzew-boba-u4t-tactile-switches'
     vendor: the-keycap-club
     datecheck: '2021-06-29'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '31.00'
     extra_text: 'Clear Top'
@@ -262,20 +204,21 @@ prices:
     vendor: zion-studios-ph
     datecheck: '2021-06-28'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '31.00'
-    extra_text: null
     source: 'https://zionstudios.ph/product/gazzew-boba-u4t-thocky-tactile-switches/'
     vendor: zion-studios-ph
     datecheck: '2021-06-28'
     in_stock: false
+    include_vendor_discount_code: false
   -
     price: '0.84'
-    extra_text: null
     source: 'https://rndkbd.com/products/gazzew-u4t-boba-tactile-switches'
     vendor: rndkbd
     datecheck: '2021-06-28'
     in_stock: false
+    include_vendor_discount_code: false
   -
     price: '0.84'
     extra_text: 'Clear Top'
@@ -283,13 +226,14 @@ prices:
     vendor: rndkbd
     datecheck: '2021-06-29'
     in_stock: false
+    include_vendor_discount_code: false
   -
     price: '0.87'
-    extra_text: null
     source: 'https://customkbd.com/collections/key-switches/products/gazzew-u4t-tactile-switches'
     vendor: custom-kbd
     datecheck: '2021-06-29'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.90'
     extra_text: 'Clear Top'
@@ -297,6 +241,7 @@ prices:
     vendor: custom-kbd
     datecheck: '2021-06-29'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '7.80'
     extra_text: '(also available pre-lubed)'
@@ -304,8 +249,8 @@ prices:
     vendor: smord-store
     datecheck: '2022-01-31'
     in_stock: true
+    include_vendor_discount_code: false
 limited_run: 'no'
-limited_run_reason: 'no'
 photos:
   - switches/photos/U4TCloseup.jpg
   - switches/photos/U4THero.jpg
@@ -337,7 +282,6 @@ related_links:
 quotes:
   -
     title: ThereminGoat
-    source: null
     text: |-
       Another great performing switch on all fronts from a long running and trusting designer in
       the community. This rounds out a great ‘base’ set of switches with his silent line and makes
@@ -351,7 +295,15 @@ theremin_goat_scores:
     other: 8
     total: 86
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/U4T%20(62g).pdf'
-    link_to_review: null
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643631295
+updated_at: 1660833490
+published: true
+seotamic_title: title
+seotamic_title_prepend: true
+seotamic_title_append: true
+seotamic_meta_description: empty
+seotamic_open_graph_title: title
+seotamic_open_graph_description: general
+seotamic_twitter_title: title
+seotamic_twitter_description: general
 ---

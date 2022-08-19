@@ -15,75 +15,47 @@ stem_length: long
 specs:
   -
     name: 'V1 Tecsee Sapphire'
-    description: null
-    weights_section: null
     actuation: '52'
     bottom-out: '63.5'
     pre-travel: '2.00'
     total-travel: '3.80'
-    spring_section: null
     spring: double-stage
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
     stem_type: coloured
     stem_color: '#FFF435'
     stem_material: pom
-    stem_custom_material_notes: null
-    housing_top_section: null
     housing_top_type: transparent
     housing_top_color: '#1F5DFF'
     housing_top_material: pc
-    housing_top_custom_material_notes: null
-    housing_bottom_section: null
     housing_bottom_type: transparent
     housing_bottom_color: '#1F5DFF'
     housing_bottom_material: pc
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
     led_support: smd-and-inswitch
   -
     name: 'V2 Tecsee Sapphire'
-    description: null
-    weights_section: null
     actuation: '52'
     bottom-out: '63.5'
     pre-travel: '2.00'
     total-travel: '3.80'
-    spring_section: null
     spring: double-stage
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
     stem_type: coloured
     stem_color: '#FFF435'
     stem_material: uhmwpe
-    stem_custom_material_notes: null
-    housing_top_section: null
     housing_top_type: transparent
     housing_top_color: '#1F5DFF'
     housing_top_material: pc
-    housing_top_custom_material_notes: null
-    housing_bottom_section: null
     housing_bottom_type: transparent
     housing_bottom_color: '#1F5DFF'
     housing_bottom_material: pc
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
     led_support: smd-and-inswitch
 prices:
   -
     price: '0.55'
-    extra_text: null
     source: 'https://prevailkeyco.com/products/tecsee-sapphire-switches?variant=40386535030935'
     vendor: prevail-key-co
-    datecheck: null
     in_stock: true
+    include_vendor_discount_code: false
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/tecsee-sapphire-switch?variant=40143793291426'
 limited_run: 'no'
-limited_run_reason: 'no'
 photos:
   - switches/photos/Untitleddesigncopy4_391dcb9e-5b49-4474-b4a7-2f2d0e2261a1_600x_crop_center.webp
   - switches/photos/Untitleddesign_1_copy2_db073355-4906-4aab-b06c-39e8cfb14da5_600x_crop_center.webp
@@ -100,8 +72,20 @@ theremin_goat_scores:
     context: 11
     other: 8
     total: 73
-    score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Tecsee%20Sapphire%20V2.pdf and https://github.com/ThereminGoat/switch-scores/blob/master/Tecsee%20Sapphire.pdf'
-    link_to_review: null
+    score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Tecsee%20Sapphire%20V2.pdf'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1642896977
+updated_at: 1660833182
+published: true
+related_links:
+  -
+    item_url: 'https://github.com/ThereminGoat/switch-scores/blob/master/Tecsee%20Sapphire.pdf'
+    description: 'Original Tecsee Sapphire V1 score card link on ThereminGoat.com'
+seotamic_title: title
+seotamic_title_prepend: true
+seotamic_title_append: true
+seotamic_meta_description: empty
+seotamic_open_graph_title: title
+seotamic_open_graph_description: general
+seotamic_twitter_title: title
+seotamic_twitter_description: general
 ---
