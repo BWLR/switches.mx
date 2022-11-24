@@ -33,23 +33,8 @@ specs:
     housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
     led_support: smd-and-inswitch
-    name: null
-    description: null
-    weights_section: null
-    actuation: null
     pre-travel: '2.00'
     total-travel: '4.00'
-    spring_section: null
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
-    stem_custom_material_notes: null
-    housing_top_section: null
-    housing_top_custom_material_notes: null
-    housing_bottom_section: null
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
 photos:
   - switches/photos/alpaca-64c09adc9ef025544f78c319d493f4b1.jpg
   - switches/photos/alpaca-dpc6o8oppt341.png
@@ -169,77 +154,77 @@ prices:
     vendor: prime-keyboards
     datecheck: '2020-04-07'
     in_stock: true
-    extra_text: null
+    include_vendor_discount_code: false
   -
     price: '0.59'
     source: 'https://mykeyboard.eu/catalogue/alpaca-switches-10-pack_2041/'
     vendor: mykeyboard-eu
     datecheck: '2020-06-29'
     in_stock: false
-    extra_text: null
+    include_vendor_discount_code: false
   -
     price: '0.68'
     source: 'https://www.apexkeyboards.ca/products/alpacas'
     vendor: apexkeyboards
     datecheck: '2020-06-29'
     in_stock: true
-    extra_text: null
+    include_vendor_discount_code: false
   -
     price: '0.70'
     source: 'https://hippokeys.com/products/alpaca-switches-10-pack'
     vendor: hippokeys
     datecheck: '2021-08-10'
     in_stock: false
-    extra_text: null
+    include_vendor_discount_code: false
   -
     price: '0.53'
-    extra_text: null
     source: 'https://prototypist.net/products/in-stock-alpaca-v2-switches-1'
     vendor: prototypist
     datecheck: '2022-04-05'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '1.25'
-    extra_text: null
     source: 'https:///collections/jwk/products/jwk-alpaca-linear-switches'
     vendor: mecha-store
     datecheck: '2022-04-05'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.55'
-    extra_text: null
     source: 'https://www.keycrox.co.uk/product/alpaca-switches'
     vendor: keycrox-uk
     datecheck: '2022-04-05'
     in_stock: false
+    include_vendor_discount_code: false
   -
     price: '0.80'
-    extra_text: null
     source: 'https://ilumkb.com/products/alpaca-linears'
     vendor: ilumkb
     datecheck: '2022-04-05'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.86'
-    extra_text: null
     source: 'https://dailyclack.com/products/alpaca-linear-switches'
     vendor: daily-clack
     datecheck: '2022-04-05'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.58'
-    extra_text: null
     source: 'https://keebcats.co.uk/products/alpaca-switches'
     vendor: keebcats
     datecheck: '2022-04-05'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '1.00'
-    extra_text: null
     source: 'https://landingpad.shop/products/jwk-alpaca-switch?variant=37883112882350'
     vendor: landingpad
     datecheck: '2022-04-05'
     in_stock: false
+    include_vendor_discount_code: false
   -
     price: '0.88'
     extra_text: Hand-lubed
@@ -247,6 +232,7 @@ prices:
     vendor: c
     datecheck: '2022-04-05'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '1.29'
     extra_text: Hand-lubed
@@ -254,16 +240,23 @@ prices:
     vendor: loobed
     datecheck: '2022-04-05'
     in_stock: false
+    include_vendor_discount_code: false
   -
     price: '0.80'
-    extra_text: null
     source: 'https://www.thekeyboardstore.com/products/alpaca-switches'
     vendor: the-keyboard-store
     datecheck: '2022-04-05'
     in_stock: true
+    include_vendor_discount_code: false
+  -
+    price: '0.68'
+    source: 'https://deltakeyco.com/collections/switches/products/alpaca-switches'
+    vendor: delta-key-co
+    datecheck: '2022-09-29'
+    in_stock: true
+    include_vendor_discount_code: false
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1649159729
-limited_run_reason: 'no'
+updated_at: 1664469920
 theremin_goat_scores:
   -
     push_feel: 32
@@ -287,4 +280,13 @@ basic_description: |-
 
   A very popular and sought after switch, especially around mid-2020.
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/alpaca-v2-linear-switch?variant=39971282026658'
+published: true
+seotamic_title: title
+seotamic_title_prepend: true
+seotamic_title_append: true
+seotamic_meta_description: empty
+seotamic_open_graph_title: title
+seotamic_open_graph_description: general
+seotamic_twitter_title: title
+seotamic_twitter_description: general
 ---

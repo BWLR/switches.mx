@@ -15,80 +15,51 @@ stem_length: standard
 specs:
   -
     name: '62g version'
-    description: null
-    weights_section: null
-    actuation: null
     bottom-out: '62'
     pre-travel: '2.00'
     total-travel: '4.00'
-    spring_section: null
     spring: gold-plated
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
     stem_type: coloured
     stem_color: '#2A2323'
     stem_material: pom
-    stem_custom_material_notes: null
-    housing_top_section: null
     housing_top_type: coloured
     housing_top_color: '#F6F5F3'
     housing_top_material: pc
-    housing_top_custom_material_notes: null
-    housing_bottom_section: null
     housing_bottom_type: coloured
     housing_bottom_color: '#F6F5F3'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
-    led_support: null
   -
     name: '67g version'
-    description: null
-    weights_section: null
-    actuation: null
     bottom-out: '67'
     pre-travel: '2'
     total-travel: '4'
-    spring_section: null
     spring: gold-plated
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
     stem_type: coloured
     stem_color: '#2A2323'
     stem_material: pom
-    stem_custom_material_notes: null
-    housing_top_section: null
     housing_top_type: coloured
     housing_top_color: '#F6F5F3'
     housing_top_material: pc
-    housing_top_custom_material_notes: null
-    housing_bottom_section: null
     housing_bottom_type: coloured
     housing_bottom_color: '#F6F5F3'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
     force_graph:
       - switches/force-graphs/durock_koala_force_graph.png
-    led_support: null
 prices:
   -
     price: '0.55'
     extra_text: '62g & 67g'
     source: 'https://divinikey.com/collections/switches/products/koala-tactile-switches?variant=32070332874817'
     vendor: divinikey
-    datecheck: null
     in_stock: false
+    include_vendor_discount_code: false
   -
     price: '0.55'
     extra_text: 67g
     source: 'https://dangkeebs.com/products/durock-koala?_pos=1&_psq=koala&_ss=e&_v=1.0'
     vendor: dangkeebs
-    datecheck: null
     in_stock: false
+    include_vendor_discount_code: false
   -
     price: '0.65'
     extra_text: '62g & 67g'
@@ -96,6 +67,7 @@ prices:
     vendor: keygem
     datecheck: '2022-01-27'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.85'
     extra_text: 67g
@@ -103,6 +75,7 @@ prices:
     vendor: switchkeys
     datecheck: '2022-01-25'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.49'
     extra_text: both
@@ -110,6 +83,7 @@ prices:
     vendor: noesc
     datecheck: '2022-02-01'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '1.10'
     extra_text: 67g
@@ -117,9 +91,17 @@ prices:
     vendor: apex-mechs
     datecheck: '2022-04-12'
     in_stock: true
+    include_vendor_discount_code: false
+  -
+    price: '0.65'
+    extra_text: 62g
+    source: 'https://deltakeyco.com/collections/switches/products/durock-koala-62g'
+    vendor: delta-key-co
+    datecheck: '2022-09-29'
+    in_stock: true
+    include_vendor_discount_code: false
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/koala-switch?variant=37100135121058'
 limited_run: 'no'
-limited_run_reason: 'no'
 photos:
   - switches/photos/switch-1643146794.PNG
   - switches/photos/switch-1643146810.PNG
@@ -140,5 +122,14 @@ videos:
     item_url: 'https://www.youtube.com/watch?v=F_m1Dr2JYqE'
     description: 'Durock Koala Typing Sounds | NK65 Aluminium | EPBTxGOK BoW - rad mechanica.'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1649772385
+updated_at: 1664471735
+published: true
+seotamic_title: title
+seotamic_title_prepend: true
+seotamic_title_append: true
+seotamic_meta_description: empty
+seotamic_open_graph_title: title
+seotamic_open_graph_description: general
+seotamic_twitter_title: title
+seotamic_twitter_description: general
 ---

@@ -15,63 +15,32 @@ stem_construction: standard
 stem_length: standard
 specs:
   -
-    name: null
-    description: null
-    weights_section: null
-    actuation: null
     bottom-out: '67'
     pre-travel: '2.00'
     total-travel: '4.00'
-    spring_section: null
     spring: gold-plated
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
     stem_type: coloured
     stem_color: '#298296'
     stem_material: pom
-    stem_custom_material_notes: null
-    housing_top_section: null
     housing_top_type: transparent
     housing_top_color: '#3A4045'
     housing_top_material: pc
-    housing_top_custom_material_notes: null
-    housing_bottom_section: null
     housing_bottom_type: transparent
     housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
     led_support: smd-and-inswitch
   -
-    name: null
-    description: null
-    weights_section: null
-    actuation: null
     bottom-out: '67'
     pre-travel: '2.00'
     total-travel: '4.00'
-    spring_section: null
     spring: gold-plated
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
     stem_type: coloured
     stem_color: '#298296'
     stem_material: pom
-    stem_custom_material_notes: null
-    housing_top_section: null
     housing_top_type: transparent
-    housing_top_color: null
     housing_top_material: pc
-    housing_top_custom_material_notes: null
-    housing_bottom_section: null
     housing_bottom_type: transparent
-    housing_bottom_color: null
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
     force_graph:
       - switches/force-graphs/force-curves-1626878011.png
     led_support: smd-and-inswitch
@@ -94,7 +63,6 @@ prices:
     include_vendor_discount_code: false
   -
     price: '0.55'
-    extra_text: null
     source: 'https://shop.modedesigns.com/products/t1-switch'
     vendor: mode-designs
     datecheck: '2021-07-21'
@@ -116,8 +84,15 @@ prices:
     datecheck: '2022-04-12'
     in_stock: true
     include_vendor_discount_code: false
+  -
+    price: '0.55'
+    extra_text: Smokey
+    source: 'https://deltakeyco.com/collections/switches/products/durock-t1-tactile-switches'
+    vendor: delta-key-co
+    datecheck: '2022-09-29'
+    in_stock: true
+    include_vendor_discount_code: false
 limited_run: 'no'
-limited_run_reason: 'no'
 photos:
   - switches/photos/Durock-T1-Tactile-Switch-Top-948138_900x.jpg
   - switches/photos/durock_t1_1100x.webp
@@ -139,5 +114,14 @@ quotes:
     source: 'https://www.reddit.com/r/MechanicalKeyboards/comments/kzxo05/durock_t1_review/'
     text: 'Feels like popping really small bubble wrap.'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1650470120
+updated_at: 1664470293
+published: true
+seotamic_title: title
+seotamic_title_prepend: true
+seotamic_title_append: true
+seotamic_meta_description: empty
+seotamic_open_graph_title: title
+seotamic_open_graph_description: general
+seotamic_twitter_title: title
+seotamic_twitter_description: general
 ---

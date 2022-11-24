@@ -32,19 +32,6 @@ specs:
     housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
     led_support: inswitch-through
-    weights_section: null
-    spring_section: null
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
-    stem_custom_material_notes: null
-    housing_top_section: null
-    housing_top_color: null
-    housing_top_custom_material_notes: null
-    housing_bottom_section: null
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
   -
     name: KS-3
     description: 'Best variation of this switch. They do not need films and are by far the smoothest Gateron switches/housings aside from Inks which while definitely smoother are also 6 times the price.<br /><br />Gateron Linjär and N1S switches are re-colours of the KS-3 for example. The fixing pins (for PCB-mounting) are somewhat wider than Cherry MX, giving a tighter fit. Supports two-pin LED''s only.'
@@ -63,18 +50,6 @@ specs:
     housing_bottom_color: '#3A4045'
     housing_bottom_material: nylon
     led_support: inswitch-through
-    weights_section: null
-    spring_section: null
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
-    stem_custom_material_notes: null
-    housing_top_section: null
-    housing_top_custom_material_notes: null
-    housing_bottom_section: null
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
   -
     name: KS-8
     description: 'The most common Gateron switch (most Gateron re-colours including Merlots are of this series).<br /><br />Very basic, very standard. Somewhat smooth, wobble is okay, a very average switch overall.'
@@ -94,18 +69,6 @@ specs:
     force_graph:
       - switches/force-graphs/520.png
     led_support: inswitch-through
-    weights_section: null
-    spring_section: null
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
-    stem_custom_material_notes: null
-    housing_top_section: null
-    housing_top_color: null
-    housing_top_custom_material_notes: null
-    housing_bottom_section: null
-    housing_bottom_custom_material_notes: null
   -
     name: KS-3X1
     description: 'Milky top and bottom. The scratchiest standard Gateron switch.'
@@ -122,20 +85,6 @@ specs:
     housing_bottom_type: milky
     housing_bottom_material: pcnylon
     led_support: inswitch-through
-    weights_section: null
-    spring_section: null
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
-    stem_custom_material_notes: null
-    housing_top_section: null
-    housing_top_color: null
-    housing_top_custom_material_notes: null
-    housing_bottom_section: null
-    housing_bottom_color: null
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
   -
     name: KS-9
     description: 'The only Gaterons (other than inks) to support SMD lighting. Not the worst and probably smoother than the KS-8 in stock form.'
@@ -153,19 +102,6 @@ specs:
     housing_bottom_color: '#F9F9F9'
     housing_bottom_material: nylon
     led_support: smd-and-inswitch
-    weights_section: null
-    spring_section: null
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
-    stem_custom_material_notes: null
-    housing_top_section: null
-    housing_top_color: null
-    housing_top_custom_material_notes: null
-    housing_bottom_section: null
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
 photos:
   - switches/photos/gateron-yellow-Gateron_Yellow_1024x1024@2x.jpg
   - switches/photos/gateron-yellow-DSC00475_1024x1024.jpg
@@ -256,6 +192,7 @@ prices:
     vendor: taobao
     datecheck: '2020-09-17'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.11'
     extra_text: KS-9
@@ -263,6 +200,7 @@ prices:
     vendor: taobao
     datecheck: '2020-09-17'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.11'
     extra_text: KS-8
@@ -270,6 +208,7 @@ prices:
     vendor: taobao
     datecheck: '2020-09-17'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.20'
     extra_text: KS-9
@@ -277,6 +216,7 @@ prices:
     vendor: kbdfans
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.20'
     extra_text: KS-3
@@ -284,6 +224,7 @@ prices:
     vendor: 415keys
     datecheck: '2020-11-02'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.23'
     extra_text: KS-3X1
@@ -291,6 +232,7 @@ prices:
     vendor: cannon-keys
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.23'
     extra_text: KS-3X1
@@ -298,6 +240,7 @@ prices:
     vendor: project-keyboard
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.24'
     extra_text: KS-3X47
@@ -305,6 +248,7 @@ prices:
     vendor: novelkeys
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.24'
     extra_text: KS-8
@@ -312,6 +256,7 @@ prices:
     vendor: mehkee
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.24'
     extra_text: KS-8
@@ -319,6 +264,7 @@ prices:
     vendor: aliexpress
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.24'
     extra_text: KS-3X47
@@ -326,6 +272,7 @@ prices:
     vendor: divinikey
     datecheck: '2020-10-03'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.25'
     extra_text: KS-3X1
@@ -333,6 +280,7 @@ prices:
     vendor: dangkeebs
     datecheck: '2020-09-07'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.25'
     extra_text: KS-3X1
@@ -340,6 +288,7 @@ prices:
     vendor: kbdfans
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.26'
     extra_text: KS-3X47
@@ -347,6 +296,7 @@ prices:
     vendor: mykeyboard-eu
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.28'
     extra_text: KS-8
@@ -354,6 +304,7 @@ prices:
     vendor: kebo
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.28'
     extra_text: KS-9
@@ -361,6 +312,7 @@ prices:
     vendor: kebo
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.30'
     extra_text: KS-8
@@ -368,6 +320,7 @@ prices:
     vendor: mechboards
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.30'
     extra_text: KS-8
@@ -375,6 +328,7 @@ prices:
     vendor: ilumkb
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.35'
     extra_text: KS-8
@@ -382,6 +336,7 @@ prices:
     vendor: splitkb
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.35'
     extra_text: KS-3X1
@@ -389,6 +344,7 @@ prices:
     vendor: ilumkb
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.37'
     extra_text: KS-9
@@ -396,6 +352,7 @@ prices:
     vendor: candy-keys
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.38'
     extra_text: KS-3X47
@@ -403,6 +360,7 @@ prices:
     vendor: daily-clack
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.40'
     extra_text: KS-3X1
@@ -410,6 +368,7 @@ prices:
     vendor: 1up-keyboards
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.40'
     extra_text: KS-8
@@ -417,6 +376,7 @@ prices:
     vendor: 1up-keyboards
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.51'
     extra_text: KS-3X1
@@ -424,6 +384,7 @@ prices:
     vendor: aliexpress
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.53'
     extra_text: KS-9
@@ -431,6 +392,7 @@ prices:
     vendor: aliexpress
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.56'
     extra_text: 'all variations'
@@ -438,6 +400,7 @@ prices:
     vendor: kprepublic
     datecheck: '2020-05-21'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '1.00'
     extra_text: KS-3X1
@@ -445,6 +408,7 @@ prices:
     vendor: keys-my
     datecheck: '2020-09-17'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.29'
     extra_text: KS-8
@@ -452,6 +416,7 @@ prices:
     vendor: the-keycap-club
     datecheck: '2021-06-09'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.32'
     extra_text: KS-3X1
@@ -459,6 +424,7 @@ prices:
     vendor: the-keycap-club
     datecheck: '2021-06-09'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.36'
     extra_text: KS-9
@@ -466,6 +432,7 @@ prices:
     vendor: loob
     datecheck: '2021-08-06'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.35'
     extra_text: KS-3X1
@@ -473,6 +440,7 @@ prices:
     vendor: toronto-keyboards-tokeebs
     datecheck: '2021-12-09'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '3.00'
     extra_text: 'KS-3X1 (also available pre-lubed)'
@@ -480,6 +448,7 @@ prices:
     vendor: smord-store
     datecheck: '2022-01-31'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '3.00'
     extra_text: 'KS-3X47 (also available pre-lubed)'
@@ -487,6 +456,7 @@ prices:
     vendor: smord-store
     datecheck: '2022-01-31'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.25'
     extra_text: KS-3X1
@@ -494,6 +464,7 @@ prices:
     vendor: noesc
     datecheck: '2022-02-01'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.25'
     extra_text: KS-3X47
@@ -501,6 +472,7 @@ prices:
     vendor: noesc
     datecheck: '2022-02-01'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.32'
     extra_text: KS-8
@@ -508,6 +480,7 @@ prices:
     vendor: keebd
     datecheck: '2022-05-01'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.32'
     extra_text: KS-3X1
@@ -515,9 +488,17 @@ prices:
     vendor: keebd
     datecheck: '2022-05-01'
     in_stock: true
+    include_vendor_discount_code: false
+  -
+    price: '0.25'
+    extra_text: KS-3X1
+    source: 'https://deltakeyco.com/collections/switches/products/gateron-milky-yellow-lubed'
+    vendor: delta-key-co
+    datecheck: '2022-09-29'
+    in_stock: true
+    include_vendor_discount_code: false
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1648818473
-limited_run_reason: 'no'
+updated_at: 1664471484
 theremin_goat_scores:
   -
     push_feel: 27
@@ -535,4 +516,13 @@ basic_keywords:
   - 'gateron yellow'
   - 'gateron yellow switch'
   - 'gateron milky yellow'
+published: true
+seotamic_title: title
+seotamic_title_prepend: true
+seotamic_title_append: true
+seotamic_meta_description: empty
+seotamic_open_graph_title: title
+seotamic_open_graph_description: general
+seotamic_twitter_title: title
+seotamic_twitter_description: general
 ---

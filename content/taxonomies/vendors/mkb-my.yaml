@@ -1,0 +1,25 @@
+title: MKB.MY
+country: MY
+currency: myr
+website: 'https://shopee.com.my/mkb.my'
+favicon: mkbmy.jpg
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/mkb.my/'
+    type: new_set
+    enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/MKBSEA/'
+    type: new_set
+    enabled: true
+  -
+    network: tiktok
+    item_url: 'https://vt.tiktok.com/ZSdoCe3JA/'
+    type: new_set
+    enabled: true
+is_affiliate: false
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1664790633
+blueprint: vendors

@@ -36,15 +36,32 @@ prices:
     datecheck: '2022-07-06'
     in_stock: true
     include_vendor_discount_code: false
+  -
+    price: '0.69'
+    source: 'https://keeb.io/products/durock-shrimp-silent-tactile-t1-switches'
+    vendor: keebio
+    datecheck: '2022-08-19'
+    in_stock: true
+    include_vendor_discount_code: false
+  -
+    price: '0.69'
+    source: 'https://divinikey.com/products/durock-shrimp-silent-tactile-switches'
+    vendor: divinikey
+    datecheck: '2022-08-19'
+    in_stock: true
+    include_vendor_discount_code: false
 limited_run: 'no'
 photos:
   - switches/photos/Durock-Shrimp_1800x1800.webp
+  - switches/photos/keebio-t1-shrimp.webp
+  - switches/photos/durock-shrimp-silent-tactile-switches-885109.webp
+  - switches/photos/durock-shrimp-silent-tactile-switches-976600.webp
 videos:
   -
     item_url: 'hhttps://www.youtube.com/watch?v=kASOrvT3KpQ'
     description: 'New Silent Tactile | Durock Shrimp Quick Review'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1660898880
+updated_at: 1660899197
 published: true
 seotamic_title: title
 seotamic_title_prepend: true

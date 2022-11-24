@@ -1,0 +1,25 @@
+title: Milktooth
+country: US
+currency: usd
+website: 'https://milktooth.nu/'
+favicon: milktooth.png
+social:
+  -
+    network: instagram
+    item_url: 'https://www.instagram.com/milktooth.nu/'
+    type: new_set
+    enabled: true
+  -
+    network: youtube
+    item_url: 'https://www.youtube.com/channel/UCNfQsTmj5iCPsiHJlGmZu6Q'
+    type: new_set
+    enabled: true
+  -
+    network: discord
+    item_url: 'https://discord.gg/hrDW39FpHx'
+    type: new_set
+    enabled: true
+is_affiliate: false
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1665480053
+blueprint: vendors
