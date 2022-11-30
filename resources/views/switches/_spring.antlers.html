@@ -4,6 +4,7 @@ gold-plated: 'Gold-plated'
 coated: 'Color coated'
 long: 'Long spring'
 progressive: 'Progressive'
+double-stage-standard: 'Symmetric double-staged'
 double-stage: 'Symmetric double-staged (gold plated)'
 kailh: 'Kailh Box spring <em>(smaller than MX)</em>'
 ---
@@ -38,6 +39,8 @@ kailh: 'Kailh Box spring <em>(smaller than MX)</em>'
             {{ view:long }}
         {{ elseif spring == 'progressive' }}
             {{ view:progressive }}
+        {{ elseif spring == 'double-stage-standard' }}
+            {{ view:double-stage-standard }}
         {{ elseif spring == 'double-stage' }}
             {{ view:double-stage }}
         {{ elseif spring == 'kailh' }}

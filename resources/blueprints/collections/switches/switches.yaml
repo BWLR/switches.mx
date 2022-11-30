@@ -341,6 +341,7 @@ sections:
                   coated: 'Color coated'
                   long: 'Long spring'
                   progressive: Progressive
+                  double-stage-standard: 'Symmetric double-staged'
                   double-stage: 'Symmetric double-staged (gold plated)'
                   kailh: 'Kailh Box (smaller than MX)'
                 inline: false
