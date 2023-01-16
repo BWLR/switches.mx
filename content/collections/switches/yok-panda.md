@@ -7,7 +7,7 @@ factory_lubed: slight
 lubrication_notes: '<p>They feel pretty good without extra lubrication due to the factory lube but they do respond well to a thinner lube such as Tribosys 3203 (avoiding the legs).</p>'
 film: no-fit
 notes: '<p>Created as an alternative to the BSUN GSUS Panda switch by NovelKeys. YOK Pandas are a Linear switch most often used to make Holy YOK Panda switches &#8211; an equivalent to the infamous Holy Panda switch &#8211; by replacing the stem with that of a Halo True or Halo Clear.</p><p>When switches are made from the leftover parts &#8211; the stems from YOK Pandas and the housing of Halo switches, these are dubbed Unholy Pandas &#8211; resulting in a heavy (scratchy) linear switch.</p><p>Released in a number of interesting colours with equally interesting names &#8211; all with the same specifications.</p><p>Not to be confused with Purple Trash Pandas &#8211; those are tactile switches.</p>'
-manufacturer: yok
+manufacturer: bsun
 brand: novelkeys
 switch_type: linear
 mount: '3'
