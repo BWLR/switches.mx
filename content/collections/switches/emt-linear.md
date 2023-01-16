@@ -6,7 +6,7 @@ volume: normal
 factory_lubed: 'no'
 film: unknown
 notes: '"_The EMT switch was designed with inspiration from the anime character Emilia from Re:Zero. Originally designed by skr.gugu and using their own personal moulds._" -Ashkeebs'
-manufacturer: yok
+manufacturer: bsun
 switch_type: linear
 mount: 5
 stem_construction: standard
