@@ -5,7 +5,7 @@ title: 'AEBoards Naevy'
 volume: normal
 factory_lubed: slight
 film: 'no'
-manufacturer: aeboards
+manufacturer: tecsee
 brand: aeboards
 switch_type: tactile
 mount: 5
