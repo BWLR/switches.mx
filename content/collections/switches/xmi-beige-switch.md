@@ -5,7 +5,7 @@ title: 'XMI Beige Switch'
 volume: loud
 factory_lubed: slight
 film: unknown
-manufacturer: xmi
+manufacturer: unknown
 brand: xmi
 switch_type: linear
 mount: 5
