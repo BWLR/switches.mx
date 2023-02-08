@@ -7,7 +7,7 @@ factory_lubed: slight
 lubrication_notes: '<p>They feel pretty good without extra lubrication due to the factory lube but they do respond well to a thinner lube such as Tribosys 3203 (avoiding the legs).</p>'
 film: no-fit
 notes: '<p>Created as an alternative to the BSUN GSUS Panda switch by NovelKeys. YOK Pandas are a Linear switch most often used to make Holy YOK Panda switches &#8211; an equivalent to the infamous Holy Panda switch &#8211; by replacing the stem with that of a Halo True or Halo Clear.</p><p>When switches are made from the leftover parts &#8211; the stems from YOK Pandas and the housing of Halo switches, these are dubbed Unholy Pandas &#8211; resulting in a heavy (scratchy) linear switch.</p><p>Released in a number of interesting colours with equally interesting names &#8211; all with the same specifications.</p><p>Not to be confused with Purple Trash Pandas &#8211; those are tactile switches.</p>'
-manufacturer: yok
+manufacturer: bsun
 brand: novelkeys
 switch_type: linear
 mount: '3'
@@ -19,210 +19,108 @@ specs:
     description: 'Originally went on sale around January of 2019.'
     actuation: 50
     bottom-out: 60
-    pre-travel: null
-    total-travel: null
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
     stem_type: coloured
     stem_color: '#3a4045'
     stem_material: pom
-    stem_custom_material_notes: null
     housing_top_type: coloured
     housing_top_color: '#A92256'
     housing_top_material: nylon
-    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
     housing_bottom_color: '#78143B'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
     led_support: inswitch-through
-    weights_section: null
-    spring_section: null
-    stem_section: null
-    housing_top_section: null
-    housing_bottom_section: null
   -
     name: 'Mint Panda'
     description: 'The second to be released - these Mint Green Pandas made their debut shortly after the Red Pandas.'
     actuation: 50
     bottom-out: 60
-    pre-travel: null
-    total-travel: null
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
     stem_type: coloured
     stem_color: '#3a4045'
     stem_material: pom
-    stem_custom_material_notes: null
     housing_top_type: coloured
     housing_top_color: '#9FE3CC'
     housing_top_material: nylon
-    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
     housing_bottom_color: '#9FE3CC'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
     led_support: smd-and-inswitch
-    weights_section: null
-    spring_section: null
-    stem_section: null
-    housing_top_section: null
-    housing_bottom_section: null
   -
     name: 'Trash Panda'
     description: 'The third variation of YOK Panda to be introduced. Featuring a more neutral base color, these switches were introduced by NovelKeys in March 2019.'
     actuation: 50
     bottom-out: 60
-    pre-travel: null
-    total-travel: null
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
     stem_type: coloured
     stem_color: '#3a4045'
     stem_material: pom
-    stem_custom_material_notes: null
     housing_top_type: coloured
     housing_top_color: '#4e5251'
     housing_top_material: nylon
-    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
     housing_bottom_color: '#4e5251'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
     led_support: smd-and-inswitch
-    weights_section: null
-    spring_section: null
-    stem_section: null
-    housing_top_section: null
-    housing_bottom_section: null
   -
     name: 'Polar Panda'
     description: 'The fourth variation released around August 2019.'
     actuation: 50
     bottom-out: 60
-    pre-travel: null
-    total-travel: null
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
     stem_type: coloured
     stem_color: '#3a4045'
     stem_material: pom
-    stem_custom_material_notes: null
     housing_top_type: coloured
     housing_top_color: '#3BB9F7'
     housing_top_material: nylon
-    housing_top_custom_material_notes: null
     housing_bottom_type: coloured
     housing_bottom_color: '#3BB9F7'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
     led_support: smd-and-inswitch
-    weights_section: null
-    spring_section: null
-    stem_section: null
-    housing_top_section: null
-    housing_bottom_section: null
   -
     name: 'White Panda'
     description: 'The fifth variant of the panda series, these also feature a more friendly color scheme compared to the other pandas.'
-    weights_section: null
     actuation: '50'
     bottom-out: '60'
-    pre-travel: null
-    total-travel: null
-    spring_section: null
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
     stem_type: coloured
     stem_color: '#3A4045'
     stem_material: pom
-    stem_custom_material_notes: null
-    housing_top_section: null
     housing_top_type: coloured
     housing_top_color: '#FFFDF7'
     housing_top_material: nylon
-    housing_top_custom_material_notes: null
-    housing_bottom_section: null
     housing_bottom_type: coloured
     housing_bottom_color: '#FFFDF7'
     housing_bottom_material: nylon
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
     led_support: smd-and-inswitch
   -
     name: 'Translucent (62g)'
     description: 'The 6th and final variant of the panda series is the translucent panda.'
-    weights_section: null
     actuation: '50'
     bottom-out: '62'
-    pre-travel: null
-    total-travel: null
-    spring_section: null
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
     stem_type: coloured
     stem_color: '#3A4045'
     stem_material: pom
-    stem_custom_material_notes: null
-    housing_top_section: null
     housing_top_type: transparent
-    housing_top_color: null
     housing_top_material: pc
-    housing_top_custom_material_notes: null
-    housing_bottom_section: null
     housing_bottom_type: transparent
-    housing_bottom_color: null
     housing_bottom_material: pc
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
     led_support: smd-and-inswitch
   -
     name: 'Translucent Panda (67g)'
     description: 'The 6th and final variant of the panda series is the translucent panda.'
-    weights_section: null
     actuation: '50'
     bottom-out: '67'
-    pre-travel: null
-    total-travel: null
-    spring_section: null
     spring: standard
-    spring_color: null
-    spring_color_info: null
-    spring_swap: null
-    stem_section: null
     stem_type: coloured
     stem_color: '#3A4045'
     stem_material: pom
-    stem_custom_material_notes: null
-    housing_top_section: null
     housing_top_type: transparent
-    housing_top_color: null
     housing_top_material: pc
-    housing_top_custom_material_notes: null
-    housing_bottom_section: null
     housing_bottom_type: transparent
-    housing_bottom_color: null
     housing_bottom_material: pc
-    housing_bottom_custom_material_notes: null
-    force_graph: {  }
     led_support: smd-and-inswitch
 photos:
   - switches/photos/yok-panda-novelkeys_red_panda.jpg
@@ -330,6 +228,7 @@ prices:
     vendor: novelkeys
     datecheck: '2020-05-24'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.55'
     extra_text: Mint
@@ -337,6 +236,7 @@ prices:
     vendor: mykeyboard-eu
     datecheck: '2020-05-24'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.55'
     extra_text: Polar
@@ -344,6 +244,7 @@ prices:
     vendor: mykeyboard-eu
     datecheck: '2020-05-24'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.55'
     extra_text: Trash
@@ -351,6 +252,7 @@ prices:
     vendor: mykeyboard-eu
     datecheck: '2020-05-24'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.85'
     extra_text: Red
@@ -358,6 +260,7 @@ prices:
     vendor: ilumkb
     datecheck: '2020-05-24'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.85'
     extra_text: Mint
@@ -365,6 +268,7 @@ prices:
     vendor: ilumkb
     datecheck: '2020-05-24'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.85'
     extra_text: Polar
@@ -372,6 +276,7 @@ prices:
     vendor: ilumkb
     datecheck: '2020-05-24'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.85'
     extra_text: Trash
@@ -379,6 +284,7 @@ prices:
     vendor: ilumkb
     datecheck: '2020-05-24'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.90'
     extra_text: Red
@@ -386,6 +292,7 @@ prices:
     vendor: daily-clack
     datecheck: '2020-05-24'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.90'
     extra_text: Mint
@@ -393,6 +300,7 @@ prices:
     vendor: daily-clack
     datecheck: '2020-05-24'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '0.90'
     extra_text: Trash
@@ -400,6 +308,7 @@ prices:
     vendor: daily-clack
     datecheck: '2020-05-24'
     in_stock: true
+    include_vendor_discount_code: false
   -
     price: '1.19'
     extra_text: Red
@@ -407,9 +316,18 @@ prices:
     vendor: mechbox
     datecheck: '2020-05-26'
     in_stock: true
+    include_vendor_discount_code: false
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1643558436
+updated_at: 1674573649
 stem_length: standard
 mechbox_affiliate_link: 'https://mechbox.co.uk/products/yok-polar-panda-switch?variant=40097967014050'
-limited_run_reason: 'no'
+published: true
+seotamic_title: title
+seotamic_title_prepend: true
+seotamic_title_append: true
+seotamic_meta_description: empty
+seotamic_open_graph_title: title
+seotamic_open_graph_description: general
+seotamic_twitter_title: title
+seotamic_twitter_description: general
 ---

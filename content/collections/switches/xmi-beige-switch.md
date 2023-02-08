@@ -5,7 +5,6 @@ title: 'XMI Beige Switch'
 volume: loud
 factory_lubed: slight
 film: unknown
-manufacturer: xmi
 brand: xmi
 switch_type: linear
 mount: 5
@@ -17,7 +16,7 @@ specs:
     bottom-out: '80'
     pre-travel: '1.5'
     total-travel: '3.70'
-    spring: double-stage
+    spring: double-stage-standard
     stem_type: coloured
     stem_color: '#F1F0EE'
     stem_material: pom
@@ -64,7 +63,7 @@ seotamic_open_graph_description: general
 seotamic_twitter_title: title
 seotamic_twitter_description: general
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1669817672
+updated_at: 1674573662
 notes: 'The colorway is inspired by the beige keycaps from XMI (close to L9 and U9). XMI Beige is a smooth linear switch with minimum stem wobble, snappy 62g double staged spring with a deep but loud bottom out.'
 published: true
 ---

@@ -10,6 +10,11 @@ social:
     item_url: 'https://www.instagram.com/apexmechs/'
     type: new_set
     enabled: true
+  -
+    network: facebook
+    item_url: 'https://www.facebook.com/profile.php?id=100088921942244'
+    type: new_set
+    enabled: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1665479322
+updated_at: 1675088171
 blueprint: vendors

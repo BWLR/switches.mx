@@ -1,8 +1,9 @@
 title: Frankenswitches
-amp: true
 template: frankenswitches/show
 layout: layout
+mount: a20f392b-f077-4198-9d7f-f35d92ca3c7d
 revisions: false
+route: '{slug}'
 sort_dir: asc
 default_status: draft
 date_behavior:

@@ -9,12 +9,12 @@
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "laravel/framework": "^8.0",
+        "laravel/framework": "^8.75",
         "laravel/socialite": "^5.0",
         "laravel/tinker": "^2.0",
         "league/glide-laravel": "^1.0",
         "pecotamic/sitemap": "^1.2",
-        "statamic/cms": "3.3.58"
+        "statamic/cms": "3.4.2"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",
@@ -28,6 +28,7 @@
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
+	"platform-check": false,
         "allow-plugins": {
             "pixelfear/composer-dist-plugin": true
         }

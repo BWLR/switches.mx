@@ -19,7 +19,10 @@ social:
     item_url: 'https://discord.gg/6y2MA2pygb'
     type: new_set
     enabled: true
-is_affiliate: false
+is_affiliate: true
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1664813805
+updated_at: 1674571822
 blueprint: vendors
+affiliate_code: ref=BXkLWFAoiNRxPZ
+referral_code: SWITCHESMX
+referral_discount_bonus: '3'

@@ -25,7 +25,6 @@ preferences:
         - known-as
     switches:
       per_page: 100
-      after_save: continue_editing
   taxonomies:
     switch_type:
       after_save: create_another
