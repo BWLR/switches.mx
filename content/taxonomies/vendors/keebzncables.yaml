@@ -1,8 +1,9 @@
 title: KeebzNCables
-country: US
-currency: usd
+country: AU
+currency: aud
 website: 'https://www.keebzncables.com'
-favicon: second-switch-1644455577.png
+favicon: keebz_n_cables_logo_-_white_-_copy_bb8b8ced-9bd5-44cb-b63b-1e8d6090f996_32x32.png
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1644455581
+updated_at: 1689603935
 blueprint: vendors
+is_affiliate: false

@@ -24,7 +24,7 @@ preferences:
         - stem
         - known-as
     switches:
-      per_page: 100
+      per_page: 500
   taxonomies:
     switch_type:
       after_save: create_another

@@ -12,6 +12,7 @@ stem_construction: standard
 stem_length: long
 specs:
   -
+    id: 6waBmBOv
     actuation: '63.5'
     spring: double-stage
     stem_type: coloured
@@ -25,6 +26,7 @@ specs:
     housing_bottom_material: nylon
 prices:
   -
+    id: JhcfBOci
     price: '0.55'
     source: 'https://bolsakeyboardsupply.com/products/zaku-switch'
     vendor: bolsa-keyboard-supply
@@ -32,6 +34,7 @@ prices:
     include_vendor_discount_code: false
     datecheck: '2022-09-01'
   -
+    id: uF1ZVLFt
     price: '0.55'
     source: 'https://www.ashkeebs.com/product/zaku-linear-switches/'
     vendor: ashkeebs
@@ -39,6 +42,7 @@ prices:
     include_vendor_discount_code: false
     datecheck: '2022-09-01'
   -
+    id: vKa34VCQ
     price: '0.40'
     source: 'https://prototypist.net/products/in-stock-zaku-switches'
     vendor: prototypist
@@ -53,103 +57,131 @@ photos:
   - switches/photos/Zaku_e68159f5-7509-40df-b750-be4ceedb5702_590x590.webp
 videos:
   -
+    id: RX6YDUBu
     item_url: 'https://www.youtube.com/watch?v=_whVAVcWSjk'
     description: 'Linear Switches For The Cultured Individual | Zaku Switch Review by Shoobs'
   -
+    id: iCHmrWbp
     item_url: 'https://www.youtube.com/watch?v=iuIcksOj97I'
     description: 'LONG POLE SUPERIOR?! Zakus switch review! by Maker Mods'
   -
+    id: gdkFcNHA
     item_url: 'https://www.youtube.com/watch?v=-1CWMkx4hRI'
     description: 'Zaku Switch Sound Test | Tofu65 by Bolsa Supply'
   -
+    id: AIrsaUi6
     item_url: 'https://www.youtube.com/watch?v=j6yIZ6365D4'
     description: 'Gok 7V / Zaku Switches / Plateless / Sound Test by Halloween'
   -
+    id: Ira7af03
     item_url: 'https://www.youtube.com/watch?v=LmClGlxWomc'
     description: 'Ai03 Vega / POM Plate / Zaku Linear Sound Test by TofuTypes'
   -
+    id: 1If5lnPb
     item_url: 'https://www.youtube.com/watch?v=JbxPr7PYpjg'
     description: 'Zaku Linear Switches | Bolsa Supply by susboards'
   -
+    id: D0o6j5Zr
     item_url: 'https://www.youtube.com/watch?v=mVGnNG7kx4o'
     description: 'MY NEW FAV SWITCHES! Endgame Worthy! Zakus On My Mode 65 by Durian SoftJoJo'
   -
+    id: 7yZ8XHSl
     item_url: 'https://www.youtube.com/watch?v=pwjiadMqtJc'
     description: 'This keyboard sounds like royalty - Mr. Suit Keyboard - Zaku Switches - Sound Test by zandkeyboards'
   -
+    id: JABpHF23
     item_url: 'https://www.youtube.com/watch?v=1PsAFo2EO5E'
     description: 'ZAKU Linear Switches | review + sound test by hi_keebs'
   -
+    id: nPmvzq6N
     item_url: 'https://www.youtube.com/watch?v=zoP_sodYGio'
     description: 'The Next God Tier Switch : Zaku Switches by smilindown'
   -
+    id: cyXulrhn
     item_url: 'https://www.youtube.com/watch?v=k1-RlAI5Uuc&t=17s'
     description: 'Keycult No. 2/65 with Zaku Switches Typing Sound Test by nickieboards'
   -
+    id: mbtnR4Mx
     item_url: 'https://www.youtube.com/watch?v=YiddklZL-S4'
     description: 'Iron165 PC Smoke w Zaku Switches Typing Sound by aestralz'
   -
+    id: rZeDHQxE
     item_url: 'https://www.youtube.com/watch?v=h79BOj-8jfk'
     description: 'Are Geon Blacks Zaku Recolors? Comparison with Frequency and Material Density Analysis by Maker Mods'
   -
+    id: 0EYGnjVe
     item_url: 'https://www.youtube.com/watch?v=1O0hb1DcHow'
     description: 'Owlab Spring - Zaku Switches by Merkeebs'
   -
+    id: SteRyA6Y
     item_url: 'https://www.youtube.com/watch?v=iwB3GlghQk4'
     description: 'Space65 R3 (Shadow) - Zaku Linear Switches by Merkeebs'
   -
+    id: kFjSOOZL
     item_url: 'https://www.youtube.com/watch?v=-Vauyd9ruCo'
     description: 'Vega with Zakus Build Stream by Taeha Tapes'
   -
+    id: lVWY38e3
     item_url: 'https://www.youtube.com/watch?v=waHSmTs1mHk'
     description: 'Lubed and Filmed Zaku switches: Bakeneko65 sound test by Slump'
   -
+    id: 3V4HbTe4
     item_url: 'https://www.youtube.com/watch?v=XFb3rWGxxUM'
     description: 'QK65 Sound Test | POM Plate | Zaku Switches by RoboHobo'
   -
+    id: sd4W7ab3
     item_url: 'https://www.youtube.com/watch?v=2S16OyDKLHA'
     description: 'Iron 165 PC w/ Zaku by gtmget'
   -
+    id: H4mx1HBw
     item_url: 'https://www.youtube.com/watch?v=v6jSScIOdVg'
     description: 'Keychron Q2 Sound Test | Zaku Switches by RoboHobo'
   -
+    id: OXKEuYDL
     item_url: 'https://www.youtube.com/watch?v=Kf2tzECk-2I'
     description: 'Mr. Suit R2 w/ Zaku Switches by Anson Lee'
   -
+    id: bmbiQlJc
     item_url: 'https://www.youtube.com/watch?v=62iff0PhRQ8'
     description: 'Smooth Clacks! | Paraluman by DeskDaily | Zaku Switches | XMI Purple Hangul | POM Half-Plate by Gelo Camacho'
   -
+    id: uJ5gpyVg
     item_url: 'https://www.youtube.com/watch?v=iNMq4D9g6QA'
     description: 'Mr. Suit by Owlab with Zaku Switches! Better sounding than Jelly Epoch? by answer wrong'
   -
+    id: nUMjlTv3
     item_url: 'https://www.youtube.com/watch?v=j_yVB7hh64M'
     description: 'Zaku Linear Switches on the Freebird 60 | Sound Test and Quick Thoughts by ThockyDocKey'
   -
+    id: UedcphIJ
     item_url: 'https://www.youtube.com/watch?v=dYBBgJJOy6Y'
     description: 'White/Brass Keycult 1/65 + Zaku Switches Soundtest by PrinceNavy'
   -
+    id: 5MFYd8ST
     item_url: 'https://www.youtube.com/watch?v=R3LplXlbt88'
     description: 'Laneware LW-67 | Zaku Switches | Sound Test by Lexmic'
   -
+    id: AGgtkfIC
     item_url: 'https://www.youtube.com/watch?v=vh6yyDZyvyY'
     description: 'Tofu60 with Zaku Switches by Khoa'
   -
+    id: 1Z0xN960
     item_url: 'https://www.youtube.com/watch?v=Heai6Ed8l5s'
     description: 'Bakeneko60 Sound Test | Zaku Switches by RoboHobo'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1662021846
+updated_at: 1676975378
 notes: |-
   From Bolsa Supply: The name and colorway is inspired off the Gundam Suit MS-06R-1A Zaku II piloted by Shin Matsunaga which is one of our favorite Gunpla models. 
 
   The switch is a very smooth linear that is paired with an extended stem pole and a 63.5g double spring - providing a clacky bottom out and a snappy return experience.
-published: true
 brand: bolsa-supply
 seotamic_title: title
 seotamic_title_prepend: true
 seotamic_title_append: true
-seotamic_meta_description: empty
+seotamic_meta_description: custom
 seotamic_open_graph_title: title
 seotamic_open_graph_description: general
 seotamic_twitter_title: title
 seotamic_twitter_description: general
+seotamic_custom_meta_description: 'Zaku switch from Bolsa Supply. Inspired by Gundam Suit MS-06R-1A Zaku II piloted by Shin Matsunaga. Very smooth linear with an extended stem pole, 63.5g double spring. Clacky bottom out, snappy return'
 ---

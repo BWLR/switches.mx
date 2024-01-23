@@ -1,0 +1,22 @@
+title: Chosfox
+country: CN
+currency: usd
+website: 'https://chosfox.com/'
+favicon: chosfox.png
+social:
+  -
+    id: lefvozuq
+    network: facebook
+    item_url: 'https://www.facebook.com/Chosfox'
+    type: new_set
+    enabled: true
+  -
+    id: lefvp6ze
+    network: discord
+    item_url: 'https://discord.com/invite/8kCtNXDdAc'
+    type: new_set
+    enabled: true
+is_affiliate: false
+updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
+updated_at: 1677082664
+blueprint: vendors

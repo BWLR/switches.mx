@@ -13,8 +13,9 @@ stem_construction: standard
 stem_length: standard
 specs:
   -
+    id: JV3YVeig
     actuation: '55'
-    bottom-out: '65'
+    bottom-out: '80'
     pre-travel: '2.00'
     total-travel: '4.00'
     spring: coated
@@ -34,6 +35,7 @@ specs:
       - switches/force-graphs/Gateron-Oil-King_force-graph.png
 prices:
   -
+    id: K5Bhl89J
     price: '0.65'
     source: 'https://thockeys.com/switches/oil-kings/'
     vendor: thockeys
@@ -41,6 +43,7 @@ prices:
     in_stock: true
     include_vendor_discount_code: false
   -
+    id: S0qv3jB5
     price: '0.65'
     source: 'https://kbdfans.com/products/gateron-oil-king-linear-switches'
     vendor: kbdfans
@@ -48,6 +51,7 @@ prices:
     in_stock: true
     include_vendor_discount_code: false
   -
+    id: MNUJjgJk
     price: '0.65'
     source: 'https://candykeys.com/product/gateron-oil-king-switch'
     vendor: candy-keys
@@ -55,6 +59,7 @@ prices:
     in_stock: true
     include_vendor_discount_code: false
   -
+    id: DBDLLYVP
     price: '0.65'
     source: 'https://www.keycrox.co.uk/product/gateron-oil-king-switches'
     vendor: keycrox-uk
@@ -62,6 +67,7 @@ prices:
     in_stock: false
     include_vendor_discount_code: false
   -
+    id: 5NLixucQ
     price: '0.65'
     source: 'https://keygem.store/products/gateron-oil-king-10pcs'
     vendor: keygem
@@ -69,6 +75,7 @@ prices:
     in_stock: false
     include_vendor_discount_code: false
   -
+    id: tiZz26Nw
     price: '0.67'
     source: 'https://keebsforall.com/products/gateron-oil-king-switches'
     vendor: keebsforall
@@ -76,6 +83,7 @@ prices:
     in_stock: false
     include_vendor_discount_code: false
   -
+    id: ZKZNeIMu
     price: '0.65'
     source: 'https://www.serpentkeys.co.uk/products/gateron-oil-king-switches-10pcs'
     vendor: serpentkeys
@@ -83,6 +91,7 @@ prices:
     in_stock: true
     include_vendor_discount_code: false
   -
+    id: euqCuXXR
     price: '0.70'
     source: 'https://www.eloquentclicks.com/product/gateron-oil-king/'
     vendor: eloquent-clicks
@@ -90,6 +99,7 @@ prices:
     in_stock: true
     include_vendor_discount_code: false
   -
+    id: 7M16p8jO
     price: '0.65'
     source: 'https://prevailkeyco.com/products/gateron-oil-king-switches'
     vendor: prevail-key-co
@@ -97,6 +107,7 @@ prices:
     in_stock: false
     include_vendor_discount_code: false
   -
+    id: Sm9Tnqk4
     price: '0.65'
     source: 'https://hippokeys.com/products/gateron-oil-king'
     vendor: hippokeys
@@ -104,6 +115,7 @@ prices:
     in_stock: false
     include_vendor_discount_code: false
   -
+    id: qczG0OYU
     price: '55'
     source: 'https://rectangles.store/products/gateron-oil-kings'
     vendor: rectangles-store
@@ -111,6 +123,7 @@ prices:
     in_stock: true
     include_vendor_discount_code: false
   -
+    id: bsZj5AAX
     price: '0.82'
     source: 'https://shockport.com/products/gateron-oil-kings'
     vendor: shockport-keyboards
@@ -118,6 +131,7 @@ prices:
     in_stock: false
     include_vendor_discount_code: false
   -
+    id: 2ZCHfCgS
     price: '0.65'
     source: 'https://minokeys.com/collections/switches/products/gateron-oil-king-linear-switches'
     vendor: mino-keys
@@ -125,6 +139,7 @@ prices:
     in_stock: false
     include_vendor_discount_code: false
   -
+    id: 08xIs4Fa
     price: '0.65'
     source: 'https://www.ashkeebs.com/product/gateron-oil-king-linear-switches/'
     vendor: ashkeebs
@@ -132,6 +147,7 @@ prices:
     in_stock: true
     include_vendor_discount_code: false
   -
+    id: cwFKHj9s
     price: '0.65'
     source: 'https://dangkeebs.com/products/gateron-oil-king'
     vendor: dangkeebs
@@ -139,6 +155,7 @@ prices:
     in_stock: false
     include_vendor_discount_code: false
   -
+    id: sQ0E8KrR
     price: '0.65'
     source: 'https://www.mechmods.co.uk/collections/switches/products/gateron-oil-king-switches?variant=42483594526943'
     vendor: mechmods
@@ -146,6 +163,7 @@ prices:
     in_stock: true
     include_vendor_discount_code: false
   -
+    id: 4RRBRgnd
     price: '0.69'
     source: 'https://nomkeys.xyz/products/gateron-oil-king'
     vendor: nomkeys
@@ -153,6 +171,7 @@ prices:
     in_stock: true
     include_vendor_discount_code: false
   -
+    id: 3Oy0QKDG
     price: '0.85'
     source: 'https://ymdkey.com/products/gateron-oil-king-pre-lubed-5pin-switches-55g-linear-mechanical-keyboard-custom-switch'
     vendor: ymdk
@@ -160,6 +179,7 @@ prices:
     in_stock: true
     include_vendor_discount_code: false
   -
+    id: 3qmDNRVf
     price: '0.75'
     source: 'https://keebd.com/products/gateron-oil-king'
     vendor: keebd
@@ -167,6 +187,7 @@ prices:
     in_stock: true
     include_vendor_discount_code: false
   -
+    id: fAdfdhIN
     price: '0.65'
     source: 'https://stupidbulletstech.com/products/gateron-oil-king'
     vendor: stupid-bullets-tech
@@ -186,28 +207,36 @@ photos:
   - switches/photos/DSC09293.jpg
 videos:
   -
+    id: xVM1sbXw
     item_url: 'https://www.youtube.com/watch?v=3joKjDwDkA8'
     description: 'GATERON is KILLING IT! OIL KING is the NEW INK BLACK for EVERYONE by Keybored'
   -
+    id: 2kbeFGDm
     item_url: 'https://www.youtube.com/watch?v=Vj1ElmR-MLg'
     description: 'Gateron Oil King Switch filmed sound test, stock typing, lubed typing, lubed+Deskeys typing by issey83'
   -
+    id: zkvI2a5Z
     item_url: 'https://www.youtube.com/watch?v=5W0co2UaB6E'
     description: 'Gateron Oil King Mechanical Switch - Quick First Look by PXL'
   -
+    id: mDgxQGws
     item_url: 'https://www.youtube.com/watch?v=emL-279u2cU'
     description: 'Gateron Oil King Review | Sultan or Street Rat?! by Maker Mods'
   -
+    id: ZvB2DhKz
     item_url: 'https://www.youtube.com/watch?v=UKijkouMd0I'
     description: 'Build: Laneware Peripherals LW-75 Prototype with Gateron Oil King Switches by MechMerlin'
   -
+    id: pbOQM7IG
     item_url: 'https://www.youtube.com/watch?v=5W0co2UaB6E'
     description: 'Gateron Oil King Mechanical Switch - Quick First Look by PXL'
   -
+    id: QDYkkSok
     item_url: 'https://www.youtube.com/watch?v=rbbHtF6R9FY'
     description: 'Ai03 Vega / POM Plate / Gateron Oil King Linear Sound Test and Review by TofuTypes'
 theremin_goat_scores:
   -
+    id: GQZ8jv09
     push_feel: 30
     wobble: 19
     sound: 7
@@ -217,13 +246,12 @@ theremin_goat_scores:
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/Gateron%20Oil%20King.pdf'
     link_to_review: 'https://www.theremingoat.com/blog/gateron-oil-king-switch-review'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
-updated_at: 1660832599
+updated_at: 1681393065
 notes: |-
   New for 2022, Gateron Oil King switches offer a very smooth typing experience right out of the box and are very usable without having to mod due to Gateron's new factory lubing method. Featuring nylon top housing, ink bottom housing and POM stem with a long 20mm spring.
 
   From [Thockeys.com](https://thockeys.com/switches/oil-kings/)
   "Gateron has released updated spring force measurements. Bottom out was originally listed as 80g, it is now corrected to 65g."
-published: true
 seotamic_title: title
 seotamic_title_prepend: true
 seotamic_title_append: true
@@ -232,4 +260,9 @@ seotamic_open_graph_title: title
 seotamic_open_graph_description: general
 seotamic_twitter_title: title
 seotamic_twitter_description: general
+related_links:
+  -
+    id: lgf5ydbm
+    item_url: 'https://www.gateron.co/products/gateron-oil-king-switch-set'
+    description: 'Official Gateron Website'
 ---

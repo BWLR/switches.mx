@@ -1,4 +1,12 @@
 site_name: Switches.mx
 site_name_separator: '|'
+image_asset_container: /assets
 basics:
   - basic
+  - advanced
+dublin_core:
+  - dublin_core
+google:
+  - google_cse
+facebook:
+  - og

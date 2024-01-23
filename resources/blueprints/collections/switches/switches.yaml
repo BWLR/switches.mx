@@ -26,7 +26,7 @@ sections:
           options:
             silent: 'This is a silent switch with internal rubber dampers'
             normal: 'Standard switch with no dampers, can be further silenced with lubrication or O-rings'
-            loud: 'This is a loud switch. Not recommended for use in an office environment or others that don''t appreciated a loud keyboard ;)'
+            loud: "This is a loud switch. Not recommended for use in an office environment or others that don't appreciated a loud keyboard ;)"
           inline: false
           cast_booleans: false
           display: 'Switch volume'
@@ -119,6 +119,34 @@ sections:
           icon: markdown
           instructions: '(markdown format supported)'
           listable: hidden
+      -
+        handle: seotamic_meta_description
+        field:
+          options:
+            empty: Empty
+            general: General
+            custom: Custom
+          clearable: false
+          default: empty
+          multiple: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          type: select
+          instructions: 'It can be used to determine the text used under the title on search engine results pages. If empty, search engines will automatically generate this text.'
+          listable: hidden
+          display: 'Meta description'
+      -
+        handle: seotamic_custom_meta_description
+        field:
+          input_type: text
+          character_limit: 200
+          type: textarea
+          listable: hidden
+          display: 'Custom Meta description'
+          if:
+            seotamic_meta_description: 'equals custom'
   sidebar:
     display: Sidebar
     fields:
@@ -244,7 +272,7 @@ sections:
                 display: 'Variation name'
                 type: text
                 icon: text
-                instructions: 'Not always necessary because sometimes it''s just a different weighting, for example in the case of Tealios, Zealios etc. that come in 63.5g, 65g, 67g etc.<br /> But in the case of YOK Trash/Polar/Red Pandas it''s important to give them a name because they''re all the same switch just different recolours.'
+                instructions: "Not always necessary because sometimes it's just a different weighting, for example in the case of Tealios, Zealios etc. that come in 63.5g, 65g, 67g etc.<br /> But in the case of YOK Trash/Polar/Red Pandas it's important to give them a name because they're all the same switch just different recolours."
                 listable: hidden
             -
               handle: description
@@ -408,7 +436,7 @@ sections:
                 default: coloured
                 type: radio
                 icon: radio
-                instructions: 'For transparent leave the colour blank if it''s completely clear otherwise choose colour.'
+                instructions: "For transparent leave the colour blank if it's completely clear otherwise choose colour."
                 listable: hidden
             -
               handle: stem_color
@@ -473,7 +501,7 @@ sections:
                 default: coloured
                 type: radio
                 icon: radio
-                instructions: 'For transparent leave the colour blank if it''s completely clear otherwise choose colour.'
+                instructions: "For transparent leave the colour blank if it's completely clear otherwise choose colour."
                 listable: hidden
             -
               handle: housing_top_color
@@ -538,7 +566,7 @@ sections:
                 default: coloured
                 type: radio
                 icon: radio
-                instructions: 'For transparent leave the colour blank if it''s completely clear otherwise choose colour.'
+                instructions: "For transparent leave the colour blank if it's completely clear otherwise choose colour."
                 listable: hidden
             -
               handle: housing_bottom_color
@@ -608,7 +636,7 @@ sections:
                 display: 'LED Support'
                 type: radio
                 icon: radio
-                instructions: 'Does the switch have a space to allow light to shine through from beneath or allow space for LED''s?'
+                instructions: "Does the switch have a space to allow light to shine through from beneath or allow space for LED's?"
                 listable: hidden
           mode: stacked
           add_row: 'Add variation'
@@ -666,7 +694,7 @@ sections:
                 mode: typeahead
                 listable: true
                 max_items: 1
-                instructions: 'Please select one from the list (don''t add new vendors from here)'
+                instructions: "Please select one from the list (don't add new vendors from here)"
             -
               handle: datecheck
               field:
@@ -887,7 +915,7 @@ sections:
           display: Links
           type: grid
           icon: grid
-          instructions: 'It''s worth checking [ThereminGoat''s GitHub PDF Repository of switch score sheets](https://github.com/ThereminGoat/switch-scores) if one exists for this switch then link it here.'
+          instructions: "It's worth checking [ThereminGoat's GitHub PDF Repository of switch score sheets](https://github.com/ThereminGoat/switch-scores) if one exists for this switch then link it here."
           listable: hidden
           add_row: 'Add new link'
       -
@@ -1041,7 +1069,6 @@ sections:
           display: Meta
           listable: hidden
           type: section
-          localizable: false
       -
         handle: seotamic_title
         field:
@@ -1055,7 +1082,6 @@ sections:
           push_tags: false
           cast_booleans: false
           type: select
-          localizable: false
           listable: hidden
           default: title
           display: Title
@@ -1066,7 +1092,6 @@ sections:
           input_type: text
           character_limit: 100
           type: text
-          localizable: false
           listable: hidden
           display: 'Custom Meta Title'
           if:
@@ -1076,7 +1101,6 @@ sections:
         field:
           type: toggle
           instructions: 'Prepends to title the text set in General SEO settings'
-          localizable: false
           default: true
           width: 50
           listable: hidden
@@ -1085,55 +1109,22 @@ sections:
         handle: seotamic_title_append
         field:
           type: toggle
-          localizable: false
           instructions: 'Appends to title the text set in General SEO settings'
           width: 50
           listable: hidden
           default: true
           display: 'Title append'
       -
-        handle: seotamic_meta_description
-        field:
-          options:
-            empty: Empty
-            general: General
-            custom: Custom
-          clearable: false
-          default: empty
-          multiple: false
-          searchable: true
-          taggable: false
-          push_tags: false
-          cast_booleans: false
-          type: select
-          instructions: 'It can be used to determine the text used under the title on search engine results pages. If empty, search engines will automatically generate this text.'
-          localizable: false
-          listable: hidden
-          display: 'Meta description'
-      -
-        handle: seotamic_custom_meta_description
-        field:
-          input_type: text
-          character_limit: 200
-          type: textarea
-          localizable: false
-          listable: hidden
-          display: 'Custom Meta description'
-          if:
-            seotamic_meta_description: 'equals custom'
-      -
         handle: seotamic_canonical
         field:
           type: link
           instructions: 'By default it will be set to the page url'
-          localizable: false
           listable: hidden
           display: Canonical
       -
         handle: seotamic_social
         field:
           type: section
-          localizable: false
           listable: hidden
           display: Social
       -
@@ -1151,7 +1142,6 @@ sections:
           push_tags: false
           cast_booleans: false
           type: select
-          localizable: false
           listable: hidden
           display: 'Open Graph title'
       -
@@ -1160,7 +1150,6 @@ sections:
           input_type: text
           character_limit: 100
           type: text
-          localizable: false
           listable: hidden
           display: 'Custom Open Graph title'
           if:
@@ -1180,7 +1169,6 @@ sections:
           push_tags: false
           cast_booleans: false
           type: select
-          localizable: false
           listable: hidden
           display: 'Open Graph description'
       -
@@ -1189,7 +1177,6 @@ sections:
           input_type: text
           character_limit: 200
           type: textarea
-          localizable: false
           listable: hidden
           display: 'Custom Open Graph description'
           if:
@@ -1209,7 +1196,6 @@ sections:
           push_tags: false
           cast_booleans: false
           type: select
-          localizable: false
           listable: hidden
           display: 'Twitter title'
       -
@@ -1218,7 +1204,6 @@ sections:
           input_type: text
           character_limit: 100
           type: text
-          localizable: false
           listable: hidden
           display: 'Custom Twitter title'
           if:
@@ -1238,7 +1223,6 @@ sections:
           push_tags: false
           cast_booleans: false
           type: select
-          localizable: false
           listable: hidden
           display: 'Twitter description'
       -
@@ -1247,7 +1231,6 @@ sections:
           input_type: text
           character_limit: 200
           type: textarea
-          localizable: false
           listable: hidden
           display: 'Custom Twitter description'
           if:
@@ -1261,7 +1244,6 @@ sections:
           allow_uploads: true
           max_files: 1
           type: assets
-          instructions: 'If not set, the general image will be used. It''s best to use an image with a 1.91:1 aspect ratio that is at least 1200px wide for universal support. The image will be resized to 1200 width.'
-          localizable: false
+          instructions: "If not set, the general image will be used. It's best to use an image with a 1.91:1 aspect ratio that is at least 1200px wide for universal support. The image will be resized to 1200 width."
           listable: hidden
           display: Image

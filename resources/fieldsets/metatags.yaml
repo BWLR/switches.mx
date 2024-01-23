@@ -9,13 +9,13 @@ fields:
     handle: basic_title
     field:
       display: 'Page title'
-      instructions: 'The text to display in the title bar of a visitor''s web browser when they view this page. This meta tag may also be used as the title of the page when a visitor bookmarks or favorites this page, or as the page title in a search engine result. It is recommended that the title be no greater than 55 - 65 characters long, including spaces.'
+      instructions: "The text to display in the title bar of a visitor's web browser when they view this page. This meta tag may also be used as the title of the page when a visitor bookmarks or favorites this page, or as the page title in a search engine result. It is recommended that the title be no greater than 55 - 65 characters long, including spaces."
       type: text
   -
     handle: basic_description
     field:
       display: Description
-      instructions: 'A brief and concise summary of the page''s content, preferably 150 characters or less. Where as the description meta tag may be used by search engines to display a snippet about the page in search results.'
+      instructions: "A brief and concise summary of the page's content, preferably 150 characters or less. Where as the description meta tag may be used by search engines to display a snippet about the page in search results."
       type: textarea
   -
     handle: basic_keywords
@@ -40,3 +40,635 @@ fields:
       multiple: true
       clearable: true
       type: select
+  -
+    handle: advanced
+    field:
+      display: 'Advanced Meta tags'
+      type: section
+  -
+    handle: advanced_author
+    field:
+      display: Author
+      instructions: 'Author(s) of the web page. Little used though an official part of the <a href="https://www.w3.org/TR/html52/document-metadata.html#author" target="_blank">HTML 5.2 specification</a>.'
+      type: text
+  -
+    handle: advanced_generator
+    field:
+      display: Generator
+      instructions: 'Describes the name and version number of the software or publishing tool used to create the page.'
+      type: text
+  -
+    handle: advanced_image
+    field:
+      display: Image
+      instructions: 'An image associated with this page, for use as a thumbnail in social networks and other services.'
+      mode: list
+      container: assets
+      restrict: false
+      allow_uploads: true
+      max_files: 1
+      type: assets
+  -
+    handle: advanced_rights
+    field:
+      display: Rights
+      instructions: "Details about intellectual property, such as copyright or trademarks. Does not automatically protect the site's content or intellectual property."
+      type: text
+  -
+    handle: advanced_rating
+    field:
+      display: 'Content rating'
+      instructions: 'Used to indicate the intended audience for the content.'
+      options:
+        general: General
+        mature: Mature
+        restricted: Restricted
+        '14 years': '14 years or Older'
+        'safe for kids': 'Safe for kids'
+      clearable: true
+      type: select
+  -
+    handle: advanced_referrer
+    field:
+      display: 'Referrer policy'
+      instructions: 'ndicate to search engines and other page scrapers whether or not links should be followed. See the <a href="http://w3c.github.io/webappsec/specs/referrer-policy/" target="_blank">W3C specifications</a> for further details.'
+      options:
+        no-referrer: 'No Referrer'
+        origin: Origin
+        no-referrer-when-downgrade: 'No Referrer When Downgrade'
+        origin-when-cross-origin: 'Origin When Cross-Origin'
+        unsafe-url: 'Unsafe URL'
+      clearable: true
+      type: select
+  -
+    handle: advanced_canonical
+    field:
+      display: 'Canonical URL'
+      instructions: 'The URl of the preferred page location or URL of the content of this page, to help eliminate duplicate content penalties from search engines. Leave empty for getting current page URL.'
+      type: text
+  -
+    handle: advanced_short_link
+    field:
+      display: 'Short link'
+      instructions: 'A brief URL, often created by a URL shortening service.'
+      type: text
+      input_type: url
+  -
+    handle: advanced_original_source
+    field:
+      display: 'Original source'
+      instructions: 'Used to indicate the URL that broke the story, and can link to either an internal URL or an external source. If the full URL is not known it is acceptable to use a partial URL or just the domain name.'
+      type: text
+  -
+    handle: advanced_geo_position
+    field:
+      display: 'Geo position'
+      instructions: 'Geo-spatial information in "latitude;longitude" format, e.g. "50.167958;-97.133185"; see <a href="http://en.wikipedia.org/wiki/Geotagging#HTML_pages" target="_blank">Wikipedia</a> for details.'
+      type: text
+  -
+    handle: advanced_geo_placename
+    field:
+      display: 'Geo place name'
+      instructions: "A location's formal name."
+      type: text
+  -
+    handle: advanced_geo_region
+    field:
+      display: 'Geo region'
+      instructions: 'A location''s two-letter international country code, with an optional two-letter region, e.g. "US-NH" for New Hampshire in the USA.'
+      type: text
+  -
+    handle: advanced_icbm
+    field:
+      display: ICBM
+      instructions: 'Geo-spatial information in "latitude, longitude" format, e.g. "50.167958, -97.133185"; see <a href="https://en.wikipedia.org/wiki/ICBM_address" target="_blank">Wikipedia</a> for details.'
+      type: text
+  -
+    handle: advanced_refresh
+    field:
+      display: Refresh
+      instructions: 'The number of seconds to wait before refreshing the page. May also force redirect to another page using the format <code>5; url=http://example.com/</code>, which would be triggered after five seconds.'
+      type: text
+  -
+    handle: dublin_core
+    field:
+      display: 'Dublin Core'
+      type: section
+  -
+    handle: dublin_core_title
+    field:
+      display: Title
+      instructions: 'The name given to the resource.'
+      type: text
+  -
+    handle: dublin_core_creator
+    field:
+      display: Creator
+      instructions: 'An entity primarily responsible for making the resource. Examples of a Creator include a person, an organization, or a service. Typically, the name of a Creator should be used to indicate the entity.'
+      type: text
+  -
+    handle: dublin_core_subject
+    field:
+      display: Subject
+      instructions: 'The topic of the resource. Typically, the subject will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary. To describe the spatial or temporal topic of the resource, use the Coverage element.'
+      type: text
+  -
+    handle: dublin_core_description
+    field:
+      display: Description
+      instructions: 'An account of the resource. Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.'
+      type: textarea
+  -
+    handle: dublin_core_publisher
+    field:
+      display: Publisher
+      instructions: 'An entity responsible for making the resource available. Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.'
+      type: text
+  -
+    handle: dublin_core_contributor
+    field:
+      display: Contributor
+      instructions: 'An entity responsible for making contributions to the resource. Examples of a Contributor include a person, an organization, or a service. Typically, the name of a Contributor should be used to indicate the entity.'
+      type: text
+  -
+    handle: dublin_core_date
+    field:
+      display: Date
+      instructions: 'A point or period of time associated with an event in the lifecycle of the resource. Date may be used to express temporal information at any level of granularity.'
+      time_enabled: true
+      type: date
+  -
+    handle: dublin_core_type
+    field:
+      display: Type
+      instructions: 'The nature or genre of the resource. Recommended best practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [DCMITYPE]. To describe the file format, physical medium, or dimensions of the resource, use the Format element.'
+      options:
+        Collection: Collection
+        Dataset: Dataset
+        Event: Event
+        Image: Image
+        InteractiveResource: 'Interactive Resource'
+        MovingImage: 'Moving Image'
+        PhysicalObject: 'Physical Object'
+        Service: Service
+        Software: Software
+        Sound: Sound
+        StillImage: 'Still Image'
+        Text: Text
+      type: select
+      clearable: true
+  -
+    handle: dublin_core_format
+    field:
+      display: Format
+      instructions: 'The file format, physical medium, or dimensions of the resource. Examples of dimensions include size and duration. Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME].'
+      type: text
+  -
+    handle: dublin_core_identifier
+    field:
+      display: Identifier
+      instructions: 'An unambiguous reference to the resource within a given context. Recommended best practice is to identify the resource by means of a string conforming to a formal identification system.'
+      type: text
+  -
+    handle: dublin_core_source
+    field:
+      display: Source
+      instructions: 'A related resource from which the described resource is derived. The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system.'
+      type: text
+  -
+    handle: dublin_core_language
+    field:
+      display: Language
+      instructions: 'A language of the resource. Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646].'
+      type: text
+  -
+    handle: dublin_core_relation
+    field:
+      display: Relation
+      instructions: 'A related resource. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system.'
+      type: text
+  -
+    handle: dublin_core_coverage
+    field:
+      display: Coverage
+      instructions: 'The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant. Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names [TGN]. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges.'
+      type: text
+  -
+    handle: dublin_core_rights
+    field:
+      display: Rights
+      instructions: 'Information about rights held in and over the resource. Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.'
+      type: text
+  -
+    handle: google_cse
+    field:
+      display: 'Google Custom Search Engine'
+      type: section
+  -
+    handle: google_cse_department
+    field:
+      display: Department
+      instructions: 'Department tag.'
+      type: text
+  -
+    handle: google_cse_audience
+    field:
+      display: 'Content audience'
+      instructions: 'The content audience, e.g. "all".'
+      type: text
+  -
+    handle: google_cse_doc_status
+    field:
+      display: 'Document status'
+      instructions: 'The document status, e.g. "draft".'
+      type: text
+  -
+    handle: google_cse_google_rating
+    field:
+      display: 'Results sorting'
+      instructions: 'Works only with numeric values.'
+      input_type: number
+      type: text
+  -
+    handle: og
+    field:
+      display: 'Open Graph'
+      type: section
+  -
+    handle: og_type
+    field:
+      display: 'Content type'
+      instructions: 'The type of the content, e.g., <em>movie</em>.'
+      options:
+        article: Article
+        book: Book
+        music.song: Song
+        music.album: Album
+        music.playlist: Playlist
+        music.radio_station: 'Radio station'
+        product: Product
+        profile: Profile
+        video.movie: Movie
+        video.tv_show: 'TV show'
+        video.episode: 'TV show episode'
+        video.other: 'Miscellaneous video'
+        website: Website
+      clearable: true
+      searchable: true
+      type: select
+  -
+    handle: og_title
+    field:
+      display: 'Content title'
+      instructions: 'The title of the content, e.g., <em>The Rock</em>.'
+      type: text
+  -
+    handle: og_image
+    field:
+      display: Image
+      instructions: 'The URL of an image which should represent the content. The image must be at least 200 x 200 pixels in size; 600 x 316 pixels is a recommended minimum size, and for best results use an image least 1200 x 630 pixels in size. Supports PNG, JPEG and GIF formats.'
+      mode: list
+      container: assets
+      restrict: false
+      allow_uploads: true
+      type: assets
+  -
+    handle: og_audio
+    field:
+      display: Audio
+      instructions: 'The URL to an audio file that complements this object.'
+      mode: list
+      container: assets
+      restrict: false
+      allow_uploads: true
+      type: assets
+  -
+    handle: og_video
+    field:
+      display: Video
+      instructions: 'The URL to a video file that complements this object.'
+      mode: list
+      container: assets
+      restrict: false
+      allow_uploads: true
+      type: assets
+  -
+    handle: og_determiner
+    field:
+      display: 'Content title determiner'
+      instructions: "The word that appears before the content's title in a sentence. The default ignores this value, the 'Automatic' value should be sufficient if this is actually needed."
+      options:
+        auto: Auto
+        a: A
+        an: An
+        the: The
+      clearable: true
+      type: select
+  -
+    handle: og_description
+    field:
+      display: 'Content description'
+      instructions: 'A one to two sentence description of the content.'
+      type: textarea
+  -
+    handle: og_locale_alternate
+    field:
+      display: 'Locale alternate'
+      instructions: 'Other locales this content is available in, must be in the format <em>language_TERRITORY</em>, e.g. <code>fr_FR</code>. Multiple values may be used, separated by a comma.'
+      type: text
+  -
+    handle: og_article_author
+    field:
+      display: 'Article author'
+      instructions: "Links an article to an author's Facebook profile, should be either URLs to the author's profile page or their Facebook profile IDs. Multiple values may be used, separated by a comma."
+      type: taggable
+      if:
+        og_type: 'equals article'
+  -
+    handle: og_article_section
+    field:
+      display: 'Article section'
+      instructions: 'The primary section of this website the content belongs to.'
+      type: text
+      if:
+        og_type: 'equals article'
+  -
+    handle: og_article_tag
+    field:
+      display: 'Article tag(s)'
+      instructions: 'Appropriate keywords for this content. Multiple values may be used.'
+      type: taggable
+      if:
+        og_type: 'equals article'
+  -
+    handle: og_article_published_time
+    field:
+      display: 'Article publication date & time'
+      instructions: 'The date this content was published on, with an optional time value.'
+      time_enabled: true
+      type: date
+      if:
+        og_type: 'equals article'
+  -
+    handle: og_article_modified_time
+    field:
+      display: 'Article modification date & time'
+      instructions: 'The date this content was last modified, with an optional time value.'
+      time_enabled: true
+      type: date
+      if:
+        og_type: 'equals article'
+  -
+    handle: og_article_expiration_time
+    field:
+      display: 'Article expiration date & time'
+      instructions: 'The date this content will expire, with an optional time value.'
+      time_enabled: true
+      type: date
+      if:
+        og_type: 'equals article'
+  -
+    handle: og_video_actor
+    field:
+      display: Actor(s)
+      instructions: 'Links to the Facebook profiles for actor(s) that appear in the video. Multiple values may be used.'
+      type: taggable
+      if:
+        og_type: 'contains video.'
+  -
+    handle: og_video_actor_role
+    field:
+      display: "Actors' role"
+      instructions: 'The roles of the actor(s). Multiple values may be used.'
+      type: taggable
+      if:
+        og_type: 'contains video.'
+  -
+    handle: og_video_director
+    field:
+      display: Director(s)
+      instructions: 'Links to the Facebook profiles for director(s) that worked on the video. Multiple values may be used.'
+      type: taggable
+      if:
+        og_type: 'contains video.'
+  -
+    handle: og_video_writer
+    field:
+      display: Scriptwriter(s)
+      instructions: 'Links to the Facebook profiles for scriptwriter(s) for the video. Multiple values may be used.'
+      type: taggable
+      if:
+        og_type: 'contains video.'
+  -
+    handle: og_video_duration
+    field:
+      display: 'Video duration (seconds)'
+      instructions: 'The length of the video in seconds.'
+      input_type: number
+      type: text
+      if:
+        og_type: 'contains video.'
+  -
+    handle: og_video_release_date
+    field:
+      display: 'Release date'
+      instructions: 'The date the video was released.'
+      time_enabled: false
+      type: date
+      if:
+        og_type: 'contains video.'
+  -
+    handle: og_video_tag
+    field:
+      display: Tag
+      instructions: 'Tag words associated with this video. Multiple values may be used.'
+      type: taggable
+      if:
+        og_type: 'contains video.'
+  -
+    handle: og_video_series
+    field:
+      display: Series
+      instructions: 'Which series this episode belongs to.'
+      type: text
+      if:
+        og_type: 'equals video.episode'
+  -
+    handle: og_book_author
+    field:
+      display: Author(s)
+      instructions: 'Who wrote this book. Multiple values may be used.'
+      type: taggable
+      if:
+        og_type: 'equals book'
+  -
+    handle: og_book_isbn
+    field:
+      display: ISBN
+      instructions: 'The ISBN of the book.'
+      type: text
+      if:
+        og_type: 'equals book'
+  -
+    handle: og_book_release_date
+    field:
+      display: 'Release date'
+      instructions: 'The date the book was released.'
+      time_enabled: false
+      type: date
+      if:
+        og_type: 'equals book'
+  -
+    handle: og_book_tag
+    field:
+      display: Tag
+      instructions: 'Tag words associated with this book. Multiple values may be used.'
+      type: taggable
+      if:
+        og_type: 'equals book'
+  -
+    handle: og_profile_first_name
+    field:
+      display: 'First name'
+      instructions: 'A name normally given to an individual by a parent or self-chosen.'
+      type: text
+      if:
+        og_type: 'equals profile'
+  -
+    handle: og_profile_last_name
+    field:
+      display: 'Last name'
+      instructions: 'A name inherited from a family or marriage and by which the individual is commonly known.'
+      type: text
+      if:
+        og_type: 'equals profile'
+  -
+    handle: og_profile_username
+    field:
+      display: Username
+      instructions: 'A short unique string to identify them.'
+      type: text
+      if:
+        og_type: 'equals profile'
+  -
+    handle: og_profile_gender
+    field:
+      display: Gender
+      instructions: 'Their gender.'
+      options:
+        male: Male
+        female: Female
+      clearable: true
+      type: select
+      if:
+        og_type: 'equals profile'
+  -
+    handle: og_product_plural_title
+    field:
+      display: 'Plural title'
+      instructions: 'Title of the product when a quantity more than 1 is purchased.'
+      type: text
+      if:
+        og_type: 'equals product'
+  -
+    handle: og_product_price_amount
+    field:
+      display: 'Price amount'
+      instructions: 'A decimal number with a  as the decimal separator. Values less than 0.01 are not supported.'
+      type: taggable
+      if:
+        og_type: 'equals product'
+  -
+    handle: og_product_price_currency
+    field:
+      display: Currency
+      instructions: 'Currency is a string representing the ISO-4217-3 currency code.'
+      type: taggable
+      if:
+        og_type: 'equals product'
+  -
+    handle: og_music_duration
+    field:
+      display: 'Music duration'
+      instructions: "The song's length in seconds."
+      type: text
+      input_type: number
+      if:
+        og_type: 'contains music.'
+  -
+    handle: og_music_album
+    field:
+      display: Album
+      instructions: 'The album this song is from.'
+      type: taggable
+      if:
+        og_type: 'contains music.'
+  -
+    handle: og_music_album_disc
+    field:
+      display: Disc
+      instructions: 'Which disc of the album this song is on.'
+      type: text
+      input_type: number
+      if:
+        og_type: 'contains music.'
+  -
+    handle: og_music_album_track
+    field:
+      display: Track
+      instructions: 'Which track this song is.'
+      type: text
+      input_type: number
+      if:
+        og_type: 'contains music.'
+  -
+    handle: og_music_musician
+    field:
+      display: Musician
+      instructions: 'The musician that made this song.'
+      type: taggable
+      if:
+        og_type: 'contains music.'
+  -
+    handle: og_music_song
+    field:
+      display: Song
+      instructions: 'The song on this album.'
+      type: text
+      if:
+        og_type: 'contains music.'
+  -
+    handle: og_music_song_disc
+    field:
+      display: Disc
+      instructions: 'The same as <code>music:album:disc</code> but in reverse.'
+      type: text
+      input_type: number
+      if:
+        og_type: 'contains music.'
+  -
+    handle: og_music_song_track
+    field:
+      display: Track
+      instructions: 'The same as <code>music:album:track</code> but in reverse.'
+      type: text
+      input_type: number
+      if:
+        og_type: 'contains music.'
+  -
+    handle: og_music_release_date
+    field:
+      display: 'Release date'
+      instructions: 'The date the album was released.'
+      time_enabled: false
+      type: date
+      if:
+        og_type: 'contains music.'
+  -
+    handle: og_music_creator
+    field:
+      display: 'Music creator'
+      instructions: 'The creator of this playlist.'
+      type: text
+      if:
+        og_type: 'contains music.'
