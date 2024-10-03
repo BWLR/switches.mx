@@ -17,8 +17,8 @@ specs:
     name: 42g
     description: null
     weights_section: null
-    actuation: null
-    bottom-out: '42'
+    actuation: '36'
+    bottom-out: '52'
     pre-travel: null
     total-travel: null
     spring_section: null
@@ -47,8 +47,8 @@ specs:
     name: 55g
     description: null
     weights_section: null
-    actuation: null
-    bottom-out: '55'
+    actuation: '46'
+    bottom-out: '68'
     pre-travel: null
     total-travel: null
     spring_section: null
@@ -154,7 +154,7 @@ theremin_goat_scores:
     other: 8
     total: 74
     score_card_link: 'https://github.com/ThereminGoat/switch-scores/blob/master/TTC%20Wild%2042g.pdf'
-    link_to_review: null
+    link_to_review: 'https://www.theremingoat.com/blog/ttc-wild-switch-review'
 updated_by: 346c3162-6b01-4097-b7ee-8c4482d3ec52
 updated_at: 1644527871
 ---
