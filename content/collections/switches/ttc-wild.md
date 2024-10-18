@@ -17,7 +17,7 @@ specs:
     name: 42g
     description: null
     weights_section: null
-    actuation: '36'
+    actuation: '42'
     bottom-out: '52'
     pre-travel: null
     total-travel: null
@@ -47,7 +47,7 @@ specs:
     name: 55g
     description: null
     weights_section: null
-    actuation: '46'
+    actuation: '55'
     bottom-out: '68'
     pre-travel: null
     total-travel: null
